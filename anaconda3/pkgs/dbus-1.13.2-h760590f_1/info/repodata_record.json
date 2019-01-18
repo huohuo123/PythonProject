@@ -1,0 +1,22 @@
+{
+  "build": "h760590f_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "expat",
+    "expat >=2.2.5,<3.0a0",
+    "glib >=2.56.1,<2.57.0a0"
+  ],
+  "features": "",
+  "fn": "dbus-1.13.2-h760590f_1.tar.bz2",
+  "license": "GPL2",
+  "md5": "f31fd7b04ad946b9bd59973e3f12c7a1",
+  "name": "dbus",
+  "size": 553431,
+  "subdir": "osx-64",
+  "timestamp": 1523701039682,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/dbus-1.13.2-h760590f_1.tar.bz2",
+  "version": "1.13.2"
+}

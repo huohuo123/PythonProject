@@ -1,0 +1,98 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/7f9009f3-9aea-4ff9-754c-135f1322be30/volume/rsync-recipes/zstd-1.3.7-on-osx, last modified Mon Nov  5 14:19:01 2018
+# ------------------------------------------------
+
+package:
+    name: zstd
+    version: 1.3.7
+source:
+    patches:
+        - patches/0005-CMake-Fix-windres-.rc-not-including-programs-windres.patch
+    sha256: 3277f236df0ca6edae01ae84e865470000c5a3484588fd5bc3d869877fd3573d
+    url: https://github.com/facebook/zstd/releases/download/v1.3.7/zstd-1.3.7.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - zstd >=1.3.7,<1.3.8.0a0
+    string: h5bba6e5_0
+requirements:
+    build:
+        - bzip2 1.0.6 h1de35cc_5
+        - ca-certificates 2018.03.07 0
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - cmake 3.12.2 haff7e42_0
+        - compiler-rt 4.0.1 hcfea43d_1
+        - expat 2.2.6 h0a44026_0
+        - ld64 274.2 1
+        - libcurl 7.62.0 h051b688_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libssh2 1.8.0 ha12b0ac_4
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - rhash 1.3.6 ha12b0ac_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - lz4 2.1.2 py37h1de35cc_0
+        - lz4-c 1.8.1.2 h1de35cc_0
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.5.0 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - xz >=5.2.4,<6.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - zstd -be -i5
+        - test -f ${PREFIX}/include/zstd.h
+        - test -f ${PREFIX}/lib/libzstd.a
+        - test -f ${PREFIX}/lib/libzstd.dylib
+        - pkg-config --cflags libzstd
+    requires:
+        - pkg-config
+about:
+    description: 'Zstandard is a real-time compression algorithm, providing high compression
+
+        ratios. It offers a very wide range of compression / speed trade-off, while
+
+        being backed by a very fast decoder. It also offers a special mode for
+
+        small data, called dictionary compression, and can create dictionaries from
+
+        any sample set. Zstandard library is provided as open source software using
+
+        a BSD license.
+
+        '
+    dev_url: https://github.com/facebook/zstd
+    doc_url: https://facebook.github.io/zstd/zstd_manual.html
+    home: http://www.zstd.net
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Zstandard - Fast real-time compression algorithm
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - rmax

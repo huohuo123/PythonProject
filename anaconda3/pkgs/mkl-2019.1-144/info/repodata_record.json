@@ -1,0 +1,21 @@
+{
+  "build": "144",
+  "build_number": 144,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "intel-openmp"
+  ],
+  "features": "",
+  "fn": "mkl-2019.1-144.tar.bz2",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "md5": "c9598d7fb664a16f0abfc2cb71491b62",
+  "name": "mkl",
+  "size": 161932694,
+  "subdir": "osx-64",
+  "timestamp": 1542661443928,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mkl-2019.1-144.tar.bz2",
+  "version": "2019.1"
+}

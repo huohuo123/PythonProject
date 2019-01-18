@@ -1,0 +1,19 @@
+==> git log -n1 <==
+commit 967e502aeac5d5baf06fc3843e63e72956857cbe
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed May 2 03:32:40 2018 -0700
+
+    Ensure we do not end up wih CRLF line endings on tests
+==> git describe --tags --dirty <==
+3.13-1-g967e502
+==> git status <==
+HEAD detached from 3.13
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	build/
+	conda_build.sh
+	ext/_yaml.c
+	tests/lib3/__pycache__/
+
+nothing added to commit but untracked files present (use "git add" to track)

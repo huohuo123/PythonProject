@@ -1,0 +1,20 @@
+{
+  "build": "h4b95b61_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "icu-58.2-h4b95b61_1.tar.bz2",
+  "license": "MIT",
+  "md5": "323d1f0b75edbb03ea936ee4b47b566f",
+  "name": "icu",
+  "size": 23382009,
+  "subdir": "osx-64",
+  "timestamp": 1510863972593,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/icu-58.2-h4b95b61_1.tar.bz2",
+  "version": "58.2"
+}

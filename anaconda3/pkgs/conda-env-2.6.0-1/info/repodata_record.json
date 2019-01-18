@@ -1,0 +1,18 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "conda-env-2.6.0-1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "a29a55f26a84c182a3e9625ac2f6cef0",
+  "name": "conda-env",
+  "size": 3068,
+  "subdir": "osx-64",
+  "timestamp": 1531066575882,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/conda-env-2.6.0-1.tar.bz2",
+  "version": "2.6.0"
+}

@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/atomicwrites-1.2.1-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "0e583055eedde03903bc2288108cbf9af91bb0bedf230017c027c489fee0bbd5",
+      "size_in_bytes": 6530
+    },
+    {
+      "_path": "lib/python3.7/site-packages/atomicwrites-1.2.1-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "e70a4e66729a5606151fc6caae62989b22701c836a9fbf1f9176763041c16959",
+      "size_in_bytes": 301
+    },
+    {
+      "_path": "lib/python3.7/site-packages/atomicwrites-1.2.1-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/atomicwrites-1.2.1-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "92ceb8cca55492b97666bacfd38e82b32b5795219ff202c6f887285e93727a87",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "lib/python3.7/site-packages/atomicwrites/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e99fd5a033165d8a870e730383a30199798cc5fd31194cec120b616d8f59c71c",
+      "size_in_bytes": 6428
+    },
+    {
+      "_path": "lib/python3.7/site-packages/atomicwrites/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d9a0566330ce5aef2ab4fb292df107cbc6340a619bfc128fc7b782f7602eb8fa",
+      "size_in_bytes": 6267
+    }
+  ],
+  "paths_version": 1
+}

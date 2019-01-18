@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h2a1bed3_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "name": "liblief",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1528676555209,
+  "version": "0.9.0"
+}

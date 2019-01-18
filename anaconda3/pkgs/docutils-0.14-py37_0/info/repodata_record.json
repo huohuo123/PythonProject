@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "docutils-0.14-py37_0.tar.bz2",
+  "license": "Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0",
+  "md5": "fb0a12e750756972f37deaca974d2334",
+  "name": "docutils",
+  "size": 704777,
+  "subdir": "osx-64",
+  "timestamp": 1530696760917,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/docutils-0.14-py37_0.tar.bz2",
+  "version": "0.14"
+}

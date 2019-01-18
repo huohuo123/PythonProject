@@ -1,0 +1,71 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/jupyter_core-feedstock/recipe, last modified Tue Apr 17 13:36:22 2018
+# ------------------------------------------------
+
+package:
+    name: jupyter_core
+    version: 4.4.0
+source:
+    fn: jupyter_core-4.4.0.tar.gz
+    sha256: ba70754aa680300306c699790128f6fbd8c306ee5927976cbe48adacf240c0b7
+    url: https://pypi.io/packages/source/j/jupyter_core/jupyter_core-4.4.0.tar.gz
+build:
+    entry_points:
+        - jupyter = jupyter_core.command:main
+        - jupyter-migrate = jupyter_core.migrate:main
+        - jupyter-troubleshoot = jupyter_core.troubleshoot:main
+    number: '0'
+    script: pip install --no-deps .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+        - traitlets
+test:
+    commands:
+        - jupyter -h
+        - jupyter-migrate -h
+        - jupyter-troubleshoot --help
+    imports:
+        - jupyter_core
+        - jupyter_core.tests
+        - jupyter_core.utils
+about:
+    description: 'This package defines the core common functionality of Jupyter projects.
+
+        '
+    dev_url: https://github.com/jupyter/jupyter_core
+    doc_source_url: https://github.com/jupyter/jupyter_core/blob/master/docs/index.rst
+    doc_url: http://jupyter-core.readthedocs.org/
+    home: http://jupyter.org
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: Core common functionality of Jupyter projects.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson

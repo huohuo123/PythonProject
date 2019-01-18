@@ -1,0 +1,76 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/pycosat-feedstock/recipe, last modified Tue Apr 17 13:40:13 2018
+# ------------------------------------------------
+
+package:
+    name: pycosat
+    version: 0.6.3
+source:
+    git_rev: 0.6.3
+    git_url: https://github.com/mingwandroid/pycosat.git
+build:
+    number: '0'
+    string: py37h1de35cc_0
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+    host:
+        - ca-certificates 2018.03.07 0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    files:
+        - qg3-08.cnf
+        - sudoku.py
+        - uf20-098.cnf
+    imports:
+        - pycosat
+about:
+    description: 'PicoSAT is a popular SAT solver written by Armin Biere in pure C.
+        This
+
+        package provides efficient Python bindings to picosat on the C level, i.e.
+
+        when importing pycosat, the picosat solver becomes part of the Python
+
+        process itself.
+
+        '
+    dev_url: https://github.com/ContinuumIO/pycosat
+    doc_source_url: https://github.com/ContinuumIO/pycosat/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/pycosat
+    home: https://github.com/ContinuumIO/pycosat
+    license: MIT
+    summary: Bindings to picosat (a SAT solver)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - kalefranz
+        - mcg1969
+        - mingwandroid
+        - msarahan
+        - nehaljwani
+        - pelson

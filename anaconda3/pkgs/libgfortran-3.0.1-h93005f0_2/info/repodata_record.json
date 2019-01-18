@@ -1,0 +1,18 @@
+{
+  "build": "h93005f0_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "libgfortran-3.0.1-h93005f0_2.tar.bz2",
+  "license": "GPL 3 (with GCC Runtime Library Exception 3.1)",
+  "md5": "e3a6e2b1a232418bbac9c47866273bdd",
+  "name": "libgfortran",
+  "size": 506772,
+  "subdir": "osx-64",
+  "timestamp": 1505409893158,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libgfortran-3.0.1-h93005f0_2.tar.bz2",
+  "version": "3.0.1"
+}

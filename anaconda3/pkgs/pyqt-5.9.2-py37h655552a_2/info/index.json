@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py37h655552a_2",
+  "build_number": 2,
+  "depends": [
+    "dbus >=1.13.2,<2.0a0",
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0",
+    "qt 5.9.*",
+    "qt >=5.9.6,<5.10.0a0",
+    "sip >=4.19.4,<=4.19.8"
+  ],
+  "license": "Commercial, GPL-2.0, GPL-3.0",
+  "license_family": "GPL",
+  "name": "pyqt",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1537385342672,
+  "version": "5.9.2"
+}

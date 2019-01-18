@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "pyparsing",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/packaging-18.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/packaging-18.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/packaging-18.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/packaging-18.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/packaging-18.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/packaging/__about__.py",
+    "lib/python3.7/site-packages/packaging/__init__.py",
+    "lib/python3.7/site-packages/packaging/__pycache__/__about__.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/_compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/_structures.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/markers.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/requirements.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/specifiers.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/_compat.py",
+    "lib/python3.7/site-packages/packaging/_structures.py",
+    "lib/python3.7/site-packages/packaging/markers.py",
+    "lib/python3.7/site-packages/packaging/requirements.py",
+    "lib/python3.7/site-packages/packaging/specifiers.py",
+    "lib/python3.7/site-packages/packaging/utils.py",
+    "lib/python3.7/site-packages/packaging/version.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "Apache 2.0 or BSD 2-Clause",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/packaging-18.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "86fd7a7985f199e7f5dc51330373e506",
+  "name": "packaging",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1538580372385,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/packaging-18.0-py37_0.tar.bz2",
+  "version": "18.0"
+}

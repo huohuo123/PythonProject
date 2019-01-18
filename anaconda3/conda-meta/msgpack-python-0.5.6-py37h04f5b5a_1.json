@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "py37h04f5b5a_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/msgpack-0.5.6.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/msgpack-0.5.6.dist-info/METADATA",
+    "lib/python3.7/site-packages/msgpack-0.5.6.dist-info/RECORD",
+    "lib/python3.7/site-packages/msgpack-0.5.6.dist-info/WHEEL",
+    "lib/python3.7/site-packages/msgpack-0.5.6.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/msgpack/__init__.py",
+    "lib/python3.7/site-packages/msgpack/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/msgpack/__pycache__/_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/msgpack/__pycache__/exceptions.cpython-37.pyc",
+    "lib/python3.7/site-packages/msgpack/__pycache__/fallback.cpython-37.pyc",
+    "lib/python3.7/site-packages/msgpack/_packer.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/msgpack/_unpacker.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/msgpack/_version.py",
+    "lib/python3.7/site-packages/msgpack/exceptions.py",
+    "lib/python3.7/site-packages/msgpack/fallback.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/msgpack-python-0.5.6-py37h04f5b5a_1",
+    "type": "hard-link"
+  },
+  "md5": "2c580f67beabc5664cf8631210789685",
+  "name": "msgpack-python",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1533326034369,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/msgpack-python-0.5.6-py37h04f5b5a_1.tar.bz2",
+  "version": "0.5.6"
+}

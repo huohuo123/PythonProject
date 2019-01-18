@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/pathlib2-2.3.3-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/pathlib2-2.3.3-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/pathlib2-2.3.3-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/pathlib2-2.3.3-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/pathlib2-2.3.3-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/pathlib2/__init__.py",
+    "lib/python3.7/site-packages/pathlib2/__pycache__/__init__.cpython-37.pyc"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pathlib2-2.3.3-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "060519dc7f2e4068aed8973273275fc0",
+  "name": "pathlib2",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1545076139596,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pathlib2-2.3.3-py37_0.tar.bz2",
+  "version": "2.3.3"
+}

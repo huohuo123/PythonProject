@@ -1,0 +1,62 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/f8866a6f-44a8-4227-6d50-88c01f01f5f7/volume/rsync-recipes/pytz-2018.7-python_3.7-on-osx, last modified Tue Oct 30 21:45:09 2018
+# ------------------------------------------------
+
+package:
+    name: pytz
+    version: '2018.7'
+source:
+    sha256: 31cb35c89bd7d333cd32c5f278fca91b523b0834369e757f4c5641ea252236ca
+    url: https://pypi.io/packages/source/p/pytz/pytz-2018.7.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.2 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pytz
+about:
+    description: 'pytz brings the Olson tz database into Python. This library allows
+
+        accurate and cross platform timezone calculations using Python 2.4 or
+
+        higher. It also solves the issue of ambiguous times at the end of daylight
+
+        saving time.
+
+        '
+    dev_url: https://github.com/newvem/pytz
+    doc_source_url: https://github.com/newvem/pytz/blob/master/README.txt
+    doc_url: http://pythonhosted.org/pytz/
+    home: http://pythonhosted.org/pytz/
+    license: MIT
+    license_file: LICENSE.txt
+    summary: World timezone definitions, modern and historical.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf

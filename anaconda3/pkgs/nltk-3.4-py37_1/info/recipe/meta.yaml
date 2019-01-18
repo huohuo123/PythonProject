@@ -1,0 +1,84 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/35c707fa-5648-469a-5cc6-f516e8a99e20/volume/rsync-recipes/nltk-3.4-python_3.7-on-osx, last modified Wed Dec 19 19:57:24 2018
+# ------------------------------------------------
+
+package:
+    name: nltk
+    version: '3.4'
+source:
+    fn: nltk-3.4.zip
+    sha256: 286f6797204ffdb52525a1d21ec0a221ec68b8e3fa4f2d25f412ac8e63c70e8d
+    url: https://pypi.io/packages/source/n/nltk/nltk-3.4.zip
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.3 py37_0
+        - sqlite 3.26.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.7,<3.8.0a0
+        - six
+test:
+    imports:
+        - nltk
+        - nltk.app
+        - nltk.ccg
+        - nltk.chat
+        - nltk.chunk
+        - nltk.classify
+        - nltk.cluster
+        - nltk.corpus
+        - nltk.corpus.reader
+        - nltk.draw
+        - nltk.inference
+        - nltk.metrics
+        - nltk.misc
+        - nltk.parse
+        - nltk.sem
+        - nltk.sentiment
+        - nltk.stem
+        - nltk.tag
+        - nltk.tbl
+        - nltk.test
+        - nltk.test.unit
+        - nltk.test.unit.translate
+        - nltk.tokenize
+        - nltk.translate
+        - nltk.twitter
+about:
+    description: 'NLTK has been called a wonderful tool for teaching and working in
+
+        computational linguistics using Python and an amazing library to play with
+
+        natural language.
+
+        '
+    dev_url: https://github.com/nltk/nltk
+    doc_source_url: https://github.com/nltk/nltk/blob/develop/web/index.rst
+    doc_url: https://nltk.readthedocs.io/en/latest/
+    home: http://nltk.org/
+    license: Apache 2.0
+    license_family: Apache
+    license_file: LICENSE.txt
+    summary: Build Python programs to work with human language data
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pmlandwehr

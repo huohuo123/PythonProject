@@ -1,0 +1,29 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/curl/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "9dc488fa8e6ae88440f6f35241c1d3facffb6bedb9f3984dd3ca02c1f2b6b759",
+      "size_in_bytes": 7195
+    },
+    {
+      "_path": "lib/python3.7/site-packages/curl/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "336a9f9c0d2654d3a2641f98fd0fa011fe9e454f43c1a47a26ff1a6f6d02590b",
+      "size_in_bytes": 6404
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pycurl-7.43.0.2-py3.7.egg-info",
+      "path_type": "hardlink",
+      "sha256": "17ed7e8a06f77058c1b64d561760ef52466928356283d2f82e1ff1ac0ec552b6",
+      "size_in_bytes": 4738
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pycurl.cpython-37m-darwin.so",
+      "path_type": "hardlink",
+      "sha256": "5793397691022dbb417d4a45da9235fde1100c9a86675cd01bfee95e4cfd5647",
+      "size_in_bytes": 148716
+    }
+  ],
+  "paths_version": 1
+}

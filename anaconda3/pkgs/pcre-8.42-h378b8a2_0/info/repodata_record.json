@@ -1,0 +1,21 @@
+{
+  "build": "h378b8a2_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "pcre-8.42-h378b8a2_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "54cfde0351f854e3e495479f4b217609",
+  "name": "pcre",
+  "size": 229330,
+  "subdir": "osx-64",
+  "timestamp": 1523632104896,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pcre-8.42-h378b8a2_0.tar.bz2",
+  "version": "8.42"
+}

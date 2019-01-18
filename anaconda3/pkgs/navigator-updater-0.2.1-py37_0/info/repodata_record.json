@@ -1,0 +1,24 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "pyqt >=5.6",
+    "python >=3.7,<3.8.0a0",
+    "python.app",
+    "qtpy >=1.2"
+  ],
+  "features": "",
+  "fn": "navigator-updater-0.2.1-py37_0.tar.bz2",
+  "license": "proprietary - Continuum Analytics, Inc.",
+  "license_family": "Proprietary",
+  "md5": "d58753126cd8d56c2986e12c72888e98",
+  "name": "navigator-updater",
+  "size": 1305255,
+  "subdir": "osx-64",
+  "timestamp": 1531493259433,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/navigator-updater-0.2.1-py37_0.tar.bz2",
+  "version": "0.2.1"
+}

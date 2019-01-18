@@ -1,0 +1,20 @@
+{
+  "build": "py37h1de35cc_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "appscript-1.0.1-py37h1de35cc_1.tar.bz2",
+  "license": "Public-Domain",
+  "md5": "0a4dff217cbd732ff3fcb651f1faf931",
+  "name": "appscript",
+  "size": 131591,
+  "subdir": "osx-64",
+  "timestamp": 1531379947657,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/appscript-1.0.1-py37h1de35cc_1.tar.bz2",
+  "version": "1.0.1"
+}

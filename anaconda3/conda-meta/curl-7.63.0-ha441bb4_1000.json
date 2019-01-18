@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "ha441bb4_1000",
+  "build_number": 1000,
+  "depends": [
+    "krb5 >=1.16.1,<1.17.0a0",
+    "libcurl 7.63.0 h051b688_1000",
+    "libssh2 >=1.8.0,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "files": [
+    "bin/curl"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/curl-7.63.0-ha441bb4_1000",
+    "type": "hard-link"
+  },
+  "md5": "35f85cb673dcc94e236020164d0b2bb6",
+  "name": "curl",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1545106902155,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/curl-7.63.0-ha441bb4_1000.tar.bz2",
+  "version": "7.63.0"
+}

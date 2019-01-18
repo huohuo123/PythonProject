@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/__pycache__/pandocfilters.cpython-37.pyc",
+    "lib/python3.7/site-packages/pandocfilters-1.4.2.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pandocfilters-1.4.2.dist-info/METADATA",
+    "lib/python3.7/site-packages/pandocfilters-1.4.2.dist-info/RECORD",
+    "lib/python3.7/site-packages/pandocfilters-1.4.2.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pandocfilters-1.4.2.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pandocfilters.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pandocfilters-1.4.2-py37_1",
+    "type": "hard-link"
+  },
+  "md5": "3e54dc613e71a7a7479bd543642d1eb5",
+  "name": "pandocfilters",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530724396732,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pandocfilters-1.4.2-py37_1.tar.bz2",
+  "version": "1.4.2"
+}

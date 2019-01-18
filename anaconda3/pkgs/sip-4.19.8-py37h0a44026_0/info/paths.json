@@ -1,0 +1,55 @@
+{
+  "paths": [
+    {
+      "_path": "bin/sip",
+      "path_type": "hardlink",
+      "sha256": "c5a9bcb850280de6aa1567d3c9bbdf8ccfdeec07408381a071cc69a0dd6fae72",
+      "size_in_bytes": 338332
+    },
+    {
+      "_path": "include/python3.7m/sip.h",
+      "path_type": "hardlink",
+      "sha256": "0d73a1c6915e49d80928bba0365e195743a7f9ba9b20c1ce5fcad80cd7af713f",
+      "size_in_bytes": 66973
+    },
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/sipconfig.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4327b0d359542b9e5aeb113f17e87d231c58914dc13d00b4a728d1f8dc2f4483",
+      "size_in_bytes": 62140
+    },
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/sipdistutils.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3d21aa60e6131a2065378aabe21c61acc46444637a30fcbc6b23621d2c04b612",
+      "size_in_bytes": 5112
+    },
+    {
+      "_path": "lib/python3.7/site-packages/sip.pyi",
+      "path_type": "hardlink",
+      "sha256": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+      "size_in_bytes": 2801
+    },
+    {
+      "_path": "lib/python3.7/site-packages/sip.so",
+      "path_type": "hardlink",
+      "sha256": "eedd37af767611a4144541e4538eb3476f1d12032a5b75d30eb2754b135dd2e7",
+      "size_in_bytes": 121528
+    },
+    {
+      "_path": "lib/python3.7/site-packages/sipconfig.py",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "b0ed85b3680dc6024a84c6b49580e426ab0f76fcbd0dd716feaf724250d73bdf",
+      "size_in_bytes": 96746
+    },
+    {
+      "_path": "lib/python3.7/site-packages/sipdistutils.py",
+      "path_type": "hardlink",
+      "sha256": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+      "size_in_bytes": 6041
+    }
+  ],
+  "paths_version": 1
+}

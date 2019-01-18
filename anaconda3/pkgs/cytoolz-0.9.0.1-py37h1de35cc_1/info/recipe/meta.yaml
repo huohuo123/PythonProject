@@ -1,0 +1,82 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/cytoolz-feedstock/recipe, last modified Fri May  4 01:44:13 2018
+# ------------------------------------------------
+
+package:
+    name: cytoolz
+    version: 0.9.0.1
+source:
+    patches:
+        - 0001-Just-released-0.9.0.-Bump-to-next-dev-version-0.9.1d-Py37-compat.patch
+    sha256: 84cc06fa40aa310f2df79dd440fc5f84c3e20f01f9f7783fc9c38d0a11ba00e5
+    url: https://pypi.io/packages/source/c/cytoolz/cytoolz-0.9.0.1.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --no-cython --single-version-externally-managed
+        --record=record.txt
+    string: py37h1de35cc_1
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - toolz 0.9.0 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+        - toolz >=0.8.0
+test:
+    commands:
+        - nosetests --with-doctest cytoolz
+    imports:
+        - cytoolz
+        - cytoolz.curried
+    requires:
+        - nose
+        - toolz >=0.8.2
+about:
+    description: 'CyToolz is the Cython implementation of the toolz package, which
+        provides
+
+        high performance utility functions for iterables, functions, and
+
+        dictionaries.
+
+        '
+    dev_url: https://github.com/pytoolz/cytoolz
+    doc_source_url: https://github.com/pytoolz/cytoolz/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/cytoolz
+    home: https://github.com/pytoolz/cytoolz
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Cython implementation of Toolz. High performance functional utilities.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - eriknw
+        - jakirkham
+        - jcrist
+        - mrocklin

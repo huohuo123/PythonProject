@@ -1,0 +1,20 @@
+{
+  "build": "hb37e062_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "gmp-6.1.2-hb37e062_1.tar.bz2",
+  "license": "GPL 2 and LGPL 3",
+  "md5": "ab1fc93279250a837aad914f547d9d6c",
+  "name": "gmp",
+  "size": 751415,
+  "subdir": "osx-64",
+  "timestamp": 1510610990419,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/gmp-6.1.2-hb37e062_1.tar.bz2",
+  "version": "6.1.2"
+}

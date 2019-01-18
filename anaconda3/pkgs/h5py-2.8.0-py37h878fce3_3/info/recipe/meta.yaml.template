@@ -1,0 +1,54 @@
+{% set version = "2.8.0" %}
+
+package:
+  name: h5py
+  version: {{ version }}
+
+source:
+  fn: h5py-{{ version }}.tar.gz
+  url: https://github.com/h5py/h5py/archive/{{ version }}.tar.gz
+  sha256: eae41382be28b7264824450ce343dd625f972bedaaa3b0cced284986aabcbaee
+
+build:
+  number: 3
+
+requirements:
+
+  build:
+    - {{ compiler('c') }}
+
+  host:
+    - hdf5
+    - python
+    - setuptools
+    - numpy-devel 1.11.*
+    - cython
+    - six
+    - pkgconfig
+
+  run:
+    - hdf5
+    - python
+    - six
+    - unittest2    # [py26 or py27]
+
+test:
+  imports:
+    - h5py
+
+about:
+  home: http://www.h5py.org/
+  license: BSD 3-Clause
+  license_file: licenses/license.txt
+  summary: Read and write HDF5 files from Python.
+  description: |
+    H5py uses straightforward NumPy and Python metaphors, like dictionary and
+    NumPy array syntax.
+  doc_url: http://docs.h5py.org
+  dev_url: https://github.com/h5py/h5py
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - pitrou
+    - tacaswell

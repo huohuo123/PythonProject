@@ -1,0 +1,82 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/bd52651b-b2df-496d-7c37-6579abbc6676/volume/rsync-recipes/mkl-service-1.1.2-python_3.7-on-osx, last modified Fri Sep 21 05:53:52 2018
+# ------------------------------------------------
+
+package:
+    name: mkl-service
+    version: 1.1.2
+source:
+    git_rev: 1.1.2
+    git_url: https://github.com/ContinuumIO/mkl-service.git
+build:
+    detect_binary_files_with_prefix: false
+    number: '5'
+    string: py37hfbe908c_5
+requirements:
+    build:
+        - ca-certificates 2018.03.07 0
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - expat 2.2.6 h0a44026_0
+        - git 2.19.1 pl526h6951d83_0
+        - ld64 274.2 1
+        - libcurl 7.62.0 h051b688_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libiconv 1.15 hdd342a3_7
+        - libssh2 1.8.0 ha12b0ac_4
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - openssl 1.1.1a h1de35cc_0
+        - perl 5.26.2 h4e221da_0
+        - tk 8.6.8 ha441bb4_0
+        - zlib 1.2.11 h1de35cc_3
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2018.03.07 0
+        - intel-openmp 2019.1 144
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - mkl 2019.1 144
+        - mkl-devel 2019.1 144
+        - mkl-include 2019.1 144
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - blas 1.0 mkl
+        - mkl >=2019.1,<2020.0a0
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - mkl
+        - mkl.service
+about:
+    description: 'mkl-service exposes a few functions which are declared in mkl_service.h.
+
+        It''s main purpose is to allow the user to change the number
+
+        of CPU''s MKL is using at runtime.
+
+        '
+    dev_url: https://github.com/ContinuumIO/mkl-service
+    doc_source_url: https://github.com/ContinuumIO/mkl-service/blob/master/docs/index.rst
+    doc_url: https://docs.continuum.io/mkl-service/
+    home: https://github.com/ContinuumIO/mkl-service
+    license: 3-clause BSD
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: Python bindings to MKL service functions
+extra:
+    copy_test_source_files: true
+    final: true

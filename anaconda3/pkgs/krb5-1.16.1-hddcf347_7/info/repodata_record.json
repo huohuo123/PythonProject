@@ -1,0 +1,24 @@
+{
+  "build": "hddcf347_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "libedit >=3.1.20170329,<3.2.0a0",
+    "libedit >=3.1.20170329,<4.0a0",
+    "openssl >=1.1.1a,<1.1.2a",
+    "tk >=8.6.8,<8.7.0a0"
+  ],
+  "features": "",
+  "fn": "krb5-1.16.1-hddcf347_7.tar.bz2",
+  "license": "MIT",
+  "md5": "754e04aebf54797a5a35306e14e217da",
+  "name": "krb5",
+  "size": 1198049,
+  "subdir": "osx-64",
+  "timestamp": 1540589662166,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/krb5-1.16.1-hddcf347_7.tar.bz2",
+  "version": "1.16.1"
+}

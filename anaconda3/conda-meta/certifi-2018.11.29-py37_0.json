@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/certifi-2018.11.29-py3.7.egg-info",
+    "lib/python3.7/site-packages/certifi/__init__.py",
+    "lib/python3.7/site-packages/certifi/__main__.py",
+    "lib/python3.7/site-packages/certifi/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/certifi/__pycache__/__main__.cpython-37.pyc",
+    "lib/python3.7/site-packages/certifi/__pycache__/core.cpython-37.pyc",
+    "lib/python3.7/site-packages/certifi/cacert.pem",
+    "lib/python3.7/site-packages/certifi/core.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "ISC",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/certifi-2018.11.29-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "34934feeb0c3eaf53baf15cecf46fbf4",
+  "name": "certifi",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1544461242265,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/certifi-2018.11.29-py37_0.tar.bz2",
+  "version": "2018.11.29"
+}

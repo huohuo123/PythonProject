@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "py37_7",
+  "build_number": 7,
+  "depends": [
+    "ipykernel",
+    "ipywidgets",
+    "jupyter_console",
+    "nbconvert",
+    "notebook",
+    "python >=3.7,<3.8.0a0",
+    "qtconsole"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/jupyter-1.0.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/jupyter-1.0.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/jupyter-1.0.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/jupyter-1.0.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/jupyter-1.0.0.dist-info/top_level.txt"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/jupyter-1.0.0-py37_7",
+    "type": "hard-link"
+  },
+  "md5": "adf475583faa9c865ae70c798c4364ca",
+  "name": "jupyter",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1537454803905,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jupyter-1.0.0-py37_7.tar.bz2",
+  "version": "1.0.0"
+}

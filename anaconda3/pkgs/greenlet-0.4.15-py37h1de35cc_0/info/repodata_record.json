@@ -1,0 +1,21 @@
+{
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "greenlet-0.4.15-py37h1de35cc_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "49dd902ba2479be4b951fa95b3b5f07e",
+  "name": "greenlet",
+  "size": 18372,
+  "subdir": "osx-64",
+  "timestamp": 1536768025536,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/greenlet-0.4.15-py37h1de35cc_0.tar.bz2",
+  "version": "0.4.15"
+}

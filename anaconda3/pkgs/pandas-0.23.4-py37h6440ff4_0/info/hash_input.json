@@ -1,0 +1,5 @@
+{
+  "cxx_compiler": "clangxx",
+  "numpy": "1.11",
+  "c_compiler": "clang"
+}

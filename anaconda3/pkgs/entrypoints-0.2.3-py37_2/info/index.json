@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py37_2",
+  "build_number": 2,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "MIT License",
+  "license_family": "MIT",
+  "name": "entrypoints",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530724249596,
+  "version": "0.2.3"
+}

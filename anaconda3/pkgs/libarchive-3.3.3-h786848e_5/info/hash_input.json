@@ -1,0 +1,8 @@
+{
+  "libxml2": "2.9",
+  "c_compiler": "clang",
+  "zlib": "1.2",
+  "xz": "5",
+  "bzip2": "1.0",
+  "lzo": "2"
+}

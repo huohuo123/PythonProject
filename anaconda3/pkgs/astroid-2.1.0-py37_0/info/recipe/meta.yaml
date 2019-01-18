@@ -1,0 +1,74 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/cd9ed5a2-86f8-4d5e-55d7-be70e25abb49/volume/rsync-recipes/astroid-2.1.0-python_3.7-on-osx, last modified Wed Nov 28 17:07:54 2018
+# ------------------------------------------------
+
+package:
+    name: astroid
+    version: 2.1.0
+source:
+    fn: astroid-2.1.0.tar.gz
+    sha256: 35b032003d6a863f5dcd7ec11abd5cd5893428beaa31ab164982403bcb311f22
+    url: https://pypi.io/packages/source/a/astroid/astroid-2.1.0.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - atomicwrites 1.2.1 py37_0
+        - attrs 18.2.0 py37h28b3542_0
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - more-itertools 4.3.0 py37_0
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - pluggy 0.8.0 py37_0
+        - py 1.7.0 py37_0
+        - pytest 4.0.0 py37_0
+        - pytest-runner 4.2 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - six 1.11.0 py37_1
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - lazy-object-proxy
+        - python >=3.7,<3.8.0a0
+        - six
+        - wrapt
+test:
+    imports:
+        - astroid
+        - astroid.modutils
+about:
+    description: 'Astroid provide a common base representation of python source code
+        for
+
+        projects such as pychecker, pyreverse, pylint.
+
+        '
+    dev_url: https://github.com/PyCQA/astroid
+    doc_source_url: https://github.com/PyCQA/astroid/blob/master/doc/index.rst
+    doc_url: http://astroid.readthedocs.io/en/latest/?badge=latest
+    home: https://www.astroid.org/
+    license: LGPL 2.1
+    license_family: LGPL
+    license_file: COPYING.LESSER
+    summary: A abstract syntax tree for Python with inference support.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ericdill
+        - jakirkham
+        - jjhelmus

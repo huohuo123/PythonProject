@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/__pycache__/singledispatch.cpython-37.pyc",
+    "lib/python3.7/site-packages/__pycache__/singledispatch_helpers.cpython-37.pyc",
+    "lib/python3.7/site-packages/singledispatch-3.4.0.3-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/singledispatch-3.4.0.3-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/singledispatch-3.4.0.3-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/singledispatch-3.4.0.3-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/singledispatch-3.4.0.3-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/singledispatch-3.4.0.3-py3.7.egg-info/zip-safe",
+    "lib/python3.7/site-packages/singledispatch.py",
+    "lib/python3.7/site-packages/singledispatch_helpers.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/singledispatch-3.4.0.3-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "918e37449ea4f80f571089a818748cae",
+  "name": "singledispatch",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530725503970,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/singledispatch-3.4.0.3-py37_0.tar.bz2",
+  "version": "3.4.0.3"
+}

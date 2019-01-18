@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37hfbe908c_5",
+  "build_number": 5,
+  "depends": [
+    "blas 1.0 mkl",
+    "mkl >=2019.1,<2020.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/mkl/__init__.py",
+    "lib/python3.7/site-packages/mkl/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl/__pycache__/test.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl/service.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/mkl/test.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/mkl-service-1.1.2-py37hfbe908c_5",
+    "type": "hard-link"
+  },
+  "md5": "dbccbb12badc6af5a28352b03ad102d4",
+  "name": "mkl-service",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1544935552614,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mkl-service-1.1.2-py37hfbe908c_5.tar.bz2",
+  "version": "1.1.2"
+}

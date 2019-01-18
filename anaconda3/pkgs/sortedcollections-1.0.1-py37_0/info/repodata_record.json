@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "sortedcontainers >=2.0"
+  ],
+  "features": "",
+  "fn": "sortedcollections-1.0.1-py37_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "01ebb00c4321cd7e8fb50aa4b25d15d9",
+  "name": "sortedcollections",
+  "size": 15457,
+  "subdir": "osx-64",
+  "timestamp": 1530918257577,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sortedcollections-1.0.1-py37_0.tar.bz2",
+  "version": "1.0.1"
+}

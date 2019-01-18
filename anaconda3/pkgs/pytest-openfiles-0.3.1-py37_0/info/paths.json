@@ -1,0 +1,71 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles-0.3.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles-0.3.1.dist-info/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+      "size_in_bytes": 1496
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles-0.3.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "63fc34ee9423df615f6eaab9ae6add76b2b793478ce2d05a38edc7e21f30bf61",
+      "size_in_bytes": 4433
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles-0.3.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "725422dce1cc9306b6f3fd940821dda8fff5ca6155b9e18ed7627ab03a11f971",
+      "size_in_bytes": 921
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles-0.3.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1817faef8e5327c3d44957f4d0b4d0b3fc3e3ac5330fd59cefde6d149b74194b",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles-0.3.1.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "04be6b87ee135578797ed39042974a819dcb98dc4cb0975dd9d9955ae3ddd488",
+      "size_in_bytes": 55
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles-0.3.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "180f0303f0cfcd2cbdef5ef9586c46b28203f4a351b7bde2228ba8147cb41cd9",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f4d9671c6301fbc26800294054198b484dfda28fa542555e121739f6f1aced67",
+      "size_in_bytes": 150
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7e46b7a42342672ec40d5786eb3de2943ed27523ac4075e49823b15e4d37e7a7",
+      "size_in_bytes": 234
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles/__pycache__/plugin.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f50ba2967bc239a670f479596d0d7b9e7fc31f2339102291a0ae126b69e38949",
+      "size_in_bytes": 2701
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_openfiles/plugin.py",
+      "path_type": "hardlink",
+      "sha256": "050922f471d7bf47c894e0edd5b579150c391cd8745ca59c7653899d4925a6bc",
+      "size_in_bytes": 3425
+    }
+  ],
+  "paths_version": 1
+}

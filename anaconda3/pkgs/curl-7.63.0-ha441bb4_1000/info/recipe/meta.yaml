@@ -1,0 +1,70 @@
+# This file created by conda-build 3.17.5
+# ------------------------------------------------
+
+package:
+    name: curl
+    version: 7.63.0
+source:
+    patches:
+        - drop_failing_tests_macos.diff
+    sha256: 9bab7ed4ecff77020a312d84cc5fb7eb02d58419d218f267477a724a17fd8dd8
+    url: http://curl.haxx.se/download/curl-7.63.0.tar.bz2
+build:
+    noarch: false
+    number: '1000'
+    string: ha441bb4_1000
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2018.03.07 0
+        - krb5 1.16.1 hddcf347_7
+        - libcurl 7.63.0 h051b688_1000
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libssh2 1.8.0 ha12b0ac_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - tk 8.6.8 ha441bb4_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - krb5 >=1.16.1,<1.17.0a0
+        - libcurl 7.63.0 h051b688_1000
+        - libssh2 >=1.8.0,<2.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - curl --help
+        - curl https://raw.githubusercontent.com/conda-forge/curl-feedstock/master/LICENSE
+about:
+    description: 'Curl is an open source command line tool and library for transferring
+        data
+
+        with URL syntax. It is used in command lines or scripts to transfer data.
+
+        '
+    dev_url: https://github.com/curl/curl
+    doc_source_url: https://github.com/curl/curl/tree/master/docs
+    doc_url: https://curl.haxx.se/docs/
+    home: http://curl.haxx.se/
+    license: MIT/X derivate (http://curl.haxx.se/docs/copyright.html)
+    license_family: MIT
+    license_file: COPYING
+    summary: tool and library for transferring data with URL syntax
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf

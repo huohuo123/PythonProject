@@ -1,0 +1,23 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "decorator >=4.3.0",
+    "python >=3.7,<3.8.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "networkx-2.2-py37_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "e899970778144174d156ef1583fd7099",
+  "name": "networkx",
+  "size": 2059573,
+  "subdir": "osx-64",
+  "timestamp": 1538600025044,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/networkx-2.2-py37_1.tar.bz2",
+  "version": "2.2"
+}

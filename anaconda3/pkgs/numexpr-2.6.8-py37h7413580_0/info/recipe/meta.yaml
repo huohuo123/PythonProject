@@ -1,0 +1,90 @@
+# This file created by conda-build 3.17.4
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/649279e8-c129-455d-4730-3d0e03a79a88/volume/rsync-recipes/numexpr-2.6.8-blas_impl_mkl-python_3.7-on-osx, last modified Thu Dec 13 17:46:47 2018
+# ------------------------------------------------
+
+package:
+    name: numexpr
+    version: 2.6.8
+source:
+    sha256: ee8bc7201aa2f1962c67d27c326a11eef9df887d7b87b1278a1d4e722bf44375
+    url: https://pypi.io/packages/source/n/numexpr/numexpr-2.6.8.tar.gz
+build:
+    number: '0'
+    script:
+        - cp $PREFIX/site.cfg site.cfg
+        - /opt/concourse/worker/volumes/live/649279e8-c129-455d-4730-3d0e03a79a88/volume/numexpr_1544745323925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+            setup.py install --single-version-externally-managed --record=record.txt
+    string: py37h7413580_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - intel-openmp 2019.1 144
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2019.1 144
+        - mkl-devel 2019.1 144
+        - mkl-include 2019.1 144
+        - ncurses 6.1 h0a44026_1
+        - numpy-base 1.15.4 py37h6575580_0
+        - numpy-devel 1.15.4 py37h4ba5984_0
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - blas 1.0 mkl
+        - libcxx >=4.0.1
+        - mkl >=2019.1,<2020.0a0
+        - numpy >=1.15.4,<2.0a0
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - numexpr
+        - numexpr.interpreter
+    requires:
+        - setuptools
+about:
+    description: 'Numexpr is a fast numerical expression evaluator for NumPy. With
+        it,
+
+        expressions that operate on arrays (like "3*a+4*b") are accelerated and use
+
+        less memory than doing the same calculation in Python.
+
+        '
+    dev_url: https://github.com/pydata/numexpr
+    doc_url: https://github.com/pydata/numexpr/wiki/Numexpr-Users-Guide
+    home: https://github.com/pydata/numexpr
+    license: MIT
+    license_file: LICENSE.txt
+    summary: Fast numerical expression evaluator for NumPy.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - djkirkham
+        - msarahan
+        - ocefpaf
+        - scopatz

@@ -1,0 +1,3535 @@
+commit 63432a07f0050ab5757d7c1e72410e3aac70c37b
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 28 16:13:55 2018 -0600
+
+    add show_diff.py script to package_report directory
+
+commit 79c892be5a09d6a02f3ddd020c5c6d531f1df70f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Oct 4 14:19:59 2018 -0500
+
+    optional csv output in missing_in_main.py
+
+commit 3c41377e33e855d9c96ae01d487bf278f45fe40a
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Oct 4 13:40:38 2018 -0500
+
+    missing_in_main finds all python packages
+
+commit 3d53f2a3dc1b194ea9f429a0c75f1cd8b5800f73
+Merge: 7bdc03d d170b91
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Wed Nov 28 12:25:40 2018 -0600
+
+    Merge pull request #27 from ContinuumIO/ensuring-dirs
+    
+    Ensure directories before writing
+
+commit d170b916970ac574e427be5c204e76b1c26b6cfa
+Author: soapy1 <scastellarin@anaconda.com>
+Date:   Wed Nov 28 12:24:08 2018 -0600
+
+    Ensure directoried before writing
+
+commit 7bdc03de9a2565095664aeff5598ad452b4fe1c0
+Merge: 25cebf9 27cfba5
+Author: Mike Sarahan <msarahan@gmail.com>
+Date:   Mon Nov 26 14:59:14 2018 -0600
+
+    Merge pull request #25 from ContinuumIO/mkl-version
+    
+    Pin mkl version to 2018.0.3
+
+commit 27cfba5accb327dd4b491d5ca1e50334d3aa501c
+Author: soapy1 <scastellarin@anaconda.com>
+Date:   Mon Nov 26 13:41:43 2018 -0600
+
+    Pin mkl version to 2018.0.3
+
+commit 25cebf9ca2ac929de8fca561ca401b81da37c9b1
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Nov 26 12:39:08 2018 -0600
+
+    Add anaconda-5.3.1 feedstock (linux-64)
+
+commit 2cefa5d57756698b938ea0a3fc71f24f404ac796
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Nov 26 12:36:18 2018 -0600
+
+    Add anaconda-5.3.1 feedstock (linux-32)
+
+commit 6493dd45d69f3ad086a45a31d2ac8224802dcf7d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Nov 26 12:29:45 2018 -0600
+
+    Add anaconda-5.3.1 feedstock (osx-64)
+
+commit c423bc854acb545c2f52dccaa63791d3beb59269
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Nov 26 12:24:41 2018 -0600
+
+    Anaconda 5.3.1 (win-{32,64})
+
+commit 97f3c4ce2eb086819ab2e9b81485bf34f58d28b1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 25 19:49:48 2018 +0100
+
+    CDT update
+
+commit 1b5cb16aad68ee72ae5db638c7aad93ced3bfa1a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 2 21:59:39 2018 +0100
+
+    Minor update (shouldn't break you @nehaljwani, that starts soon)
+
+commit 76e9e6c13ff6b48cf93cff0d84f81b40e33b8493
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 2 10:47:19 2018 +0000
+
+    Add expat-devel to CDT packages
+
+commit ab5be4b74638655d316fc69bc80217ee4ef29b72
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Sep 28 12:12:41 2018 -0500
+
+    missing_in_main: drop 35, ignore select packages
+
+commit 0171b0b23503540da6cc20e31defc36cf16649e5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 16:46:53 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (osx-64,py36)
+
+commit d7edb7a3d8af2bd823071be6ba9de04687e5dc1b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 16:44:20 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (linux-64,py36)
+
+commit 5a3e34859639dc2dedb7b84c171d2257ef0f63fb
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 16:11:34 2018 -0500
+
+    Add distro-docs snapshot json files (5.3.0, win{32,-64})
+
+commit a456b17f99b48d402865fc306f74db802e6fa113
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 16:10:57 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (win-64 & win-32, rc3)
+
+commit 4f9a2c736783bcaece85c29eb64388f426b3795f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 15:35:48 2018 -0500
+
+    Add distro-docs snapshot json files (5.3.0, osx-64)
+
+commit 5f713a346c876655b86932ffeae3e23e17bb8bca
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 16:31:42 2018 -0400
+
+    Add distro-docs snapshot json files (5.3.0, linux-ppc64le)
+
+commit 443d473f8b6e6646709b9420614a1b9101dc604d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 15:09:38 2018 -0500
+
+    Add distro-docs snapshot json files (5.3.0, linux-32)
+
+commit ec4686adacdfb38d4365413595ff0c18ad393051
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 15:08:17 2018 -0500
+
+    Add distro-docs snapshot json files (5.3.0, linux-64)
+
+commit 55703944190db9a223bc519b8f50a360a6b51f75
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 27 13:20:21 2018 -0500
+
+    add shell script for zipping exes on win
+
+commit 24f8637822453480d6d670addb4f698b2395e60a
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Sep 25 18:32:01 2017 -0500
+
+    storage
+
+commit 8d3d1b0a55238d8a79bbee42ee318290cfa51a66
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 05:31:42 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (win-64 & win-32, rc2)
+
+commit cbd832b3c96f98183da335c1f953fc80eb528b83
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 05:14:29 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (osx-64) (rc2)
+
+commit f4bc3d7b3d5860ed6146909355c60a4736a31b56
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 05:13:22 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (linux-32) (rc2)
+
+commit c86274b615c557a56d95c7db594325eb63fc19b3
+Merge: 90a5ee0 da6b94c
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 04:49:53 2018 -0500
+
+    Merge branch 'master' of github.com:continuumio/private_conda_recipes
+
+commit 90a5ee0d515bc7b631d29dfa15588b3fb0454920
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 27 04:49:45 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (linux-64, rc2)
+
+commit da6b94c21d4060c762a4719dbc82c944b399f2ff
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Sep 25 12:32:20 2018 -0500
+
+    additional version prefixs
+
+commit 84ab355ca7eacf718255c3fc6e11563981ccafb2
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 07:10:54 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (win-64, rc1)
+
+commit fb0fdae18c3cd363a85de054e9b069b05554a5d9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 07:10:26 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (win-32, rc1)
+
+commit 2bcc3432e27478e9155bf595e82eed4d4cf81475
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 07:09:36 2018 -0500
+
+    Add miniconda-4.5.11 feedstock (win-64)
+
+commit b63c180174a08b44c606fbe4457e005cb9b8d7d3
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 07:09:24 2018 -0500
+
+    Add miniconda-4.5.11 feedstock (win-32)
+
+commit bb339b9112cdb20178823844857dfb0432d37877
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 02:28:01 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (osx-64) (rc1)
+
+commit d20b8e93fd370734ff6a80856559b58f99548147
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 02:27:36 2018 -0500
+
+    Add miniconda 4.5.11 feedstock (osx-64)
+
+commit f371eee1d1fd256cd8b808f7d36e281e188cd6e8
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 02:47:16 2018 -0400
+
+    Add anaconda-5.3.0 feedstock (linux-ppc64le, rc1)
+
+commit b62c7ae84705716aee677fccb9b072bc9f0d6a27
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 02:46:51 2018 -0400
+
+    Add miniconda-4.5.11 feedstock (linux-ppc64le)
+
+commit d11bf94ac576baf33da7fb7b147e3989b2c6a06c
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 01:23:18 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (linux-32) (rc1)
+
+commit 2a6fcf244d2d432c111f12da07213bf1b8a61e99
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 01:22:16 2018 -0500
+
+    Add miniconda-4.5.11 feedstock (linux-32)
+
+commit 8644e2ca030a2f134f86e9d8b340ed344ca1de8c
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 00:54:52 2018 -0500
+
+    Add anaconda-5.3.0 feedstock (linux-64, rc1)
+
+commit 1aa7fcd026382b9e5a93e6b7405cfd433bdf8f52
+Merge: 0a42c2b 0122506
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 00:54:16 2018 -0500
+
+    Merge branch 'master' of github.com:continuumio/private_conda_recipes
+
+commit 0a42c2bc99038d82058e9eb9344d50f5e935dc42
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 25 00:54:05 2018 -0500
+
+    Add miniconda-4.5.11 feedstock (linux-64)
+
+commit 0122506cc60042ccfb583373fd6f7027e7fa9038
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 23 15:49:18 2018 +0000
+
+    Remove rwinlib
+
+commit a17c2bae4b8f016f17d86f15a184915568fa0c91
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 21 17:32:16 2018 +0100
+
+    MRO order fixes (not sure why these were needed)
+
+commit 02150a578aeebe4acc26c1dca4a7d4cb6095dc83
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 18 20:17:48 2018 +0100
+
+    MRO build order update
+
+commit 198691050f1a3898e70b873809b57dccd33b2889
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Sep 6 09:32:07 2018 -0500
+
+    misc clean up of missing_in_main.py
+
+commit 65240ead4bf3f0dfca2643d6856550bffe581487
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Sep 5 17:14:57 2018 -0500
+
+    add script to find package missing in main
+
+commit 1341ba50003941cfa0812574d332024abed23091
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 4 15:58:35 2018 +0100
+
+    r: Remove rstudios for now
+
+commit 32c66e94144f0e48dc4e0cfc8f61e31339b5cc8a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 3 12:16:31 2018 +0100
+
+    Changes to build-in-order
+    
+    Ignore channel priority since the idea is they'll eventually be in the
+    same channels anyway.
+
+commit f6a4151eb3e59cf30d4f1c6a2044a86f81985344
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 3 12:14:45 2018 +0100
+
+    Update R build order @ R 3.5.1 (2018-08-01)
+
+commit 12a2032b4a7c3dceca90fb4812c63d459b211b1e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 26 21:13:51 2018 +0100
+
+    Allow for osize compiler activation scripts
+
+commit b944a59440d77d7775ba39495b94297811c780c0
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Aug 18 12:04:02 2018 +0000
+
+    Add recipes for teradata & tdodbc
+
+commit 6c26c15f1a4f96a851d2829899fb186c07589309
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Aug 21 18:03:21 2018 -0500
+
+    add cupt-cuda9.2 recipe
+
+commit b33c5b693e8a95c506756799c29f2c68154a8685
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Aug 21 18:02:28 2018 -0500
+
+    add cudnn-7.2_cuda9.2 recipe
+
+commit 2b9f1059bb734a6b9f677f099201e8817a2ac273
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Aug 20 08:57:04 2018 -0500
+
+    Allow test channel and use conda_build_config.yaml
+
+commit 95a329c385081b26be9442bc441a5bbbc0d5cd1f
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Aug 8 16:16:44 2018 -0500
+
+    cudnn 7.1, cuda 8, linux-64
+
+commit b87fa971c91d06ec7d048025178c1598492e47d8
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Aug 2 09:04:22 2018 -0500
+
+    Update miniconda-feedstock (4.5.4, osx-64)
+
+commit c81ca06734f7818d1641a4dbcb668819920db8b8
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Aug 2 08:41:04 2018 -0500
+
+    Update miniconda-feedstock (4.5.4, linux-32)
+
+commit a2c00c201a028e58158ebddd08e3857da990837f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Aug 2 08:17:51 2018 -0500
+
+    Update miniconda-feedstock (4.5.4, linux-64)
+
+commit e1659ac2d061f42d111d1b7cd9ec071764b686fc
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Aug 2 08:16:05 2018 -0500
+
+    Bump anaconda-distribution-installer submodule
+
+commit 2553e6cb3424a6ce3664ab7f24898da1180c2bc9
+Author: Kale Franz <kalefranz@users.noreply.github.com>
+Date:   Mon Jul 30 15:26:11 2018 -0500
+
+    Update package_notes.csv
+
+commit 5ac44bd2a2534c362d32f597cc70dcbf269e1f05
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jul 30 15:21:41 2018 -0500
+
+    package_report: add package_notes.csv file
+
+commit 54ffb2dbedd6697edcc7dcb0597156be2c687c98
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jul 24 17:55:03 2018 -0700
+
+    Remove r-revoutils from MRO since we package it from mro-feedstock again
+
+commit 5aa5039545d8a1cf99af139287ba185fcf59cc98
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jul 23 22:19:48 2018 +0000
+
+    Remove r-sparklyr-0.8.2
+
+commit 512b230b1e7a1b3f347142a7e3264371be86de46
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Jul 21 17:55:58 2018 +0000
+
+    R: Update build order
+
+commit 09427c783e8f7bdfed21864701796f2a6ab52b42
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jul 20 01:58:10 2018 +0100
+
+    Update MRO build order
+
+commit 3eeaf58d7b1fa9934ffb97f819ff7281b5146845
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jul 16 17:55:33 2018 -0500
+
+    add package version to parity script
+
+commit 457d3d3bf9672e7cc9dfa3d3bd62c317fc5b6037
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jul 16 17:53:20 2018 -0500
+
+    add script to check python 3 parity
+
+commit 710f9ebdc83ce05f50848a90dfa886d4f3d54363
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jul 16 14:59:01 2018 -0500
+
+    add CVE keys to config files
+
+commit d5842ca26d686b50aefd756bef692f2b05c81814
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jul 16 14:58:36 2018 -0500
+
+    add outdate_platform column to report
+
+commit bd24c950b21a29166a0050a9fa722d4f42a968f5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jul 13 22:38:08 2018 +0000
+
+    Add anaconda 5.2.1 (unused, state as of python 3.7 rollout)
+
+commit b2386e003b2ac1743958998e285b4090f2421fb2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jul 13 15:30:29 2018 +0000
+
+    Build number back to 0
+
+commit 27ac00af148e9cb0840858be2725a58d5d44e563
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jul 13 15:25:52 2018 +0000
+
+    More version update stuff
+
+commit 7eb530a12e0045b37c10af04651ebba4c7082ffb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jul 13 14:43:20 2018 +0100
+
+    Python 3.7
+
+commit 52ebb4dea4b95f7e4ad1eceeea0d25e295ceea31
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Jul 12 17:55:39 2018 -0700
+
+    R build order updates
+
+commit f0b6342c26c1acb718368eec9c26ec7f02e44515
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jul 13 00:42:40 2018 +0000
+
+    New MRO build order
+
+commit 47b178a635cabf90e70b97bf0b315ee1efb38508
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jul 2 06:23:15 2018 -0400
+
+    PowerPC updates for build-in-order.sh
+
+commit f386e0cefbe831aad1c0d3ccafa239646d65f0e1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jun 26 18:53:05 2018 +0000
+
+    Remove r-sparklyr-0.8.2
+
+commit e2bee3408519e2ee16eca99db61f33a4bd60e790
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jun 18 10:10:34 2018 -0500
+
+    may downloads stats
+
+commit 00ca4deb14668bae76026631e4037cf0414d4c1b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Jun 17 14:51:05 2018 -0700
+
+    Add missing hash
+
+commit eea7958560ff2073b0ad0d548bf32620fc561114
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Jun 15 15:46:52 2018 -0500
+
+    Special case manual formatted report filename
+
+commit 605d39239cbeef6b8522c93e5452bba7ec399335
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Jun 15 15:46:11 2018 -0500
+
+    Add CVE information to report
+
+commit ee475b27619d17a81887dc6d53d583bbaa93f3b2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jun 15 09:11:25 2018 +0100
+
+    Update build-order/r/all @ 3.5.0
+
+commit 774e1782f3556f34cf722e30d5870823349f8b9c
+Merge: beb5670 8217ead
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Thu Jun 14 10:08:43 2018 -0500
+
+    Merge pull request #20 from jjhelmus/win_cudnn
+    
+    CuDNN 7.1 add windows support
+
+commit 8217ead063b9821a993e983f0e78a8b4dbeda98c
+Author: Jonathan Helmus <jhelmus@continuum.io>
+Date:   Wed Jun 13 11:06:29 2018 -0500
+
+    add recipe for cudnn-7.1_cuda8.0
+
+commit 3817f5c85965fa8c4f9fb3e0a6a26b40a0552bc2
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Tue Jun 12 13:38:06 2018 -0500
+
+    cudnn7.0_cuda9: add support for windows
+    diff --git a/cudnn-7.0_cuda9.0/meta.yaml b/cudnn-7.0_cuda9.0/meta.yaml
+    index dbe3038..41c6143 100644
+    --- a/cudnn-7.0_cuda9.0/meta.yaml
+    +++ b/cudnn-7.0_cuda9.0/meta.yaml
+    @@ -6,15 +6,18 @@
+     package:
+       name: cudnn
+       # use the major.minor.patch version from the .so contained in the library
+    -  version: 7.1.2
+    +  version: 7.1.2  # [linux64]
+    +  version: 7.1.4  # [win64]
+    
+     source:
+       url: {{ src_dir }}/cudnn-{{ cuda_version }}-linux-x64-v{{ cudnn_version }}.tgz      # [linux and x86]
+       sha256: d5f8b56a05dc002a801f8f2081518c20b496006f14617d568bde24dcfb3f6388            # [linux and x86]
+    +  url: {{ src_dir }}/cudnn-{{ cuda_version }}-windows7-x64-v{{ cudnn_version}}.zip    # [win64]
+    +  sha256: 5bed5e0dc5a1850344802b4c9d2afc2ad720204bfa49121b511638fe8bd571ad            # [win64]
+    
+     build:
+    -  # supports platforms are linux-64
+    -  skip: True  # [not linux64]
+    +  # supported platforms are linux-64, win-64
+    +  skip: True  # [not linux64 and not win64]
+       number: 0
+       string: cuda{{ cuda_version }}_0
+       missing_dso_whitelist:
+    @@ -26,12 +29,12 @@ build:
+    
+     requirements:
+       host:
+    -    - libgcc-ng
+    -    - libstdcxx-ng
+    +    - libgcc-ng            # [linux]
+    +    - libstdcxx-ng         # [linux]
+       run:
+         - cudatoolkit {{ cuda_version }}*
+    -    - libgcc-ng
+    -    - libstdcxx-ng
+    +    - libgcc-ng            # [linux]
+    +    - libstdcxx-ng         # [linux]
+    
+     test:
+       commands:
+
+commit beb5670e61446b2428436ea9ae326203be1f9511
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Jun 10 15:26:54 2018 -0700
+
+    Do not add 'local' channel, disable safety_checks
+
+commit b54c3d19da8d61e276cc028be2a09e1c9941dfb1
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Jun 4 10:05:15 2018 -0500
+
+    package_report: add anaconda-delay category
+
+commit 46918028b5e99a0f1085dcc56b8ccf439e906103
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jun 1 11:49:09 2018 +0100
+
+    Work around debian 7 weirdness with gconv/gconv-modules being in /usr/lib32
+
+commit b201b6953d70fa16d440dfa470c6efe7577b0015
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jun 1 03:05:01 2018 +0100
+
+    Fixes for using newer conda
+
+commit 11f8c8d7b30d462aff8ce071470c299c3b28049b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed May 30 14:36:05 2018 -0500
+
+    Bump anaconda version to 5.2.0
+
+commit d21b4f8a720bf622d9ff0364291dacaae0402b56
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed May 30 14:35:10 2018 -0500
+
+    Add snapshot for 5.2.0 pkgs
+
+commit 5eec41fb42d2fb0b728631b5f6a3ad982da3bf58
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed May 30 14:34:15 2018 -0500
+
+    Add script to generate list of pkg changes b/w releases
+
+commit cc7e63f242bcf048c10a882dca39e3067908690b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed May 30 14:33:10 2018 -0500
+
+    pkg list generator: compute table and then dump supported pkg count
+
+commit 20e47a708ea4216020fcb4912aa5241254ca8e97
+Author: csoja <crystal.soja@continuum.io>
+Date:   Thu Mar 29 12:53:07 2018 -0500
+
+    Update misc-feedstock: meta.yaml
+    
+    Added in packages from https://docs.google.com/spreadsheets/d/1Cel_54HrtgEeGlQWhliAvYj4G7ouK1Wxaedzt_rhvy4/edit#gid=1958371297
+    Note: the selectors for these packages were not added, just the packages themselves.
+
+commit 70122c76ce04090fe117648d6207b678392dcc0b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed May 30 10:01:54 2018 -0700
+
+    Update anaconda-5.2.0 feedstock (win-32) (rc3)
+
+commit 0fe951487cc2271ffd81c04c7284e9ec5db768cb
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed May 30 10:00:22 2018 -0700
+
+    Update anaconda-5.2.0 feedstock (win-64) (rc3)
+
+commit fa83c9697ed5aeef35d9a1aaea11007e0564683f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 29 21:38:57 2018 -0700
+
+    Update anaconda-5.2.0 feedstock (win-32) (rc2)
+
+commit 949a31d82038935ae1a1e88dce0722786b8aed92
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 29 21:30:21 2018 -0700
+
+    Update anaconda-5.2.0 feedstock (win-64) (rc2)
+
+commit e136dc0edcef9f210407da17f586d57a804289b8
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed May 30 00:27:20 2018 -0400
+
+    Update anaconda-5.2.0 feedstock (linux-ppc64le) (rc2)
+
+commit 68ac1f37e8a63c9daa5d48649efd14a76870a7de
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 29 23:25:55 2018 -0500
+
+    Update anaconda-5.2.0 feedstock (osx-64) (rc2)
+
+commit f227770317efa96782b61a5d7e62547774287063
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 29 23:24:35 2018 -0500
+
+    Update anaconda-5.2.0 feedstock (linux-32) (rc2)
+
+commit 599ac7d0a882c81e4c39d9c9a61fa5b1b80de75f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 29 23:22:37 2018 -0500
+
+    Update anaconda-5.2.0 feedstock (linux-64) (rc2)
+
+commit eb1053575ee8856fb9f43214242299811afc976a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri May 25 11:04:24 2018 -0400
+
+    Add anaconda-5.2.0 feedstock (linux-ppc64le) (rc1)
+
+commit 6804e5107e5b21fc2bfd74badcc7e209f2ecf530
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri May 25 00:42:52 2018 -0500
+
+    Bump build number; Ignore run_exports for all
+
+commit a4abc2f7ee7fe287d128dfe25647846ab1ddc21e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu May 24 20:43:20 2018 -0700
+
+    Add anaconda-5.2.0 feedstock (win-32)
+
+commit 79c8fa6e0c7dbcb0702fdd8e2bd5f4c4e289ef41
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu May 24 20:39:00 2018 -0700
+
+    Add anaconda-5.2.0 feedstock (win-64)
+
+commit 919ddcd76684d9108777f9078ca75f8ee6f10eec
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu May 24 22:33:50 2018 -0500
+
+    Add anaconda-5.2.0 feedstock (osx-64) (rc1)
+
+commit 3b7d8f63d03f78cb598ff461433bb1dc024dfdf6
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu May 24 22:31:28 2018 -0500
+
+    Add anaconda-5.2.0 feedstock (linux-32) (rc1)
+
+commit cf89b044fe9f62b18694bd57bbafd06db2dac541
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu May 24 22:25:48 2018 -0500
+
+    Add anaconda-5.2.0 feedstock (linux-64) (rc1)
+
+commit 8660e357b9e6e4892f4f23567ae22d3abeda193f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu May 24 17:33:15 2018 +0100
+
+    anaconda-feedstock: Ensure hdf5 >=1.10.2
+
+commit 42812299d6b50924f838804210e256e813e2d854
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 22 13:58:22 2018 -0500
+
+    navigator-updater: bump version to 0.2.1
+
+commit ef8ffa224b4e432a5d5dcf244d9af1a184ef657b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 22 13:58:00 2018 -0500
+
+    anaconda-navigator: bump version to 1.8.7
+
+commit 53314e9c3ad4fdf29a9e2f593ecf7d4204844774
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun May 20 14:05:51 2018 +0530
+
+    repo.continuum.io->repo.anaconda.com
+
+commit 07fe85271f39fc2fe4b0e790332647ea4491f817
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 22:55:26 2018 +0530
+
+    Add script to generate pkg list for distribution docs
+
+commit 6f0488197c808f4ec2c4d34138fe3e5d08d001f1
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Thu May 17 16:04:13 2018 -0400
+
+    fix conditional
+
+commit 07e8d2211ca2572d2e9a4f31f1e2933549236945
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Thu May 17 15:55:26 2018 -0400
+
+    add user-requested packages for constructor
+
+commit b6a4b59320196e802dff323ee6bf4b3e1521d0e9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri May 18 01:49:39 2018 -0400
+
+    Add miniconda-4.5.1 feedstock (linux-ppc64le)
+
+commit 0ace81ac037aaba310ff125c03982fd504d23599
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 8 10:33:35 2018 -0700
+
+    Add miniconda-4.5.1 feedstock (win-64)
+
+commit da2d19b48b655c5481d709d61b0d6976752a8473
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue May 8 12:19:08 2018 -0500
+
+    anaconda-navigator: bump version to 1.8.5
+
+commit 4d58616126000a6be9978342ef865525ec31aac0
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed May 2 21:33:45 2018 +0100
+
+    Update R Build order for 3.5.0
+
+commit fd75e245eeb0dd7c37bc1598d5fc4b2f2b5ea204
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed May 2 21:31:50 2018 +0100
+
+    Minor fixes for binstar_copy.py
+
+commit 0c88a866ab85d373ea6d240d71fc482ee31f6455
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Apr 30 13:24:55 2018 -0700
+
+    Update miniconda-4.5.1 feedstock (win-32)
+
+commit a24f857fdf858e9fd77ef52c4723511ef12140c1
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Apr 25 10:00:00 2018 -0700
+
+    Add miniconda-4.5.1 feedstock (win-32)
+
+commit 9d949a653e796f48fc0b9c77652ad6dc9aebfd34
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Apr 25 11:51:53 2018 -0500
+
+    Add miniconda-4.5.1 feedstock (osx-64)
+
+commit f0bee0e271d47c6f5e96503d66c66c8341098f03
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Apr 25 11:08:11 2018 -0500
+
+    Add miniconda-4.5.1 feedstock (linux-32)
+
+commit d2354fa4bfcbdd1ca4f5abf144e0473f65a2bdc5
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Apr 25 11:06:36 2018 -0500
+
+    anaconda-navigator: bump version to 1.8.4
+
+commit c2ccd8ac627baa763137562afab07cfb8097094b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Apr 25 11:05:57 2018 -0500
+
+    navigator-updater: bump version to 0.2.0
+
+commit e245e91a0d8b875540b4505aa331d06c21ddcc58
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Apr 25 10:48:52 2018 -0500
+
+    Add miniconda-4.5.1 feedstock (linux-64)
+
+commit 5553d4fab302393aecbb61bb7a4e04adec40054b
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sat Apr 21 13:24:16 2018 -0500
+
+    add cupti recipe for CUDA 9
+
+commit 4d11ae4f475c5d4609bb4d9e7a3e4b2a57ca11bc
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Apr 20 13:50:50 2018 -0500
+
+    add cupti recipe for cuda 8.0
+
+commit c201bb518000282d146c8b81407f0b498c3f3807
+Merge: 775ccdd c6aa428
+Author: Kale Franz <kalefranz@users.noreply.github.com>
+Date:   Thu Apr 19 11:48:54 2018 -0500
+
+    Merge pull request #17 from ContinuumIO/kale-repodata-5.1.0
+    
+    5.1.0 changelog script
+
+commit c6aa4281ad044e4383e010341f9f5ec26a903436
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Thu Apr 19 11:47:42 2018 -0500
+
+    repodiff generation for 5.1.0 changelog
+    
+    Signed-off-by: Kale Franz <kfranz@continuum.io>
+
+commit 775ccddbebdc649dcf726bcf336745d43a515c04
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Apr 18 10:55:19 2018 -0500
+
+    use base version when reading repodata
+
+commit f47251e3a64299ce64075d1f2fb2bb95bed44a03
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Apr 18 10:55:04 2018 -0500
+
+    add option to ignore noarch version
+
+commit 1747c6884753560409fbc85b1ecc91e1f7ee6986
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 16 10:37:03 2018 -0500
+
+    update ideas.md
+
+commit d22e758b37bb246d66950a12e8c14f2ff65b2f86
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 16 10:22:04 2018 -0500
+
+    add note field to package report
+
+commit bbf8d8348fd43b6a8fe6a1341ad06dbfbb2cc746
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 16 10:10:40 2018 -0500
+
+    save skipped packages cvs first
+
+commit 781b3659476e65b5593ff75a0c4398e0e8525ec4
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sun Apr 15 18:23:13 2018 -0500
+
+    split formatted report by pkg_type
+
+commit e4205047d21acab23faa93706b5825ad121f9903
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sun Apr 15 16:49:50 2018 -0500
+
+    add subcategory and pkg_type columns
+
+commit 278ee6a833b60dfb5d09115f8d7e686822bceb83
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sun Apr 15 16:42:53 2018 -0500
+
+    add github version lookup
+
+commit 63b1dccc530a962f4e0ad28f6769d41eaf4504f2
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Apr 13 15:12:55 2018 -0500
+
+    package_report: skip postreleases
+
+commit d46351822c486fd1ef622de02821e1e7daaef7cd
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Apr 13 15:12:29 2018 -0500
+
+    package_report: report package written
+
+commit 1f23e2614e7334af93bbd074579bd2b70ccfaac3
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Apr 10 05:34:00 2018 -0500
+
+    anaconda-navigator: bump version to 1.8.3
+
+commit aea1885e61480aaf117a8157a791eea766f58d4a
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Apr 9 08:38:29 2018 -0500
+
+    fix linking issues with cudnn recipe
+    
+    * Add libgcc-ng and libstdcxx-ng as host/run requirements
+    * whitelist standard DSOs
+
+commit 39850ed799101059e7fc94f305782eb28d2f23cd
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Sun Apr 8 22:31:35 2018 -0500
+
+    cudnn-7.0-cuda9.0 recipe
+
+commit def9029a6e46c6c49e08291c5410083cb94183b3
+Merge: 5cc994c 72e32c2
+Author: Jonathan J. Helmus <jjhelmus@gmail.com>
+Date:   Fri Mar 30 12:46:23 2018 -0500
+
+    Merge pull request #15 from ContinuumIO/csoja-patch-3
+    
+    Update index.csv
+
+commit 72e32c225b4be26dc6f4189c70aaa93dc1ca2044
+Author: csoja <crystal.soja@continuum.io>
+Date:   Wed Mar 28 14:43:06 2018 -0500
+
+    Update index.csv
+    
+    Updated which packages are categorized as misc based on this spreadsheet: https://docs.google.com/spreadsheets/d/1Cel_54HrtgEeGlQWhliAvYj4G7ouK1Wxaedzt_rhvy4/edit#gid=1958371297
+
+commit 5cc994c94aeddc29da97e22c85be75a14116b452
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Mar 28 12:25:18 2018 -0500
+
+    add script to find new conda-forge packages
+
+commit c6ef8c3b3e63db3c578a64111dbaf2d915513686
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Mar 22 21:48:53 2018 -0500
+
+    anaconda-navigator: bump version to 1.8.2
+
+commit 9683872b3020f0a30990ec22775e862f9380c44c
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Mar 13 00:16:37 2018 -0500
+
+    anaconda-navigator: bump version to 1.8.1
+
+commit ef15ac7467db9f700e1c4983d77420286fbbeead
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Mar 12 11:11:55 2018 -0500
+
+    update input.csv
+
+commit 2c899401eb3a512e726c86d52c3b08a594dd1dff
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Mar 10 09:22:45 2018 +0000
+
+    Add R channel to get_channel_priority_array
+
+commit 2a9dcd9c03b840e5e67531adc3ec91e527aabbcd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Mar 7 21:40:57 2018 +0000
+
+    binstar_copy: Match package_name against the tarball name
+    
+    This is so that we can wildcard on build strings if we wish
+
+commit 3d6e8cbb5dd5cb16c55e785aec3e4b37473925db
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Mar 6 10:17:40 2018 -0600
+
+    refresh input.csv
+
+commit 046ecf443024aeebabddcb6bca071b79bef0aa5b
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Mar 6 10:10:56 2018 -0600
+
+    update package report README.md
+
+commit c37f2ce5c9ff4398207f5062298231ff1c757476
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Mar 2 03:55:29 2018 -0800
+
+    Add miniconda-4.5.0 feedstock (win-32) (dev1)
+
+commit 93020ee298b22d414373de9d17600f66403b2ad9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Mar 2 03:43:16 2018 -0800
+
+    Add miniconda-4.5.0 feedstock (win-64) (dev1)
+
+commit 0c529d5f58f897f4487f42cee0f2140b2f105d93
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Mar 2 02:31:02 2018 -0600
+
+    Add miniconda-4.5.0 feedstock (linux-32) (dev1)
+
+commit 5bab3f72a3351d776666fd0b643467caf29b0625
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Mar 2 02:30:40 2018 -0600
+
+    Don't update conda while installing anaconda-distribution-installer
+
+commit 45c9115618ac15431112c19be94fdf6b94d1fdb2
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Mar 2 02:17:12 2018 -0600
+
+    Add miniconda-4.5.0 feedstock (linux-64) (dev1)
+
+commit 5a58197c78a5a71541225ca5a75b46a924e58c37
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Mar 2 02:16:25 2018 -0600
+
+    Fix array assignment in get_channel_priority_array()
+
+commit ab6a1c7981fada2f257157379b7ba04f8e710ac0
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Feb 28 12:51:39 2018 -0600
+
+    anaconda-navigator: bump version to 1.8.0
+
+commit f916643a4479f96e5f57e56556699df942594f86
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Feb 25 12:25:11 2018 +0000
+
+    build-in-order: Add support for building MRO
+
+commit db83fb1a2ca364150326524361a7c84d0dbae274
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Feb 25 11:36:22 2018 +0000
+
+    build-order/r: Add rstudio to the very end
+
+commit 52251277dacefdcb02d9b2cc8be9ee0915dff5ca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Feb 24 18:46:21 2018 +0000
+
+    Ensure conda 4.3.34 is used due to https://github.com/conda/conda-build/issues/2707
+
+commit 1ef55bc390990bdeeba319ad78a4de020a189f1a
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Feb 23 12:38:43 2018 -0600
+
+    add package report readme
+
+commit 70a3cd0b38c4b83245fb5ce8f28c470f475474b2
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Feb 23 12:27:56 2018 -0600
+
+    sample priority modifiers
+
+commit b7bc6bf4f797a427b402b33ca64065df4b4a64d8
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Feb 23 12:27:09 2018 -0600
+
+    package report input
+
+commit e9fe9823f561b77568404dacab4ce0bc8843ff10
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Feb 23 12:26:53 2018 -0600
+
+    package download stats for Jan 2018
+
+commit 7146ec86bd3ef7828b781c9e377998d516d51e2a
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Feb 23 12:26:31 2018 -0600
+
+    add script and module for package report
+
+commit 193dffac3facc3cb2be9e863c1abc43bae18a053
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 14:25:39 2018 -0500
+
+    Add miniconda-4.4.10 feedstock (linux-ppc64le) (dev1)
+
+commit 6a27a3a0ac6b3f9a8ed16d7351cdb33e9b1426dc
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 13:24:38 2018 -0600
+
+    Add miniconda-4.4.10 feedstock (linux-32) (dev1)
+
+commit 7050f242e6e2d484614c939d10465a7832bcea5f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 13:23:53 2018 -0600
+
+    Add miniconda-4.4.10 feedstock (linux-64) (dev1)
+
+commit cb9e81559bca5d9f96dc37203b4a3425d6679cad
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 13:26:49 2018 -0600
+
+    Add miniconda-4.4.10 feedstock (osx-64) (dev1)
+
+commit a451954ac6898d1d1844aa451c5d722c41e9f6ca
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 11:21:06 2018 -0800
+
+    Add miniconda-4.4.10 feedstock (win-32) (dev1)
+
+commit 20fcc49bd0668902d6555c75528a94426deda970
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 11:19:59 2018 -0800
+
+    Add miniconda-4.4.10 feedstock (win-64) (dev1)
+
+commit 660d34caac535808137894c0bc264ee1724042ca
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 13:26:05 2018 -0500
+
+    Bring back hdf5, scikit-learn for linux-ppc64le
+
+commit 4fb13c275d42b3b8ba60b821f4353d81c4324a8f
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Feb 15 11:42:47 2018 -0600
+
+    Bump anaconda-distribution-installer submodule
+
+commit e0acac78ca32e092a9598aedf75048f186718854
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 12:18:36 2018 -0600
+
+    Update EULA in anaconda-custom feedstock
+
+commit 74095ce16bf8c351d388436f2839c5a288b5bc2b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 12:18:12 2018 -0600
+
+    Update Anaconda EULA
+
+commit c1df7dddffdc9d47d9f6e686e6f19d2e90d33dfa
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 06:14:59 2018 -0800
+
+    Add anaconda-5.1.0 feedstock (win-64) (dev3)
+
+commit ccda9ea91d9bdfbf6f493e3399ec31c6ebd065dc
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 05:27:10 2018 -0800
+
+    Add anaconda-5.1.0 feedstock (win-32) (dev3)
+
+commit 3f980da7d9ae40d01737abac02483dc9209b9365
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 07:29:52 2018 -0600
+
+    Add anaconda-5.1.0 feedstock (osx-64) (dev3)
+
+commit 7396cc2e59a644009c18838c629577067c27f2ec
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 06:54:13 2018 -0600
+
+    Add anaconda-5.1.0 feedstock (linux-32) (dev3)
+
+commit 649c1e067dbe9b6c01bdc0647b57e61859a76ba0
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 06:53:42 2018 -0600
+
+    Add anaconda-5.1.0 feedstock (linux-64) (dev3)
+
+commit 254c1e36e838857cd6e3f7446c202dfc308fd738
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 05:27:04 2018 -0600
+
+    Remove non-ascii chars from EULA
+
+commit 60b57a283c63bac7fb769be222b2238962bbf146
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Feb 13 04:49:57 2018 -0600
+
+    Update navigator to 1.7.0
+
+commit ad7e5261cafbec3c6ec5d90861afd39f8e03a6f9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Feb 12 23:22:18 2018 +0530
+
+    Update EULA for miniconda
+
+commit 1daed8e7b9c3ad9be00b7cfd86bcdc710d787db3
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Feb 12 23:15:47 2018 +0530
+
+    Update EULA for anaconda
+
+commit 02a0075a51dbbe69fad0aa73f6b17ec5b8fd098b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Feb 12 12:26:44 2018 -0500
+
+    Add anaconda-5.1.0 feedstock (linux-ppc64le) (dev2)
+
+commit b1ee7bfb524f9a0be2c10e2494aedd0f73bbf99b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Feb 11 06:55:15 2018 -0800
+
+    Add anaconda-5.1.0 feedstock (win-32) (dev2)
+
+commit 9b25e43d2cd191729d0123ca87e9dafdb09c2d31
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Feb 11 06:54:18 2018 -0800
+
+    Add anaconda-5.1.0 feedstock (win-64) (dev2)
+
+commit e95587be82c2b72415f13de1b398f4574c4eb7ec
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Feb 11 08:56:03 2018 -0600
+
+    Add anaconda-5.1.0 feedstock (osx-64) (dev2)
+
+commit dd0ec9bcac81fdc9f5e0810b267d2e8f82f4c6f9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Feb 11 08:49:27 2018 -0600
+
+    Add anaconda-5.1.0 feedstock (linux-32) (dev2)
+
+commit ef7d7f140a1844d4abbada8f0f06ee96e901c44b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Feb 11 08:47:26 2018 -0600
+
+    Add anaconda-5.1.0 feedstock (linux-64) (dev2)
+
+commit 34ea779f2e49be8cd72a31f97a9721f60dfbf4f2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Feb 10 17:41:44 2018 +0000
+
+    Cleanups + minor fixes (dest was ignored) for binstar_copy.py
+    
+    Also compat with anaconda-client >= 1.6.9 (stderr used for output now?)
+
+commit 9c3385d89939660690d545371a259bf6ba62fd92
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Feb 10 14:33:31 2018 +0000
+
+    Move requested packages to their own section for now
+
+commit 0b0c52142db1d0278b03058ce2ec889fe2f80f5f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Feb 9 10:20:49 2018 +0000
+
+    More R packages
+
+commit 99fed1a36c81cf326b745246f3ba84aab1282e62
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Feb 8 18:11:08 2018 +0000
+
+    Bring back r-sf/r-tilegramsr
+
+commit 05081b1ac9365af4016e8500889c228f25f4aa0a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Feb 7 11:35:29 2018 +0000
+
+    Add _r-mutex to build-order/r/all
+
+commit 7c1b23b3b3e02b546adc360e1e27817daba0f5d0
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Feb 2 00:23:31 2018 +0530
+
+    Remove anaconda-navigator and navigator-updator from anaconda metapkg
+    
+    xref: https://github.com/ContinuumIO/anaconda/issues/1160
+
+commit 791f86ee213b46b7813b553a4f02709663e8dc6a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Feb 2 00:07:46 2018 +0530
+
+    Update EULA for anaconda-feedstock
+
+commit ae736308c8f0078258b2fef633ce93ee4adaffa3
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Jan 31 17:27:31 2018 -0600
+
+    Add transparency to the installer icons
+
+commit ebe364b2731c14e47dd7873f7fe0a7634a159875
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 29 14:26:36 2018 -0500
+
+    Update anaconda-feedstock
+    
+    - Remove libgfortran, functools_lru_cache from run deps too
+    - Restrict libiconv to macOS
+
+commit e3f6dc40ad67d4d473bf69567153c1bfee8dd36c
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 29 14:24:51 2018 -0500
+
+    anaconda-feedstock: libiconv is still needed for macOS
+
+commit 95ad562322896d22379d836ab04fd973af63352d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 29 14:06:00 2018 -0500
+
+    Update anaconda-feedstock
+    
+    - separate package for libiconv is not needed anymore
+    - backports.functools_lru_cache will be a pkg for ppc64le
+    - libgfortran is now libgortran-ng for ppc64le
+
+commit ce9d5a472fccaac498a8975776c4b1a664e130bc
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Jan 29 14:04:53 2018 -0500
+
+    Update build order for ppc64le
+
+commit 3e3228037a1b24be221f04846b0b91abc943fde0
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jan 28 03:27:10 2018 -0500
+
+    Add build order for ppc64le
+    
+    This is different than that of linux because some recipes are not yet ready (qt
+    and stuff dependening on qt) and some feedstocks like mkl* are not meant for
+    ppc64le.
+
+commit 6eed59be00dc73af2b18256ce8db14b93455e586
+Author: Ray Donnelly <nehaljw.kkd1@gmail.com>
+Date:   Wed Jan 24 02:00:02 2018 -0800
+
+    Set conda_build: error_overlinking: true in ~/.condarc
+
+commit 81ed54bb45ffeba1af1b531c5d32758f5612c6b0
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 23 11:33:37 2018 +0000
+
+    Sort those filenames using C locale
+
+commit 928cda6d4ecaff5669359618500bfaf9f6f21eb3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 23 11:20:21 2018 +0000
+
+    Make --operation=list print just sorted filenames
+
+commit ea315285a6f0afffad3109ff860d6ecd90b8e6b2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jan 22 23:25:15 2018 +0000
+
+    Comment out already-built R (non-R) deps
+
+commit ce6f31e52cf8676ae30a6205637b21cdf5958828
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jan 22 21:30:57 2018 +0000
+
+    binstar_copy: Do not memoize a dict
+
+commit 142acf7260f787119bfb6ff95e37ae7757d374d8
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jan 21 07:35:28 2018 -0500
+
+    Drop duplicate entry of matplotlib-feedstock (build-order)
+
+commit 3d2fd722f6e686dff3b7ba32ac6b6854aa27bbf8
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Jan 14 02:12:25 2018 -0500
+
+    Update build-order for linux (anaconda)
+
+commit 495fa83f04eadd0543e964a5e4448b359a88dca9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Jan 18 09:40:18 2018 +0000
+
+    Add deletion capability to binstar_copy.py
+
+commit e9f07ed285ca48a6ba24540cfc8a5faabc10084a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Jan 17 19:06:08 2018 +0000
+
+    Remove xfer rubbish
+
+commit d4e9e3d68c348d2e16d983b693c7e91a68d13f21
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jan 15 23:55:44 2018 +0000
+
+    Update Python always
+
+commit 0fbb1cedae4e3803fde96b275198855c6b0c4070
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jan 15 23:24:17 2018 +0000
+
+    Add tktable-feedstock and update to R 3.4.3
+
+commit fd178c6d6d21a49b13b245a4ab387919cb2916f1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 9 23:41:47 2018 +0000
+
+    Disable more not-ready-yet packages (we need the bwidgets tk package)
+
+commit 065b36dcd0b660aea3d294dcc28581524198af87
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 9 23:36:25 2018 +0000
+
+    Remove r-rpanel for now
+
+commit 7019912a7f02e520ca8cb3d85ef7c3436d6e8d05
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 9 23:09:44 2018 +0000
+
+    Oops
+
+commit eb083e1a861606f34df2aac55d3c468d3576425e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 9 23:06:36 2018 +0000
+
+    Comment out things that do not build
+
+commit 17e472b79689c9d381570613b4798c19c19b3a1f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 9 22:38:11 2018 +0000
+
+    Update nav to 1.6.12
+
+commit 9d855834b19c35e9cb377b1ffc3e6fd88d2e9d9b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 9 15:05:29 2018 +0000
+
+    Update R build order
+
+commit c6b310832b1be686b73f47315f49fa484e44877c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jan 8 11:43:28 2018 +0000
+
+    Add back missing build-order/miniconda/linux that 9775fc should have created
+
+commit 57981d29551f3c372e750ee35e4c9b488d1e90ff
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Jan 3 21:03:43 2018 +0000
+
+    Add M to mean main
+
+commit d9d5f74845836f9c8490e0ac22e9d4fb5eaf84d2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Jan 3 16:46:08 2018 +0000
+
+    We still cannot build r-sf due to util-linux not being available on main
+
+commit ef659b876ed1fbf04a5ee803793200de5c30ca6f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 2 21:44:35 2018 +0000
+
+    Add MSYS2_CHANNEL for m2-patch
+
+commit f77adcec3652ab3ef0eb7f40ebe8f5d00f6d1ef4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 2 21:18:43 2018 +0000
+
+    Add m2-patch to root env on Windows
+
+commit 8cacca3897140576bc088533951a344a9e7faa2a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 2 14:00:04 2018 +0000
+
+    Do not build the system macOS R dependencies
+
+commit c36f71980c7dc1597aa34a12fb6a3b79e68324ac
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Jan 2 10:55:41 2018 +0000
+
+    Do not apply 0014-Ignore-_PYTHON_SYSCONFIGDATA_NAME-if-it-does-not-exi.patch anymore
+    
+    We use Miniconda 4.3.31 and that patch is already applied
+
+commit b503ee30b7fd9b26e5d1dec53cd354a46e4e65c6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jan 1 23:27:32 2018 +0000
+
+    New build-order/r/all
+
+commit 8ea796017b960e0851f62d6a444c09ef29c0d7ad
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jan 1 18:24:11 2018 +0000
+
+    Comment out R stuff already built
+    
+    (this is because they have hashes but the new ones do not so skip-existing fails to
+    picj them up).
+
+commit 7cb1ee2cc6336c6b00423328f1006f0834f8c18d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Dec 31 14:51:21 2017 +0000
+
+    export CONDA_R=3.4.3 at the top of build-in-order
+
+commit 3a346b502d426cbfef678c69489a526cb9baabed
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Dec 26 11:04:11 2017 -0600
+
+    Update anaconda-navigator to 1.6.11
+
+commit 9283fef102ff7adff18789df697a39399dafef3e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 26 13:02:15 2017 +0000
+
+    Bootstrap from 4.3.31
+
+commit f8b83a2227691ffc3c9be87dab7e24b823ce1bca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 19 13:19:03 2017 +0000
+
+    Add miniconda-4.3.31 linux-64 baked recipes
+
+commit 270d23cdc68745f3c7a681e76192332efae21bb0
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 19 13:04:02 2017 +0000
+
+    Add miniconda-4.3.31 linux-32 baked recipes
+
+commit 620dde89d60d2315ff758af280c6e383684fd9ca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 19 13:03:31 2017 +0000
+
+    Fix linux-32 miniconda download filename
+
+commit ca38c9efef612288313373a6d52d977b19f332e7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 19 04:41:52 2017 -0800
+
+    Add miniconda-4.3.31 macOS baked recipes
+
+commit 99221f56f91bd6202d9d074159b0af73d7f19595
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 19 04:36:10 2017 -0800
+
+    Add signing line for macOS (commented out)
+
+commit ace2e09faf34c2b2f8c69efdbbf3dd8bbbb9c19f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 19 03:15:40 2017 -0800
+
+    Add miniconda 4.3.30.1 and 4.3.30 baked recipes for Windows
+
+commit dd7c54e98669638012566a216e14f2d5da08d829
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 19 00:39:02 2017 +0000
+
+    Fix macOS + Linux installer build
+
+commit ebce1d464fad84729d529d32f73b8dc6537168cf
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 19 00:27:35 2017 +0000
+
+    Updates after rebasing anaconda-distribution-installer on top of constructor/master
+
+commit bef1ff6fab483b7bd231db26464300f4c66c3732
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Dec 18 22:30:06 2017 +0000
+
+    Testing rebased installer
+
+commit 3ac21248fee643900a96a4e543f3d4ffa5fb9433
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Fri Dec 15 14:45:45 2017 -0600
+
+    Add cudnn 7.0, cuda 8.0 recipe
+
+commit 8f59c7a2d897ded884938f8bfd05dc7aed6b5dbf
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Dec 4 14:13:25 2017 -0600
+
+    anaconda-client: make recipe cross-compile capable
+
+commit e57f6b5f3bfad3e4c3f4323f0f1fe561674ea418
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Dec 4 14:13:01 2017 -0600
+
+    anaconda-client: bump version to 1.6.6
+
+commit 9775fc849fce8387a7b93720b6b8bcd2f0a32887
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Dec 4 05:15:21 2017 -0500
+
+    PowerPC fixes
+
+commit 67fb669d2c176988f825cc68117318fd11783c37
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Dec 2 11:02:14 2017 +0000
+
+    Generalize build-order/anaconda/linux-* to build-order/anaconda/linux
+    
+    The only difference between linux-32 and linux-64 was the suffixes in the CDT packages
+    so use two sed-replaced variables instead (@DISTRO@ and @ARCH@). Hopefully cos7-ppc64le
+    will be able to use this method (and file) too.
+
+commit 737ef73da37ef20ea79755a908caa817776acbe5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Dec 1 17:15:10 2017 -0500
+
+    ppc64le work
+
+commit e7a40458a7983d13ce0a85712101628a16322b1b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Nov 28 04:22:17 2017 -0500
+
+    Update ppc64le docker container name
+
+commit 6127df6ab5b39d7cc343ba36c1c0c4b137186b67
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Nov 26 11:50:38 2017 -0500
+
+    ppc64le fixes
+
+commit ba8369609b8a96d5728a469246985e07d29a2b8a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Nov 25 14:22:42 2017 +0000
+
+    More ppc64le work
+
+commit 0dd7911215e994f1531ddbe216523a86b3a7c702
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Nov 22 19:30:04 2017 +0000
+
+    Exit with error when not able to unpack macOS SDK to /opt
+
+commit 010dc5f3f1102e9241ea02ab2d7376da2df86d8f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Nov 22 10:47:34 2017 +0000
+
+    Rework binstar_copy.py
+
+commit 4d78d210f747a6369e50e7fa50a68702ba349a4e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Nov 21 11:24:17 2017 +0000
+
+    Starting to move old automated-build vagrant and packer work here
+
+commit e669f471899f26f0c7bbff59eda088c788e512e9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Nov 20 17:17:18 2017 -0800
+
+    Miniconda 4.3.30.2 for Windows
+
+commit bea56af6760e200941371576c6f34d0cf8ee9d7f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Nov 13 19:31:05 2017 +0000
+
+    Add r-plumber to r/all
+
+commit 40b8600dd82b5f067ac631cd3a192b27fbd0c7d3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Nov 9 12:32:25 2017 +0000
+
+    Do not build r-rmysql twice
+
+commit 633d516ee873a7a22e04dbe2648f04d27cfb6273
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Nov 9 12:31:16 2017 +0000
+
+    Add more R packages (later, RMySQL, RMariaDB)
+
+commit 4c2d9e45df88aeb9cd8856dbbdcbdd6a1b17a18a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Nov 8 18:37:22 2017 +0000
+
+    Add r-pool, r-rmysql and r-plotly
+
+commit 7fb163e809d7dd003a0f1bc58515fde580a482a6
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Wed Nov 8 12:15:45 2017 -0600
+
+    Anaconda 5.0.1 changelog script
+
+commit 12e0752988d1f0a05f856b115b9a6fdf822076c3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Nov 1 05:57:24 2017 -0400
+
+    A bit more ppc64le work
+
+commit be42bf4c774f0c0ef0ad1d0f3d39f9f3ddb572aa
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 31 15:51:00 2017 -0400
+
+    More ppc64le work
+
+commit 2a190c7fde967e3ff59c324b13fcb00467549166
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 31 13:32:57 2017 -0400
+
+    More ppc64le
+
+commit ad1b82737f9313613d1b44cdcb78e6cb4282be88
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 31 13:30:57 2017 -0400
+
+    Start adding ppc64le support
+
+commit e8311428022adc2c4088ca89105ff1c70c0fd4ca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 30 13:19:01 2017 -0700
+
+    Use the old openjdk for now on Windows
+
+commit f361e33bd4215bd03dea169182d531fc804a9845
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 30 15:57:39 2017 +0000
+
+    Fix package/order selection
+
+commit a23f338c206ce53620d6726a8bab6284b3eca006
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 30 15:56:14 2017 +0000
+
+    Add DOWNLOAD_CHANNELS==default handling
+
+commit 83e466a0826a57247eba72adc1ed83420ad0c892
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 30 14:48:36 2017 +0000
+
+    Respect the package order when using --packages (re-order that input)
+
+commit e2e2714d697046a14fb059c3f53aed223f994956
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 30 02:50:04 2017 -0700
+
+    Fix build matrix selection
+
+commit 036c4cbe2fa70cfa1beef2429ee5aaac16ed278f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 30 02:39:50 2017 -0700
+
+    Updates for miniconda-4.3.30.1
+
+commit 2faee51e687cba6b1d7f13dc92725b6f1f4edc1a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 30 09:18:34 2017 +0000
+
+    A few fixes
+
+commit ce2514e43b325fca888f7e1d842ef583a51201d2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 30 08:27:50 2017 +0000
+
+    Add lots of new options
+    
+    --debuggable-{c,py}=(yes|no)
+    --download-channels=..
+    --upload-channel=..
+    --pkg-build-channel-prority=(comma,separated,list,of,D,U,L .. download,upload,local)
+    --installer-build-channel-priority=(same)
+    --skip-existing=(yes|no)
+    --keep-old-work=(yes|no)
+
+commit 402e7e68fc032cbb693156d822c8f0fbd41c48bc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 10:00:56 2017 -0700
+
+    Fix miniconda-4.3.20.1 for macOS (python.app)
+
+commit 72637e3caa63671873c0ddc3108322e24ae33db9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 09:28:33 2017 -0700
+
+    Add miniconda-4.3.30.1 for macOS
+
+commit 64b7fda513afa1e1268c035562db8fba0a40bc75
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 08:51:38 2017 -0700
+
+    Add pyperformance/win-32
+
+commit f666e176b4251c22672de4c812787010a81e6acb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 05:56:49 2017 -0700
+
+    Add pyperformance/win-64
+
+commit 0a3deb82e096343511a9b701b040f96530e7ce7a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 12:55:38 2017 +0000
+
+    Add pyperformance/linux-64
+
+commit 5350e2536e1738f61e31cb8cdeb640d0c35805cc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 12:54:43 2017 +0000
+
+    Add pyperformance/linux-32
+
+commit 213ee305bc5958870511f7a8a64a52ec1b1f77c8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 02:28:13 2017 -0700
+
+    Another Windows fix for benchmark.sh
+
+commit 828fbf834b4bc4c8927be6046569267227db6afc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 02:19:07 2017 -0700
+
+    Add pyperformance/osx-64
+
+commit ba2b3b3734c6477bc1bc66eb0263cbecc207914c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 01:05:53 2017 -0700
+
+    Some benchmark fixes
+
+commit c2adafc29c777e4582c094bd1bee8d2c74d22181
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 07:18:29 2017 +0000
+
+    benchmark.sh: Use /tmp not ~/Downloads
+
+commit 3ee908774e3bb54b3b8c92a3fd0335eee49f61b8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 07:15:41 2017 +0000
+
+    chmod +x benchmark.sh
+
+commit 7010401a56f22e93cf67aef000f5991b4583242c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 26 00:01:09 2017 -0700
+
+    Tidy up pyperformance stuff
+
+commit 202f4021020a7c35dbd76faca990a8700323257e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 25 22:10:57 2017 +0100
+
+    Add benchmark.sh
+    
+    Windows support to come shortly.
+
+commit 8b7ce8ed7f00d507ef87c2d9b0beec23201f129d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 25 14:09:58 2017 -0700
+
+    Use intellij openjdk repackage
+
+commit b3cdd63627a48abddf5a784435b83a6003256cd4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 24 22:53:44 2017 +0100
+
+    Tweak render_r_html.py a little
+    
+    1. Sorted alphanumerically
+    2. 'License' in a seperate column
+    3. 'In Installer' column removed
+
+commit e8eb40ffec0efcf8ebe08b94e3ccb4edc037f514
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 24 22:06:29 2017 +0100
+
+    Added render_r_html.py
+
+commit 7c49a1701a47409e6e220dde8fdcfc675c4888ee
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 18:03:43 2017 -0700
+
+    add anaconda-5.0.1 for osx-64
+
+commit 145d07703202f4c91d97d07ee5556854e34faf88
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 24 10:15:21 2017 -0700
+
+    add anaconda-5.0.1 for win
+
+commit de7487078b647bf1afdab916136a73dbd417b15c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 24 10:14:37 2017 -0700
+
+    Remove local from channels determining the fully rendered metapackage
+
+commit 3355ff63ec6b7d6023857987b354a6f4492d8f9e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 18:43:44 2017 -0700
+
+    anaconda-custom: Copy EULA on Windows
+
+commit 337b7e823d3feabe4a7f21c14050573110420899
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 24 02:15:43 2017 +0100
+
+    Remove menu-windows.json
+
+commit 2b7247b5ab98ecf03f1784e54d61c7b82a01645d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 24 02:15:10 2017 +0100
+
+    Added anaconda-custom-feedstock
+    
+    Has menu entries that I will remove as they are likely wrong
+
+commit 104663e45dc96600af015a885f5da3501db7ad0c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 23:21:06 2017 +0000
+
+    add anaconda-5.0.1 for linux-64 (really, least was -32)
+
+commit 3b2b6bf611a581a052460596c856c236f2c5cc73
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 23:20:09 2017 +0000
+
+    add anaconda-5.0.1 for linux-64
+
+commit 0d5e9b58e6767ab9f41562aded30ccb77791ed4d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 23:35:25 2017 +0100
+
+    Anaconda 5.0.1 no longer dev1
+
+commit 56aab10998c603d22533cbf5f2387c9e802d0dba
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 12:31:22 2017 +0000
+
+    Add rstudio deps (duplicated entries to expedite the buildout)
+
+commit a3f207df3b8dced7bdbb632ac1e9e621be4ed5a2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 13:09:04 2017 +0100
+
+    Add r-feedstock
+
+commit 9082c06b054b2beb8f759ab06c1855463457de39
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 23 12:00:29 2017 +0000
+
+    Move some packages in the R build order
+
+commit 3c6cc19dcde6b97dafa3ad05a39574d96f69b025
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 20 03:11:26 2017 -0700
+
+    add anaconda-5.0.1.dev1 for win-64
+
+commit 9a08964f55107d6b6fcdb5c846ba51655e25370a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 20 03:10:55 2017 -0700
+
+    add anaconda-5.0.1.dev1 for win-32
+
+commit 55548430beeaf5fecd6b8f1076125dca9fc4262d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 20 03:08:52 2017 -0700
+
+    add miniconda-4.3.30 for win-64
+
+commit 9555afb70b6a99fa56a2112a5ddf8067ed486f47
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 20 02:24:30 2017 -0700
+
+    Fix (maybe hack?) for local channel file:// URL on Windows
+
+commit 2f0db97609be9da39c637b0f59238c50795ff033
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 16:01:38 2017 -0700
+
+    add miniconda-4.3.30 for win-32
+
+commit f94f00e01ee2ca2e69d724de85afd7ed16399b2b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 23:36:05 2017 +0000
+
+    add miniconda-4.3.30 for linux-64
+
+commit 109263dde67842b00b2f43cd2db7cf8b4be7e1fb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 15:48:23 2017 -0700
+
+    add miniconda-4.3.30 for osx-64
+
+commit 2ec9ff948e10700ee56059bae0cc3b402df08fa8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 15:45:40 2017 -0700
+
+    add anaconda-5.0.1.dev1 for osx-64
+
+commit 4067f70dab3f47193d2ffd81d3cb3092b438fb3f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 18:57:59 2017 +0000
+
+    add anaconda-5.0.1.dev1 for linux-64
+
+commit 902f6970fc43f99540bbd1206871a4c0d4e6aa71
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 18:57:03 2017 +0000
+
+    add anaconda-5.0.1.dev1 for linux-32
+
+commit 574a3c7451b03627cd239bf5a22809d2918d3e03
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 18:18:49 2017 +0000
+
+    Update adi to 1.8.8 more
+
+commit 8e2b8147db6986832d785f249a83ff11d5981a5d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 18:13:40 2017 +0100
+
+    anaconda-distribution-installer => 1.8.8
+
+commit ef7d02f550f359b1d9758ff00444517a3f06f765
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 18:03:37 2017 +0100
+
+    Add channels_remap
+    
+    This is so we are not forced to upload untested packages just to make
+    an installer or to run our own server pretending to be at the URL of
+    the final channel.
+
+commit 355e8e2864368ab0d12fe7720a1c0ab56c043650
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 19 10:51:37 2017 +0000
+
+    Minor updates for 5.0.1
+
+commit 89b815374387b9478feff5e9dd90c997779cf96d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Oct 18 12:57:27 2017 -0500
+
+    Update anaconda-navigator to 1.6.9
+
+commit ba9f7af62b65661be112f58a834a9f84596e1216
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 18 04:56:32 2017 -0700
+
+    Add ant for R (temporarily until we have our own openjdk and ant packages)
+
+commit 8b2f755f289168f2718219802acc2061ef29743d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 18 02:39:39 2017 +0000
+
+    Add cmake-feedstock before rstudio-feedstock
+    
+    Needs 3.9.3 ..
+
+commit 1d897cc5bf314ea07833b486f6d8a0bf4c5ce289
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 18 02:07:44 2017 +0000
+
+    Add some missing deps
+
+commit 1da42048a8ed37f5a5c08de6b621cd8bdc178b9a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 22:37:10 2017 +0000
+
+    Add unfitlered metapackages
+
+commit c7c5cf8b2ba841ea0c701dc2f3340c40e5453fe7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 18 02:05:19 2017 +0100
+
+    Add new deps for RStudio
+
+commit 2c230b82e55223a6a62e5bb56cf0812fcf74b7ac
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 17 07:35:21 2017 -0700
+
+    Allow spaces in insall paths again
+
+commit 1ed5321b0d1de294ecc04b3841d56cf057f1532f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 16 17:52:31 2017 -0700
+
+    WIP changes
+
+commit 960d00824c4046cebafade81245199357f673503
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Oct 16 22:25:56 2017 +0530
+
+    Update anaconda-distribution-installer
+
+commit 4013cb12f634cda314947cb4e24e99515b405c5d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 16 05:45:45 2017 -0700
+
+    Do not do the conda-win32 stuff, use same folder
+    
+    I only did that so I could parallelize the AD 5 build-out without
+    making conflicting changes for each Windows arch
+
+commit ca343edc85917b50d9428d6dd2544bcd172d08cf
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 16 05:39:22 2017 -0700
+
+    Install openjdk on Windows for R (r-rjava)
+
+commit 8abb1ce24796ba35de1c0719049d5303c18f07e2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Oct 14 12:12:18 2017 +0100
+
+    Add commented out stuff for creating CDT recipes
+
+commit 6a25af959e29cf1a76eb958c11c7cd93caed0a99
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 13 22:08:26 2017 +0000
+
+    Add orbit CDT package for gconf2 for gconf2 for openjdk
+
+commit 6fd630b852469e81884c2a422107be1cf6e3bce7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 13 15:08:00 2017 +0000
+
+    Split some of linux into linux-32 and linux-64
+
+commit 858fe17e2b753f0562c832ac326483e9087487b7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 12 15:23:55 2017 +0000
+
+    Linux R fixes
+
+commit 403089d5666409285cd7bc9ae3e226930f8c46dc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 13 06:51:59 2017 -0700
+
+    Minor macOS updates
+
+commit 2c13501072cd46391a6e48796580071aa48c6a1b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 12 05:59:16 2017 -0700
+
+    Fix multiple filelists case
+
+commit ec0e92dd772c115fd3012c2d1cbb04563d018ac4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 12 05:03:51 2017 -0700
+
+    Windows fixes for R
+
+commit 15c6378859fb8122fb0ae370b12714c436e8f9c3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 12 12:23:38 2017 +0100
+
+    build-in-order now uses pkg lists concated from 'subdir', 'subdir without -bitness', 'all' in that order
+
+commit 58c4b6f9b5b2f741704f4e08de0f2bfc6cfd0c39
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 11 06:06:41 2017 -0700
+
+    Also rebuild gfortran for R
+
+commit 888b2a343db0c048338d70d1a17e6795131f548d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 10 19:06:30 2017 +0100
+
+    Add pixman and cairo for R
+
+commit 1d6ae340e37c648722a96a38ea0610656a431fe7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Oct 10 14:11:18 2017 +0100
+
+    Updates for R
+
+commit bcc4f6deb5128290253064cb27f10014bfecf765
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Oct 9 18:56:27 2017 +0100
+
+    Changes for R
+
+commit b49093ba33704e36d5eb3e2ad626fcff4ebcdd34
+Author: csoja <crystal.soja@continuum.io>
+Date:   Sat Oct 7 19:04:15 2017 +0530
+
+    change misc-1.0 to misc-feedstock
+    
+    change directory structure for misc-1.0 to misc-feedstock
+
+commit 94adb079244a323fb9a297bab2cf08f0210809c2
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Oct 6 16:45:46 2017 -0500
+
+    Update anaconda-distribution-installer
+
+commit 08c52c117813e70578ba82f302b24259f1ea7c4f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 6 16:13:32 2017 +0100
+
+    build-in-order for R
+
+commit 4ccc4d2d2574e16abd876d2460db778f626df211
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Oct 6 00:40:01 2017 +0100
+
+    Update to new activate scripts for ctng compilers
+
+commit 0003b147398f28268bf197baf996f2de06ec938e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 4 10:38:03 2017 +0100
+
+    Remove c3i_test2, use main instead
+
+commit 43e7be7ed1401a988fc99faebb96f1aaf0dbdc7c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Oct 4 10:36:24 2017 +0100
+
+    Work on building R
+
+commit a5cf02b5e293154147cb4d351ffe90b9ce907f53
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Oct 4 03:23:00 2017 -0400
+
+    Add miniconda-4.3.27.1/linux-32
+
+commit c8ad00969cafe975ded1e05784d939bdda97cf2a
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Oct 4 07:20:44 2017 +0000
+
+    Add miniconda-4.3.27.1/linux-64
+
+commit c12c61eb8abb1e87e754421a2a4c1e66f64d16f6
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Oct 4 07:19:14 2017 +0000
+
+    Add anaconda-5.0.0.1/linux-64
+
+commit 6b1324eba10ea0fef49cc7afdb98d0bcd7263cf6
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Oct 4 07:17:35 2017 +0000
+
+    Bump version on anaconda metpackage
+    
+    This was required as two metapackages for 5.0.0.1 went out.
+    Reset it when version is bumped
+
+commit 551273025747bca9b70c15670736789da147d232
+Author: Ray Donnelly <rdonnelly@centos6.localdomain>
+Date:   Sat Sep 30 17:31:14 2017 +0100
+
+    Add ncurses-devel to list of yum-installed packages
+
+commit f17101e80b5ab078b9ec9e08aad9c7162770f6c1
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Sep 27 16:54:35 2017 -0500
+
+    script to verify satisfiability of anaconda pkgs
+
+commit fa2f060c8a97d13da090c76a353a467624f9ac3d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Sep 27 09:34:50 2017 -0700
+
+    Update miniconda-4.3.27/win-32
+
+commit 264f7b7b2f6e7b07a61ee516a54d002340f33453
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Sep 27 09:34:08 2017 -0700
+
+    Update miniconda-4.3.27/win-64
+
+commit 81dbc3daa4135a89c757f1f3599bf3f03dac8720
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 26 16:42:24 2017 +0000
+
+    Update anaconda-5.0.0/linux-64
+
+commit 0b96b0cbd4412af76c45d278758cbdf96697800e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 26 12:40:42 2017 -0400
+
+    Update anaconda-5.0.0/linux-32
+
+commit e8f0f31243e5051f0a305b72be826d693c0d1053
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 26 08:59:23 2017 -0700
+
+    Update anaconda-5.0.0/win-32
+
+commit 6c20132876faaa872e466821ac4ee8059126ec65
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 26 08:56:34 2017 -0700
+
+    Update anaconda-5.0.0/win-64
+
+commit 215834d7f550a65533a38aed6411bc72ec260c24
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 26 15:26:30 2017 +0000
+
+    Drop bogus selector for bottleneck
+
+commit d84ed61ad598fc7f1006bafc6dd8e4c6b97fa305
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 26 13:19:57 2017 +0000
+
+    Update anaconda-5.0.0.rc.1/linux-64
+
+commit ff6b796380c6532098b9478e6476e7e9007440cf
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Mon Sep 25 16:38:21 2017 -0500
+
+    rays-scratch-scripts/verify_installer_pkg_cache.py
+
+commit 9d53f7bd5f9e8f7565c230304d69d1b50853d2c7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 25 15:50:47 2017 -0700
+
+    Update anaconda-5.0.0.rc.0/win-64
+
+commit 04a82f2ed205c7fce1ce06bf6e2e6f7483fe91f8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 25 15:49:35 2017 -0700
+
+    Update anaconda-5.0.0.rc.0/win-32
+
+commit 2b7221831b4c05a782bb3774493fff4074fdd3a9
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Sep 25 18:13:37 2017 -0400
+
+    Update pkgs_up_upload.py
+
+commit 8e2e3cf4270a858126cdfab7091b8de215ba65d2
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Sep 25 18:11:58 2017 -0400
+
+    Update anaconda-5.0.0.rc.0/linux-32
+
+commit 256977d0a149af48f486fa2313447c5ad39edd21
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 25 13:09:00 2017 -0700
+
+    Update anaconda-5.0.0.rc.0/osx-64
+
+commit 63b6dbb7fc6ec7a9791ef9afdded44397a93187d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Sep 25 20:05:43 2017 +0000
+
+    Update anaconda-5.0.0.rc.0/linux-64
+
+commit 2b9eedbee231d17ded2f4861800c95ddde27c09d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Sep 25 15:35:52 2017 +0000
+
+    Update AD Installer
+
+commit 54a6fe88d2ac0e0ba8ae74509f27495b0b035598
+Author: csoja <crystal.soja@continuum.io>
+Date:   Mon Sep 25 10:21:27 2017 -0500
+
+    update home & doc_url in about: section
+
+commit 9c624eb6169a8d413462196009e6761b881679a7
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Mon Sep 25 10:07:42 2017 -0500
+
+    add console_shortcut on win to miniconda installers
+
+commit dcec10c20f3ead83a974c6a0a371e1b8559d2192
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Sep 24 08:20:06 2017 -0400
+
+    Update anaconda meta package for ppc64le
+
+commit cfa79cdd8dfbff45a30bcc0f42f0e4c2f88d9b28
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Sep 24 08:18:38 2017 -0400
+
+    Update anaconda-feedstock for ppc64le
+
+commit 8111595e632455c4d33ab7dd808f7ed137399dfd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 21:36:41 2017 -0700
+
+    Update miniconda-4.3.27/osx-64
+
+commit 3d1af4d230e6ef528aba7db603864097d0047dfb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 21:26:51 2017 -0700
+
+    Update anaconda-5.0.0.0.dev9/osx-64
+
+commit 37df00b0fe852615ffb272944a5f38b7c84d6e50
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 15:04:25 2017 -0700
+
+    anaconda-5.0.0.dev9/win-32
+
+commit 524170989e4e4cbeb63d91f837ee77fce4f8b5b5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 22:20:03 2017 +0000
+
+    linux-32/anaconda-5.0.0.dev9
+
+commit 8ee8966347be0d4313dd081230e1c5ddb8265823
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 15:03:22 2017 -0700
+
+    miniconda-4.3.27/win-32
+
+commit 05385b801e33d22c6dd3a3838288d1fd7b4a369e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 14:22:31 2017 -0700
+
+    miniconda + anaconda win-64
+
+commit 77a5eaa3b48042dcb87bfe7f99c43b0dfde8bf42
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 20:28:15 2017 +0000
+
+    Add company always
+
+commit c3826d8568c9381c98fe4b84324166a3523f4efd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 19:56:35 2017 +0000
+
+    miniconda-4.3.27/linux-32
+
+commit c6faeff46007530cd17aa36a9e601f1bb4ee5e4d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 15:01:07 2017 +0000
+
+    Minor mod
+
+commit 2da9897362496bc3d8ff507595c477164acb4f78
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 20:00:42 2017 +0000
+
+    company: key only for Windows
+
+commit 8b378f5badf9e33c2b1fac11a95dabe080c662d9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 19:54:36 2017 +0000
+
+    miniconda-4.3.27/linux-64
+
+commit 34a66630cca0edfca7949362d07474cf4e6d944d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 15:02:11 2017 +0000
+
+    Minor mod
+
+commit d694a6b6c2cdd8bb8a499cdd67f61db2c28c001a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 12:49:37 2017 -0700
+
+    Remove libgfortran-ng nonsense
+
+commit 9f76222cf988ebd5e740ea823072b8810fe6f120
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 20:48:07 2017 +0100
+
+    Add company name
+
+commit a6c7eeb1276510f5190e731497b6adf187a98594
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 11:56:04 2017 -0700
+
+    Add msys2 and some windows deps
+
+commit d91ad5ff6e1a00a4aa51ba5bb044901a4834ac22
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 11:37:55 2017 -0700
+
+    broken anaconda-5.0.0.dev9/osx-64 with libgfortran-ng
+
+commit 59385fdd1efea38ac8efd3192ae9db0ac121f483
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Sep 22 14:26:50 2017 -0400
+
+    Update anaconda-distribution-installer
+
+commit d81a0aa8c467de587b31f3f16615e50888989c72
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Fri Sep 22 14:03:32 2017 -0400
+
+    Update anaconda-distribution-installer
+
+commit 42150ab1f572666c9a3fadc2d795016d2acd59e7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 16:00:15 2017 +0100
+
+    Add setuptools, pip and wheel to miniconda
+
+commit 42170739282524d4e86d9f45bd42f9301f19383c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 07:15:50 2017 -0700
+
+    anaconda-5.0.0.dev9/win-64/
+
+commit 84a2d4b069f3ddd862dcf6726417e4c8864b4593
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 06:25:00 2017 -0700
+
+    anaconda-5.0.0.dev9/osx-64/
+
+commit 159198ecb43b03884f2e1990c80adc8f235ef8ca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 13:23:49 2017 +0000
+
+    anaconda-5.0.0.dev9/linux-32/
+
+commit 774f88af5d177aed24a21d356d8ad87c2f15ca2f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 06:10:52 2017 -0700
+
+    Enhance pkgs_to_upload.py
+
+commit 0b02a333a937124d6d1251ea5544582388728979
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 05:30:03 2017 -0700
+
+    miniconda-4.3.27/win-64
+
+commit ecde502f6f76af584fc6d0e6bc2d2601a83f152e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 04:46:48 2017 -0700
+
+    No scrapy for now
+
+commit fef76c40bcf637306a009656c63c731aeb751f67
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 05:22:54 2017 -0700
+
+    miniconda-4.3.27/win-32
+
+commit ce8ed6daba64fbaa73253c9ccb2c5e0330e66979
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 04:45:41 2017 -0700
+
+    miniconda-4.3.27/osx-64
+
+commit cab42e3c515b77d14a6c933aba7ce606f0d54b79
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 11:40:05 2017 +0000
+
+    miniconda-4.3.27/linux-32
+
+commit f069d6f68f822891c0275905810d3747c1c24b32
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 11:09:08 2017 +0000
+
+    not much
+
+commit c4c26798a80c46d6b5f1f74a65de4930aa92d3ce
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 08:16:08 2017 +0000
+
+    centos6x64 miniconda metapackages
+
+commit ab29530e470a55bfd46a952ac62a8334d6d6bd35
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 11:39:40 2017 +0000
+
+    miniconda-4.3.27/linux-64
+
+commit a146d34123db76bf111b300b435a0fcb8f56f07a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 04:09:31 2017 -0700
+
+    Add miniconda-4.3.27/osx-64
+
+commit a94d8c4882160578a0b793f6d4adf53f404b78f6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 04:08:22 2017 -0700
+
+    Form non-anaconda constructor package lists properly
+
+commit a503820aaa0ae6342b14b585ad039cc53b6edea2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 01:49:19 2017 -0700
+
+    Fix interation over PRODUCT_TYPES
+
+commit 2937465ee59ffa29f0a7d0268aa40fe613d8990d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 02:01:58 2017 -0700
+
+    Remove old metapackage
+
+commit 13fd98d43f18d4b03455394f6fa3dd623ea3ccb5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 01:31:33 2017 -0700
+
+    win-64 miniconda
+
+commit 53b02b03ae2036a905b7c3c5362742570704ceef
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 01:23:10 2017 -0700
+
+    Allow for (unadvisable) using old defaults packages
+
+commit fa9e512dda87c7e085d684df791f43798d41eab6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 01:22:02 2017 -0700
+
+    win-64 build order changes
+
+commit 8d9429cae8d8bf994b41240bd59eb9eaf74b6f85
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 08:10:07 2017 +0000
+
+    centos6x64 miniconda and anaconda metapackages
+
+commit 7fc3c2e7c829cb8a6641981bbdc125e4cf0083a3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 07:43:51 2017 +0000
+
+    Always download numpy, scipy, scikit-learn, numexpr for now
+
+commit 448da18ebaa23c1d19cd7495c1dbbdfb0aa7da3d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 22 07:42:33 2017 +0000
+
+    centos6x64 dev9
+
+commit bc8d4df4508dfadc45f7b0c8cc866bca03fe2bcf
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 21 20:23:44 2017 -0500
+
+    recursively look at recipe deps for build ordering
+
+commit f8d01222d86c52e1010340174ec94eb82f9c9303
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 21 20:22:38 2017 -0500
+
+    add build orders for miniconda linux-64, 32, osx-64, win-32
+
+commit a1ec71c8ff31f510079a467fd64c1b03f0085d6a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 21 17:16:10 2017 -0700
+
+    installer => 1.8.3
+
+commit 450e5ed209045cccd280d4d86386857e2b1715c4
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 21 19:07:27 2017 -0500
+
+    Update anaconda-distribution-installer
+
+commit 8a1dffaacfe28d6b71bd374f8848bc8694aae69b
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 21 18:49:54 2017 -0500
+
+    add script for computing build orders
+
+commit 38da386bdd4551037075dfb7aa2021bd23766ae9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 21 13:39:01 2017 -0700
+
+    Some dev8 updates
+
+commit ad27a18328866cf9465ccc0cc5dcce9862645ab5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 21 05:31:09 2017 -0700
+
+    Added anconda-5.0.0.dev8 metapackage
+
+commit 70d6e0a538d14eb537b867968b16fcb130bacfa6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 21 04:00:24 2017 -0700
+
+    Update anaconda-distribution-installer
+
+commit dd392209d0b103124617a488d86db691cee2c538
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Sep 21 15:42:00 2017 -0400
+
+    Update metapackage info for ppc64le
+
+commit 8017ccd105cee52e9f6d2802051ad08ce33877eb
+Merge: 9be3ee0 51a5f5c
+Author: Kale Franz <kalefranz@users.noreply.github.com>
+Date:   Thu Sep 21 11:55:40 2017 -0500
+
+    Merge pull request #4 from ContinuumIO/installer-images
+    
+    Installer images
+
+commit 51a5f5c5d3dba92d2cce827064c12c37d886116c
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Thu Sep 21 10:55:38 2017 -0500
+
+    update build-in-order with new images
+
+commit e93cba88973b7f36b601420c0eb36813a5901335
+Author: Kale Franz <kfranz@continuum.io>
+Date:   Thu Sep 21 10:51:40 2017 -0500
+
+    add icon and header installer images
+
+commit 9be3ee0a5db66eacd5665105fb722d8804211a7b
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Thu Sep 21 09:49:30 2017 -0500
+
+    fix inclusions/selectors recommended by @jjhelmus
+
+commit bb01a3eb4172ddd834365a2554b6c47abc386fd9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 21 06:57:36 2017 -0700
+
+    build-order fixes for Windows
+
+commit 97075f82ff904bc8292e09f4dad3b1192e15bb04
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Sep 20 17:05:30 2017 -0400
+
+    Add rendered anaconda-metapackage recipe for ppc64le
+
+commit 17bee1d2e2348fae50ff0f37d58331107845b42d
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Sep 20 13:32:10 2017 -0400
+
+    Tweak anaconda-feedstock for powerpc, again
+    
+    The pinnings are not required as they should be done in conda_build_config.yaml
+    
+    Numpy 1.13 variants of packages are now available.
+
+commit 77e865e3f8becd3f46ce4dcebc6fbb4247e100ee
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 13:05:38 2017 -0700
+
+    Move to making anaconda only
+
+commit a1b35dbe2e7d39b16ec12ec7fa305b0ea8a2d4bf
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 12:44:22 2017 -0700
+
+    Moving to .dev8, add the bootstrap stuff
+
+commit 338df9381eb1f8eef84e38128f6d830a77d136a8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 11:05:45 2017 -0700
+
+    Miniconda-4.3.27 Windows x86
+
+commit f7b9c080ab9e9268eddb5a609f29f2fd0fb21d69
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 10:14:36 2017 -0700
+
+    Determine win-32 vs win-64 from uname -m so we do not try to run 2 different msys-2.0.dlls at once
+
+commit 5bb8dfffb8d08beabfb465bec2c3a98c9aa5856b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 05:03:56 2017 -0700
+
+    Update to dev7
+
+commit 675ad5fe28ba7a4e8b6d29f06bcb8ada0bff0f3f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 04:58:03 2017 -0700
+
+    Need to make Python 3.5 metapackages too
+
+commit 08494b8697dd162a9e25f0b48719c474b3e13652
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 12:00:48 2017 +0000
+
+    Build conda-build for now
+
+commit 80daca88c0d626f370ab47d9d5a55670fbd5e613
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 09:39:03 2017 +0100
+
+    Sync linux-64 => linux-32 build order
+
+commit d819a7d3f0a14aa9a94d7fc4dc5257ed3f646de8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 20 00:42:50 2017 +0000
+
+    Add anaconda-5.0.0.dev6 (linux-64)
+
+commit 2b60992eda2c8f89fe05c578aadb26adb3e954d4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 19 23:15:09 2017 +0000
+
+    Need quotes around anaconda ==5.0.0 h12345678
+
+commit 9cf96ab0c140fe49df0b51fe9988ab4dddb0b691
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 19 14:32:39 2017 -0500
+
+    Update feedstock for anaconda-navigator
+
+commit 5196c7b91c40a9a0dfd4252c134a9cfe89ec148e
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 19 12:28:34 2017 -0500
+
+    Tweak build.sh for macOS
+
+commit 9cdb8934f7049c659edbb1427ee3fac2e69d7ecb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 19 10:18:09 2017 -0700
+
+    Remove vs2017 for now
+
+commit c2f8e10978e83f31131ac8bfd034e2976f65ed31
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 19 09:54:40 2017 -0700
+
+    Switching to build anaconda on Windows bootstrapped with miniconda3 4.3.27
+
+commit e49afe52929bd8ec9def341ea1411856639bf02e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 19 15:53:35 2017 +0100
+
+    Add build-order/anaconda/win-64 from @msarahan
+
+commit 7a5f607b0d4cfe5c14c42605396ecddea657dd3f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 19 04:54:39 2017 -0700
+
+    Miniconda can be built on Windows now
+
+commit 808c82310a590f57206dc421d21c50380ec180cd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 19 04:22:03 2017 -0700
+
+    Rename background images
+
+commit f5ddb913af51ebb714c4fd5ceba0c4deffdcca0a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 19 12:16:52 2017 +0100
+
+    Add new installer graphics
+
+commit c1b99eac36088ddacb839f49d2791a996d21ae98
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 19 04:14:59 2017 -0700
+
+    Add miniconda-feedstock
+
+commit 69651156235a9fdb90b5df2b86b2d31d1633c279
+Merge: 643dffe 28e0534
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 18 21:50:13 2017 +0100
+
+    Merge pull request #2 from ContinuumIO/csoja-patch-1
+    
+    Update meta.yaml for misc-1.0
+
+commit 28e0534a489cba9efeb494fbb043dbe87caaf920
+Author: csoja <crystal.soja@continuum.io>
+Date:   Mon Sep 18 14:40:57 2017 -0500
+
+    Update meta.yaml for misc-1.0
+    
+    Added changes so conda-build can properly render it - plus added some machine learning/AI packages that Ilan had not put on this "extended support" list
+
+commit 643dffe4e869a22ceecf30a30115ee9c142e2692
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 18 10:27:41 2017 +0100
+
+    Fix conda install location
+
+commit 638a88472b87eddf675b7f40fe724a2de8f2fc53
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 18 09:25:08 2017 +0000
+
+    Fix numpys
+
+commit 3c20e189d96968f160ee25a2fa2b7eeba916e7aa
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Sep 17 22:28:13 2017 -0700
+
+    Add script to determine which pkgs to keep/upload
+
+commit 34015973cfad1731a7d004ced61fb989b1e7907b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 17 16:27:36 2017 +0000
+
+    err on clone failure
+
+commit 0ab3ad8a997a9097bf2846a689c86c8091b616f9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 17 14:34:27 2017 +0100
+
+    Add hardening-check from debian
+
+commit d99c08b59fe7ac9be6d0e3ce3d59320fcf1929d4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 17 12:37:06 2017 +0000
+
+    Add bootstrap script
+
+commit 185d2bd412906bf3a7a9ca40628a4d5af13523b6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 17 12:18:20 2017 +0000
+
+    dev6
+
+commit 1fb90049cbf44f3e6921dadb412ab4b756cfc268
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 17 05:16:57 2017 -0700
+
+    Fix anaconda-distribution-installer sha1
+
+commit 4963523632ad2cb11f8347876cabc49dcee0aca7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 17 04:50:21 2017 -0700
+
+    Add some arg processing for build-in-order
+
+commit 868e956c7909037885e2a3d5a16ac1a0e880980f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 17 09:53:38 2017 +0100
+
+    Fix URLs in EULA.txt
+
+commit 22458d4b8d04873d30f49ed2120526a661632466
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 23:55:00 2017 +0100
+
+    Oops
+
+commit 8a8c60115537af88393776e8d21646e02a72fa52
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 15:33:19 2017 -0700
+
+    Remove temp file
+
+commit cb41b4f841296bee722ac32a44186286eeb8c446
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 15:29:07 2017 -0700
+
+    Windows fixes
+
+commit 0eef3bbd40af397b6b96d25895f5f1d0a7146569
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 13:48:06 2017 -0700
+
+    Uppercase first letter of Product name
+
+commit 7343f4d203dcfbaf326856adfa0d3a108cd363ae
+Merge: 0427310 38b651c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 21:31:04 2017 +0100
+
+    Merge pull request #1 from nehaljwani/powerpc
+    
+    Tweak anaconda-feedstock for powerpc
+
+commit 04273101955e19f169a1176998b95cb9f026cb17
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 13:20:22 2017 -0700
+
+    anaconda-distribution-installer => 1.8.1
+
+commit 2e7b752667c778804bf8c46b22e0d204061d69de
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 13:09:47 2017 -0700
+
+    Fix RC
+
+commit da70c6304b811f20d5c2f989dc184b77fd6d6996
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 13 15:53:49 2017 -0700
+
+    Some Windows fixes
+
+commit 1f1615b25d520d0724334156c5f48775ee468cec
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 12:59:09 2017 -0700
+
+    macOS updates at 5.0.0.dev4
+
+commit 38b651c479f6dfbd7afa22d713b9a3deca709117
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Sep 16 13:06:51 2017 -0400
+
+    Tweak anaconda-feedstock for powerpc
+
+commit 816b6b498454ab58351eac2046201b449a148dcb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 09:44:44 2017 -0700
+
+    Build installers
+
+commit 58e4db350fe536ec4166892fbb03a0eb47d10fd2
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sat Sep 16 21:57:32 2017 +0530
+
+    Update ad-installer
+
+commit a24987c57e71023ad4ef2e8a8b3d86efcf9fef83
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 16 05:27:46 2017 -0700
+
+    anaconda metapackage creation improvements
+
+commit 1438e00c3a380c945dbcce61b45b432257b0b224
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 15 12:31:59 2017 -0700
+
+    Fix version check
+
+commit 1885356bde13b4acdf7d8da48b93d2bfb6e1ed16
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 15 12:16:42 2017 -0700
+
+    Bump nav to 1.6.8
+
+commit c60719d771ee007ee8d9a4b94c93784a2cc1eaa3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 15 12:14:12 2017 -0700
+
+    macOS final bits
+
+commit 5efa3037a8fd43f9f87e16a858b3e53a64e5b268
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 14 18:31:38 2017 +0000
+
+    Add R stuff
+
+commit d5431043e4bef60e0bd6c4563c1fa103dcef58d3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 13 00:01:33 2017 -0700
+
+    build-order fixes
+
+commit 9c723458729da46c78beb2c55ea3bd926b1539dd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 14 08:46:30 2017 +0100
+
+    Minor mods to linux and mac build orders
+
+commit e5ec63e060ff6903f47f9a8079f9665d1bd64bb2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 13 16:37:45 2017 +0000
+
+    Changes needed for r-base
+
+commit 515a86f5a55d118f777a7c622a87a0eb5c633dc7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 13 07:21:17 2017 +0000
+
+    More build order changes
+
+commit 8dda619f26d76e3872135c3a5f9c28f1ff330201
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 13 06:38:43 2017 +0000
+
+    Add requests-kerberos-feedstock
+
+commit 58f39e90cc28ee928b00d3055d3b95fc0c68d19e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 13 01:46:52 2017 +0000
+
+    Need anaconda-client before nb_anacondacloud
+
+commit cef39e3d25ae01e66e0ebec9a5b0ba235fd00d5c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 18:37:46 2017 -0700
+
+    Windows fixes
+
+commit cbd86e87469094216983e802fb874d7102a73da9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 13 00:08:26 2017 +0000
+
+    Add downloading numba and llvmlite, no boost or colour for now
+
+commit 86b0b13e09c44241fcc9a80cd765a1d8f9735cf3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 12:28:42 2017 -0700
+
+    Need gmp on macOS
+
+commit 52e24f3675b15849232ca1de958745c6087e55b2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 12:01:32 2017 -0700
+
+    Switch build-in-order to Miniconda on Windows
+
+commit c7549721c2a6d7b464e049c3669325001545cd44
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 19:41:55 2017 +0100
+
+    EULA: Copyright 2017, Continuum Analytics, Inc. => Copyright 2015, Anaconda, Inc.
+
+commit 43a8d688b6016bc63bc0c08edb2bb9edcf705212
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Tue Sep 12 23:34:19 2017 +0530
+
+    Add build-order for win-64 (miniconda)
+
+commit 13c9f8778f508eff362efe51eee7da9a55508758
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 18:12:26 2017 +0100
+
+    Add plotly-feedstock
+
+commit 6af8ac5e510173acb89be1bf82078c3a1a46478b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 17:10:24 2017 +0100
+
+    Do not start at astropy
+
+commit b72b9022f63256ab66b38612fba2b8118c3c43be
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 09:01:51 2017 -0700
+
+    Add a START_AT variable to skip into the middle of the packages list
+
+commit 05d5e34739cb03f171b33a63bcbc7872e6511818
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 15:37:06 2017 +0000
+
+    intel-openmp fix
+
+commit 7a34e3ab62afc6db1afc49d48cc501cae2dc015f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 15:08:35 2017 +0000
+
+    Fix mkl-devel check
+
+commit 0af58a479a4174d8b8ab8867ab0b89831d727fa1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 14:17:07 2017 +0000
+
+    Yes, install mkl-devel
+
+commit f3531bdc156599449102c14f8bdf01e5dd1c1507
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 14:14:33 2017 +0000
+
+    Remove crosstool-ng-feedstock
+
+commit 13be561afc3c234ffe018e62d4b55f0b7289242e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 14:09:23 2017 +0000
+
+    Install mkl-devel
+
+commit 0d5a72940dff72603b474380a2d6f5a3ad0b6341
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 06:54:13 2017 -0700
+
+    Download GCC bits needed on macOS
+
+commit 773fac6206fe6851ba4dc25f196c3a7ebcb899ff
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 06:40:01 2017 -0700
+
+    Windows build-order
+
+commit d6353534a761069a6e26e8a8948069f7865171ec
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 12:38:17 2017 +0000
+
+    More build-order tweaks
+
+commit be0c921faee6b6185db106389b79130c8651c589
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 05:30:43 2017 -0700
+
+    Fix build-order
+
+commit 3c6fae2eea32e2fd155bf7085989678106744cea
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 12:42:48 2017 +0100
+
+    Add krb5-feedstock to build-orders
+
+commit 98628f2ac4a9e029e0aba70b2e120dd0bb2aa7d5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 10:25:07 2017 +0000
+
+    Update installer, remove defaults more better++, exit on failure to build packages
+
+commit 65c625636d9ff00a608cb8f0f925f52bf2dbbece
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 03:12:33 2017 -0700
+
+    Add missing rhash from build-order/osx-64
+
+commit ccdeb474fafb346d33b8316361066017e8373e29
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 10:59:41 2017 +0100
+
+    Add python.app to build-order/osx-64
+
+commit fbd643b592ccc73a0d2e46257c76aed74b690a7b
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 00:39:25 2017 +0000
+
+    Update to dev3
+
+commit 7e338aa9d3cd274727de2340cf146c765f44db87
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 00:37:08 2017 +0000
+
+    Add build-order/linux-32 (search + replace job)
+
+commit d3ca0562a2e4825b8c5f26e31fe5e850c2394bdf
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 00:34:23 2017 +0000
+
+    Missed a bit of updating nav
+
+commit 5a8791ee0aea0b66abf0af17b9cf6d7acdbe9880
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 12 00:30:34 2017 +0000
+
+    dev3 changes
+
+commit e80017edd7c5983ca14d16de524653020e9957ee
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 16:06:12 2017 -0700
+
+    build-in-order fixes
+
+commit 0fedf04767777218e22af57f676299003cc4b42a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 21:30:22 2017 +0100
+
+    Update navigator to 1.6.7
+
+commit c47a69e1d7e85d9e7adab13dfbe36de4e21637a3
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 20:36:02 2017 +0100
+
+    Update anaconda-distribution-installer (install in dep order)
+
+commit 10e6301f821d7451a4407e1ae281df92ebdea28a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 20:33:36 2017 +0100
+
+    osx-64 build order
+
+commit c3a3c2016cb80e0460e5ec56fd5b5ae3d6eee58e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 14:55:27 2017 +0000
+
+    Some linux-32 updates
+
+commit bd0a1a95b1a145065381f34d34530781d4400ae8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 15:43:08 2017 +0100
+
+    build-order work
+
+commit b63efe62cfa90687b8d6f7395671060d2780ed7c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 11:45:46 2017 +0100
+
+    Add missing uploads.d
+
+commit fce3ee42b61e5dacb8e84e25c4dcb4a31bf74961
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Sep 11 01:19:56 2017 +0000
+
+    Info on how to generate build orders
+
+commit ceadece7747e3a4737e9a06f7917657bcbd3eda1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 10 11:06:23 2017 +0000
+
+    Add c3i_test2 for mkl for now
+
+commit 387fa21ae4ae06e407c676828dea76fef9f28e73
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Sep 10 00:12:31 2017 +0000
+
+    Final bits for AD 5.0.0-dev2 linux-64
+
+commit 75329f3d1bd9b7d48f2adb91910f83d77b4029a1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 21:50:31 2017 +0000
+
+    Updates for libgcc and ssl_match_hostname
+
+commit d47b6bca5ed11b486b2f61465a30da01a80f93b1
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 20:48:45 2017 +0000
+
+    Fix non-ASCII
+
+commit a215db1661e183d2cd1c68fb08298039b629895f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 20:03:31 2017 +0000
+
+    Update EULA, install in correct order
+
+commit 02e94f51ec3e433b20ac2e57e60b30079bdcd608
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 19:47:56 2017 +0000
+
+    Updates for new anaconda-client 1.6.5
+
+commit 4d3d432772f04a279040ba552b4d15fc49c7fe35
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 18:12:30 2017 +0000
+
+    We can now build the metapackage on linux-64
+
+commit 2e32817e134fd6021cb4b7c7d4c67ad8673bff3e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 18:10:19 2017 +0000
+
+    Update installer
+
+commit 5203be0aaa2778566522e44c44deb789bededd21
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 14:32:43 2017 +0000
+
+    Add more packages
+
+commit 1f8d6b86c701083a990b2b053eacee395cd12439
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 8 16:28:48 2017 +0000
+
+    Update packages
+
+commit 860e770b083e72a6880f4934de514ad27acfff3c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 8 13:44:25 2017 +0000
+
+    test
+
+commit ed97c394b1e24af5996cec19ec10ce971372f11d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 8 13:44:03 2017 +0000
+
+    anaconda-distribution-installer
+
+commit 10a7ae06d7333474b683630f454b7031849933cd
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 9 15:23:13 2017 +0100
+
+    Add script to help with numba and llvmlite
+
+commit 0e545bb836657e98bd4c5620f2c88a2ac6bb582c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 8 14:38:50 2017 +0100
+
+    Added anaconda-distribution-installer
+
+commit c8fc422f92f811c0276578056b81b4a0d3643473
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 8 13:35:45 2017 +0000
+
+    Minor updates
+
+commit 680f1d38539292f978e4bb630207a2f169d3d003
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 8 12:22:10 2017 +0000
+
+    Bump tested for version of anaconda-navigator
+
+commit e7fe87aa15e93d48eeec71b9b1a160fc20dce253
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 8 12:21:47 2017 +0000
+
+    5.0.0-dev2 linux build order
+
+commit 778159822f95c3057f6573782ec3b209fa02e88c
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 7 08:33:55 2017 -0700
+
+    Add gfortran
+
+commit bf05a8cd7f4015edc8b8300b7dcf9a8e2756c513
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Sep 7 08:17:36 2017 -0700
+
+    patchelf for linux only
+
+commit f42b90f8f8c1ab3590d3adea4fa3773b1f2b66ca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 6 23:34:31 2017 +0000
+
+    Use c3i_test2 channel
+
+commit ce3ba65284f394033045799388f729e73ba37059
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Sep 6 13:08:23 2017 +0000
+
+    Builds as far as numpy now
+
+commit 0b73bee4f33e5d55dc1520526fe099199691c078
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 5 20:41:24 2017 +0100
+
+    Build the whole thing
+
+commit 039e6878c7075bde8deff648faa8d0973c9f6faa
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 5 10:04:00 2017 +0000
+
+    Some updates
+
+commit b0146d494f681b7875029cee04206dd23c668ab4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 2 17:51:51 2017 -0500
+
+    fix extra fi
+
+commit ff0c117bab3ea9051f9ffbef2dcb9a4e9bc27699
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Sep 2 12:07:23 2017 -0500
+
+    Try using old miniconda to bootstrap
+
+commit 1ff9a5e402c146b3eb3fb9459e3a3336fcf5a70e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 1 19:28:23 2017 +0100
+
+    order changes
+
+commit cc3ff38a3b32ea5b158bf9f34c379076472bd173
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 1 18:18:23 2017 +0000
+
+    Some changes to script from centos6
+
+commit 3a699f54dcd1c55b34ddca86482d06a01bc64075
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 1 17:12:03 2017 +0100
+
+    For Mike to test docker-32 with
+
+commit bfcbeaadb961d5b12648141cb313611813475409
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 1 07:35:15 2017 -0700
+
+    Fix build order a bit
+
+commit 742170bfef131e84c80be5034150969e6afbe63f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Aug 29 07:34:44 2017 -0700
+
+    Updated build_order
+
+commit 5525a1b7f10be2824f25ae95d29e20f5ea73a843
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Aug 29 03:01:23 2017 -0700
+
+    Remove anaconda-project, it's Open Source
+
+commit dba8b366bcf98560f58cf3a77e351aa536b42182
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Aug 28 16:50:58 2017 -0700
+
+    Darwin script changes
+
+commit f1bf4cdb20c40838f6cb0b064284efb66c735cb6
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Aug 28 18:14:18 2017 +0100
+
+    Changes for my script
+
+commit b1fc45b4ffd0a249a0717b7db3f93778dc45fbbc
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Aug 28 16:20:29 2017 +0100
+
+    Make rays-scratch-scripts/build_order_linux-64 darwin-capable
+
+commit a616137026da0a27f67d7883f9797b2d6b9757cb
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Aug 28 00:36:39 2017 +0100
+
+    Some fixes for linux-32
+
+commit 747ad1ffc320d693d174e9f771a43e69734caf3a
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 14:37:48 2017 +0100
+
+    Various bits and pieces
+    
+    1. anaconda-{navigator,project,client} fixes
+    2. Hacky scripts to help build releases
+    3. python-3/meta.yaml from the pinned/rendered anaconda metapackage in:
+       https://repo.continuum.io/pkgs/misc/preview/Anaconda3-5.0.0.dev1-Linux-x86_64.sh
+
+commit 0080ed773862e499558d78d0d4804bce343a2ae9
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 05:10:01 2017 +0100
+
+    Preparation for 5.0.0.dev1 release
+
+commit 78216b71e775ef1909f3e61a15c84c96c08d436d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 01:12:50 2017 +0100
+
+    temp checkin
+
+commit bff44165a6fa2e8310078da8ecc3a2b1780372a7
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Aug 24 16:29:42 2017 +0100
+
+    Added conda_build_config.yaml
+
+commit c1903699c3c46da1d1f411b2d438d1eb7cc7143b
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Aug 14 13:31:21 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit eb0b9498558e1e00098f74d170146dfc42d7dd61
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Mon Aug 14 13:10:13 2017 +0000
+
+    Make recipe cross-compile capable
+
+commit 39c2a280d107aa78bacc1b51dcc2df06a99b8de9
+Author: csoja <crystal.soja@continuum.io>
+Date:   Thu Aug 10 09:18:58 2017 -0500
+
+    Create README
+
+commit d9f5e3c7c747d126d263f08119adadc611483043
+Author: Crystal Soja <crystal.soja@continuum.io>
+Date:   Wed Aug 9 15:03:22 2017 -0500
+
+    Initial recipes
+    
+    Copied from ContinuumIO/anaconda/packages. These are “private” recipes
+    of a small subset of packages in the Anaconda installer.

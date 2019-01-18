@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six >=1.9",
+    "webencodings"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "html5lib",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530724084458,
+  "version": "1.0.1"
+}

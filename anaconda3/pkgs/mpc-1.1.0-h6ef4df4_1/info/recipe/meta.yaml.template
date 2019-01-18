@@ -1,0 +1,53 @@
+{% set version = "1.1.0" %}
+
+package:
+  name: mpc
+  version: {{ version }}
+
+source:
+  fn: mpc-{{ version }}.tar.gz                                              # [unix]
+  url: https://ftp.gnu.org/gnu/mpc/mpc-{{ version }}.tar.gz                 # [unix]
+  sha256: 6985c538143c1208dcb1ac42cedad6ff52e267b47e5f970183a3e75125b43c2e  # [unix]
+  fn: mpc-{{ version }}.zip                                                 # [win]
+  url: https://github.com/isuruf/mpc/archive/v{{ version }}.zip             # [win]
+  sha256: 09bff24ae336d7de627dd057476fe504179a3fb9b27ecb546a60afd42b5b7a8a  # [win]
+
+build:
+  number: 1
+  skip: True   # [win and vc < 14]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - m4              # [unix]
+    - libtool         # [unix]
+    - make            # [unix]
+  host:
+    - gmp             # [unix]
+    - mpir            # [win]
+    - mpfr
+  run:
+    - gmp             # [unix]
+    - mpir            # [win]
+
+test:
+  commands:
+    - if not exist %LIBRARY_INC%\\mpc.h exit 1                  # [win]
+    - if not exist %LIBRARY_LIB%\\mpc.lib exit 1                # [win]
+    - if not exist %LIBRARY_BIN%\\mpc.dll exit 1                # [win]
+    - if not exist %LIBRARY_LIB%\\mpc_static.lib exit 1         # [win]
+    - test -f ${PREFIX}/include/mpc.h                           # [unix]
+    - test -f ${PREFIX}/lib/libmpc.a                            # [unix]
+    - test -f ${PREFIX}/lib/libmpc.dylib                        # [osx]
+    - test -f ${PREFIX}/lib/libmpc.so                           # [linux]
+
+about:
+  home: http://www.multiprecision.org/
+  license: LGPL 3
+  license_file: {{ SRC_DIR }}/COPYING.LESSER
+  summary: A C library for the arithmetic of complex numbers with arbitrarily high precision.
+
+extra:
+  recipe-maintainers:
+    - isuruf
+    - jakirkham

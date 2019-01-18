@@ -1,0 +1,101 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/ply-3.11-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "e5b3cc8653ac4dfe2d979d75cf9de29f40401c0c1f12b32ee21ec1d9cdcf24b9",
+      "size_in_bytes": 961
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply-3.11-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "d1b999aa2a245b60c29ad8b3f1f43eec1571fc927bb8e42c02e42ee0ab835983",
+      "size_in_bytes": 3858
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply-3.11-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply-3.11-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "8036011d143b572d2d6340235f226d69dbd4d8b0da3ac1ea86157bd001ac8ac7",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b31ea204817ffd6288794d22c36592a12a8185c947179121053734c038a04d5f",
+      "size_in_bytes": 103
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "49fd25057f17dc61f4ff965fe0fc862cf4a7f85c844888ccdda4654455202f97",
+      "size_in_bytes": 180
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/__pycache__/cpp.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "379a0b0cfdb890717392bf06b45beb38f0bba4d4ca2f9488b8b5a5580f4a0444",
+      "size_in_bytes": 16209
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/__pycache__/ctokens.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c1b199c11dfe58d05bcdd0efa004c1dab03b9876da7be3b674f42f1a6d58227f",
+      "size_in_bytes": 2152
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/__pycache__/lex.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "20cd7c61a37ada11e74a24a2d4536d21b442eee1aa8c390aecd709c9b4201d7e",
+      "size_in_bytes": 21418
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/__pycache__/yacc.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ae6c0e066fb95d46f3284c18e6cb0f406db80ccfb4f0523c84e5a5f7860e03ea",
+      "size_in_bytes": 53909
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/__pycache__/ygen.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "91ca9026570d6c6a7ea01b40dc91cce80e9ca166a6aa2a89b96382d396c9c6a7",
+      "size_in_bytes": 1694
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/cpp.py",
+      "path_type": "hardlink",
+      "sha256": "293835dd1e5229e89cc199bb6c83cbe3829c40145c1ec99e1063b020156f2e4a",
+      "size_in_bytes": 33639
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/ctokens.py",
+      "path_type": "hardlink",
+      "sha256": "1a6c9660363d9e5e85d56250f6b99c405821d459c00c5967a7f4c18d3704b2a5",
+      "size_in_bytes": 3155
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/lex.py",
+      "path_type": "hardlink",
+      "sha256": "6da6d12129c801fcc7a3b5aa2d8176a86092687d1bb4cf1ddf3b601da2b7480d",
+      "size_in_bytes": 42905
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/yacc.py",
+      "path_type": "hardlink",
+      "sha256": "105d38deb207ad72581ba8dc6f5e5323648bc1d0a834e4195c237fd4cdfe2389",
+      "size_in_bytes": 137736
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ply/ygen.py",
+      "path_type": "hardlink",
+      "sha256": "4d19e4660c79041078dd0b29bb6278815b69781badf31ad3119a0b6cd3746fa3",
+      "size_in_bytes": 2246
+    }
+  ],
+  "paths_version": 1
+}

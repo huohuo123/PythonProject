@@ -1,0 +1,24 @@
+{
+  "build": "hab757c2_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "icu >=58.2,<59.0a0",
+    "libiconv >=1.15,<2.0a0",
+    "xz >=5.2.4,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "libxml2-2.9.8-hab757c2_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "cb5bcc83786c9745f8589a9e3773239d",
+  "name": "libxml2",
+  "size": 1994336,
+  "subdir": "osx-64",
+  "timestamp": 1527065417055,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libxml2-2.9.8-hab757c2_1.tar.bz2",
+  "version": "2.9.8"
+}

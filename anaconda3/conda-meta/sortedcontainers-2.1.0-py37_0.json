@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/sortedcontainers-2.1.0-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/sortedcontainers-2.1.0-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/sortedcontainers-2.1.0-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/sortedcontainers-2.1.0-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/sortedcontainers/__init__.py",
+    "lib/python3.7/site-packages/sortedcontainers/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/sortedcontainers/__pycache__/sorteddict.cpython-37.pyc",
+    "lib/python3.7/site-packages/sortedcontainers/__pycache__/sortedlist.cpython-37.pyc",
+    "lib/python3.7/site-packages/sortedcontainers/__pycache__/sortedset.cpython-37.pyc",
+    "lib/python3.7/site-packages/sortedcontainers/sorteddict.py",
+    "lib/python3.7/site-packages/sortedcontainers/sortedlist.py",
+    "lib/python3.7/site-packages/sortedcontainers/sortedset.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/sortedcontainers-2.1.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "a108e94d6ade80064948100bc472efb9",
+  "name": "sortedcontainers",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1543618049970,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sortedcontainers-2.1.0-py37_0.tar.bz2",
+  "version": "2.1.0"
+}

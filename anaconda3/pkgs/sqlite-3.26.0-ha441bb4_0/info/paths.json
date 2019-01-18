@@ -1,0 +1,55 @@
+{
+  "paths": [
+    {
+      "_path": "bin/sqlite3",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/15b8ea55-0e66-47c7-5ff3-b73e1ad91d02/volume/sqlite_1545057805774/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "12b657b75b1f22113c588845b873fecbedf71f80255f86ad946240a1bdb703bc",
+      "size_in_bytes": 1758852
+    },
+    {
+      "_path": "include/sqlite3.h",
+      "path_type": "hardlink",
+      "sha256": "4665ec0dc1a9bc06884c492a245f21ec06470d65cc6f3023e3c2e3e7b4d97d02",
+      "size_in_bytes": 556318
+    },
+    {
+      "_path": "include/sqlite3ext.h",
+      "path_type": "hardlink",
+      "sha256": "938b297f63f40cd4855677900fb25270632364eca62d77decd563d671b458898",
+      "size_in_bytes": 33713
+    },
+    {
+      "_path": "lib/libsqlite3.0.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/15b8ea55-0e66-47c7-5ff3-b73e1ad91d02/volume/sqlite_1545057805774/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "ad47a3af592bc69ab860d1d4f233e960239f650ae10dca59e73f2bccdc392af7",
+      "size_in_bytes": 1561192
+    },
+    {
+      "_path": "lib/libsqlite3.a",
+      "path_type": "hardlink",
+      "sha256": "e6d2400a0cb53dfed7db81fa1e7af03b17184f4a47e22f1b52c58bae08092e0d",
+      "size_in_bytes": 1915176
+    },
+    {
+      "_path": "lib/libsqlite3.dylib",
+      "file_mode": "binary",
+      "path_type": "softlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/15b8ea55-0e66-47c7-5ff3-b73e1ad91d02/volume/sqlite_1545057805774/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "ad47a3af592bc69ab860d1d4f233e960239f650ae10dca59e73f2bccdc392af7",
+      "size_in_bytes": 1561192
+    },
+    {
+      "_path": "lib/pkgconfig/sqlite3.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "ac50678579af7269085d544456b7c6c528dca3365a3dd27b34ba8df7009ce7c9",
+      "size_in_bytes": 289
+    }
+  ],
+  "paths_version": 1
+}

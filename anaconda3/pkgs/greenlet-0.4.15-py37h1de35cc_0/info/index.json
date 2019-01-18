@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "greenlet",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1536768025536,
+  "version": "0.4.15"
+}

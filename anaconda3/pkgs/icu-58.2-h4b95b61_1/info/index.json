@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h4b95b61_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "license": "MIT",
+  "name": "icu",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1510863972593,
+  "version": "58.2"
+}

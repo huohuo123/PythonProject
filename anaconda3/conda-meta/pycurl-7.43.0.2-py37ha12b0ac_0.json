@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py37ha12b0ac_0",
+  "build_number": 0,
+  "depends": [
+    "libcurl >=7.63.0,<8.0a0",
+    "openssl >=1.1.1a,<1.1.2a",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/curl/__init__.py",
+    "lib/python3.7/site-packages/curl/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pycurl-7.43.0.2-py3.7.egg-info",
+    "lib/python3.7/site-packages/pycurl.cpython-37m-darwin.so"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "LGPL, MIT",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pycurl-7.43.0.2-py37ha12b0ac_0",
+    "type": "hard-link"
+  },
+  "md5": "5752f9f31b09c86ced7bf0507ee084aa",
+  "name": "pycurl",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1545162861939,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pycurl-7.43.0.2-py37ha12b0ac_0.tar.bz2",
+  "version": "7.43.0.2"
+}

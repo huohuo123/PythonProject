@@ -1,0 +1,75 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/3557886b-ad01-4287-432c-47bfd608d11a/volume/rsync-recipes/pytest-4.0.2-python_3.7-on-osx, last modified Mon Dec 17 11:56:51 2018
+# ------------------------------------------------
+
+package:
+    name: pytest
+    version: 4.0.2
+source:
+    sha256: f689bf2fc18c4585403348dd56f47d87780bf217c53ed9ae7a3e2d7faa45f8e9
+    url: https://pypi.io/packages/source/p/pytest/pytest-4.0.2.tar.gz
+build:
+    entry_points:
+        - py.test = py.test:main
+        - pytest = py.test:main
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/3557886b-ad01-4287-432c-47bfd608d11a/volume/pytest_1545073319450/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+        setup.py install --single-version-externally-managed --record record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - setuptools_scm 3.1.0 py37h28b3542_0
+        - sqlite 3.26.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - atomicwrites >=1.0
+        - attrs >=17.4.0
+        - more-itertools >=4.0
+        - pluggy >=0.7
+        - py >=1.5.0
+        - python >=3.7,<3.8.0a0
+        - setuptools >=40.0
+        - six >=1.10.0
+test:
+    commands:
+        - pytest -h
+    imports:
+        - pytest
+about:
+    description: 'The pytest framework makes it easy to write small tests, yet scales
+        to
+
+        support complex functional testing for applications and libraries.
+
+        '
+    dev_url: https://github.com/pytest-dev/pytest/
+    doc_url: https://docs.pytest.org/en/latest/
+    home: https://docs.pytest.org/en/latest/
+    license: MIT
+    license_file: LICENSE
+    summary: Simple and powerful testing with Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - flub
+        - goanpeca
+        - mingwandroid
+        - nicoddemus
+        - ocefpaf

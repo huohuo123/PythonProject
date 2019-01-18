@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/et_xmlfile-1.0.1-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/et_xmlfile-1.0.1-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/et_xmlfile-1.0.1-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/et_xmlfile-1.0.1-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/et_xmlfile/__init__.py",
+    "lib/python3.7/site-packages/et_xmlfile/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/et_xmlfile/__pycache__/xmlfile.cpython-37.pyc",
+    "lib/python3.7/site-packages/et_xmlfile/tests/__init__.py",
+    "lib/python3.7/site-packages/et_xmlfile/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/et_xmlfile/tests/__pycache__/common_imports.cpython-37.pyc",
+    "lib/python3.7/site-packages/et_xmlfile/tests/__pycache__/helper.cpython-37.pyc",
+    "lib/python3.7/site-packages/et_xmlfile/tests/__pycache__/test_incremental_xmlfile.cpython-37.pyc",
+    "lib/python3.7/site-packages/et_xmlfile/tests/common_imports.py",
+    "lib/python3.7/site-packages/et_xmlfile/tests/helper.py",
+    "lib/python3.7/site-packages/et_xmlfile/tests/test_incremental_xmlfile.py",
+    "lib/python3.7/site-packages/et_xmlfile/xmlfile.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/et_xmlfile-1.0.1-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "615b129da03b8e9a78285763c85eeb32",
+  "name": "et_xmlfile",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530726649359,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/et_xmlfile-1.0.1-py37_0.tar.bz2",
+  "version": "1.0.1"
+}

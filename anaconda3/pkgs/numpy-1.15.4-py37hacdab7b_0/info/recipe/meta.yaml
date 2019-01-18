@@ -1,0 +1,110 @@
+# This file created by conda-build 3.17.4
+# ------------------------------------------------
+
+package:
+    name: numpy
+    version: 1.15.4
+source:
+    -   patches:
+            - 0001-fix-windows-case-sensitivity.patch
+            - 0002-simplify-arch-flags.patch
+            - 0003-Obtain-and-prefer-custom-gfortran-from-env-variable.patch
+            - 0004-disable-memmap-filename-test-due-to-CI-link-confusio.patch
+            - 0005-disable-broken-tests.patch
+            - 0006-use-mklfft-when-available.patch
+            - 0007-define-mkl_version-in-__init__.py.patch
+            - 0008-intel-umath-optimizations.patch
+            - 0009-intel-mkl_mem-all.patch
+            - 0010-intel-init_mkl.patch
+            - 0011-intel-mkl_random.patch
+            - 0012-Remove-ICC-specific-flags.patch
+            - 0013-Remove-np.invsqrt.patch
+            - 0014-Rewrite-inlining.patch
+        sha256: 3d734559db35aa3697dadcea492a423118c5c55d176da2f3be9c98d4803fc2a7
+        url: https://pypi.io/packages/source/n/numpy/numpy-1.15.4.zip
+    -   folder: mkl_random
+        sha256: 2270ef2834f6552850533aad01500d27c8e056f2cfbdbdb751593000aea1159e
+        url: https://github.com/IntelPython/mkl_random/archive/v1.0.2.tar.gz
+    -   folder: mkl_fft
+        sha256: 3c7ed29e203c5b664ecafb11d767d62f9cae4aa56f9a95737e121192a66673bf
+        url: https://github.com/IntelPython/mkl_fft/archive/v1.0.6.tar.gz
+build:
+    force_use_keys:
+        - python
+    noarch: false
+    number: '0'
+    string: py37hacdab7b_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - gfortran_osx-64 4.8.5 h22b1bf0_5
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libgfortran 3.0.1 h93005f0_2
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2018.03.07 0
+        - intel-openmp 2019.1 144
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2019.1 144
+        - mkl-devel 2019.1 144
+        - mkl-include 2019.1 144
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - blas 1.0 mkl
+        - libgfortran >=3.0.1
+        - mkl >=2019.1,<2020.0a0
+        - mkl_fft >=1.0.6,<2.0a0
+        - mkl_random >=1.0.2,<2.0a0
+        - numpy-base 1.15.4 py37h6575580_0
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - f2py -h
+        - python -c "import numpy; numpy.show_config()"
+    imports:
+        - numpy
+        - numpy.linalg.lapack_lite
+    requires:
+        - clang_osx-64
+        - gfortran_osx-64
+        - pytest
+    script: numpy_test.py
+about:
+    description: 'NumPy is the fundamental package needed for scientific computing
+        with Python.
+
+        '
+    dev_source_url: https://github.com/numpy/numpy/tree/master/doc
+    dev_url: https://github.com/numpy/numpy
+    doc_url: https://docs.scipy.org/doc/numpy-1.15.4/reference/
+    home: http://numpy.scipy.org/
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Array processing for numbers, strings, records, and objects.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - ocefpaf
+        - pelson
+        - rgommers

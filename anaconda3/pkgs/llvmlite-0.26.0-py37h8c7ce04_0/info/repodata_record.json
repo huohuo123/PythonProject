@@ -1,0 +1,22 @@
+{
+  "build": "py37h8c7ce04_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "llvmlite-0.26.0-py37h8c7ce04_0.tar.bz2",
+  "license": "New BSD License",
+  "md5": "2170336a91d67a14234d85241c82baef",
+  "name": "llvmlite",
+  "size": 11207032,
+  "subdir": "osx-64",
+  "timestamp": 1543474141681,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/llvmlite-0.26.0-py37h8c7ce04_0.tar.bz2",
+  "version": "0.26.0"
+}

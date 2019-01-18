@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "hcfea43d_1",
+  "build_number": 1,
+  "depends": [],
+  "files": [
+    "lib/libc++abi.1.0.dylib",
+    "lib/libc++abi.1.dylib",
+    "lib/libc++abi.a",
+    "lib/libc++abi.dylib"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT license or UIUC License",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/libcxxabi-4.0.1-hcfea43d_1",
+    "type": "hard-link"
+  },
+  "md5": "b06555a43b9c0857b87b342115bea761",
+  "name": "libcxxabi",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1540686629315,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libcxxabi-4.0.1-hcfea43d_1.tar.bz2",
+  "version": "4.0.1"
+}

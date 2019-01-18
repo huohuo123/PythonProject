@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/bitarray-0.8.3-py3.7.egg-info",
+    "lib/python3.7/site-packages/bitarray/__init__.py",
+    "lib/python3.7/site-packages/bitarray/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/bitarray/__pycache__/test_bitarray.cpython-37.pyc",
+    "lib/python3.7/site-packages/bitarray/_bitarray.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/bitarray/test_bitarray.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "PSF",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/bitarray-0.8.3-py37h1de35cc_0",
+    "type": "hard-link"
+  },
+  "md5": "58c43a5453aa17bba016928eb52f6288",
+  "name": "bitarray",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1532526132688,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bitarray-0.8.3-py37h1de35cc_0.tar.bz2",
+  "version": "0.8.3"
+}

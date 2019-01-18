@@ -1,0 +1,66 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/adf77e65-4a36-4317-73df-911a42676c50/volume/rsync-recipes/python-dateutil-2.7.5-python_3.7-on-osx, last modified Tue Oct 30 21:45:07 2018
+# ------------------------------------------------
+
+package:
+    name: python-dateutil
+    version: 2.7.5
+source:
+    sha256: 88f9287c0174266bb0d8cedd395cfba9c58e87e5ad86b2ce58859bc11be3cf02
+    url: https://pypi.io/packages/source/p/python-dateutil/python-dateutil-2.7.5.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - setuptools_scm 3.1.0 py37h28b3542_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.2 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+        - six >=1.5
+test:
+    imports:
+        - dateutil
+        - dateutil.parser
+        - dateutil.rrule
+        - dateutil.tz
+        - dateutil.zoneinfo
+about:
+    description: 'The dateutil module provides powerful extensions to the standard
+        datetime
+
+        module, available in Python.
+
+        '
+    dev_url: https://github.com/dateutil/dateutil/
+    doc_source_url: https://github.com/dateutil/dateutil/blob/master/docs/index.rst
+    doc_url: https://dateutil.readthedocs.org/en/latest/
+    home: https://dateutil.readthedocs.org/
+    license: BSD 3 Clause
+    license_file: LICENSE
+    summary: Extensions to the standard Python datetime module.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf
+        - pganssle

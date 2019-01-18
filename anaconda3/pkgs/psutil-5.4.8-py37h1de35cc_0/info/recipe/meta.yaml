@@ -1,0 +1,83 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/0c93739f-8d6b-49f6-6ee1-b2e9d164abd4/volume/rsync-recipes/psutil-5.4.8-python_3.7-on-osx, last modified Tue Oct 30 21:45:17 2018
+# ------------------------------------------------
+
+package:
+    name: psutil
+    version: 5.4.8
+source:
+    fn: psutil-5.4.8.tar.gz
+    sha256: 6e265c8f3da00b015d24b842bfeb111f856b13d24f2c57036582568dc650d6c3
+    url: https://pypi.io/packages/source/p/psutil/psutil-5.4.8.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --ignore-installed --no-deps .
+    string: py37h1de35cc_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.2 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - psutil
+        - psutil._psutil_osx
+        - psutil._psutil_posix
+        - psutil.tests
+about:
+    description: 'psutil (process and system utilities) is a cross-platform library
+        for
+
+        retrieving information on running processes and system utilization (CPU,
+
+        memory, disks, network) in Python. It is useful mainly for system
+
+        monitoring, profiling and limiting process resources and management of
+
+        running processes.
+
+        '
+    dev_url: https://github.com/giampaolo/psutil
+    doc_source_url: https://github.com/giampaolo/psutil/blob/master/docs/index.rst
+    doc_url: http://pythonhosted.org/psutil/
+    home: https://github.com/giampaolo/psutil
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A cross-platform process and system utilities module for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - gqmelo
+        - jakirkham
+        - jjhelmus
+        - nehaljwani
+        - pelson

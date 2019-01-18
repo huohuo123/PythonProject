@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/wcwidth-0.1.7-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/wcwidth-0.1.7-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/wcwidth-0.1.7-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/wcwidth-0.1.7-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/wcwidth-0.1.7-py3.7.egg-info/zip-safe",
+    "lib/python3.7/site-packages/wcwidth/__init__.py",
+    "lib/python3.7/site-packages/wcwidth/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/wcwidth/__pycache__/table_wide.cpython-37.pyc",
+    "lib/python3.7/site-packages/wcwidth/__pycache__/table_zero.cpython-37.pyc",
+    "lib/python3.7/site-packages/wcwidth/__pycache__/wcwidth.cpython-37.pyc",
+    "lib/python3.7/site-packages/wcwidth/table_wide.py",
+    "lib/python3.7/site-packages/wcwidth/table_zero.py",
+    "lib/python3.7/site-packages/wcwidth/tests/__init__.py",
+    "lib/python3.7/site-packages/wcwidth/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/wcwidth/tests/__pycache__/test_core.cpython-37.pyc",
+    "lib/python3.7/site-packages/wcwidth/tests/test_core.py",
+    "lib/python3.7/site-packages/wcwidth/wcwidth.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/wcwidth-0.1.7-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "5a1936a06fe901a4aebf3216d96a9c75",
+  "name": "wcwidth",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530723559409,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/wcwidth-0.1.7-py37_0.tar.bz2",
+  "version": "0.1.7"
+}

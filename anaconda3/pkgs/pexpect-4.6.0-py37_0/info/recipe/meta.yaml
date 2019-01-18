@@ -1,0 +1,62 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/pexpect-feedstock/recipe, last modified Thu Jun 14 11:47:19 2018
+# ------------------------------------------------
+
+package:
+    name: pexpect
+    version: 4.6.0
+source:
+    sha256: 2a8e88259839571d1251d278476f3eec5db26deb73a70be5ed5dc5435e418aba
+    url: https://pypi.io/packages/source/p/pexpect/pexpect-4.6.0.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - ptyprocess >=0.5
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pexpect
+about:
+    description: 'Pexpect is a pure Python module for spawning child applications;
+
+        controlling them; and responding to expected patterns in their output.
+
+        '
+    dev_url: https://github.com/pexpect/pexpect
+    doc_source_url: https://github.com/pexpect/pexpect/blob/master/doc/index.rst
+    doc_url: http://pexpect.readthedocs.org/
+    home: http://pexpect.sourceforge.net/
+    license: ISC
+    license_family: Other
+    license_file: LICENSE
+    summary: Pexpect makes Python a better tool for controlling other applications.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jquast
+        - ocefpaf
+        - pelson
+        - takluyver

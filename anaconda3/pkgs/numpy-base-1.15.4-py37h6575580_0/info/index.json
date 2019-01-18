@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37h6575580_0",
+  "build_number": 0,
+  "depends": [
+    "blas 1.0 mkl",
+    "libgfortran >=3.0.1",
+    "mkl >=2019.1,<2020.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "name": "numpy-base",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1544718531307,
+  "version": "1.15.4"
+}

@@ -1,0 +1,49 @@
+{
+  "arch": "x86_64",
+  "build": "py37h27c97d8_0",
+  "build_number": 0,
+  "depends": [
+    "blas 1.0 mkl",
+    "libcxx >=4.0.1",
+    "mkl >=2019.1,<2020.0a0",
+    "numpy-base >=1.0.6,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/mkl_fft-1.0.6-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/mkl_fft-1.0.6-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/mkl_fft-1.0.6-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/mkl_fft-1.0.6-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/mkl_fft-1.0.6-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/mkl_fft/__init__.py",
+    "lib/python3.7/site-packages/mkl_fft/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl_fft/__pycache__/_float16_utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl_fft/__pycache__/_numpy_fft.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl_fft/__pycache__/_scipy_fft.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl_fft/__pycache__/_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl_fft/__pycache__/setup.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl_fft/_float16_utils.py",
+    "lib/python3.7/site-packages/mkl_fft/_numpy_fft.py",
+    "lib/python3.7/site-packages/mkl_fft/_pydfti.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/mkl_fft/_scipy_fft.py",
+    "lib/python3.7/site-packages/mkl_fft/_version.py",
+    "lib/python3.7/site-packages/mkl_fft/setup.py",
+    "lib/python3.7/site-packages/mkl_fft/tests/__pycache__/test_fft1d.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl_fft/tests/__pycache__/test_fftnd.cpython-37.pyc",
+    "lib/python3.7/site-packages/mkl_fft/tests/test_fft1d.py",
+    "lib/python3.7/site-packages/mkl_fft/tests/test_fftnd.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/mkl_fft-1.0.6-py37h27c97d8_0",
+    "type": "hard-link"
+  },
+  "md5": "7c1298ee514245162cd3ab0787648dfb",
+  "name": "mkl_fft",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1544718601484,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mkl_fft-1.0.6-py37h27c97d8_0.tar.bz2",
+  "version": "1.0.6"
+}

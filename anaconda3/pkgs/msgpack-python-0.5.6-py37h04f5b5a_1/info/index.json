@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37h04f5b5a_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "name": "msgpack-python",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1533326034369,
+  "version": "0.5.6"
+}

@@ -1,0 +1,35 @@
+From 185018b2c8ccafd2602087a4e21f746e0616510f Mon Sep 17 00:00:00 2001
+From: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date: Tue, 11 Dec 2018 16:19:55 -0600
+Subject: [PATCH 1/2] _marching_cubes_lewiner_cy: mark char as signed
+
+xref: https://github.com/scikit-image/scikit-image/issues/2982
+---
+ skimage/measure/_marching_cubes_lewiner_cy.pyx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/skimage/measure/_marching_cubes_lewiner_cy.pyx b/skimage/measure/_marching_cubes_lewiner_cy.pyx
+index 502d29a..47c11d9 100644
+--- a/skimage/measure/_marching_cubes_lewiner_cy.pyx
++++ b/skimage/measure/_marching_cubes_lewiner_cy.pyx
+@@ -748,7 +748,7 @@ cdef class Lut:
+     This class defines functions to look up values using 1, 2 or 3 indices.
+     """ 
+     
+-    cdef char* VALUES
++    cdef signed char* VALUES
+     cdef int L0 # Length
+     cdef int L1 # size of tuple
+     cdef int L2 # size of tuple in tuple (if any)
+@@ -769,7 +769,7 @@ cdef class Lut:
+         array = array.ravel()
+         cdef int n, N
+         N = self.L0 * self.L1 * self.L2
+-        self.VALUES = <char *> malloc(N * sizeof(char)) 
++        self.VALUES = <signed char *> malloc(N * sizeof(signed char))
+         for n in range(N):
+             self.VALUES[n] = array[n]
+     
+-- 
+2.19.1
+

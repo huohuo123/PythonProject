@@ -1,0 +1,31 @@
+From 9663a3ff0c7eab53a039cba6d36f5c000394e7c7 Mon Sep 17 00:00:00 2001
+From: Ray Donnelly <mingw.android@gmail.com>
+Date: Wed, 11 Apr 2018 12:04:06 +0100
+Subject: [PATCH 1/2] Remove Windows CMake config install specialization (CMake
+ vs share/cmake/${PROJECT_NAME})
+
+---
+ CMakeLists.txt | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 17111ce5..cc816998 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1165,12 +1165,7 @@ endif ()
+ 
+ include(CMakePackageConfigHelpers)
+ 
+-if (WIN32)
+-  set(ZEROMQ_CMAKECONFIG_INSTALL_DIR "CMake" CACHE STRING "install path for ZeroMQConfig.cmake")
+-else()
+-  # GNUInstallDirs "DATADIR" wrong here; CMake search path wants "share".
+-  set(ZEROMQ_CMAKECONFIG_INSTALL_DIR "share/cmake/${PROJECT_NAME}" CACHE STRING "install path for ZeroMQConfig.cmake")
+-endif()
++set(ZEROMQ_CMAKECONFIG_INSTALL_DIR "share/cmake/${PROJECT_NAME}" CACHE STRING "install path for ZeroMQConfig.cmake")
+ 
+ if (NOT CMAKE_VERSION VERSION_LESS 3.0)
+   export(EXPORT ${PROJECT_NAME}-targets
+-- 
+2.16.1
+

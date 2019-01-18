@@ -1,0 +1,56 @@
+{% set name = "gevent" %}
+{% set version = "1.3.7" %}
+{% set sha256 = "3f06f4802824c577272960df003a304ce95b3e82eea01dad2637cc8609c80e2c" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+  patches:
+    - 0001-Allow-include-flags-to-be-present-in-CFLAGS.patch
+
+build:
+  number: 1
+  script: python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+  host:
+    # cffi 1.4.0 is the general minimum version
+    # With Python 3 version 1.11.3 is minimum
+    # On windows 1.11.5 is the minimum
+    # Rather than special casing each of these use a single minimum version
+    - cffi >=1.11.5
+    - python
+    - setuptools
+
+  build:
+    - {{ compiler('c') }}
+
+  run:
+    - cffi >=1.11.5
+    - python
+    - greenlet >=0.4.14
+
+test:
+  imports:
+    - gevent
+    - gevent.libev
+
+about:
+  home: http://www.gevent.org/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: 'Coroutine-based network library'
+  description: |
+    Gevent uses greenlet to provide a high-level synchronous API on top of the libev event loop.
+  doc_url: http://www.gevent.org/contents.html
+  dev_url: https://github.com/gevent/gevent
+
+extra:
+  recipe-maintainers:
+    - nehaljwani

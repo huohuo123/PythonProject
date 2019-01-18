@@ -1,0 +1,119 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "15d5ab8920f9f3cb6efc782a7d66faab8651e56b99c9db59143b3ece8370178b",
+      "size_in_bytes": 5126
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "d11bf67bb25e244c030d94ac78317fd204c8ef44cad91375b2dea7e57d8bb620",
+      "size_in_bytes": 436
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "5ca5e491b2adddab3b347ad82e326800a0ace0cdbfca6b7e30960696b4f0fdd0",
+      "size_in_bytes": 600
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "bd117f8742881e7d250725676495e5cf3eaa28ada632c1671f994b921a39ace2",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ce92a124e71188d69571d20cc1db9743338bec3ffc524f5f8abbe75135ed7b5f",
+      "size_in_bytes": 147
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "671c1fb91009c38b6bb1f6e77d4e83410a7712e725d0944fa9953363d100a77e",
+      "size_in_bytes": 334
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/__pycache__/conflict.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "01ca27922e26246b2ce2fb57d9e23065d57878ca663cfb3f18695c86b3640b72",
+      "size_in_bytes": 4450
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/__pycache__/core.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c6e19b6789c659349456be12592571a6e8b0b4239476899376cb04feae2df04d",
+      "size_in_bytes": 2207
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/__pycache__/dispatcher.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f6cb202a760b5cd4e96ff446d9eeba04dc59cc2ecbb4dc6ce7ba303b3869a320",
+      "size_in_bytes": 14044
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/__pycache__/utils.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "389edd6b81d5190746496d5a60d739e0382d7b1088d21c2eac72b0103062fb21",
+      "size_in_bytes": 4093
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/__pycache__/variadic.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "36285135fb1ad927025dd01dd2ea426e766559f04b04bbb8b10126469f5e6ce9",
+      "size_in_bytes": 3346
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/conflict.py",
+      "path_type": "hardlink",
+      "sha256": "e2be0b04a1760b75899e2f7f9b28d85bc2fc7c6d0a4595a990d3b7f6e20f8e27",
+      "size_in_bytes": 3912
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/core.py",
+      "path_type": "hardlink",
+      "sha256": "5904bfb28c67df5c810a59b427d6927f8579611dc1d4f1d28becdbe58bddefbe",
+      "size_in_bytes": 2148
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/dispatcher.py",
+      "path_type": "hardlink",
+      "sha256": "d79c5eccf6d0e8b349e48921b40a1eeef4d0ef4d2baccd254472261e333b55cc",
+      "size_in_bytes": 13562
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/utils.py",
+      "path_type": "hardlink",
+      "sha256": "b991fc2c59540aa90cc31a0fb8838dca692b0ab4ab62de70721d3ae14df2637a",
+      "size_in_bytes": 3630
+    },
+    {
+      "_path": "lib/python3.7/site-packages/multipledispatch/variadic.py",
+      "path_type": "hardlink",
+      "sha256": "eadcb09085c28c4abdfe6afc2f30309a499d400cee905ac522be1185264baf2a",
+      "size_in_bytes": 2752
+    }
+  ],
+  "paths_version": 1
+}

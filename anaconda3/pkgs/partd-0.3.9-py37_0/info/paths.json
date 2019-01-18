@@ -1,0 +1,209 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/partd-0.3.9.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd-0.3.9.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "1edc098db759632c80e4c1d0503ad17f131f6b974e3a77efc26e8c8e188044a5",
+      "size_in_bytes": 1505
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd-0.3.9.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "74bd60aced41fe87ebed93d0a31b771551ef92f68fdd00e70928e99804bc41d5",
+      "size_in_bytes": 4257
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd-0.3.9.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "995eeefd765e650807b2799062a491daa2944ae83ee152c95c920f42a7a88a09",
+      "size_in_bytes": 2093
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd-0.3.9.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "e7f89c983332759f901d526437ce56322aaea1f7fded458bdaf328aabfa7ae84",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd-0.3.9.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "59dc05418698e0b523c6a72db52edbb7332c3f24605fbd45812f64ff2cc74c47",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "991f13f8d7c7c3c65b47e0977f859922cfb65fdf6191a91f510d6650dbf0ddf8",
+      "size_in_bytes": 473
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "9fe904fde0e413db773b3d5b87b472a69b7aaf0b72f758795ff36b826ab213b2",
+      "size_in_bytes": 724
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/buffer.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "15c2e9633eb707c3cd9e592011204412b11fcf9070d02c55679af44dcc109d9f",
+      "size_in_bytes": 4218
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/compatibility.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "9d51776d846fdd37e04371bfdb21f6b851951cfbb942e0e5052d85bd49eab31e",
+      "size_in_bytes": 439
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/compressed.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b68d5a5230acaa4ced4a256ad808e42901115491a71c4f4bcb0cc1690a3586c8",
+      "size_in_bytes": 782
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/core.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2265cb69c6edb018f541f9e0a3b3433d8df2e705a7515908b4eee0537c343ba3",
+      "size_in_bytes": 3109
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/dict.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "74fbb34e6856191604ec8af35ed1574d7d02d20c1d46dc90a958e09872ed3a01",
+      "size_in_bytes": 2299
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/encode.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5492d00ea814cda3613f5e4ffed92ef9aa695288139ca7baa1e0d6de804132a3",
+      "size_in_bytes": 2240
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/file.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "52a6d12e887e442c28cdf7ec0ebfbbaf79c1efd745d23b00600a8c4a934dc411",
+      "size_in_bytes": 4350
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/numpy.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "6534d003244545ab06901d1b3b72ca6c640f906dd6341010ad8631f66ef3adfe",
+      "size_in_bytes": 5284
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/pandas.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "14b55aa7c0e98e77bd1ebf548902073b5bf986f9da2c229f232227ad0a7d2762",
+      "size_in_bytes": 6758
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/pickle.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "77b465311422127578eee50c76240887859d2db35982289db558d9817fce7038",
+      "size_in_bytes": 600
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/python.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "548568dec6fd8529969865cb8e5b3f17bbb48daa0afe169d7e3deaf9a181c641",
+      "size_in_bytes": 1216
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/utils.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2fc0f385f4d44fa39ff2cca2d22fec31a0bc29ebc4a418b5d01f5181f2695df4",
+      "size_in_bytes": 4325
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/__pycache__/zmq.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e4a20b5abba9976d5aecd736f1086cb3274cef597d29080496f450df999eda38",
+      "size_in_bytes": 10480
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/buffer.py",
+      "path_type": "hardlink",
+      "sha256": "341c9d066eea722502ad10661fcc34ac1d10f13631e4e1aab506bc6ccfd9540c",
+      "size_in_bytes": 3637
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/compatibility.py",
+      "path_type": "hardlink",
+      "sha256": "93c44280a786f537865d962596112bd88a2fd0c72e47d86240ac3b58151340bf",
+      "size_in_bytes": 329
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/compressed.py",
+      "path_type": "hardlink",
+      "sha256": "1615897f8b6ae15ae03861056f1d7e373cffe55cf72cda47edbeb7ca6b3a8ea7",
+      "size_in_bytes": 973
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/core.py",
+      "path_type": "hardlink",
+      "sha256": "1c21656c0eb722c0004846e20cab89b6725d94d680bddfe7adb0fb858cd87fbd",
+      "size_in_bytes": 2307
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/dict.py",
+      "path_type": "hardlink",
+      "sha256": "cffb1a7b5393cd6ff76de61214ca1e5a2c958a71cbed7a04317788598791f877",
+      "size_in_bytes": 1701
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/encode.py",
+      "path_type": "hardlink",
+      "sha256": "d6d7780d4b8b48bd22f55b3ccd015a22d67fa9d867932e73a7f02855d95bf858",
+      "size_in_bytes": 1287
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/file.py",
+      "path_type": "hardlink",
+      "sha256": "357b021695ebf1709f608f5fdc002427933358276be5ff15569965c034206b5b",
+      "size_in_bytes": 3990
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/numpy.py",
+      "path_type": "hardlink",
+      "sha256": "4cd784035456ac6073086d6fcfafef3d39597dce2449c11c36256c52c5029646",
+      "size_in_bytes": 4213
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/pandas.py",
+      "path_type": "hardlink",
+      "sha256": "c7922414302cbcd3b033cde01a469310f090aaf9095834a8cdd820cad942b95b",
+      "size_in_bytes": 6205
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/pickle.py",
+      "path_type": "hardlink",
+      "sha256": "8099d9327e0113cbcb4385374644bffc0e38a8729a12a56ad4fb2e504ae2a118",
+      "size_in_bytes": 420
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/python.py",
+      "path_type": "hardlink",
+      "sha256": "f1c3eea385b16592761cc1d54d4d2d42a786d6de3f8f25099afad99526d013b6",
+      "size_in_bytes": 961
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/utils.py",
+      "path_type": "hardlink",
+      "sha256": "66339e40844ec60c2866b56ee4fdb47c7568752388da9ab14ca85f0d595ffa8e",
+      "size_in_bytes": 3801
+    },
+    {
+      "_path": "lib/python3.7/site-packages/partd/zmq.py",
+      "path_type": "hardlink",
+      "sha256": "cbb18ab60e37de2320a3bbef9940aa166ed91c6e153849e400474e8a32ad0ebb",
+      "size_in_bytes": 9713
+    }
+  ],
+  "paths_version": 1
+}

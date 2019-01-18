@@ -1,0 +1,13 @@
+{
+  "arch": "x86_64",
+  "build": "h362108e_2",
+  "build_number": 2,
+  "depends": [],
+  "license": "GPL v2+",
+  "license_family": "GPL2",
+  "name": "lzo",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1511295481013,
+  "version": "2.10"
+}

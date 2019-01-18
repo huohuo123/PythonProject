@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "importlib_metadata-0.6-py37_0.tar.bz2",
+  "license": "APACHE-2.0",
+  "license_family": "APACHE",
+  "md5": "09ff8c9d603e6b27eacd050748311329",
+  "name": "importlib_metadata",
+  "size": 21994,
+  "subdir": "osx-64",
+  "timestamp": 1539703196946,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/importlib_metadata-0.6-py37_0.tar.bz2",
+  "version": "0.6"
+}

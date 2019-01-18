@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "cloudpickle-0.6.1-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "616ff88fa0aa8c61783d4522fcb69edc",
+  "name": "cloudpickle",
+  "size": 27679,
+  "subdir": "osx-64",
+  "timestamp": 1539472423831,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/cloudpickle-0.6.1-py37_0.tar.bz2",
+  "version": "0.6.1"
+}

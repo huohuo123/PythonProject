@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "decorator",
+    "ipython_genutils",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "traitlets-4.3.2-py37_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "md5": "d95d618fed09cc226ebcdbc3f44157ae",
+  "name": "traitlets",
+  "size": 135988,
+  "subdir": "osx-64",
+  "timestamp": 1530695676344,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/traitlets-4.3.2-py37_0.tar.bz2",
+  "version": "4.3.2"
+}

@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "et_xmlfile",
+    "jdcal",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "openpyxl-2.5.12-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "01720eab4205d0760f3c77fdde3f8d0d",
+  "name": "openpyxl",
+  "size": 344861,
+  "subdir": "osx-64",
+  "timestamp": 1545076585122,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/openpyxl-2.5.12-py37_0.tar.bz2",
+  "version": "2.5.12"
+}

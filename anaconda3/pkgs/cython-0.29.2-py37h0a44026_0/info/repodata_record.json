@@ -1,0 +1,22 @@
+{
+  "build": "py37h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "cython-0.29.2-py37h0a44026_0.tar.bz2",
+  "license": "Apache-2.0",
+  "md5": "e45a299e100d01721e2997686e46ccac",
+  "name": "cython",
+  "size": 2122143,
+  "subdir": "osx-64",
+  "timestamp": 1545074708645,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/cython-0.29.2-py37h0a44026_0.tar.bz2",
+  "version": "0.29.2"
+}

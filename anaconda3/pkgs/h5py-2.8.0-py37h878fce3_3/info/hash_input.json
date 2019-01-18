@@ -1,0 +1,4 @@
+{
+  "c_compiler": "clang",
+  "hdf5": "1.10"
+}

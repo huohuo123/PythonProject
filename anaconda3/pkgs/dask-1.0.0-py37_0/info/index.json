@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "bokeh >=0.13.0",
+    "cloudpickle >=0.2.1",
+    "cytoolz >=0.7.3",
+    "dask-core 1.0.0.*",
+    "distributed >=1.25.0",
+    "numpy >=1.11.0",
+    "pandas >=0.19.0",
+    "partd >=0.3.8",
+    "python >=3.7,<3.8.0a0",
+    "toolz >=0.7.3"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "dask",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1543504597499,
+  "version": "1.0.0"
+}

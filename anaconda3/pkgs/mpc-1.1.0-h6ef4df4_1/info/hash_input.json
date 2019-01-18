@@ -1,0 +1,5 @@
+{
+  "mpfr": "4",
+  "c_compiler": "clang",
+  "gmp": "6.1"
+}

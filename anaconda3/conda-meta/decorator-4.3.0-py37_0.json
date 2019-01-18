@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/__pycache__/decorator.cpython-37.pyc",
+    "lib/python3.7/site-packages/decorator-4.3.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/decorator-4.3.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/decorator-4.3.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/decorator-4.3.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/decorator-4.3.0.dist-info/pbr.json",
+    "lib/python3.7/site-packages/decorator-4.3.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/decorator.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/decorator-4.3.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "460cb881615a89125668d4739baac8c7",
+  "name": "decorator",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530695637640,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/decorator-4.3.0-py37_0.tar.bz2",
+  "version": "4.3.0"
+}

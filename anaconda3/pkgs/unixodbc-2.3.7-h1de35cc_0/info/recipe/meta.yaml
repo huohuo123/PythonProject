@@ -1,0 +1,73 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/af49c5d6-6006-4754-6435-d9160ddae4e5/volume/rsync-recipes/unixodbc-2.3.7-on-osx, last modified Fri Aug 24 13:03:44 2018
+# ------------------------------------------------
+
+package:
+    name: unixodbc
+    version: 2.3.7
+source:
+    patches:
+        - 0001-Add-support-for-editline.patch
+    sha256: 45f169ba1f454a72b8fcbb82abd832630a3bf93baa84731cf2949f449e1e3e77
+    url: http://www.unixodbc.org/unixODBC-2.3.7.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - unixodbc >=2.3.7,<2.4.0a0
+    string: h1de35cc_0
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - automake 1.15.1 pl526h2ca55ef_0
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libtool 2.4.6 hdb3952c_3
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+        - perl 5.26.2 h4e221da_0
+    host:
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libiconv 1.15 hdd342a3_7
+        - ncurses 6.1 h0a44026_0
+    run:
+        - libedit >=3.1.20170329,<3.2.0a0
+        - libiconv >=1.15,<2.0a0
+test:
+    commands:
+        - test -f $PREFIX/lib/libodbc.2.dylib
+        - test -f $PREFIX/lib/libodbc.dylib
+        - test -f $PREFIX/lib/libodbcinst.2.dylib
+        - test -f $PREFIX/lib/libodbcinst.dylib
+        - isql --help
+        - iusql --help
+about:
+    description: 'The unixODBC Project goals are to develop and promote unixODBC to
+        be the
+
+        definitive standard for ODBC on non MS Windows platforms. This is to
+
+        include GUI support for both KDE and GNOME.
+
+        '
+    doc_url: http://www.unixodbc.org/doc/UserManual/
+    home: http://www.unixodbc.org/
+    license: LGPL-2.1
+    license_family: LGPL
+    license_file: COPYING
+    summary: ODBC on non MS Windows platforms
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - MathMagique
+        - xhochy

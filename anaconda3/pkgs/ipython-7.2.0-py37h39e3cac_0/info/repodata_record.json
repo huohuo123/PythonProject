@@ -1,0 +1,30 @@
+{
+  "build": "py37h39e3cac_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "appnope",
+    "backcall",
+    "decorator",
+    "jedi >=0.10",
+    "pexpect",
+    "pickleshare",
+    "prompt_toolkit >=2.0.0",
+    "pygments",
+    "python >=3.7,<3.8.0a0",
+    "traitlets >=4.2"
+  ],
+  "features": "",
+  "fn": "ipython-7.2.0-py37h39e3cac_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "a787c246276d9a78d1822e50731319d9",
+  "name": "ipython",
+  "size": 1097487,
+  "subdir": "osx-64",
+  "timestamp": 1543586601786,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ipython-7.2.0-py37h39e3cac_0.tar.bz2",
+  "version": "7.2.0"
+}

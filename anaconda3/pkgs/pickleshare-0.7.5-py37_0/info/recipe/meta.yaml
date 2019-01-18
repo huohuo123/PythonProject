@@ -1,0 +1,67 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/0256b2b5-0408-495b-63e7-7e31a6bd69d5/volume/rsync-recipes/pickleshare-0.7.5-python_3.7-on-osx, last modified Wed Oct  3 15:12:38 2018
+# ------------------------------------------------
+
+package:
+    name: pickleshare
+    version: 0.7.5
+source:
+    sha256: 87683d47965c1da65cdacaf31c8441d12b8044cdec9aca500cd78fc2c683afca
+    url: https://pypi.io/packages/source/p/pickleshare/pickleshare-0.7.5.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/0256b2b5-0408-495b-63e7-7e31a6bd69d5/volume/pickleshare_1538597883410/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.2.0 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pickleshare
+about:
+    description: 'PickleShare is a small "shelve" like datastore with concurrency
+        support.
+
+        Like shelve, a PickleShareDB object acts like a normal dictionary. Unlike
+
+        shelve, many processes can access the database simultaneously. Changing a
+
+        value in database is immediately visible to other processes accessing the
+
+        same database.
+
+        '
+    dev_url: https://github.com/pickleshare/pickleshare
+    doc_source_url: https://github.com/pickleshare/pickleshare/blob/master/README.md
+    doc_url: https://pypi.python.org/pypi/pickleshare
+    home: https://github.com/pickleshare/pickleshare/
+    license: MIT
+    license_file: LICENSE
+    summary: Tiny 'shelve'-like database with concurrency support
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pelson
+        - takluyver

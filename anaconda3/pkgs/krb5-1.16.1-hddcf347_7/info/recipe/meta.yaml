@@ -1,0 +1,81 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/43df4ac6-e12e-46ac-5ebf-810bed9ab53a/volume/rsync-recipes/krb5-1.16.1-on-osx, last modified Fri Oct 26 16:22:04 2018
+# ------------------------------------------------
+
+package:
+    name: krb5
+    version: 1.16.1
+source:
+    patches:
+        - escape_curly_braces.patch
+    sha256: d46a676bd6cfe58b8684ffd881bc7ed2c9c90cb43ccfa45a9500530e84aa262b
+    url: https://github.com/krb5/krb5/archive/krb5-1.16.1-final.tar.gz
+build:
+    missing_dso_whitelist:
+        - /usr/lib/libresolv.9.dylib
+    number: '7'
+    run_exports:
+        - krb5 >=1.16.1,<1.17.0a0
+    string: hddcf347_7
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - bison 3.1 h0a44026_0
+        - ca-certificates 2018.03.07 0
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 hc9b4283_0
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libiconv 1.15 hdd342a3_7
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - perl 5.26.2 h4e221da_0
+        - pkg-config 0.29.2 h3efe00b_8
+        - python 2.7.15 h8f8e585_2
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - zlib 1.2.11 hf3cbc9b_2
+    host:
+        - ca-certificates 2018.03.07 0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - tk 8.6.8 ha441bb4_0
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - libcxx >=4.0.1
+        - libedit >=3.1.20170329,<3.2.0a0
+        - libedit >=3.1.20170329,<4.0a0
+        - openssl >=1.1.1,<1.1.2.0a0
+        - tk >=8.6.8,<8.7.0a0
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX krb5
+        - conda inspect objects -p $PREFIX krb5
+about:
+    home: http://web.mit.edu/kerberos/
+    license: MIT
+    license_file: doc/notice.rst
+    summary: A network authentication protocol.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - ocefpaf
+        - pelson

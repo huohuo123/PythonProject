@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [],
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "ISC",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/ca-certificates-2018.03.07-0",
+    "type": "hard-link"
+  },
+  "md5": "8a61ffe6635a912082978bb8127b5f4b",
+  "name": "ca-certificates",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1522697594755,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ca-certificates-2018.03.07-0.tar.bz2",
+  "version": "2018.03.07"
+}

@@ -1,0 +1,62 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/4973548f-5174-464d-4c9c-980c098b7d38/volume/rsync-recipes/pytest-openfiles-0.3.1-python_3.7-on-osx, last modified Wed Nov 28 17:10:46 2018
+# ------------------------------------------------
+
+package:
+    name: pytest-openfiles
+    version: 0.3.1
+source:
+    fn: pytest-openfiles-0.3.1.tar.gz
+    sha256: bf09cd83ca0554799292f536800f54e4892f8000283daaf9d9fc6b6eb2d8a9da
+    url: https://pypi.io/packages/source/p/pytest-openfiles/pytest-openfiles-0.3.1.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - psutil
+        - pytest >=2.8.0
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pytest_openfiles
+about:
+    description: 'This package provides a plugin for the pytest framework that allows
+
+        developers to detect whether any file handles or other file-like objects
+
+        were inadvertently left open at the end of a unit test.
+
+        '
+    dev_url: https://github.com/astropy/pytest-openfiles
+    doc_url: https://github.com/astropy/pytest-openfiles
+    home: https://github.com/astropy/pytest-openfiles
+    license: BSD
+    summary: Pytest plugin for detecting inadvertent open file handles
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - astrofrog-conda-forge
+        - drdavella
+        - mwcraig

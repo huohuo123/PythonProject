@@ -1,0 +1,49 @@
+==> git log -n1 <==
+commit 2d375057990d7c65c7eb12b671628cc35ece4987
+Author: Markus Kuhn <Markus.Kuhn@cl.cam.ac.uk>
+Date:   Mon Oct 17 19:04:23 2016 +0100
+
+    jbgtopbm: avoid division by zero with invalid BIH when using option -d
+    
+    Invalid BIH parameters D < DL, P = 0 or L0 = 0 could cause a
+    division-by-zero exception when header parameters are displayed
+    using diagnostic option -d.
+==> git describe --tags --dirty <==
+v2.1-11-g2d37505
+==> git status <==
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	conda_build.sh
+	libjbig/jbig.o
+	libjbig/jbig85.o
+	libjbig/jbig_ar.o
+	libjbig/libjbig.a
+	libjbig/libjbig85.a
+	libjbig/tstcodec
+	libjbig/tstcodec.o
+	libjbig/tstcodec85
+	libjbig/tstcodec85.o
+	libjbig/tstjoint
+	libjbig/tstjoint.o
+	pbmtools/jbgtopbm
+	pbmtools/jbgtopbm.o
+	pbmtools/jbgtopbm.txt
+	pbmtools/jbgtopbm85
+	pbmtools/jbgtopbm85.o
+	pbmtools/pbm.txt
+	pbmtools/pbmtojbg
+	pbmtools/pbmtojbg.o
+	pbmtools/pbmtojbg.txt
+	pbmtools/pbmtojbg85
+	pbmtools/pbmtojbg85.o
+	pbmtools/pgm.txt
+	pbmtools/test-ccitt1.pbm85
+	pbmtools/test-ccitt2.pbm85
+	pbmtools/test-ccitt3.pbm85
+	pbmtools/test-t82.pbm85
+
+nothing added to commit but untracked files present (use "git add" to track)

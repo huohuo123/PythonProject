@@ -1,0 +1,57 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/d9cb3ef9-8d79-4910-699a-7e191c7ff238/volume/rsync-recipes/pluggy-0.8.0-python_3.7-on-osx, last modified Mon Oct 22 13:47:43 2018
+# ------------------------------------------------
+
+package:
+    name: pluggy
+    version: 0.8.0
+source:
+    fn: pluggy-0.8.0.tar.gz
+    sha256: 447ba94990e8014ee25ec853339faf7b0fc8050cdc3289d4d71f7f410fb90095
+    url: https://pypi.io/packages/source/p/pluggy/pluggy-0.8.0.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: python -m pip install . --no-deps --ignore-installed
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - setuptools_scm 3.1.0 py37h28b3542_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pluggy
+about:
+    dev_url: https://github.com/pytest-dev/pluggy/
+    doc_url: https://pluggy.readthedocs.io/en/latest/
+    home: https://github.com/pytest-dev/pluggy
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Plugin registration and hook calling for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - JohnGreeley
+        - nicoddemus
+        - tgoodlet

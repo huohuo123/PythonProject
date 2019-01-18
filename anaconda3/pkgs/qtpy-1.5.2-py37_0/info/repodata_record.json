@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "qtpy-1.5.2-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "7f10a09d9963edb065aabb0db5b90657",
+  "name": "qtpy",
+  "size": 54642,
+  "subdir": "osx-64",
+  "timestamp": 1540233125923,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/qtpy-1.5.2-py37_0.tar.bz2",
+  "version": "1.5.2"
+}

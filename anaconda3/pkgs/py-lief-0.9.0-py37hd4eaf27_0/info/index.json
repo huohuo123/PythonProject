@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py37hd4eaf27_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=4.0.1",
+    "liblief 0.9.0 h2a1bed3_0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "name": "py-lief",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1531769242327,
+  "version": "0.9.0"
+}

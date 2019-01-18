@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "h93005f0_2",
+  "build_number": 2,
+  "depends": [],
+  "files": [
+    "lib/libgcc_s.1.dylib",
+    "lib/libgcc_s_ppc64.1.dylib",
+    "lib/libgcc_s_x86_64.1.dylib",
+    "lib/libgfortran.3.dylib",
+    "lib/libgfortran.dylib",
+    "lib/libgomp.1.dylib",
+    "lib/libgomp.dylib",
+    "lib/libquadmath.0.dylib",
+    "lib/libquadmath.dylib"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "GPL 3 (with GCC Runtime Library Exception 3.1)",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/libgfortran-3.0.1-h93005f0_2",
+    "type": "hard-link"
+  },
+  "md5": "e3a6e2b1a232418bbac9c47866273bdd",
+  "name": "libgfortran",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1505409893158,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libgfortran-3.0.1-h93005f0_2.tar.bz2",
+  "version": "3.0.1"
+}

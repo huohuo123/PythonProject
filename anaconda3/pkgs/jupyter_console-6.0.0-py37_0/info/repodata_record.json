@@ -1,0 +1,25 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "ipykernel",
+    "ipython",
+    "jupyter_client",
+    "prompt_toolkit >=2.0.0,<2.1.0",
+    "pygments",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "jupyter_console-6.0.0-py37_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "md5": "f0e5755bb57b6379d37c561a6e189170",
+  "name": "jupyter_console",
+  "size": 36132,
+  "subdir": "osx-64",
+  "timestamp": 1539024865121,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jupyter_console-6.0.0-py37_0.tar.bz2",
+  "version": "6.0.0"
+}

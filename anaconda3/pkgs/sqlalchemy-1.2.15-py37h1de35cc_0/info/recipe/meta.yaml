@@ -1,0 +1,90 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/b3c87011-5f9f-4bc8-6873-3f6cbf0583c4/volume/rsync-recipes/sqlalchemy-1.2.15-python_3.7-on-osx, last modified Mon Dec 17 11:56:59 2018
+# ------------------------------------------------
+
+package:
+    name: sqlalchemy
+    version: 1.2.15
+source:
+    sha256: 809547455d012734b4252081db1e6b4fc731de2299f3755708c39863625e1c77
+    url: https://pypi.io/packages/source/S/SQLAlchemy/SQLAlchemy-1.2.15.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37h1de35cc_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.26.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - sqlalchemy
+        - sqlalchemy.connectors
+        - sqlalchemy.databases
+        - sqlalchemy.dialects
+        - sqlalchemy.dialects.firebird
+        - sqlalchemy.dialects.mssql
+        - sqlalchemy.dialects.mysql
+        - sqlalchemy.dialects.oracle
+        - sqlalchemy.dialects.postgresql
+        - sqlalchemy.dialects.sqlite
+        - sqlalchemy.dialects.sybase
+        - sqlalchemy.engine
+        - sqlalchemy.event
+        - sqlalchemy.ext
+        - sqlalchemy.ext.declarative
+        - sqlalchemy.orm
+        - sqlalchemy.sql
+        - sqlalchemy.testing
+        - sqlalchemy.testing.plugin
+        - sqlalchemy.util
+about:
+    description: 'SQLAlchemy is the Python SQL toolkit and Object Relational Mapper
+        that
+
+        gives application developers the full power and flexibility of SQL.
+
+        '
+    dev_url: https://bitbucket.org/zzzeek/sqlalchemy/
+    doc_source_url: https://github.com/zzzeek/sqlalchemy/blob/master/doc/build/index.rst
+    doc_url: http://docs.sqlalchemy.org/en/rel_1_0/
+    home: http://www.sqlalchemy.org/
+    license: MIT
+    license_file: LICENSE
+    summary: Database Abstraction Library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - igortg
+        - mcs07
+        - nehaljwani
+        - ocefpaf

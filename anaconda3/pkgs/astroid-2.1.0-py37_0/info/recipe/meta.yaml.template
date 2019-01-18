@@ -1,0 +1,54 @@
+{% set name = "astroid" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "35b032003d6a863f5dcd7ec11abd5cd5893428beaa31ab164982403bcb311f22" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  skip: True  # [py2k]
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - python
+    - pip
+    - pytest-runner
+  run:
+    - python
+    - lazy-object-proxy
+    - six
+    - wrapt
+    - typed-ast   # [py<37]
+    - typing      # [py<35]
+
+test:
+  imports:
+    - astroid
+    - astroid.modutils
+
+about:
+  home: https://www.astroid.org/
+  license: LGPL 2.1
+  license_family: LGPL
+  license_file: COPYING.LESSER
+  summary: 'A abstract syntax tree for Python with inference support.'
+  description: |
+    Astroid provide a common base representation of python source code for
+    projects such as pychecker, pyreverse, pylint.
+  doc_url: http://astroid.readthedocs.io/en/latest/?badge=latest
+  doc_source_url: https://github.com/PyCQA/astroid/blob/master/doc/index.rst
+  dev_url: https://github.com/PyCQA/astroid
+
+extra:
+  recipe-maintainers:
+    - ericdill
+    - jakirkham
+    - jjhelmus

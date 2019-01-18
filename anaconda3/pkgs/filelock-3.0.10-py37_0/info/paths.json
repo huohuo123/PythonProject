@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/filelock.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "249ef20d0c3f5cf6a6a3316282db232b1c44c9487dcb240ed14f8ae666606774",
+      "size_in_bytes": 9523
+    },
+    {
+      "_path": "lib/python3.7/site-packages/filelock-3.0.10.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/filelock-3.0.10.dist-info/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "982432b5129e997df203ab6623e3244ac47f9244034cf94a30b1ff4cf19cc0d0",
+      "size_in_bytes": 1227
+    },
+    {
+      "_path": "lib/python3.7/site-packages/filelock-3.0.10.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "233148b6c4cfa25b11c970c56b99ca959b24a154a12d6f8f900fd6868b269996",
+      "size_in_bytes": 6472
+    },
+    {
+      "_path": "lib/python3.7/site-packages/filelock-3.0.10.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "a83c58d09b0371f14a6064231fd9fb82c3a40452660da071e611b697a5fa4670",
+      "size_in_bytes": 603
+    },
+    {
+      "_path": "lib/python3.7/site-packages/filelock-3.0.10.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1fe13934cc363946d383e69437b71918af88964e09471bbbe3969f18ddabb8ad",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "lib/python3.7/site-packages/filelock-3.0.10.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "343adff62e41368833e2111db2be878bb5acdd395248a63843663dffe8b61b05",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.7/site-packages/filelock.py",
+      "path_type": "hardlink",
+      "sha256": "c6ee2045872361e6870977412427656079a54fe3710db790488a0a6df8c25289",
+      "size_in_bytes": 12779
+    }
+  ],
+  "paths_version": 1
+}

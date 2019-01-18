@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "py37_9",
+  "build_number": 9,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "bin/python.app",
+    "bin/pythonw",
+    "python.app/Contents/Info.plist",
+    "python.app/Contents/MacOS/python",
+    "python.app/Contents/PkgInfo",
+    "python.app/Contents/Resources/empty.lproj",
+    "python.app/Contents/Resources/qt_menu.nib/classes.nib",
+    "python.app/Contents/Resources/qt_menu.nib/info.nib",
+    "python.app/Contents/Resources/qt_menu.nib/keyedobjects.nib"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/python.app-2-py37_9",
+    "type": "hard-link"
+  },
+  "md5": "bd62aa063f069b74dc2cb11eda00fc7e",
+  "name": "python.app",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1538032544653,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python.app-2-py37_9.tar.bz2",
+  "version": "2"
+}

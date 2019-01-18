@@ -1,0 +1,94 @@
+# This file created by conda-build 3.14.4
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/0356cd31-215c-4d38-47ef-15ef8e6b157a/volume/rsync-recipes/nbconvert-5.4.0-python_3.7-on-osx, last modified Wed Sep 12 14:16:16 2018
+# ------------------------------------------------
+
+package:
+    name: nbconvert
+    version: 5.4.0
+source:
+    sha256: a8a2749f972592aa9250db975304af6b7337f32337e523a2c995cc9e12c07807
+    url: https://pypi.io/packages/source/n/nbconvert/nbconvert-5.4.0.tar.gz
+build:
+    entry_points:
+        - jupyter-nbconvert = nbconvert.nbconvertapp:main
+    noarch: false
+    number: '1'
+    script: /opt/concourse/worker/volumes/live/0356cd31-215c-4d38-47ef-15ef8e6b157a/volume/nbconvert_1536785694675/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - bleach
+        - defusedxml
+        - entrypoints >=0.2.2
+        - jinja2
+        - jupyter_core
+        - mistune >=0.8.1
+        - nbformat >=4.4
+        - pandoc >=1.12.1,<2.0.0
+        - pandocfilters >=1.4.1
+        - pygments
+        - python >=3.7,<3.8.0a0
+        - testpath
+        - traitlets >=4.2
+test:
+    commands:
+        - jupyter nbconvert --help
+        - jupyter nbconvert nbconvert/tests/files/notebook1.ipynb
+    imports:
+        - nbconvert
+        - nbconvert.exporters
+        - nbconvert.filters
+        - nbconvert.postprocessors
+        - nbconvert.preprocessors
+        - nbconvert.resources
+        - nbconvert.tests
+        - nbconvert.utils
+        - nbconvert.writers
+    source_files:
+        - nbconvert/tests/files/notebook1.ipynb
+about:
+    description: 'The nbconvert tool, jupyter nbconvert, converts notebooks to various
+        other
+
+        formats via Jinja templates. The nbconvert tool allows you to convert an
+
+        .ipynb notebook file into various static formats.
+
+        '
+    dev_url: https://github.com/jupyter/nbconvert
+    doc_url: http://nbconvert.readthedocs.org/
+    home: http://jupyter.org
+    license: BSD-3-Clause
+    summary: Converting Jupyter Notebooks
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - blink1073
+        - jakirkham
+        - minrk
+        - mpacer
+        - mseal
+        - ocefpaf
+        - pelson
+        - takluyver

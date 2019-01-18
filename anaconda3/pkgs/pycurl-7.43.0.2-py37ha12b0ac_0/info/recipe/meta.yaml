@@ -1,0 +1,71 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/37c8b28a-70f6-4ff4-7ed6-363cec9b7572/volume/rsync-recipes/pycurl-7.43.0.2-python_3.7-on-osx, last modified Tue Dec 18 13:44:58 2018
+# ------------------------------------------------
+
+package:
+    name: pycurl
+    version: 7.43.0.2
+source:
+    sha256: 0f0cdfc7a92d4f2a5c44226162434e34f7d6967d3af416a6f1448649c09a25a4
+    url: https://pypi.io/packages/source/p/pycurl/pycurl-7.43.0.2.tar.gz
+build:
+    detect_binary_files_with_prefix: false
+    number: '0'
+    string: py37ha12b0ac_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2018.03.07 0
+        - krb5 1.16.1 hddcf347_7
+        - libcurl 7.63.0 h051b688_1000
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libssh2 1.8.0 ha12b0ac_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.26.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libcurl >=7.63.0,<8.0a0
+        - openssl >=1.1.1a,<1.1.2a
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - curl
+        - pycurl
+about:
+    description: 'PycURL is a Python interface to libcurl, the multiprotocol file
+        transfer library.
+
+        Similarly to the urllib Python module, PycURL can be used to fetch objects
+        identified
+
+        by a URL from a Python program.
+
+        '
+    dev_url: https://github.com/pycurl/pycurl
+    doc_source_url: https://github.com/pycurl/pycurl/blob/master/doc/index.rst
+    doc_url: http://pycurl.io/docs/latest/index.html
+    home: http://pycurl.sourceforge.net/
+    license: LGPL, MIT
+    license_family: LGPL
+    summary: A Python Interface To The cURL library
+extra:
+    copy_test_source_files: true
+    final: true

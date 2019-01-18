@@ -1,0 +1,22 @@
+{
+  "build": "py37h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "kiwisolver-1.0.1-py37h0a44026_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "47468d59c789ab8db7ae0a51642fc926",
+  "name": "kiwisolver",
+  "size": 57555,
+  "subdir": "osx-64",
+  "timestamp": 1530778271967,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/kiwisolver-1.0.1-py37h0a44026_0.tar.bz2",
+  "version": "1.0.1"
+}

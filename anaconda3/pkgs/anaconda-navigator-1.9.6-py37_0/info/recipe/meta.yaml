@@ -1,0 +1,66 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/1b4d1c2a-784c-4ea3-7635-a4fcc9a84361/volume/rsync-recipes/anaconda-navigator-1.9.6-python_3.7-on-osx, last modified Fri Dec 14 20:35:08 2018
+# ------------------------------------------------
+
+package:
+    name: anaconda-navigator
+    version: 1.9.6
+source:
+    git_rev: v1.9.6
+    git_url: https://github.com/ContinuumIO/navigator.git
+build:
+    entry_points:
+        - anaconda-navigator = anaconda_navigator.app.main:main
+    number: '0'
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - anaconda-client >=1.6.14
+        - chardet
+        - pillow
+        - psutil
+        - pyqt >=5.6,<6.0a0
+        - python >=3.7,<3.8.0a0
+        - pyyaml
+        - qtpy >=1.4.1
+        - requests
+        - setuptools
+test:
+    imports:
+        - anaconda_navigator
+about:
+    description: 'Anaconda Navigator is a desktop graphical user interface included
+        in
+
+        Anaconda that allows you to launch applications and easily manage conda
+
+        packages, environments and channels without the need to use command line
+
+        commands.
+
+        '
+    doc_url: https://docs.continuum.io/anaconda/navigator
+    home: https://github.com/ContinuumIO/navigator
+    license: proprietary - Continuum Analytics, Inc.
+    license_family: Proprietary
+    summary: Anaconda Navigator
+extra:
+    copy_test_source_files: true
+    final: true

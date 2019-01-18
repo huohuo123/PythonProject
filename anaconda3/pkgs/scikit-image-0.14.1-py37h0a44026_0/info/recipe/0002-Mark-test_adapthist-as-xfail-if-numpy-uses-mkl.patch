@@ -1,0 +1,67 @@
+From 5c5c932033c66507b966abf504b8a995fa0f15e0 Mon Sep 17 00:00:00 2001
+From: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date: Tue, 11 Dec 2018 21:06:36 -0600
+Subject: [PATCH 2/2] Mark test_adapthist* as xfail if numpy uses mkl
+
+---
+ skimage/_shared/testing.py              | 2 ++
+ skimage/exposure/tests/test_exposure.py | 9 ++++++++-
+ 2 files changed, 10 insertions(+), 1 deletion(-)
+
+diff --git a/skimage/_shared/testing.py b/skimage/_shared/testing.py
+index b75123d..be82887 100644
+--- a/skimage/_shared/testing.py
++++ b/skimage/_shared/testing.py
+@@ -37,6 +37,8 @@ fixture = pytest.fixture
+ # https://docs.python.org/2/library/struct.html
+ arch32 = struct.calcsize("P") * 8 == 32
+ 
++numpy_uses_mkl = any(x.startswith('mkl') for x in
++    np.__config__.get_info('blas_opt')['libraries'])
+ 
+ def assert_less(a, b, msg=None):
+     message = "%r is not lower than %r" % (a, b)
+diff --git a/skimage/exposure/tests/test_exposure.py b/skimage/exposure/tests/test_exposure.py
+index 48e256e..7b63393 100644
+--- a/skimage/exposure/tests/test_exposure.py
++++ b/skimage/exposure/tests/test_exposure.py
+@@ -12,7 +12,8 @@ from skimage._shared._warnings import expected_warnings
+ from skimage._shared import testing
+ from skimage._shared.testing import (assert_array_equal,
+                                      assert_array_almost_equal,
+-                                     assert_almost_equal)
++                                     assert_almost_equal,
++                                     numpy_uses_mkl, xfail)
+ 
+ 
+ # Test integer histograms
+@@ -191,6 +192,8 @@ def test_rescale_uint14_limits():
+ # Test adaptive histogram equalization
+ # ====================================
+ 
++@xfail(condition=numpy_uses_mkl,
++       reason="mkl has precision problems")
+ def test_adapthist_grayscale():
+     """Test a grayscale float image
+     """
+@@ -205,6 +208,8 @@ def test_adapthist_grayscale():
+     assert_almost_equal(norm_brightness_err(img, adapted), 0.0529, 3)
+ 
+ 
++@xfail(condition=numpy_uses_mkl,
++       reason="mkl has precision problems")
+ def test_adapthist_color():
+     """Test an RGB color uint16 image
+     """
+@@ -225,6 +230,8 @@ def test_adapthist_color():
+     return data, adapted
+ 
+ 
++@xfail(condition=numpy_uses_mkl,
++       reason="mkl has precision problems")
+ def test_adapthist_alpha():
+     """Test an RGBA color image
+     """
+-- 
+2.19.1
+

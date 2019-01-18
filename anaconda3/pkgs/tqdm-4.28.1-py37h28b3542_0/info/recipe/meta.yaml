@@ -1,0 +1,61 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/c88e9a88-68c0-4887-790a-7db2e1e8e302/volume/rsync-recipes/tqdm-4.28.1-python_3.7-on-osx, last modified Tue Oct 30 21:46:14 2018
+# ------------------------------------------------
+
+package:
+    name: tqdm
+    version: 4.28.1
+source:
+    sha256: 5b4d5549984503050883bc126280b386f5f4ca87e6c023c5d015655ad75bdebb
+    url: https://pypi.io/packages/source/t/tqdm/tqdm-4.28.1.tar.gz
+build:
+    entry_points:
+        - tqdm = tqdm._main:main
+    noarch: false
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37h28b3542_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.2 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - tqdm --help
+        - tqdm -v
+    imports:
+        - tqdm
+about:
+    dev_url: https://github.com/tqdm/tqdm
+    doc_url: https://github.com/tqdm/tqdm
+    home: https://pypi.python.org/pypi/tqdm
+    license: MPLv2.0, MIT
+    license_family: MIT
+    license_file: LICENCE
+    summary: A Fast, Extensible Progress Meter
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - casperdcl
+        - ericdill
+        - lrq3000
+        - pmlandwehr

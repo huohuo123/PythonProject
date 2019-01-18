@@ -1,0 +1,71 @@
+# This file created by conda-build 3.10.7
+# ------------------------------------------------
+
+package:
+    name: liblief
+    version: 0.9.0
+source:
+    -   fn: lief-0.9.0.tar.gz
+        patches:
+            - 0001-Allow-building-from-released-tarball.patch
+        sha256: 8f1a12d69d9f6bd8404d4f5809549d1c7f3138cacf3bccd1192cb4f46bfb9eb7
+        url: https://github.com/lief-project/LIEF/archive/0.9.0.tar.gz
+build:
+    number: 0
+    run_exports:
+        - liblief >=0.9.0,<0.10.0a0
+    string: h2a1bed3_0
+requirements:
+    build:
+        - bzip2 1.0.6 h1de35cc_5
+        - ca-certificates 2018.03.07 0
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 hc9b4283_0
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - cmake 3.11.1 haff7e42_1
+        - compiler-rt 4.0.1 h5487866_0
+        - expat 2.2.5 hb8e80ba_0
+        - git 2.17.0 pl526h028e6c8_0
+        - ld64 274.2 h7c2db76_0
+        - libcurl 7.60.0 hf30b1f0_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libiconv 1.15 hdd342a3_7
+        - libssh2 1.8.0 h322a93b_4
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - perl 5.26.2 h4e221da_0
+        - pkg-config 0.29.2 h3efe00b_8
+        - rhash 1.3.6 hdbc3d79_0
+        - tk 8.6.7 h35a86e2_3
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    host:
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+    run:
+        - libcxx >=4.0.1
+about:
+    description: 'It turns out that many projects need to parse executable formats
+        and they usually re-implement
+
+        their own parser. Moreover these parsers are usually bound to one language.
+
+        LIEF attempts to fill this void.
+
+        '
+    doc_source_url: https://github.com/lief-project/LIEF/tree/master/doc
+    doc_url: https://lief.quarkslab.com/doc/stable/index.html
+    home: https://lief.quarkslab.com/
+    license: Apache 2.0
+    license_family: Apache
+    summary: A cross platform library to parse, modify and abstract ELF, PE and MachO
+        formats.
+extra:
+    copy_test_source_files: true
+    final: true

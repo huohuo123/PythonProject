@@ -1,0 +1,37 @@
+{
+  "arch": "x86_64",
+  "build": "py37h39e3cac_0",
+  "build_number": 0,
+  "depends": [
+    "numpy",
+    "pytest",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/pytest_arraydiff-0.3.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pytest_arraydiff-0.3.dist-info/LICENSE",
+    "lib/python3.7/site-packages/pytest_arraydiff-0.3.dist-info/METADATA",
+    "lib/python3.7/site-packages/pytest_arraydiff-0.3.dist-info/RECORD",
+    "lib/python3.7/site-packages/pytest_arraydiff-0.3.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pytest_arraydiff-0.3.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/pytest_arraydiff-0.3.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pytest_arraydiff/__init__.py",
+    "lib/python3.7/site-packages/pytest_arraydiff/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_arraydiff/__pycache__/plugin.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_arraydiff/plugin.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pytest-arraydiff-0.3-py37h39e3cac_0",
+    "type": "hard-link"
+  },
+  "md5": "5add6e9c6d6cf9a48afdf1348f8d4d16",
+  "name": "pytest-arraydiff",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1545232265295,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pytest-arraydiff-0.3-py37h39e3cac_0.tar.bz2",
+  "version": "0.3"
+}

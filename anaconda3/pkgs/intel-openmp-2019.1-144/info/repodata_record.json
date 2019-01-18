@@ -1,0 +1,19 @@
+{
+  "build": "144",
+  "build_number": 144,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "intel-openmp-2019.1-144.tar.bz2",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "md5": "580ee35fd18dd1b9d5476bb8c44a7a6a",
+  "name": "intel-openmp",
+  "size": 1165291,
+  "subdir": "osx-64",
+  "timestamp": 1542661411410,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/intel-openmp-2019.1-144.tar.bz2",
+  "version": "2019.1"
+}

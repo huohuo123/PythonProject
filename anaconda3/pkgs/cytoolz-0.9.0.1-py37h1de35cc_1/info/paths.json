@@ -1,0 +1,465 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz-0.9.0.1-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "b25072d4f6e7c68a81e8dc123862ce2a6e6fe02b368b4754e8383607d097f01e",
+      "size_in_bytes": 4947
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz-0.9.0.1-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "58b083ec50f3f1cab8c236a712778ecef4a8ad58acbca0967fef9c360630d192",
+      "size_in_bytes": 1365
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz-0.9.0.1-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz-0.9.0.1-py3.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz-0.9.0.1-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "2d882152adcfb732e7216e4e55fb4f157bce40c2691fac73086eacd4a8b70f0c",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz-0.9.0.1-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f95bb693a507a8068567fc78f981fd8abbce3c56705ea86216780b59bf7f2a5d",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/__init__.pxd",
+      "path_type": "hardlink",
+      "sha256": "a1dbb74a719d322168b79eae79f48c309474f48a81b88b70f6db51c24a5cdfbc",
+      "size_in_bytes": 750
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "80c5c8e13123545cf9b607c8243ea53c13630b9e1c12b83a747597d4e3cb9846",
+      "size_in_bytes": 476
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f41f850380f3be0ac47df4fe74e1e90ebc32cfad72ad571713b7ea33c1da3e85",
+      "size_in_bytes": 553
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/__pycache__/_signatures.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0a46158b6352f9606f5d2059bde7f09f486d4e8bdabc3b01f0fc46cb62337455",
+      "size_in_bytes": 8077
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/__pycache__/_version.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2f3832903227c654c519315120cbd49a8f78d0bd365699588bc7a6f5ee379bf6",
+      "size_in_bytes": 189
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/__pycache__/compatibility.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ebd4ece0b4f4e682c4889715f04b0aa988e6b15a8be55d0ccd27532e9eb8e454",
+      "size_in_bytes": 1034
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/__pycache__/utils_test.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d8f58788b47dcd064f14c561a133e09c525d2305a3ad2f6063b893969354c01e",
+      "size_in_bytes": 1436
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/_signatures.py",
+      "path_type": "hardlink",
+      "sha256": "5827dea89c4ffb77c3cf524f81545b4df6bcb9c4b13980f3cf50f76428e7f26d",
+      "size_in_bytes": 4195
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/_version.py",
+      "path_type": "hardlink",
+      "sha256": "78729e357bf1630730023ee3becbe09e7fa9959f884cceccbf8a801983e65379",
+      "size_in_bytes": 52
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/compatibility.py",
+      "path_type": "hardlink",
+      "sha256": "a44814e87b2f514d4328d6736ee6165e9ceb96973454d22db6109c726374064d",
+      "size_in_bytes": 1135
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/cpython.pxd",
+      "path_type": "hardlink",
+      "sha256": "7ad769515a17528cdbba65fb2066f676764557e43f56d5ec4d1c5d4496fb85dc",
+      "size_in_bytes": 497
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/curried/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "0a8e1e9cac7fe0b803d87f57bd0d17d210c15071b850d889deface16da46ade9",
+      "size_in_bytes": 2791
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/curried/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "de1691c5b0caa90e188bd95f229d27c6da908eced1220d835fd82480262ace6a",
+      "size_in_bytes": 2344
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/curried/__pycache__/exceptions.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "388f57bb9dbd6327efdedd7535c272bdd4bbc4b9025db41de2114056e229021b",
+      "size_in_bytes": 508
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/curried/__pycache__/operator.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f3e881c09d3bfa24d816414bf644882853aecf45f5109438300d831a691f3137",
+      "size_in_bytes": 728
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/curried/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "c35bfd4c6122e8cd98c9942a046ba8fd9c3696472af332229298124753bb448f",
+      "size_in_bytes": 350
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/curried/operator.py",
+      "path_type": "hardlink",
+      "sha256": "3337ae6f5baff1d20e64b707bf07e59016e2d8ec3ac4ca2c9299a47cd976762d",
+      "size_in_bytes": 502
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/dicttoolz.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/cytoolz_1530733630834/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "4a8985f85d292bd04f0e87a41203f17a5100aa5b6609bc645e598923fa2b85cc",
+      "size_in_bytes": 122712
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/dicttoolz.pxd",
+      "path_type": "hardlink",
+      "sha256": "17f6fd6a559e381b131cbbf297429ca9eab92e9d1b4cc2d159ad47148622d1d4",
+      "size_in_bytes": 1284
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/dicttoolz.pyx",
+      "path_type": "hardlink",
+      "sha256": "4a77296dc0a157284e020c02e68658771cc28aabbc112a939adc0a85ec263cf0",
+      "size_in_bytes": 14804
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/functoolz.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/cytoolz_1530733630834/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "b6251a799a43e26162b0d258d889102c1dc56468368e83aa057425a3384cf5f0",
+      "size_in_bytes": 240216
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/functoolz.pxd",
+      "path_type": "hardlink",
+      "sha256": "f17d43f3c0201aa7c80bd24a97af3eab4b0bcb55e6bc3e923984eb027103cb8d",
+      "size_in_bytes": 1209
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/functoolz.pyx",
+      "path_type": "hardlink",
+      "sha256": "988e04a01fb5909dc414b053d92c0f4886547b62a6d83ddf9bb423e8cd41bf32",
+      "size_in_bytes": 23123
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/itertoolz.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/cytoolz_1530733630834/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "f0419d5db9ed5e7974a13202ebc8d9b9c104b1a7296d2d9becea61fba6bdf4aa",
+      "size_in_bytes": 440428
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/itertoolz.pxd",
+      "path_type": "hardlink",
+      "sha256": "67ed691e33feaad03fe659798bd5d228cd7b4460ea782cd81de8224be8b25521",
+      "size_in_bytes": 4648
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/itertoolz.pyx",
+      "path_type": "hardlink",
+      "sha256": "66615749eacbdda7b1b0c8ace6ef02e11190caf5313e4d3829b1f1bc44057672",
+      "size_in_bytes": 50375
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/recipes.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/cytoolz_1530733630834/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "b55209f0da837808bc920beb365d259c0f5f7be0c02422746fa83cc83531781a",
+      "size_in_bytes": 61928
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/recipes.pxd",
+      "path_type": "hardlink",
+      "sha256": "856d137b38c43113595b58734d002174a42eb68220934b70709e1f28449763a8",
+      "size_in_bytes": 100
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/recipes.pyx",
+      "path_type": "hardlink",
+      "sha256": "36fd15a4a99eaa100ccb9a827688b0198aa820d9113c9e946dcd82e897310014",
+      "size_in_bytes": 1638
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/dev_skip_test.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b1be0a9858f376bb0880d0740a18908f78c99613adbcc6f3857ed5ba32de37bb",
+      "size_in_bytes": 1089
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_compatibility.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f035623b56673f8ed6ccfa386438f55651132fd28ca0e7e3cb5898223e117443",
+      "size_in_bytes": 956
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_curried.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8ef61a1e4f529a532ad582d8e19301d6156867c9c03884633a69b5e20890b9d9",
+      "size_in_bytes": 4365
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_curried_toolzlike.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "1a6bcac192c798490a4bef310d8baac86115cf5997e24f215a98133832196449",
+      "size_in_bytes": 1326
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_dev_skip_test.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7d11086c8e881f1cb1e0b4aec70b4f51999341a888e68de70386cfbcdab4a5ef",
+      "size_in_bytes": 727
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_dicttoolz.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4d823a97aa2e1a7a1b00b0eafe9ff33e71952a090e99aeecf3dfdf12eafd3e94",
+      "size_in_bytes": 11406
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_docstrings.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f48d7e6f5371f407d418c948c7f99d3a7e1aea46a71eb22ed582f9c75e1cc750",
+      "size_in_bytes": 2594
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_doctests.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "63a131d35cb03bfdfc729dcf0b8c72a4215e5ad149d13de3e88d6218c77f6327",
+      "size_in_bytes": 600
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_embedded_sigs.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c4586ede05268b2f5626b19237db142b1849a443918915682040aeeaf50d692d",
+      "size_in_bytes": 3093
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_functoolz.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e5f216060f02461c70ff6b99a5014197def8577fc37990dbe7f29723535ae9e4",
+      "size_in_bytes": 23652
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_inspect_args.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e931c1521ff4dcd146779b2feaefe628bd6d049b202b498e39ebada286a6ee70",
+      "size_in_bytes": 16966
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_itertoolz.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "63c23738089597f0fdd8aca8525f5e88ff5a6da98b0141deacb92cf3f627ef9c",
+      "size_in_bytes": 22634
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_none_safe.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c7547a2848c2cfdd7b20f2cb05559b31fbf73523d59029af4126852d61ccdfb3",
+      "size_in_bytes": 16972
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_recipes.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "96f81278b11b67005debd1075adfa9a133c5c5c5f476dd5c1c05fd40f263a3b6",
+      "size_in_bytes": 1076
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_serialization.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "88f50faff613f94144c766e35bf4fe67803e2754b69bb175cfbbe494c2e6d1b6",
+      "size_in_bytes": 5960
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_signatures.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "388105dfcb5a22796b20367a2aa4ca1f5fbda053cd883601b9d1c99a52b5a563",
+      "size_in_bytes": 2531
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_tlz.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "df28ff6f0a625d4b9b3396238859c755d9985023d815cc95988710903e686da6",
+      "size_in_bytes": 1345
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/__pycache__/test_utils.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5f317858fd3205f018851d76927c1afbbbec82872c7306c23bf723eb591f77d2",
+      "size_in_bytes": 1039
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/dev_skip_test.py",
+      "path_type": "hardlink",
+      "sha256": "051bc64163d21476e80f69d098b01136a6335729d7dcb21661af5a7ff0bcb351",
+      "size_in_bytes": 1003
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_compatibility.py",
+      "path_type": "hardlink",
+      "sha256": "26577bca1cb142eb8b3a12944f75c6aa6b3c4b5d208d20ceb12457c6cafb3790",
+      "size_in_bytes": 547
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_curried.py",
+      "path_type": "hardlink",
+      "sha256": "e22e8dcba35f7c3bd2bb1974e200e2faa94e8273ac8d13a4e1c30ac0fdfa118f",
+      "size_in_bytes": 3726
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_curried_toolzlike.py",
+      "path_type": "hardlink",
+      "sha256": "9b8222f3aa76c792bd994cfab2bf050f6fcbac29e993274b94b2c3c7f242e60e",
+      "size_in_bytes": 1399
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_dev_skip_test.py",
+      "path_type": "hardlink",
+      "sha256": "2162b67e7a55f21e7235602c7662887001581c362c337113ec37725f0e63b1d9",
+      "size_in_bytes": 380
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_dicttoolz.py",
+      "path_type": "hardlink",
+      "sha256": "f0706c5b4f2b29eb3c079f1652a6b4b774b1921969c67efe4297231c5cce7914",
+      "size_in_bytes": 8602
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_docstrings.py",
+      "path_type": "hardlink",
+      "sha256": "c173df3b15141f7aec83c9d500ab8547f882a8d899cf6fd7c3262660b683943c",
+      "size_in_bytes": 3034
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_doctests.py",
+      "path_type": "hardlink",
+      "sha256": "e2fb2adff6e108f034a5a1870d2c5d3c4ac65210737bc582e2f6e93a59a6c1c2",
+      "size_in_bytes": 435
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_embedded_sigs.py",
+      "path_type": "hardlink",
+      "sha256": "dd1e06eab057ccefb482d6ed8b69c6d199b2ac216e74afd63a8eb3717ac6b33e",
+      "size_in_bytes": 3495
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_functoolz.py",
+      "path_type": "hardlink",
+      "sha256": "163aa3f262fe09dbb7f76d80bbd0a0fe3fbbaece4e6322d09e347651b0463c09",
+      "size_in_bytes": 16529
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_inspect_args.py",
+      "path_type": "hardlink",
+      "sha256": "c6d74231ceda746315d0c26c7044f5e3289c13f52fddd55df6693a09259e3225",
+      "size_in_bytes": 16323
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_itertoolz.py",
+      "path_type": "hardlink",
+      "sha256": "551a949aa8b5e16a6a5f7b2263d42f8c9bf9b8e3aebd0b0c744302a499f459b6",
+      "size_in_bytes": 17465
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_none_safe.py",
+      "path_type": "hardlink",
+      "sha256": "295c17ac96e33ee52e2bfedbe5ae4e7d1426e1687b782faa291cb92cffc0553f",
+      "size_in_bytes": 11823
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_recipes.py",
+      "path_type": "hardlink",
+      "sha256": "37efbe6c9f47f566076d5dc3ade0920ca2407446486f50b9e41ce2eceb73c277",
+      "size_in_bytes": 822
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_serialization.py",
+      "path_type": "hardlink",
+      "sha256": "98d8f1515a95f086067066e309f5ade81c9ec3dcc1e736949aabc5dce4634004",
+      "size_in_bytes": 5949
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_signatures.py",
+      "path_type": "hardlink",
+      "sha256": "02fd1eb94c19a5d17e06c834895a4855e7d7ccce24b4a7ebb8df0856cdd2ffe5",
+      "size_in_bytes": 2933
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_tlz.py",
+      "path_type": "hardlink",
+      "sha256": "b113cb6502bb87b91018a3371a5c5070dee51a4d70ca9b39eb9a0d620b9bdad9",
+      "size_in_bytes": 1486
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/tests/test_utils.py",
+      "path_type": "hardlink",
+      "sha256": "88ebc05e5f6051848b76b8ebcfda19771da397db8fc40f6e0d77b399ae9f631e",
+      "size_in_bytes": 385
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/utils.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/cytoolz_1530733630834/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "f8a39e0fb4159685877ac64454016ac5949ddcb17a2436747f41f87b26bba6e5",
+      "size_in_bytes": 43364
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/utils.pxd",
+      "path_type": "hardlink",
+      "sha256": "7447cc5456a039a4c131befe9f3195106dd9b90498cf879af752ad74edd751e8",
+      "size_in_bytes": 33
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/utils.pyx",
+      "path_type": "hardlink",
+      "sha256": "43617fc9dd7008d06e51f5d7e821f9fe77b332b15b53677ad1024213ac3d5978",
+      "size_in_bytes": 1353
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cytoolz/utils_test.py",
+      "path_type": "hardlink",
+      "sha256": "e571f66a23d9ea96934cdd27181219d021c928f9d7f80b10b9eb5cb022dd68c5",
+      "size_in_bytes": 2075
+    }
+  ],
+  "paths_version": 1
+}

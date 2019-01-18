@@ -1,0 +1,19 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/gmpy2-2.0.8-py3.7.egg-info",
+      "path_type": "hardlink",
+      "sha256": "16ea1710a2c9f865e8cef40ca007b2fbd1380230d9529adedb234cf4a5aa8026",
+      "size_in_bytes": 1018
+    },
+    {
+      "_path": "lib/python3.7/site-packages/gmpy2.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/gmpy2_1530877514048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "9ee2d2a24d84bbeea2056b5298a47ab9a390b0e7d11a5e623a3d67dc3dce42a4",
+      "size_in_bytes": 489760
+    }
+  ],
+  "paths_version": 1
+}

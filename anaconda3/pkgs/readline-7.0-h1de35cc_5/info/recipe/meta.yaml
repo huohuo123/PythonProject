@@ -1,0 +1,75 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/e9c56b68-5033-475a-61cf-213463fabcde/volume/rsync-recipes/readline-7.0-on-osx, last modified Tue Aug 28 11:54:17 2018
+# ------------------------------------------------
+
+package:
+    name: readline
+    version: '7.0'
+source:
+    patches:
+        - patches/readline70-001
+        - patches/readline70-002
+        - patches/readline70-003
+        - patches/readline70-004
+        - patches/readline70-005
+    sha256: 750d437185286f40a369e1e4f4764eda932b9459b5ec9a731628393dd3d32334
+    url: ftp://ftp.gnu.org/gnu/readline/readline-7.0.tar.gz
+build:
+    number: '5'
+    run_exports:
+        - readline >=7.0,<8.0a0
+    string: h1de35cc_5
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libiconv 1.15 hdd342a3_7
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - make 4.2.1 h3efe00b_1
+        - pkg-config 0.29.2 h3efe00b_8
+    host:
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - ncurses 6.1 h0a44026_0
+    run:
+        - ncurses >=6.1,<7.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libreadline.a
+        - test -f ${PREFIX}/lib/libreadline${SHLIB_EXT}
+        - test -f ${PREFIX}/lib/libhistory.a
+        - test -f ${PREFIX}/lib/libhistory${SHLIB_EXT}
+about:
+    description: 'The standard Python readline extension statically linked against
+        the GNU
+
+        readline library.
+
+        '
+    dev_url: https://github.com/ludwigschwardt/python-gnureadline
+    doc_source_url: https://github.com/ludwigschwardt/python-gnureadline
+    doc_url: https://pypi.python.org/pypi/readline
+    home: https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+    license: GPL-3.0
+    license_file: COPYING
+    summary: library for editing command lines as they are typed in
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - croth1
+        - jakirkham
+        - jjhelmus
+        - mingwandroid
+        - msarahan
+        - msarahan
+        - ocefpaf
+        - pelson

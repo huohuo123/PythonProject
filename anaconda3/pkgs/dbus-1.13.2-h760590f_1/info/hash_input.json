@@ -1,0 +1,7 @@
+{
+  "expat": "2.2",
+  "dbus": "1",
+  "VERBOSE_AT": "V=1",
+  "glib": "2.56",
+  "c_compiler": "clang"
+}

@@ -1,0 +1,22 @@
+{
+  "build": "py37h6174b99_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libffi >=3.2.1,<4.0a0",
+    "pycparser",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "cffi-1.11.5-py37h6174b99_1.tar.bz2",
+  "license": "MIT",
+  "md5": "cea35925b3d5c5e6a5d0433fc4ed28c7",
+  "name": "cffi",
+  "size": 210113,
+  "subdir": "osx-64",
+  "timestamp": 1534341645136,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/cffi-1.11.5-py37h6174b99_1.tar.bz2",
+  "version": "1.11.5"
+}

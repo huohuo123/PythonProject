@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/bitarray-0.8.3-py3.7.egg-info",
+      "path_type": "hardlink",
+      "sha256": "3ae90399e74fa9e2069be14262a9ccc4babb354645d9deff526fa9cbe8293a45",
+      "size_in_bytes": 1151
+    },
+    {
+      "_path": "lib/python3.7/site-packages/bitarray/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "bbc1f0d2041e2f5a8b80b0557bf07bdbd1c5df33f31f51c8dd326a013ef41ddd",
+      "size_in_bytes": 4440
+    },
+    {
+      "_path": "lib/python3.7/site-packages/bitarray/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2b4ad74ec7933bca9a88843ba3ba0ebffb5aa5e4364a1229e5e98be25cdaf9f8",
+      "size_in_bytes": 5200
+    },
+    {
+      "_path": "lib/python3.7/site-packages/bitarray/__pycache__/test_bitarray.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "facd38309db4817fa1bde3dce0993b43fdcd730862986373618c3224f2b09cc4",
+      "size_in_bytes": 62530
+    },
+    {
+      "_path": "lib/python3.7/site-packages/bitarray/_bitarray.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/40321a79-b6d0-48ab-4ff9-4dfcb80f53d5/volume/bitarray_1532525677983/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "6686c3e0654f7fbaf814e67ae8df5a30e7ce59ed8416820f3dd4fdf29a5a1d34",
+      "size_in_bytes": 58140
+    },
+    {
+      "_path": "lib/python3.7/site-packages/bitarray/test_bitarray.py",
+      "path_type": "hardlink",
+      "sha256": "e712fdc43e984fd0c7685301fa099b38bfd18252a5ea5a8848febc8a362c1cab",
+      "size_in_bytes": 68981
+    }
+  ],
+  "paths_version": 1
+}

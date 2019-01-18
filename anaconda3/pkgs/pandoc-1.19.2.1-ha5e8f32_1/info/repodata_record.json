@@ -1,0 +1,18 @@
+{
+  "build": "ha5e8f32_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "pandoc-1.19.2.1-ha5e8f32_1.tar.bz2",
+  "license": "GPL-2.0",
+  "md5": "f6e369d599448e3052f712ca9c3d9398",
+  "name": "pandoc",
+  "size": 33825875,
+  "subdir": "osx-64",
+  "timestamp": 1505178119186,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pandoc-1.19.2.1-ha5e8f32_1.tar.bz2",
+  "version": "1.19.2.1"
+}

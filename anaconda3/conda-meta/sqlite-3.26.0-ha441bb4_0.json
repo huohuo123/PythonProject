@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "ha441bb4_0",
+  "build_number": 0,
+  "depends": [
+    "libedit >=3.1.20170329,<3.2.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "files": [
+    "bin/sqlite3",
+    "include/sqlite3.h",
+    "include/sqlite3ext.h",
+    "lib/libsqlite3.0.dylib",
+    "lib/libsqlite3.a",
+    "lib/libsqlite3.dylib",
+    "lib/pkgconfig/sqlite3.pc"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "Public-Domain (http://www.sqlite.org/copyright.html)",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/sqlite-3.26.0-ha441bb4_0",
+    "type": "hard-link"
+  },
+  "md5": "f1d76b6c4ea427cacdcc8a5fbc94499e",
+  "name": "sqlite",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1545058042221,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sqlite-3.26.0-ha441bb4_0.tar.bz2",
+  "version": "3.26.0"
+}

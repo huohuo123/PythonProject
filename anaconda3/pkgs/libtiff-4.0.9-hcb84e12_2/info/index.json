@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "hcb84e12_2",
+  "build_number": 2,
+  "depends": [
+    "jpeg >=9b,<10a",
+    "libcxx >=4.0.1",
+    "xz >=5.2.4,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "HPND",
+  "name": "libtiff",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1535046102750,
+  "version": "4.0.9"
+}

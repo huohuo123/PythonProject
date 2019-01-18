@@ -1,0 +1,21 @@
+{
+  "build": "py37h1de35cc_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "fastcache-1.0.2-py37h1de35cc_2.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "38bb1f935c90818cd2e4ec1deb0fefdc",
+  "name": "fastcache",
+  "size": 29037,
+  "subdir": "osx-64",
+  "timestamp": 1530851847319,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/fastcache-1.0.2-py37h1de35cc_2.tar.bz2",
+  "version": "1.0.2"
+}

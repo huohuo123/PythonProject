@@ -1,0 +1,20 @@
+{
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "sqlalchemy-1.2.15-py37h1de35cc_0.tar.bz2",
+  "license": "MIT",
+  "md5": "1c8b59aad237f03eb1f58c66ed3d4769",
+  "name": "sqlalchemy",
+  "size": 1754510,
+  "subdir": "osx-64",
+  "timestamp": 1545075623276,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sqlalchemy-1.2.15-py37h1de35cc_0.tar.bz2",
+  "version": "1.2.15"
+}

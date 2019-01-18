@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py37h6ef4df4_2",
+  "build_number": 2,
+  "depends": [
+    "gmp >=6.1.2",
+    "mpc",
+    "mpfr >=4.0.1,<5.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/gmpy2-2.0.8-py3.7.egg-info",
+    "lib/python3.7/site-packages/gmpy2.cpython-37m-darwin.so"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "LGPL 3",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/gmpy2-2.0.8-py37h6ef4df4_2",
+    "type": "hard-link"
+  },
+  "md5": "49b2e8bee7735b66654d9985e2c61956",
+  "name": "gmpy2",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530877648337,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/gmpy2-2.0.8-py37h6ef4df4_2.tar.bz2",
+  "version": "2.0.8"
+}

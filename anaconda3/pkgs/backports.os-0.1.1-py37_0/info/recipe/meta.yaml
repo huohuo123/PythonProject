@@ -1,0 +1,62 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/4bebb61d-188e-4583-6e61-855dc5ae56cb/volume/rsync-recipes/backports.os-0.1.1-python_3.7-on-osx, last modified Tue Oct 16 10:09:49 2018
+# ------------------------------------------------
+
+package:
+    name: backports.os
+    version: 0.1.1
+source:
+    fn: backports.os-0.1.1.tar.gz
+    sha256: b472c4933094306ca08ec90b2a8cbb50c34f1fb2767775169a1c1650b7b74630
+    url: https://pypi.io/packages/source/b/backports.os/backports.os-0.1.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - backports 1.0 py37_1
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - setuptools_scm 3.1.0 py37h28b3542_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - backports
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - export "PYTHONIOENCODING=utf8"
+        - python -m unittest discover tests
+    imports:
+        - backports
+        - backports.os
+    requires:
+        - hypothesis
+    source_files:
+        - tests
+about:
+    dev_url: https://github.com/pjdelport/backports.os
+    doc_url: https://docs.python.org/3.5/library/os.html
+    home: https://github.com/pjdelport/backports.os
+    license: Python Software Foundation
+    license_family: PSF
+    license_file: LICENSE
+    summary: Backport of new features in Python's os module
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

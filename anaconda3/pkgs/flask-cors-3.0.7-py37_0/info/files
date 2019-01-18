@@ -1,0 +1,16 @@
+lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/INSTALLER
+lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/LICENSE
+lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/METADATA
+lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/RECORD
+lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/WHEEL
+lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/top_level.txt
+lib/python3.7/site-packages/flask_cors/__init__.py
+lib/python3.7/site-packages/flask_cors/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/flask_cors/__pycache__/core.cpython-37.pyc
+lib/python3.7/site-packages/flask_cors/__pycache__/decorator.cpython-37.pyc
+lib/python3.7/site-packages/flask_cors/__pycache__/extension.cpython-37.pyc
+lib/python3.7/site-packages/flask_cors/__pycache__/version.cpython-37.pyc
+lib/python3.7/site-packages/flask_cors/core.py
+lib/python3.7/site-packages/flask_cors/decorator.py
+lib/python3.7/site-packages/flask_cors/extension.py
+lib/python3.7/site-packages/flask_cors/version.py

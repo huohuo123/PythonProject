@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/imagesize.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3679304ed4f498828db360be5e2d09dfbc2aa92a8523d46db06ec9c4416322d8",
+      "size_in_bytes": 5306
+    },
+    {
+      "_path": "lib/python3.7/site-packages/imagesize-1.1.0-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "dbc045cc6dea79601fda12262e6355c1606a84445c27b010d7a14cb89be88e06",
+      "size_in_bytes": 1361
+    },
+    {
+      "_path": "lib/python3.7/site-packages/imagesize-1.1.0-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "31a4f24139bf7c14324190f291a42111e40bcc22000030c84fb50582ea7d10bb",
+      "size_in_bytes": 474
+    },
+    {
+      "_path": "lib/python3.7/site-packages/imagesize-1.1.0-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/imagesize-1.1.0-py3.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "6568e7e88ff1eb48fb321202ee32d62d4fddc84e03fca9dc34277d8973ef534d",
+      "size_in_bytes": 112
+    },
+    {
+      "_path": "lib/python3.7/site-packages/imagesize-1.1.0-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "lib/python3.7/site-packages/imagesize.py",
+      "path_type": "hardlink",
+      "sha256": "dfb5ec129eee077d13c9219d6419429622470e2f45b750dfc0e71b2616841874",
+      "size_in_bytes": 10134
+    }
+  ],
+  "paths_version": 1
+}

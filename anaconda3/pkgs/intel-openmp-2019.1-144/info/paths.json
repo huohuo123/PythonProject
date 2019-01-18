@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libiomp5.dylib",
+      "path_type": "hardlink",
+      "sha256": "d969dcd1b1df1e802f49740be4468dd583d7601dfb471a09ba54e1aae485cf2d",
+      "size_in_bytes": 2800544
+    },
+    {
+      "_path": "lib/libiomp5_db.dylib",
+      "path_type": "hardlink",
+      "sha256": "c09166053f99cce5045c9b534671d0e5ff78536c61e907339f9f7d3d81413fed",
+      "size_in_bytes": 303184
+    },
+    {
+      "_path": "lib/libiompstubs5.dylib",
+      "path_type": "hardlink",
+      "sha256": "1b039da40cc073718c80028577e481f28207dd1abad83ad0d105689d88f4e332",
+      "size_in_bytes": 181088
+    }
+  ],
+  "paths_version": 1
+}

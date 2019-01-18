@@ -1,0 +1,21 @@
+{
+  "build": "h15daf44_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libffi >=3.2.1,<4.0a0",
+    "libiconv >=1.15,<2.0a0"
+  ],
+  "features": "",
+  "fn": "gettext-0.19.8.1-h15daf44_3.tar.bz2",
+  "license": "GPLv2",
+  "md5": "7681fa7f32f81fc320919d828cd8c949",
+  "name": "gettext",
+  "size": 3575406,
+  "subdir": "osx-64",
+  "timestamp": 1510611182366,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/gettext-0.19.8.1-h15daf44_3.tar.bz2",
+  "version": "0.19.8.1"
+}

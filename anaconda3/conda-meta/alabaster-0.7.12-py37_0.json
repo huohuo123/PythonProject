@@ -1,0 +1,44 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/alabaster-0.7.12.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/alabaster-0.7.12.dist-info/LICENSE",
+    "lib/python3.7/site-packages/alabaster-0.7.12.dist-info/METADATA",
+    "lib/python3.7/site-packages/alabaster-0.7.12.dist-info/RECORD",
+    "lib/python3.7/site-packages/alabaster-0.7.12.dist-info/WHEEL",
+    "lib/python3.7/site-packages/alabaster-0.7.12.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/alabaster-0.7.12.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/alabaster/__init__.py",
+    "lib/python3.7/site-packages/alabaster/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/alabaster/__pycache__/_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/alabaster/__pycache__/support.cpython-37.pyc",
+    "lib/python3.7/site-packages/alabaster/_version.py",
+    "lib/python3.7/site-packages/alabaster/about.html",
+    "lib/python3.7/site-packages/alabaster/donate.html",
+    "lib/python3.7/site-packages/alabaster/layout.html",
+    "lib/python3.7/site-packages/alabaster/navigation.html",
+    "lib/python3.7/site-packages/alabaster/relations.html",
+    "lib/python3.7/site-packages/alabaster/static/alabaster.css_t",
+    "lib/python3.7/site-packages/alabaster/static/custom.css",
+    "lib/python3.7/site-packages/alabaster/support.py",
+    "lib/python3.7/site-packages/alabaster/theme.conf"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/alabaster-0.7.12-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "5f97e22330edf852b628c4fefc03f29e",
+  "name": "alabaster",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1539023497104,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/alabaster-0.7.12-py37_0.tar.bz2",
+  "version": "0.7.12"
+}

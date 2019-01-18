@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37h6174b99_1",
+  "build_number": 1,
+  "depends": [
+    "libffi >=3.2.1,<4.0a0",
+    "pycparser",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "MIT",
+  "name": "cffi",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1534341645136,
+  "version": "1.11.5"
+}

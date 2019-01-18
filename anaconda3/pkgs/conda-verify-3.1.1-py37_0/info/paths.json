@@ -1,0 +1,157 @@
+{
+  "paths": [
+    {
+      "_path": "bin/conda-verify",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "3f7e190a6ac1ed5c15fab8fa098a1298996481f0bcbb0143eaad95ec1e9620cc",
+      "size_in_bytes": 434
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify-3.1.1-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "16a7c49ad6cd88a0ff1501aebe39d48fc851d96c2191ce68e359e9d0d2251f5f",
+      "size_in_bytes": 11322
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify-3.1.1-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "1233ca4fc4be71541171c4dfa6c881a1a4b3330da6b4c15f480252a5b7e802e8",
+      "size_in_bytes": 462
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify-3.1.1-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify-3.1.1-py3.7.egg-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "5e496297c06ed3a139318dd1cda9e52a7a6980372403808ce69dad23b3b39d47",
+      "size_in_bytes": 77
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify-3.1.1-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "ef819e126793f4dab853078cc0c836a82f569be003163a76eda7256678a22787",
+      "size_in_bytes": 55
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify-3.1.1-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "6b5061ff5f7925c10ff0865b67e47c450e747daf1322b62e2f62b552840b776c",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3e25128852c29b4617e6b6c74b8c4e2c676a74f0c2f23ddeb55de798469e9732",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "15437381f4f60c2cd441530002522ee1d7ad4f9aa3f3039ab33cbc886b7130b3",
+      "size_in_bytes": 41
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "388a5c9f54ac2779927352df8599d3fc1a6ab929b6e327906f1a3f3473c37e07",
+      "size_in_bytes": 222
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/__main__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "97e2614e6ddd237bf8ea61864bff94cd1adb655aff7b7bef6a308ce8815e1830",
+      "size_in_bytes": 191
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/_version.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "19df9ab59fb1cac04783ffd81e4fc1a07fca480a87284e0eec569d9df045a0d7",
+      "size_in_bytes": 459
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/checks.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "bb9e4994b073823937e3464f4e4d834c6fc659c3fd5193b9ba7aedcbb494e24c",
+      "size_in_bytes": 27002
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/cli.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2565994a0e3e8c7e386f131d3d0921674607aa04d731cc4ab4ba7df6747a5567",
+      "size_in_bytes": 1425
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/constants.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "73bfa2ae86be6f1945e35e87c823c64bbd36f4c3aa03cbdea51d494d389948df",
+      "size_in_bytes": 4109
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/errors.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "22a9a76fbf968c3e2351d705e18ba08bcb92de2077e35d9edd54dc8d8a54504a",
+      "size_in_bytes": 1075
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/utilities.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ddc0d67088cec097bb587b9305995ecae51e37cbfff865c5b4a7e11feef177ab",
+      "size_in_bytes": 4481
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/__pycache__/verify.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b72a660edaa34bf4b7bbc8968c01f1fc206f7c971c5171085a2fee8f15a173b5",
+      "size_in_bytes": 3015
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/_version.py",
+      "path_type": "hardlink",
+      "sha256": "ed9649b986c29775767910329d183492c10418636dad282c9904c1526d491b59",
+      "size_in_bytes": 497
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/checks.py",
+      "path_type": "hardlink",
+      "sha256": "f318a55f21e9e1f198c8d7315fd034cc78c1f29f6371a95d95b97cb9096ef5f9",
+      "size_in_bytes": 29163
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/cli.py",
+      "path_type": "hardlink",
+      "sha256": "b1b4d8e61ccc6242b337baba7b4bd9c7ba548c6de7c4eb4de0be0059288b45f9",
+      "size_in_bytes": 1391
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/constants.py",
+      "path_type": "hardlink",
+      "sha256": "4a510f1f3bf63dd839c99992f3b5592f9fd0d869cc091424d05f321a23ae2178",
+      "size_in_bytes": 4454
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/errors.py",
+      "path_type": "hardlink",
+      "sha256": "7244944f1ef2416d88e8517636c09d6fadcd3e24dbeb67b96aed1febc5c9b6ab",
+      "size_in_bytes": 539
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/utilities.py",
+      "path_type": "hardlink",
+      "sha256": "b3467c7f1d7750239360949ec657b11a36a06217c6da8004805fc4658a91bdc7",
+      "size_in_bytes": 4495
+    },
+    {
+      "_path": "lib/python3.7/site-packages/conda_verify/verify.py",
+      "path_type": "hardlink",
+      "sha256": "103749da28260e414e0ca4a85713326b5be648c06764f54a7bc2aba9f351acf6",
+      "size_in_bytes": 3848
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,67 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/babel-feedstock/recipe, last modified Thu Jun 14 11:46:12 2018
+# ------------------------------------------------
+
+package:
+    name: babel
+    version: 2.6.0
+source:
+    fn: Babel-2.6.0.tar.gz
+    sha256: 8cba50f48c529ca3fa18cf81fa9403be176d374ac4d60738b839122dfaaa3d23
+    url: https://pypi.io/packages/source/B/Babel/Babel-2.6.0.tar.gz
+build:
+    entry_points:
+        - pybabel = babel.messages.frontend:main
+    number: '0'
+    script: python setup.py install
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - pytz 2018.5 py37_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+        - pytz
+test:
+    commands:
+        - pybabel --help
+    imports:
+        - babel
+        - babel.localtime
+        - babel.messages
+about:
+    description: 'Babel is an integrated collection of utilities that assist in
+
+        internationalizing and localizing Python applications, with an emphasis
+
+        on web-base applications.
+
+        '
+    dev_url: https://github.com/python-babel/babel
+    doc_source_url: https://github.com/python-babel/babel/blob/master/docs/index.rst
+    doc_url: http://babel.pocoo.org/en/latest/#user-documentation
+    home: http://babel.pocoo.org/
+    license: BSD 3-clause
+    license_file: LICENSE
+    summary: Utilities to internationalize and localize Python applications
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - frol
+        - nehaljwani

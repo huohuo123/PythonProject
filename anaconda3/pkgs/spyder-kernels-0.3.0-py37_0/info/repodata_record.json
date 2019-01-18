@@ -1,0 +1,26 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "cloudpickle",
+    "ipykernel >4.9.0",
+    "jupyter_client >=5.2.3",
+    "python >=3.7,<3.8.0a0",
+    "pyzmq >=17",
+    "wurlitzer"
+  ],
+  "features": "",
+  "fn": "spyder-kernels-0.3.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "81e49b6a7cc1a11994e82dbc63245c62",
+  "name": "spyder-kernels",
+  "size": 63814,
+  "subdir": "osx-64",
+  "timestamp": 1543427218832,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/spyder-kernels-0.3.0-py37_0.tar.bz2",
+  "version": "0.3.0"
+}

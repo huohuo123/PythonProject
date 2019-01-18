@@ -1,0 +1,74 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/9c38243b-1e5e-4aa9-4431-38a24ace44a3/volume/rsync-recipes/libxslt-1.1.32-on-osx, last modified Fri Jan 26 10:52:35 2018
+# ------------------------------------------------
+
+package:
+    name: libxslt
+    version: 1.1.32
+source:
+    fn: libxslt-1.1.32.tar.gz
+    sha256: 526ecd0abaf4a7789041622c3950c0e7f2c4c8835471515fd77eec684a355460
+    url: ftp://xmlsoft.org/libxml2/libxslt-1.1.32.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - libxslt >=1.1.32,<2.0a0
+    string: hb819dd2_0
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - automake 1.15.1 pl526h2ca55ef_0
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_8
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libtool 2.4.6 hdb3952c_3
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - m4 1.4.18 hc7d0c60_0
+        - perl 5.26.0 h5b8ca18_0
+        - pkg-config 0.29.2 h3efe00b_7
+    host:
+        - icu 58.2 h4b95b61_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libiconv 1.15 hdd342a3_7
+        - libxml2 2.9.7 hab757c2_0
+        - xz 5.2.3 h0278029_2
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - icu >=58.2,<59.0a0
+        - libxml2 >=2.9.7,<2.10.0a0
+test:
+    commands:
+        - xsltproc --version
+        - conda inspect linkages -p $PREFIX libxslt
+        - conda inspect objects -p $PREFIX libxslt
+about:
+    description: '"Libxslt is the XSLT C library developed for the GNOME project.
+
+        XSLT itself is a an XML language to define transformation for XML.
+
+        Libxslt is based on libxml2 the XML C library developed for the GNOME project.
+
+        It also implements most of the EXSLT set of processor-portable extensions
+        functions
+
+        and some of Saxon''s evaluate and expressions extensions."
+
+        '
+    doc_source_url: https://github.com/GNOME/libxslt/tree/master/doc
+    doc_url: http://xmlsoft.org/XSLT/
+    home: http://xmlsoft.org/XSLT/
+    license: MIT
+    license_file: COPYING
+    summary: The XSLT C library developed for the GNOME project
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf

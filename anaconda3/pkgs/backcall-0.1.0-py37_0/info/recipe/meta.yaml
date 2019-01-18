@@ -1,0 +1,60 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/backcall-feedstock/recipe, last modified Sat Apr 14 03:48:21 2018
+# ------------------------------------------------
+
+package:
+    name: backcall
+    version: 0.1.0
+source:
+    fn: backcall-0.1.0.tar.gz
+    sha256: 38ecd85be2c1e78f77fd91700c76e14667dc21e2713b63876c0eb901196e01e4
+    url: https://pypi.io/packages/source/b/backcall/backcall-0.1.0.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - backcall
+about:
+    description: 'Backcall provides a way of specifying the parameters that callback
+        functions
+
+        need to accept, and adapting callbacks that take fewer parameters, so you
+
+        can add parameters to your callback API without breaking code that doesn''t
+
+        know about them.
+
+        '
+    home: https://github.com/takluyver/backcall/
+    license: BSD-3-Clause
+    license_family: BSD
+    summary: Specifications for callback functions passed in to an API
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - takluyver

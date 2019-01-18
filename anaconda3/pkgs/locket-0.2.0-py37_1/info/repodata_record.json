@@ -1,0 +1,20 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "locket-0.2.0-py37_1.tar.bz2",
+  "license": "BSD 2-Clause",
+  "md5": "3ab37b2de8b951e4ac7cdf309f0aa71c",
+  "name": "locket",
+  "size": 8559,
+  "subdir": "osx-64",
+  "timestamp": 1530733841888,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/locket-0.2.0-py37_1.tar.bz2",
+  "version": "0.2.0"
+}

@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/__pycache__/filelock.cpython-37.pyc",
+    "lib/python3.7/site-packages/filelock-3.0.10.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/filelock-3.0.10.dist-info/LICENSE.rst",
+    "lib/python3.7/site-packages/filelock-3.0.10.dist-info/METADATA",
+    "lib/python3.7/site-packages/filelock-3.0.10.dist-info/RECORD",
+    "lib/python3.7/site-packages/filelock-3.0.10.dist-info/WHEEL",
+    "lib/python3.7/site-packages/filelock-3.0.10.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/filelock.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "Public Domain",
+  "license_family": "Public-Domain",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/filelock-3.0.10-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "a735e2e42ecfe58458fc471cd10f6750",
+  "name": "filelock",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1541135596682,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/filelock-3.0.10-py37_0.tar.bz2",
+  "version": "3.0.10"
+}

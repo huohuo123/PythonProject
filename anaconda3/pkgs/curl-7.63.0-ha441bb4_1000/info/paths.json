@@ -1,0 +1,13 @@
+{
+  "paths": [
+    {
+      "_path": "bin/curl",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/1f7d76af-2490-4d73-7301-b4295c888570/volume/curl_split_recipe_1545106150591/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "1730eaff8e19160429546377d16896072e99667ee745435e45d882ed54bee166",
+      "size_in_bytes": 223668
+    }
+  ],
+  "paths_version": 1
+}

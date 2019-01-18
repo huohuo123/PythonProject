@@ -1,0 +1,66 @@
+{% set name = "zeromq" %}
+{% set version = "4.2.5" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  git_url: https://github.com/zeromq/libzmq.git
+  git_tag: v{{ version }}
+  patches:
+    - 0001-Remove-Windows-CMake-config-install-specialization-C.patch
+    - 0002-SLES11-Hackily-avoid-pthread_set_name_np-on-linux.patch
+
+build:
+  number: 1
+  run_exports:
+    # ZeroMQ have a terribe track record of SONAME management between minor
+    # versions and across the two supported build systems unfortunately.
+    #    https://abi-laboratory.pro/tracker/timeline/zeromq/
+    - {{ pin_subpackage('zeromq', max_pin='x.x.x') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - git
+    - cmake                        # [win]
+    - make                         # [not win]
+    - automake                     # [not win]
+    - autoconf                     # [not win]
+    - libtool                      # [not win]
+    - pkg-config                   # [not win]
+  host:
+    - libsodium
+    - msinttypes                   # [win and vc<14]
+
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libzmq.a         # [unix]
+    - test -f ${PREFIX}/lib/libzmq.so        # [linux]
+    - test -f ${PREFIX}/lib/libzmq.so.5      # [linux]
+    - test -f ${PREFIX}/lib/libzmq.dylib     # [osx]
+    - test -f ${PREFIX}/lib/libzmq.5.dylib   # [osx]
+    - test -f ${PREFIX}/share/cmake/ZeroMQ/ZeroMQConfig.cmake         # [unix]
+    - test -f ${PREFIX}/share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake  # [unix]
+    - ${PREFIX}/bin/curve_keygen  # [unix]
+    - if exist %LIBRARY_LIB%\libzmq-mt-s-{{ version | replace('.', '_') }}.lib (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_BIN%\libzmq-mt-{{ version | replace('.', '_') }}.dll (exit 0) else (exit 1)    # [win]
+    - if exist %LIBRARY_LIB%\libzmq-mt-{{ version | replace('.', '_') }}.lib (exit 0) else (exit 1)    # [win]
+    - if exist %LIBRARY_BIN%\libzmq.dll (exit 0) else (exit 1)                                         # [win]
+    - if exist %LIBRARY_LIB%\libzmq.lib (exit 0) else (exit 1)                                         # [win]
+    - if exist %LIBRARY_PREFIX%\cmake\ZeroMQ\ZeroMQConfig.cmake (exit 0) else (exit 1)           # [win]
+    - if exist %LIBRARY_PREFIX%\cmake\ZeroMQ\ZeroMQConfigVersion.cmake (exit 0) else (exit 1)    # [win]
+
+about:
+  home: http://zeromq.org
+  license: LGPL 3
+  summary: A high-performance asynchronous messaging library.
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - minrk
+    - SylvainCorlay
+    - JohanMabille

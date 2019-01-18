@@ -1,0 +1,77 @@
+{
+  "paths": [
+    {
+      "_path": "bin/curve_keygen",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/zeromq_1534341815318/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "0c30c334fe41803be1e8c347f197c408abfdd94a8478ca734fdd0aa7be306249",
+      "size_in_bytes": 12688
+    },
+    {
+      "_path": "include/zmq.h",
+      "path_type": "hardlink",
+      "sha256": "7a3bcf288478a88baed3b4d702521839c30478277297662dac608311bd64ada2",
+      "size_in_bytes": 28024
+    },
+    {
+      "_path": "include/zmq_utils.h",
+      "path_type": "hardlink",
+      "sha256": "8bdd4cd98e9c87742bcb0e69625d762f234d02c6555f12a07c31455dc75f7362",
+      "size_in_bytes": 2401
+    },
+    {
+      "_path": "lib/libzmq.5.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/zeromq_1534341815318/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "509a42c650abb09dbafbc92f79bd84a8c6cad0d1d236f8f6ee5070a80f89e075",
+      "size_in_bytes": 595264
+    },
+    {
+      "_path": "lib/libzmq.a",
+      "path_type": "hardlink",
+      "sha256": "cf7b756b8525fdd704c484aab8c383b66afccdb321d912d2bff554fdfd527b9f",
+      "size_in_bytes": 1381256
+    },
+    {
+      "_path": "lib/libzmq.dylib",
+      "file_mode": "binary",
+      "path_type": "softlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/zeromq_1534341815318/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "509a42c650abb09dbafbc92f79bd84a8c6cad0d1d236f8f6ee5070a80f89e075",
+      "size_in_bytes": 595264
+    },
+    {
+      "_path": "lib/libzmq.la",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "ea4b3f2585d6e231b13da01855d3b189eed2f61107044c3874b0b2086aa3a220",
+      "size_in_bytes": 1033
+    },
+    {
+      "_path": "lib/pkgconfig/libzmq.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "9b5924f8f9e9ac9baaa534bb93883e9d34dbbd518b283e883991e0f7c797571c",
+      "size_in_bytes": 319
+    },
+    {
+      "_path": "share/cmake/ZeroMQ/ZeroMQConfig.cmake",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "b88720753383d78cf2b32acfc5a38b1d34f394d7b186050b183bddaf40812796",
+      "size_in_bytes": 871
+    },
+    {
+      "_path": "share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "5d03e1591df5ad0984ba0c1ac2cb4485d0c8f58c07f7b1c0c50dbd5f91d266c4",
+      "size_in_bytes": 367
+    }
+  ],
+  "paths_version": 1
+}

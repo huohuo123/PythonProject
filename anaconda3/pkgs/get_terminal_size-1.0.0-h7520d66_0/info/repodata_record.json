@@ -1,0 +1,20 @@
+{
+  "build": "h7520d66_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "backports.shutil_get_terminal_size"
+  ],
+  "features": "",
+  "fn": "get_terminal_size-1.0.0-h7520d66_0.tar.bz2",
+  "license": "MIT",
+  "md5": "77ac7a22b3f4da13f9e52a2efd997c84",
+  "name": "get_terminal_size",
+  "size": 2827,
+  "subdir": "osx-64",
+  "timestamp": 1505306006210,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/get_terminal_size-1.0.0-h7520d66_0.tar.bz2",
+  "version": "1.0.0"
+}

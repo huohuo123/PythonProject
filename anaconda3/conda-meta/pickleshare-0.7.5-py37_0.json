@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/__pycache__/pickleshare.cpython-37.pyc",
+    "lib/python3.7/site-packages/pickleshare-0.7.5-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/pickleshare-0.7.5-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/pickleshare-0.7.5-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/pickleshare-0.7.5-py3.7.egg-info/installed-files.txt",
+    "lib/python3.7/site-packages/pickleshare-0.7.5-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/pickleshare-0.7.5-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/pickleshare.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pickleshare-0.7.5-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "7f3599bcf1cd105009525058e0145f05",
+  "name": "pickleshare",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1538597907284,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pickleshare-0.7.5-py37_0.tar.bz2",
+  "version": "0.7.5"
+}

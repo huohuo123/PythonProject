@@ -1,0 +1,52 @@
+# This file created by conda-build 3.0.15+5.g16cf4af
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/libgfortran-feedstock/recipe, last modified Thu Sep 14 10:23:23 2017
+# ------------------------------------------------
+
+package:
+    name: libgfortran
+    version: 3.0.1
+build:
+    always_include_files:
+        - lib/libgcc_s.1.dylib
+        - lib/libgcc_s_ppc64.1.dylib
+        - lib/libgcc_s_x86_64.1.dylib
+        - lib/libgfortran.3.dylib
+        - lib/libgfortran.dylib
+        - lib/libgomp.1.dylib
+        - lib/libgomp.dylib
+        - lib/libquadmath.0.dylib
+        - lib/libquadmath.dylib
+    number: '2'
+    string: h93005f0_2
+requirements:
+    build:
+        - cloog 0.18.0 0
+        - gcc 4.8.5 8
+        - gmp 6.1.2 h4a9834d_0
+        - isl 0.12.2 1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - mpc 1.0.3 hc455b36_4
+        - mpfr 3.1.5 h7fa3772_1
+test:
+    commands:
+        - test -f "${PREFIX}/lib/libgfortran.dylib"
+        - test -f "${PREFIX}/lib/libgfortran.3.dylib"
+        - test -f "${PREFIX}/lib/libquadmath.dylib"
+        - test -f "${PREFIX}/lib/libquadmath.0.dylib"
+        - test -f "${PREFIX}/lib/libgcc_s.1.dylib"
+        - test -f "${PREFIX}/lib/libgcc_s_ppc64.1.dylib"
+        - test -f "${PREFIX}/lib/libgcc_s_x86_64.1.dylib"
+about:
+    home: http://gcc.gnu.org/
+    license: GPL 3 (with GCC Runtime Library Exception 3.1)
+    summary: Fortran libraries from the GNU Compiler Collection
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - pelson

@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "hdd342a3_7",
+  "build_number": 7,
+  "depends": [],
+  "license": "GPL and LGPL",
+  "name": "libiconv",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1510603373212,
+  "version": "1.15"
+}

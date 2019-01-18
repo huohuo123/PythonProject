@@ -1,0 +1,68 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/traitlets-feedstock/recipe, last modified Mon Sep 11 14:11:40 2017
+# ------------------------------------------------
+
+package:
+    name: traitlets
+    version: 4.3.2
+source:
+    fn: traitlets-4.3.2.tar.gz
+    sha256: 9c4bd2d267b7153df9152698efb1050a5d84982d3384a37b2c1f7723ba3e7835
+    url: https://pypi.io/packages/source/t/traitlets/traitlets-4.3.2.tar.gz
+build:
+    number: '0'
+    script: pip install --no-deps .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - decorator
+        - ipython_genutils
+        - python >=3.7,<3.8.0a0
+        - six
+test:
+    imports:
+        - traitlets
+        - traitlets.config
+about:
+    description: 'Traitlets is a framework that lets Python classes have attributes
+        with
+
+        type checking, dynamically calculated default values, and "on change"
+
+        callbacks.
+
+        '
+    dev_url: https://github.com/ipython/traitlets
+    doc_source_url: https://github.com/ipython/traitlets/blob/master/docs/source/index.rst
+    doc_url: http://traitlets.readthedocs.org/en/stable/
+    home: http://ipython.org/
+    license: BSD 3-clause
+    license_file: COPYING.md
+    summary: Configuration system for Python applications
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - jakirkham
+        - minrk
+        - pelson

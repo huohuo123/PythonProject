@@ -1,0 +1,63 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/jsonschema-feedstock/recipe, last modified Mon Sep 11 14:07:37 2017
+# ------------------------------------------------
+
+package:
+    name: jsonschema
+    version: 2.6.0
+source:
+    fn: jsonschema-2.6.0.tar.gz
+    sha256: 6ff5f3180870836cae40f06fa10419f557208175f13ad7bc26caa77beb1f6e02
+    url: https://pypi.io/packages/source/j/jsonschema/jsonschema-2.6.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - vcversioner 2.16.0.0 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+        - setuptools
+test:
+    commands:
+        - jsonschema --help
+    imports:
+        - jsonschema
+about:
+    description: 'jsonschema is an implementation of JSON Schema for Python
+
+        (supporting 2.7+ including Python 3)
+
+        '
+    dev_url: https://github.com/Julian/jsonschema/
+    doc_source_url: https://github.com/Julian/jsonschema/blob/master/docs/index.rst
+    doc_url: https://python-jsonschema.readthedocs.org
+    home: https://github.com/Julian/jsonschema
+    license: MIT
+    license_file: COPYING
+    summary: An implementation of JSON Schema validation for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - minrk
+        - nehaljwani
+        - ocefpaf

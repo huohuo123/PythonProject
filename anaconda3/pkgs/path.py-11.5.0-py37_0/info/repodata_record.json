@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "backports.os",
+    "importlib_metadata >=0.5",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "path.py-11.5.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "ab7ac6a8ff1ba912ab8ec8a540bf1ad1",
+  "name": "path.py",
+  "size": 56493,
+  "subdir": "osx-64",
+  "timestamp": 1539703942343,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/path.py-11.5.0-py37_0.tar.bz2",
+  "version": "11.5.0"
+}

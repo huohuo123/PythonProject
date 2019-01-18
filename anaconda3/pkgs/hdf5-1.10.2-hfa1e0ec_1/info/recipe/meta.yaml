@@ -1,0 +1,113 @@
+# This file created by conda-build 3.10.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/4fe5512b-e1f6-4404-7c6d-01d1dcb68029/volume/rsync-recipes/hdf5-1.10.2-on-osx, last modified Wed May  9 17:43:16 2018
+# ------------------------------------------------
+
+package:
+    name: hdf5
+    version: 1.10.2
+source:
+    patches:
+        - osx_configure.patch
+        - test_Makefile.in.patch
+    sha256: bfec1be8c366965a99812cf02ddc97e4b708c1754fccba5414d4adccdc073866
+    url: https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.2/src/hdf5-1.10.2.tar.gz
+build:
+    number: '1'
+    run_exports:
+        - hdf5 >=1.10.2,<1.10.3.0a0
+    string: hfa1e0ec_1
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_10
+        - clangxx 4.0.1 hc9b4283_0
+        - clangxx_osx-64 4.0.1 h22b1bf0_10
+        - compiler-rt 4.0.1 h5487866_0
+        - gfortran_osx-64 4.8.5 h22b1bf0_3
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libgfortran 3.0.1 h93005f0_2
+        - libtool 2.4.6 hdb3952c_3
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - make 4.2.1 h3efe00b_1
+    host:
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libgfortran 3.0.1 h93005f0_2
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - libcxx >=4.0.1
+        - libgfortran >=3.0.1
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - command -v h5c++
+        - command -v h5cc
+        - command -v h5perf_serial
+        - command -v h5redeploy
+        - command -v h5fc
+        - command -v gif2h5
+        - command -v h52gif
+        - command -v h5copy
+        - command -v h5debug
+        - command -v h5diff
+        - command -v h5dump
+        - command -v h5import
+        - command -v h5jam
+        - command -v h5ls
+        - command -v h5mkgrp
+        - command -v h5repack
+        - command -v h5repart
+        - command -v h5stat
+        - command -v h5unjam
+        - test -f $PREFIX/lib/libhdf5.a
+        - test -f $PREFIX/lib/libhdf5.dylib
+        - test -f $PREFIX/lib/libhdf5_cpp.a
+        - test -f $PREFIX/lib/libhdf5_cpp.dylib
+        - test -f $PREFIX/lib/libhdf5_hl.a
+        - test -f $PREFIX/lib/libhdf5_hl.dylib
+        - test -f $PREFIX/lib/libhdf5_hl_cpp.a
+        - test -f $PREFIX/lib/libhdf5_hl_cpp.dylib
+        - otool -L $PREFIX/lib/libhdf5.dylib
+        - otool -L $PREFIX/lib/libhdf5_cpp.dylib
+        - otool -L $PREFIX/lib/libhdf5_hl.dylib
+        - otool -L $PREFIX/lib/libhdf5_hl_cpp.dylib
+    files:
+        - compound_fortran2003.f90
+        - h5_cmprss.c
+        - h5_cmprss.f90
+        - h5tutr_cmprss.cpp
+    requires:
+        - clang_osx-64
+        - clangxx_osx-64
+        - gfortran_osx-64
+about:
+    description: 'HDF5 supports an unlimited variety of datatypes, and is designed
+        for
+
+        flexible and efficient I/O and for high volume and complex data.
+
+        '
+    dev_url: https://www.hdfgroup.org/HDF5/release/obtain5.html
+    doc_url: https://www.hdfgroup.org/HDF5/doc/
+    home: http://www.hdfgroup.org/HDF5/
+    license: HDF5
+    license_family: BSD
+    license_file: COPYING
+    summary: HDF5 is a data model, library, and file format for storing and managing
+        data
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - astrofrog
+        - gillins
+        - groutr
+        - jakirkham
+        - marqh
+        - msarahan
+        - ocefpaf

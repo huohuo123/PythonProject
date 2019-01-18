@@ -1,0 +1,5 @@
+l=range(1,101)
+print(list(l))
+print(list(l[:10]))
+print(list(l[2::3]))
+print(list(l[4:50:5]))

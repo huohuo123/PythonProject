@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "traitlets"
+  ],
+  "features": "",
+  "fn": "jupyter_core-4.4.0-py37_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "389dc1a12c8c9da2c8c6893e767623fe",
+  "name": "jupyter_core",
+  "size": 64331,
+  "subdir": "osx-64",
+  "timestamp": 1530695749429,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jupyter_core-4.4.0-py37_0.tar.bz2",
+  "version": "4.4.0"
+}

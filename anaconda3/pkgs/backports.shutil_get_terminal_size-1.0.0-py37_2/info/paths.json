@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "e9ae63494e3ebf487ec77bd01a3734f0f911e80e5774e82f0b8fab7161948509",
+      "size_in_bytes": 1175
+    },
+    {
+      "_path": "lib/python3.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "d9d06375c79c49d812c30fdae70fec63d9b4dc1b5b0b3e99d2951f31387b0347",
+      "size_in_bytes": 1025
+    },
+    {
+      "_path": "lib/python3.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "81dbae3f206f149412434cddcb117b934cf29c35db21bbe0e59047a17ba6e6e9",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "lib/python3.7/site-packages/backports/shutil_get_terminal_size/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b0f51db8598586bbbfab580b72fe6030ddc8ded51249253d625bee55d8508dda",
+      "size_in_bytes": 338
+    },
+    {
+      "_path": "lib/python3.7/site-packages/backports/shutil_get_terminal_size/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "eb73e728a1465efcc82e17cdece2083ed333b5bd5bdc1740036001565ac7e616",
+      "size_in_bytes": 507
+    },
+    {
+      "_path": "lib/python3.7/site-packages/backports/shutil_get_terminal_size/__pycache__/get_terminal_size.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4213c3c273e58807d112ab4033ef1dbe6f6e6a3300871a3758e6230d01d05d86",
+      "size_in_bytes": 2777
+    },
+    {
+      "_path": "lib/python3.7/site-packages/backports/shutil_get_terminal_size/get_terminal_size.py",
+      "path_type": "hardlink",
+      "sha256": "9da9f2f3e7200709aa2deee08882747bb7363d5edd4e9f3d43b7c6b3152b3502",
+      "size_in_bytes": 2913
+    }
+  ],
+  "paths_version": 1
+}

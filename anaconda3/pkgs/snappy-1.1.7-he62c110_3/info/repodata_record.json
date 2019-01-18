@@ -1,0 +1,21 @@
+{
+  "build": "he62c110_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "snappy-1.1.7-he62c110_3.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "c426f8ea8d075fc5e1052e129ce3f577",
+  "name": "snappy",
+  "size": 41386,
+  "subdir": "osx-64",
+  "timestamp": 1511806158202,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/snappy-1.1.7-he62c110_3.tar.bz2",
+  "version": "1.1.7"
+}

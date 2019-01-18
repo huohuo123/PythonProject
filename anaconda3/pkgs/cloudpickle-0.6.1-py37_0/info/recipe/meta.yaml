@@ -1,0 +1,66 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/fe79332a-fd20-4852-66ca-5fa19eec564a/volume/rsync-recipes/cloudpickle-0.6.1-python_3.7-on-osx, last modified Sat Oct 13 16:08:11 2018
+# ------------------------------------------------
+
+package:
+    name: cloudpickle
+    version: 0.6.1
+source:
+    fn: cloudpickle-0.6.1.tar.gz
+    sha256: f169a8523a40eb0a3452e1878aac31da6759409fbafa51dd50d89d4a6b42bcf1
+    url: https://pypi.io/packages/source/c/cloudpickle/cloudpickle-0.6.1.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - cloudpickle
+about:
+    description: 'cloudpickle is extended pickling support for Python objects.
+
+        cloudpickle makes it possible to serialize Python constructs not
+
+        supported by the default pickle module from the Python standard library.
+
+        '
+    dev_url: https://github.com/cloudpipe/cloudpickle
+    doc_source_url: https://github.com/cloudpipe/cloudpickle/blob/master/README.md
+    doc_url: https://pypi.python.org/pypi/cloudpickle/0.6.1
+    home: https://github.com/cloudpipe/cloudpickle
+    license: BSD 3-Clause
+    license_file: LICENSE
+    license_url: https://github.com/cloudpipe/cloudpickle/blob/master/LICENSE
+    summary: Extended pickling support for Python objects
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mrocklin
+        - nehaljwani
+        - ogrisel
+        - rgbkrk

@@ -1,0 +1,99 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/76e7382d-a61f-4a93-7617-dd425b9a9fd9/volume/rsync-recipes/astropy-3.1-python_3.7-on-osx, last modified Thu Dec  6 23:41:51 2018
+# ------------------------------------------------
+
+package:
+    name: astropy
+    version: '3.1'
+source:
+    fn: astropy-3.1.tar.gz
+    sha256: 1e10e0f099f54f2c119e70863b10ff64c6b3ad30e9fa47e648023d701d6fb5d1
+    url: https://pypi.io/packages/source/a/astropy/astropy-3.1.tar.gz
+build:
+    detect_binary_files_with_prefix: false
+    entry_points:
+        - fits2bitmap = astropy.visualization.scripts.fits2bitmap:main
+        - fitscheck = astropy.io.fits.scripts.fitscheck:main
+        - fitsdiff = astropy.io.fits.scripts.fitsdiff:main
+        - fitsheader = astropy.io.fits.scripts.fitsheader:main
+        - fitsinfo = astropy.io.fits.scripts.fitsinfo:main
+        - samp_hub = astropy.samp.hub_script:hub_script
+        - volint = astropy.io.votable.volint:main
+        - wcslint = astropy.wcs.wcslint:main
+    number: '0'
+    string: py37h1de35cc_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - intel-openmp 2019.1 144
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2018.0.3 1
+        - mkl_fft 1.0.6 py37hb8a8100_0
+        - mkl_random 1.0.1 py37h5d10147_1
+        - ncurses 6.1 h0a44026_1
+        - numpy 1.14.6 py37h648b28d_4
+        - numpy-base 1.14.6 py37h8a80b8c_4
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - numpy >=1.14.6,<2.0a0
+        - pytest-astropy
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - fits2bitmap --help
+        - fitscheck --help
+        - fitsdiff --help
+        - fitsheader --help
+        - fitsinfo --help
+        - samp_hub --help
+        - volint --help
+        - wcslint --help
+    imports:
+        - astropy
+about:
+    description: 'The Astropy Project is a community effort to develop a single package
+        for
+
+        Astronomy in Python. It contains core functionality and common tools
+
+        needed for performing astronomy and astrophysics research with Python.
+
+        '
+    dev_url: https://github.com/astropy/astropy
+    doc_source_url: https://github.com/astropy/astropy/blob/master/docs/index.rst
+    doc_url: http://docs.astropy.org/en/stable/
+    home: http://www.astropy.org/
+    license: BSD
+    license_file: LICENSE.rst
+    summary: Community-developed Python Library for Astronomy
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - astrofrog-conda-forge
+        - bsipocz
+        - mwcraig

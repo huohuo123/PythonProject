@@ -1,0 +1,66 @@
+{% set version = "1.1.0" %}
+
+package:
+  name: scipy
+  version: {{ version }}
+
+source:
+  url: https://github.com/scipy/scipy/archive/v{{ version }}.tar.gz
+  sha256: 0291a2254d9a020af9b49ca648e8b41e1366be9a8a40849be9102626b2022422
+  patches:
+    # patches to get unit tests to pass on ppc64le
+    - 0001-reduce-precision-in-legredre-tests.patch                 # [ppc64le]
+    - 0002-reduce-precision-in-special-orthogonal-tests.patch       # [ppc64le]
+    - 0003-supress-overflow-warning-in-special-test_basic.patch     # [ppc64le]
+    - 0004-limit-precision-of-complex256-in-test_signaltools.patch  # [ppc64le]
+    - 0005-relax-precision-in-sparse-linalg-isolve-lsmr-test.patch  # [ppc64le]
+    - 0006-relax-tolerence-for-TestCorrelateReal.patch              # [ppc64le]
+    - 0007-skip-test_white_tophat03-test.patch                      # [ppc64le]
+    # reported to Intel via email on 12/13/2018
+    # https://github.com/scipy/scipy/issues/5117
+    # https://github.com/scipy/scipy/issues/5335
+    - 0008-xfail-last-pcol-test.patch                             # [blas_impl == 'mkl']
+
+build:
+  number: 2
+  skip: True  # [blas_impl == 'openblas' and win]
+
+requirements:
+  build:
+    # on windows, Parallel studio activates the appropriate c/cxx compiler
+    - {{ compiler('c') }}        # [not win]
+    - {{ compiler('cxx') }}      # [not win]
+    - {{ compiler('fortran') }}
+  host:
+    - python
+    - setuptools
+    - cython
+    - numpy-devel  {{ numpy }}
+    - mkl-devel  {{ mkl }}  # [blas_impl == 'mkl']
+    - openblas-devel {{ openblas }}  # [blas_impl == 'openblas']
+    - msinttypes   # [win and vc<14]
+  run:
+    - python
+
+test:
+  requires:
+    - pytest <4
+    - mpmath
+
+about:
+  home: http://www.scipy.org/
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: Scientific Library for Python
+  description: |
+    SciPy is a Python-based ecosystem of open-source software for mathematics,
+    science, and engineering.
+  doc_url: http://www.scipy.org/docs.html
+  dev_url: https://github.com/scipy/scipy
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - msarahan
+    - rgommers
+    - ocefpaf

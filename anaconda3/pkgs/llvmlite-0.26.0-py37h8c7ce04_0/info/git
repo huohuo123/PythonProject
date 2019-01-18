@@ -1,0 +1,20 @@
+==> git log -n1 <==
+commit f63f7b0b67bfc159a9cc4e6a9728c67f8c690825
+Author: Stuart Archibald <stuart.archibald@googlemail.com>
+Date:   Tue Nov 27 14:33:12 2018 +0000
+
+    Empty commit to tag 0.26.0 release
+    
+    As title.
+==> git describe --tags --dirty <==
+v0.26.0
+==> git status <==
+HEAD detached at v0.26.0
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	bootstrap/
+	conda_build.sh
+	ffi/libllvmlite.dylib.dSYM/
+
+nothing added to commit but untracked files present (use "git add" to track)

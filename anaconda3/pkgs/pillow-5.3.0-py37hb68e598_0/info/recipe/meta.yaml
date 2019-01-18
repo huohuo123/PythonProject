@@ -1,0 +1,84 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/28a1ca3d-5252-4156-4abd-7a1d1cb6c623/volume/rsync-recipes/pillow-5.3.0-python_3.7-on-osx, last modified Tue Oct  2 10:28:11 2018
+# ------------------------------------------------
+
+package:
+    name: pillow
+    version: 5.3.0
+source:
+    sha256: 2ea3517cd5779843de8a759c2349a3cd8d3893e03ab47053b66d5ec6f8bc4f93
+    url: https://pypi.io/packages/source/P/Pillow/Pillow-5.3.0.tar.gz
+build:
+    number: '0'
+    string: py37hb68e598_0
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - freetype 2.9.1 hb4e5f40_0
+        - jpeg 9b he5867d9_2
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libpng 1.6.34 he12f830_0
+        - libtiff 4.0.9 hcb84e12_2
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.2.0 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - freetype >=2.9.1,<3.0a0
+        - jpeg >=9b,<10a
+        - libtiff >=4.0.9,<5.0a0
+        - olefile
+        - python >=3.7,<3.8.0a0
+        - tk >=8.6.8,<8.7.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    imports:
+        - PIL
+        - PIL.Image
+        - PIL._imaging
+        - PIL._imagingft
+        - PIL._imagingmath
+        - PIL._imagingmorph
+about:
+    description: 'Pillow is the friendly PIL fork. PIL is the Python Imaging Library,
+
+        adds image processing capabilities to your Python interpreter.
+
+        '
+    dev_url: https://github.com/python-pillow/Pillow
+    doc_source_url: https://github.com/python-pillow/Pillow/blob/4.2.x/docs/index.rst
+    doc_url: http://pillow.readthedocs.io/en/4.2.x/
+    home: https://pillow.readthedocs.io
+    license: PIL
+    license_file: LICENSE
+    summary: Pillow is the friendly PIL fork by Alex Clark and Contributors
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - ocefpaf
+        - patricksnape
+        - pelson

@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pyflakes-2.0.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "26d8215bee7018079e0fae6ed1bf728f",
+  "name": "pyflakes",
+  "size": 89757,
+  "subdir": "osx-64",
+  "timestamp": 1530795122328,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pyflakes-2.0.0-py37_0.tar.bz2",
+  "version": "2.0.0"
+}

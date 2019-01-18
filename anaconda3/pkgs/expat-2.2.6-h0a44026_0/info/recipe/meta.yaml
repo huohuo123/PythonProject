@@ -1,0 +1,54 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/94f0593d-500e-49cf-5851-e64b9e6b9e4e/volume/rsync-recipes/expat-2.2.6-on-osx, last modified Mon Aug 27 13:47:36 2018
+# ------------------------------------------------
+
+package:
+    name: expat
+    version: 2.2.6
+source:
+    sha256: 17b43c2716d521369f82fc2dc70f359860e90fa440bea65b3b85f0b246ea81f2
+    url: https://github.com/libexpat/libexpat/releases/download/R_2_2_6/expat-2.2.6.tar.bz2
+build:
+    number: '0'
+    run_exports:
+        - expat >=2.2.6,<3.0a0
+    string: h0a44026_0
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 hc9b4283_0
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - make 4.2.1 h3efe00b_1
+    host:
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+    run:
+        - libcxx >=4.0.1
+test:
+    commands:
+        - xmlwf -h
+        - conda inspect linkages -p $PREFIX expat
+        - conda inspect objects -p $PREFIX expat
+about:
+    home: http://expat.sourceforge.net/
+    license: MIT
+    license_file: COPYING
+    summary: Expat XML parser library in C.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - kwilcox
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - pelson

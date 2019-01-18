@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h15daf44_3",
+  "build_number": 3,
+  "depends": [
+    "libffi >=3.2.1,<4.0a0",
+    "libiconv >=1.15,<2.0a0"
+  ],
+  "license": "GPLv2",
+  "name": "gettext",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1510611182366,
+  "version": "0.19.8.1"
+}

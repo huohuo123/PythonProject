@@ -1,0 +1,83 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/873b51d6-289a-49f4-6092-1f6250f159cf/volume/rsync-recipes/spyder-kernels-0.3.0-python_3.7-on-osx, last modified Wed Nov 28 11:36:05 2018
+# ------------------------------------------------
+
+package:
+    name: spyder-kernels
+    version: 0.3.0
+source:
+    fn: spyder-kernels-0.3.0.tar.gz
+    sha256: dcf54b519db2a11dcbbc07d3d06caea61b102f0d498c0282a08d00d91b578005
+    url: https://pypi.io/packages/source/s/spyder-kernels/spyder-kernels-0.3.0.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/873b51d6-289a-49f4-6092-1f6250f159cf/volume/spyder-kernels_1543427149125/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install . --no-deps --ignore-installed -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - cloudpickle
+        - ipykernel >4.9.0
+        - jupyter_client >=5.2.3
+        - python >=3.7,<3.8.0a0
+        - pyzmq >=17
+        - wurlitzer
+test:
+    imports:
+        - spyder_kernels
+about:
+    description: 'Provides Jupyter kernels for use with the consoles of Spyder, the
+
+        Scientific Python Development Environment. These can launched either
+
+        through Spyder itself or in an independent Python session, and allow for
+
+        interactive or file-based execution of Python code in different
+
+        environments, all inside the IDE.
+
+        For more on Spyder, visit https://www.spyder-ide.org/
+
+
+        To learn about creating, connecting and using Spyder''s consoles, read:
+
+        https://docs.spyder-ide.org/ipythonconsole.html
+
+
+        For advice on managing packages and environments with Spyder, see:
+
+        https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder
+
+        '
+    dev_url: https://github.com/spyder-ide/spyder-kernels
+    doc_url: https://docs.spyder-ide.org/
+    home: https://www.spyder-ide.org/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: Jupyter kernels for Spyder's console
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - dalthviz

@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "ipywidgets",
+    "jupyterlab",
+    "python >=3.7,<3.8.0a0",
+    "widgetsnbextension"
+  ],
+  "features": "",
+  "fn": "_ipyw_jlab_nb_ext_conf-0.1.0-py37_0.tar.bz2",
+  "license": "BSD",
+  "md5": "a228105f769a28123941a782e05e9b97",
+  "name": "_ipyw_jlab_nb_ext_conf",
+  "size": 3850,
+  "subdir": "osx-64",
+  "timestamp": 1530725323992,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/_ipyw_jlab_nb_ext_conf-0.1.0-py37_0.tar.bz2",
+  "version": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2018.11.29-py37_0.tar.bz2",
+  "license": "ISC",
+  "md5": "34934feeb0c3eaf53baf15cecf46fbf4",
+  "name": "certifi",
+  "size": 148879,
+  "subdir": "osx-64",
+  "timestamp": 1544461242265,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/certifi-2018.11.29-py37_0.tar.bz2",
+  "version": "2018.11.29"
+}

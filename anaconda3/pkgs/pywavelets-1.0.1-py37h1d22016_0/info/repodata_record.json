@@ -1,0 +1,21 @@
+{
+  "build": "py37h1d22016_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pywavelets-1.0.1-py37h1d22016_0.tar.bz2",
+  "license": "MIT",
+  "md5": "57d67936fc00c726cd8cefe161d737ec",
+  "name": "pywavelets",
+  "size": 4477102,
+  "subdir": "osx-64",
+  "timestamp": 1538600893568,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pywavelets-1.0.1-py37h1d22016_0.tar.bz2",
+  "version": "1.0.1"
+}

@@ -1,0 +1,54 @@
+# This file created by conda-build 3.10.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/a0669137-3812-4968-46a9-58d09331d299/volume/rsync-recipes/mpc-1.1.0-on-osx, last modified Tue May 29 11:44:36 2018
+# ------------------------------------------------
+
+package:
+    name: mpc
+    version: 1.1.0
+source:
+    fn: mpc-1.1.0.tar.gz
+    sha256: 6985c538143c1208dcb1ac42cedad6ff52e267b47e5f970183a3e75125b43c2e
+    url: https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz
+build:
+    number: '1'
+    string: h6ef4df4_1
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libtool 2.4.6 hdb3952c_3
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+    host:
+        - gmp 6.1.2 hb37e062_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - mpfr 4.0.1 h3018a27_3
+    run:
+        - gmp >=6.1.2
+        - mpfr >=4.0.1,<5.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/include/mpc.h
+        - test -f ${PREFIX}/lib/libmpc.a
+        - test -f ${PREFIX}/lib/libmpc.dylib
+about:
+    home: http://www.multiprecision.org/
+    license: LGPL 3
+    license_file: /opt/concourse/worker/volumes/live/a0669137-3812-4968-46a9-58d09331d299/volume/mpc_1527612450037/work/COPYING.LESSER
+    summary: A C library for the arithmetic of complex numbers with arbitrarily high
+        precision.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf
+        - jakirkham

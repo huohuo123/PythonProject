@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "build": "py37h1de35cc_2",
+  "build_number": 2,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/wrapt-1.10.11-py3.7.egg-info",
+    "lib/python3.7/site-packages/wrapt/__init__.py",
+    "lib/python3.7/site-packages/wrapt/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/__pycache__/arguments.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/__pycache__/decorators.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/__pycache__/importer.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/__pycache__/wrappers.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/_wrappers.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/wrapt/arguments.py",
+    "lib/python3.7/site-packages/wrapt/decorators.py",
+    "lib/python3.7/site-packages/wrapt/importer.py",
+    "lib/python3.7/site-packages/wrapt/wrappers.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD 2-Clause",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/wrapt-1.10.11-py37h1de35cc_2",
+    "type": "hard-link"
+  },
+  "md5": "c03342c5596c91f1f4cf3482b365e0d9",
+  "name": "wrapt",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530727563181,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/wrapt-1.10.11-py37h1de35cc_2.tar.bz2",
+  "version": "1.10.11"
+}

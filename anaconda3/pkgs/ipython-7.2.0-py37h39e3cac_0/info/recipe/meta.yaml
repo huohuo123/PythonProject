@@ -1,0 +1,114 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/16e6b05a-6936-4174-462d-6ee69af8682f/volume/rsync-recipes/ipython-7.2.0-python_3.7-on-osx, last modified Fri Nov 30 07:51:57 2018
+# ------------------------------------------------
+
+package:
+    name: ipython
+    version: 7.2.0
+source:
+    sha256: 6a9496209b76463f1dec126ab928919aaf1f55b38beb9219af3fe202f6bbdd12
+    url: https://pypi.io/packages/source/i/ipython/ipython-7.2.0.tar.gz
+build:
+    entry_points:
+        - iptest = IPython.testing.iptestcontroller:main
+        - iptest3 = IPython.testing.iptestcontroller:main
+        - ipython = IPython:start_ipython
+        - ipython3 = IPython:start_ipython
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/16e6b05a-6936-4174-462d-6ee69af8682f/volume/ipython_1543586477150/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . --no-deps --ignore-installed -vvv
+    string: py37h39e3cac_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - appnope
+        - backcall
+        - decorator
+        - jedi >=0.10
+        - pexpect
+        - pickleshare
+        - prompt_toolkit >=2.0.0
+        - pygments
+        - python >=3.7,<3.8.0a0
+        - traitlets >=4.2
+test:
+    commands:
+        - ipython -h
+        - ipython3 -h
+        - NOSE_EXCLUDE="test_history|recursion" iptest
+    imports:
+        - IPython
+        - IPython.core
+        - IPython.core.magics
+        - IPython.core.tests
+        - IPython.extensions
+        - IPython.extensions.tests
+        - IPython.external
+        - IPython.external.decorators
+        - IPython.lib
+        - IPython.lib.tests
+        - IPython.sphinxext
+        - IPython.terminal
+        - IPython.terminal.pt_inputhooks
+        - IPython.terminal.tests
+        - IPython.testing
+        - IPython.testing.plugin
+        - IPython.testing.tests
+        - IPython.utils
+        - IPython.utils.tests
+    requires:
+        - ipykernel
+        - matplotlib
+        - nbformat
+        - nose>=0.10.1
+        - numpy
+        - pygments
+        - requests
+        - testpath
+about:
+    description: 'IPython provides a rich architecture for interactive computing with
+
+        a powerful interactive shell, a kernel for Jupyter, high performance
+
+        tools for parallel computing, and more.
+
+        '
+    dev_url: https://github.com/ipython/ipython
+    doc_url: https://ipython.readthedocs.io/
+    home: https://ipython.org/
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: 'IPython: Productive Interactive Computing'
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Carreau
+        - blink1073
+        - bollwyvl
+        - ellisonbg
+        - fperez
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson
+        - takluyver

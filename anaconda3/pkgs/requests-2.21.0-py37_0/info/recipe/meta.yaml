@@ -1,0 +1,70 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/3e3c069d-3817-4f9f-59a3-e60608718902/volume/rsync-recipes/requests-2.21.0-python_3.7-on-osx, last modified Mon Dec 17 11:56:42 2018
+# ------------------------------------------------
+
+package:
+    name: requests
+    version: 2.21.0
+source:
+    sha256: 502a824f31acdacb3a35b6690b5fbf0bc41d63a24a45c4004352b0242707598e
+    url: https://pypi.io/packages/source/r/requests/requests-2.21.0.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/3e3c069d-3817-4f9f-59a3-e60608718902/volume/requests_1545070478467/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+        -m pip install . --no-deps --ignore-installed -vv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.26.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - certifi >=2017.4.17
+        - chardet >=3.0.2,<3.1.0
+        - idna >=2.5,<2.9
+        - python >=3.7,<3.8.0a0
+        - urllib3 >=1.21.1,<1.25
+test:
+    imports:
+        - requests
+about:
+    description: 'Requests is the only Non-GMO HTTP library for Python, safe for human
+
+        consumption.
+
+        '
+    dev_url: https://github.com/kennethreitz/requests
+    doc_source_url: https://github.com/requests/requests/tree/master/docs
+    doc_url: http://docs.python-requests.org/
+    home: http://python-requests.org
+    license: Apache 2.0
+    license_file: LICENSE
+    summary: Python HTTP for Humans
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - carlodri
+        - jakirkham
+        - kalefranz
+        - mcg1969
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - pelson
+        - sigmavirus24

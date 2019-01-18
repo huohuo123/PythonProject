@@ -1,0 +1,20 @@
+{
+  "build": "py37h1de35cc_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "wrapt-1.10.11-py37h1de35cc_2.tar.bz2",
+  "license": "BSD 2-Clause",
+  "md5": "c03342c5596c91f1f4cf3482b365e0d9",
+  "name": "wrapt",
+  "size": 42375,
+  "subdir": "osx-64",
+  "timestamp": 1530727563181,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/wrapt-1.10.11-py37h1de35cc_2.tar.bz2",
+  "version": "1.10.11"
+}

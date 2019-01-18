@@ -1,0 +1,22 @@
+{
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libedit >=3.1.20170329,<3.2.0a0",
+    "libiconv >=1.15,<2.0a0"
+  ],
+  "features": "",
+  "fn": "unixodbc-2.3.7-h1de35cc_0.tar.bz2",
+  "license": "LGPL-2.1",
+  "license_family": "LGPL",
+  "md5": "14e6f0c0fd15f6d6b7717b1760893a0d",
+  "name": "unixodbc",
+  "size": 277386,
+  "subdir": "osx-64",
+  "timestamp": 1535134411178,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/unixodbc-2.3.7-h1de35cc_0.tar.bz2",
+  "version": "2.3.7"
+}

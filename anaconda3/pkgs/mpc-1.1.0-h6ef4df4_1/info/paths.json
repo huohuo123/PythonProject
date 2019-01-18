@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "include/mpc.h",
+      "path_type": "hardlink",
+      "sha256": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+      "size_in_bytes": 12898
+    },
+    {
+      "_path": "lib/libmpc.3.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/a0669137-3812-4968-46a9-58d09331d299/volume/mpc_1527612450037/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "8c76abdfc04a8316abe3391328f9f086fc05408dd05dd626e42d5b5fd9933c51",
+      "size_in_bytes": 91808
+    },
+    {
+      "_path": "lib/libmpc.a",
+      "path_type": "hardlink",
+      "sha256": "6fe24faeb3953dd61468cdd7312bf96de121187d3510e34849328e101fc832be",
+      "size_in_bytes": 161096
+    },
+    {
+      "_path": "lib/libmpc.dylib",
+      "file_mode": "binary",
+      "path_type": "softlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/a0669137-3812-4968-46a9-58d09331d299/volume/mpc_1527612450037/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "8c76abdfc04a8316abe3391328f9f086fc05408dd05dd626e42d5b5fd9933c51",
+      "size_in_bytes": 91808
+    },
+    {
+      "_path": "lib/libmpc.la",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "fabbcbb76533d7903d6f16f29e14a70a0867da1b44720409c813a45140308e75",
+      "size_in_bytes": 1059
+    },
+    {
+      "_path": "share/info/mpc.info",
+      "path_type": "hardlink",
+      "sha256": "661e792cc57d4703578a943aa2ba3fd9f87aa8c8ab9b1954e7b7c67f6a4d5789",
+      "size_in_bytes": 88514
+    }
+  ],
+  "paths_version": 1
+}

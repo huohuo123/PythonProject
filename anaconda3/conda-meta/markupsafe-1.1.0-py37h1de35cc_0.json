@@ -1,0 +1,39 @@
+{
+  "arch": "x86_64",
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/MarkupSafe-1.1.0-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/MarkupSafe-1.1.0-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/MarkupSafe-1.1.0-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/MarkupSafe-1.1.0-py3.7.egg-info/installed-files.txt",
+    "lib/python3.7/site-packages/MarkupSafe-1.1.0-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/markupsafe/__init__.py",
+    "lib/python3.7/site-packages/markupsafe/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/markupsafe/__pycache__/_compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/markupsafe/__pycache__/_constants.cpython-37.pyc",
+    "lib/python3.7/site-packages/markupsafe/__pycache__/_native.cpython-37.pyc",
+    "lib/python3.7/site-packages/markupsafe/_compat.py",
+    "lib/python3.7/site-packages/markupsafe/_constants.py",
+    "lib/python3.7/site-packages/markupsafe/_native.py",
+    "lib/python3.7/site-packages/markupsafe/_speedups.c",
+    "lib/python3.7/site-packages/markupsafe/_speedups.cpython-37m-darwin.so"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/markupsafe-1.1.0-py37h1de35cc_0",
+    "type": "hard-link"
+  },
+  "md5": "e59b9b73d89df82436e02f5fe2d71d20",
+  "name": "markupsafe",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1542378789946,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/markupsafe-1.1.0-py37h1de35cc_0.tar.bz2",
+  "version": "1.1.0"
+}

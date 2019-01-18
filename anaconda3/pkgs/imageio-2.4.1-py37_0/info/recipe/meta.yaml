@@ -1,0 +1,52 @@
+# This file created by conda-build 3.14.4
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/b14b9b7b-2dde-488f-51c6-d314784f53ab/volume/rsync-recipes/imageio-2.4.1-python_3.7-on-osx, last modified Tue Sep 11 15:27:07 2018
+# ------------------------------------------------
+
+package:
+    name: imageio
+    version: 2.4.1
+source:
+    fn: imageio-2.4.1.tar.gz
+    sha256: 16b8077bc8a5fa7a58b3e744f7ecbb156d8c088132df31e0f4f546c98de3514a
+    url: https://pypi.io/packages/source/i/imageio/imageio-2.4.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - numpy
+        - pillow
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - imageio
+about:
+    dev_url: https://github.com/imageio/imageio
+    doc_url: http://imageio.readthedocs.io
+    home: http://imageio.github.io
+    license: BSD 2-Clause
+    license_file: LICENSE
+    summary: a Python library for reading and writing image data
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - almarklein
+        - blink1073
+        - jni

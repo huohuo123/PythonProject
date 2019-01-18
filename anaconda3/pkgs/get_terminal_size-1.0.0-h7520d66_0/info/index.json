@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h7520d66_0",
+  "build_number": 0,
+  "depends": [
+    "backports.shutil_get_terminal_size"
+  ],
+  "license": "MIT",
+  "name": "get_terminal_size",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1505306006210,
+  "version": "1.0.0"
+}

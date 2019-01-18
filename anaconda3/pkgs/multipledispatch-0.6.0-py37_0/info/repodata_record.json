@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "multipledispatch-0.6.0-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "05464b2cfcdc4fc6ea8face77015a47a",
+  "name": "multipledispatch",
+  "size": 21592,
+  "subdir": "osx-64",
+  "timestamp": 1534268983656,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/multipledispatch-0.6.0-py37_0.tar.bz2",
+  "version": "0.6.0"
+}

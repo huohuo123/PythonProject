@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "h0a44026_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1",
+    "libsodium >=1.0.16,<1.0.17.0a0"
+  ],
+  "files": [
+    "bin/curve_keygen",
+    "include/zmq.h",
+    "include/zmq_utils.h",
+    "lib/libzmq.5.dylib",
+    "lib/libzmq.a",
+    "lib/libzmq.dylib",
+    "lib/libzmq.la",
+    "lib/pkgconfig/libzmq.pc",
+    "share/cmake/ZeroMQ/ZeroMQConfig.cmake",
+    "share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "LGPL 3",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/zeromq-4.2.5-h0a44026_1",
+    "type": "hard-link"
+  },
+  "md5": "b61bf3cafee1897bd8afe17c209e1679",
+  "name": "zeromq",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1534341963756,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zeromq-4.2.5-h0a44026_1.tar.bz2",
+  "version": "4.2.5"
+}

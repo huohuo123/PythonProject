@@ -1,0 +1,21 @@
+{
+  "build": "hb819dd2_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "icu >=58.2,<59.0a0",
+    "libxml2 >=2.9.7,<2.10.0a0"
+  ],
+  "features": "",
+  "fn": "libxslt-1.1.32-hb819dd2_0.tar.bz2",
+  "license": "MIT",
+  "md5": "714d3711fdb64529105e57b226fdf78b",
+  "name": "libxslt",
+  "size": 503127,
+  "subdir": "osx-64",
+  "timestamp": 1516987208410,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libxslt-1.1.32-hb819dd2_0.tar.bz2",
+  "version": "1.1.32"
+}

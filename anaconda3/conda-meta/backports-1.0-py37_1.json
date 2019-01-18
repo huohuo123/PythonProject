@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/backports/__init__.py",
+    "lib/python3.7/site-packages/backports/__pycache__/__init__.cpython-37.pyc"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/backports-1.0-py37_1",
+    "type": "hard-link"
+  },
+  "md5": "30843079c82e830ddb93877954ae0d8c",
+  "name": "backports",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530729408086,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/backports-1.0-py37_1.tar.bz2",
+  "version": "1.0"
+}

@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/pluggy-0.8.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pluggy-0.8.0.dist-info/LICENSE",
+    "lib/python3.7/site-packages/pluggy-0.8.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pluggy-0.8.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pluggy-0.8.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pluggy-0.8.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pluggy/__init__.py",
+    "lib/python3.7/site-packages/pluggy/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pluggy/__pycache__/_tracing.cpython-37.pyc",
+    "lib/python3.7/site-packages/pluggy/__pycache__/_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/pluggy/__pycache__/callers.cpython-37.pyc",
+    "lib/python3.7/site-packages/pluggy/__pycache__/hooks.cpython-37.pyc",
+    "lib/python3.7/site-packages/pluggy/__pycache__/manager.cpython-37.pyc",
+    "lib/python3.7/site-packages/pluggy/_tracing.py",
+    "lib/python3.7/site-packages/pluggy/_version.py",
+    "lib/python3.7/site-packages/pluggy/callers.py",
+    "lib/python3.7/site-packages/pluggy/hooks.py",
+    "lib/python3.7/site-packages/pluggy/manager.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pluggy-0.8.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "916fbf9b83eb5d4253b7f86f7e913baa",
+  "name": "pluggy",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1540234404733,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pluggy-0.8.0-py37_0.tar.bz2",
+  "version": "0.8.0"
+}

@@ -1,0 +1,20 @@
+{
+  "build": "py37_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "simplegeneric-0.8.1-py37_2.tar.bz2",
+  "license": "Zope Public",
+  "md5": "0ebcc1f379c2d85c57a385ab54e7efc1",
+  "name": "simplegeneric",
+  "size": 9472,
+  "subdir": "osx-64",
+  "timestamp": 1530696288890,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/simplegeneric-0.8.1-py37_2.tar.bz2",
+  "version": "0.8.1"
+}

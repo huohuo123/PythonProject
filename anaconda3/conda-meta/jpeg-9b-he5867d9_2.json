@@ -1,0 +1,39 @@
+{
+  "arch": "x86_64",
+  "build": "he5867d9_2",
+  "build_number": 2,
+  "depends": [],
+  "files": [
+    "bin/cjpeg",
+    "bin/djpeg",
+    "bin/jpegtran",
+    "bin/rdjpgcom",
+    "bin/wrjpgcom",
+    "include/jconfig.h",
+    "include/jerror.h",
+    "include/jmorecfg.h",
+    "include/jpeglib.h",
+    "lib/libjpeg.9.dylib",
+    "lib/libjpeg.a",
+    "lib/libjpeg.dylib",
+    "lib/libjpeg.la",
+    "share/man/man1/cjpeg.1",
+    "share/man/man1/djpeg.1",
+    "share/man/man1/jpegtran.1",
+    "share/man/man1/rdjpgcom.1",
+    "share/man/man1/wrjpgcom.1"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "Custom free software license",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/jpeg-9b-he5867d9_2",
+    "type": "hard-link"
+  },
+  "md5": "6673bf8de2e92f337afbde69c363e240",
+  "name": "jpeg",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1510202854203,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jpeg-9b-he5867d9_2.tar.bz2",
+  "version": "9b"
+}

@@ -1,0 +1,64 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/c63f467c-ea1a-493b-5cf8-cc798d5429cb/volume/rsync-recipes/pyparsing-2.3.0-python_3.7-on-osx, last modified Mon Nov  5 14:14:46 2018
+# ------------------------------------------------
+
+package:
+    name: pyparsing
+    version: 2.3.0
+source:
+    sha256: f353aab21fd474459d97b709e527b5571314ee5f067441dc9f88e33eecd96592
+    url: https://pypi.io/packages/source/p/pyparsing/pyparsing-2.3.0.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/c63f467c-ea1a-493b-5cf8-cc798d5429cb/volume/pyparsing_1541449725686/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . --no-deps --ignore-installed -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.5.0 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.2 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - pyparsing
+about:
+    description: 'The pyparsing module is an alternative approach to creating and
+        executing
+
+        simple grammars, vs. the traditional lex/yacc approach, or the use of
+
+        regular expressions. The pyparsing module provides a library of classes
+
+        that client code uses to construct the grammar directly in Python code.
+
+        '
+    dev_url: https://svn.code.sf.net/p/pyparsing/code/
+    doc_url: http://pyparsing.wikispaces.com/Documentation
+    home: http://pyparsing.wikispaces.com/
+    license: MIT
+    license_file: LICENSE
+    summary: Create and execute simple grammars
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf

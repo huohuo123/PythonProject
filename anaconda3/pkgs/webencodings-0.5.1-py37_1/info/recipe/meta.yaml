@@ -1,0 +1,51 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/webencodings-feedstock/recipe, last modified Mon Sep 11 14:11:51 2017
+# ------------------------------------------------
+
+package:
+    name: webencodings
+    version: 0.5.1
+source:
+    fn: webencodings-0.5.1.tar.gz
+    sha256: 082367f568a7812aa5f6922ffe3d9d027cd83829dc32bcaac4c874eeed618000
+    url: https://github.com/gsnedders/python-webencodings/archive/v0.5.1.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - webencodings
+about:
+    dev_url: https://github.com/gsnedders/python-webencodings
+    doc_url: https://pythonhosted.org/webencodings
+    home: https://github.com/gsnedders/python-webencodings
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Character encoding aliases for legacy web content
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jschueller

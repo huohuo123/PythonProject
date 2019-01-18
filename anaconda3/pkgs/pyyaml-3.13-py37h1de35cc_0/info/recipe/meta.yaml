@@ -1,0 +1,90 @@
+# This file created by conda-build 3.11.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/c57bd2e6-3aa6-4f53-7303-df4ba8b32f7d/volume/rsync-recipes/pyyaml-3.13-python_3.7-on-osx, last modified Tue Jul 24 09:23:49 2018
+# ------------------------------------------------
+
+package:
+    name: pyyaml
+    version: '3.13'
+source:
+    git_rev: '3.13'
+    git_url: https://github.com/yaml/pyyaml.git
+    patches:
+        - 0001-Ensure-we-do-not-end-up-wih-CRLF-line-endings-on-tes.patch
+build:
+    number: '0'
+    script:
+        - echo on
+        - python setup.py --with-libyaml build_ext --include-dirs="${PREFIX}/include"
+            --library-dirs="${PREFIX}/lib"
+        - python setup.py install
+        - python setup.py test
+    string: py37h1de35cc_0
+requirements:
+    build:
+        - ca-certificates 2018.03.07 0
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - expat 2.2.5 hb8e80ba_0
+        - git 2.17.1 pl526h028e6c8_0
+        - ld64 274.2 h7c2db76_0
+        - libcurl 7.60.0 hf30b1f0_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libiconv 1.15 hdd342a3_7
+        - libssh2 1.8.0 h322a93b_4
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - openssl 1.0.2o h26aff7b_0
+        - perl 5.26.2 h4e221da_0
+        - tk 8.6.7 h35a86e2_3
+        - zlib 1.2.11 hf3cbc9b_2
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - cython 0.28.3 py37h1de35cc_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - xz 5.2.4 h1de35cc_4
+        - yaml 0.1.7 hc338f04_2
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+        - yaml >=0.1.7,<0.2.0a0
+test:
+    imports:
+        - _yaml
+        - yaml
+about:
+    description: 'YAML is a data serialization format designed for human readability
+        and interaction with
+
+        scripting languages.
+
+        '
+    dev_url: https://github.com/yaml/pyyaml
+    doc_source_url: http://pyyaml.org/browser/pyyaml/trunk/README
+    doc_url: http://pyyaml.org/wiki/PyYAMLDocumentation
+    home: http://pyyaml.org/wiki/PyYAML
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: YAML parser and emitter for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - pelson

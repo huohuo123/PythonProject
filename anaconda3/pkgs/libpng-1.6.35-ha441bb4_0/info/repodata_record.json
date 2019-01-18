@@ -1,0 +1,20 @@
+{
+  "build": "ha441bb4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "libpng-1.6.35-ha441bb4_0.tar.bz2",
+  "license": "zlib/libpng",
+  "md5": "7c4f80fbfacb4436293ff5d6501a1765",
+  "name": "libpng",
+  "size": 325493,
+  "subdir": "osx-64",
+  "timestamp": 1539728259808,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libpng-1.6.35-ha441bb4_0.tar.bz2",
+  "version": "1.6.35"
+}

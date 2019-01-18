@@ -1,0 +1,16 @@
+lib/python3.7/site-packages/numpydoc-0.8.0-py3.7.egg-info/PKG-INFO
+lib/python3.7/site-packages/numpydoc-0.8.0-py3.7.egg-info/SOURCES.txt
+lib/python3.7/site-packages/numpydoc-0.8.0-py3.7.egg-info/dependency_links.txt
+lib/python3.7/site-packages/numpydoc-0.8.0-py3.7.egg-info/requires.txt
+lib/python3.7/site-packages/numpydoc-0.8.0-py3.7.egg-info/top_level.txt
+lib/python3.7/site-packages/numpydoc/__init__.py
+lib/python3.7/site-packages/numpydoc/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/numpydoc/__pycache__/docscrape.cpython-37.pyc
+lib/python3.7/site-packages/numpydoc/__pycache__/docscrape_sphinx.cpython-37.pyc
+lib/python3.7/site-packages/numpydoc/__pycache__/numpydoc.cpython-37.pyc
+lib/python3.7/site-packages/numpydoc/docscrape.py
+lib/python3.7/site-packages/numpydoc/docscrape_sphinx.py
+lib/python3.7/site-packages/numpydoc/numpydoc.py
+lib/python3.7/site-packages/numpydoc/templates/numpydoc_docstring.rst
+lib/python3.7/site-packages/numpydoc/tests/__pycache__/test_docscrape.cpython-37.pyc
+lib/python3.7/site-packages/numpydoc/tests/test_docscrape.py

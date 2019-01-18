@@ -1,0 +1,19 @@
+{
+  "build": "h362108e_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "lzo-2.10-h362108e_2.tar.bz2",
+  "license": "GPL v2+",
+  "license_family": "GPL2",
+  "md5": "c7ca1407cfabfe555a53936cc206e0d9",
+  "name": "lzo",
+  "size": 194290,
+  "subdir": "osx-64",
+  "timestamp": 1511295481013,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/lzo-2.10-h362108e_2.tar.bz2",
+  "version": "2.10"
+}

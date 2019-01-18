@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/sphinxcontrib/__init__.py",
+    "lib/python3.7/site-packages/sphinxcontrib/__pycache__/__init__.cpython-37.pyc"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/sphinxcontrib-1.0-py37_1",
+    "type": "hard-link"
+  },
+  "md5": "bc5a262aeac3ed5cfe98895320ce91cf",
+  "name": "sphinxcontrib",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530696389991,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sphinxcontrib-1.0-py37_1.tar.bz2",
+  "version": "1.0"
+}

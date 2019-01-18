@@ -1,0 +1,76 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/c689f1d9-3507-4af0-42c1-51dd87ee3948/volume/rsync-recipes/prompt_toolkit-2.0.7-python_3.7-on-osx, last modified Tue Oct 30 21:45:18 2018
+# ------------------------------------------------
+
+package:
+    name: prompt_toolkit
+    version: 2.0.7
+source:
+    sha256: fd17048d8335c1e6d5ee403c3569953ba3eb8555d710bfc548faf0712666ea39
+    url: https://pypi.io/packages/source/p/prompt_toolkit/prompt_toolkit-2.0.7.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/c689f1d9-3507-4af0-42c1-51dd87ee3948/volume/prompt_toolkit_1541000478201/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.2 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - pygments
+        - python >=3.7,<3.8.0a0
+        - six >=1.9.0
+        - wcwidth
+test:
+    imports:
+        - prompt_toolkit
+        - prompt_toolkit.clipboard
+        - prompt_toolkit.contrib
+        - prompt_toolkit.contrib.completers
+        - prompt_toolkit.contrib.regular_languages
+        - prompt_toolkit.eventloop
+        - prompt_toolkit.filters
+        - prompt_toolkit.key_binding
+        - prompt_toolkit.key_binding.bindings
+        - prompt_toolkit.layout
+about:
+    description: 'prompt_toolkit is a library for building powerful interactive command
+
+        lines and terminal applications in Python. It can be a pure Python
+
+        replacement for GNU readline, but it can be much more than that.
+
+        '
+    dev_url: https://github.com/jonathanslenders/python-prompt-toolkit
+    doc_source_url: https://github.com/jonathanslenders/python-prompt-toolkit/blob/master/docs/index.rst
+    doc_url: http://python-prompt-toolkit.readthedocs.io
+    home: https://github.com/jonathanslenders/python-prompt-toolkit
+    license: BSD 3-clause
+    license_file: LICENSE
+    summary: Library for building powerful interactive command lines in Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - jakirkham
+        - ocefpaf
+        - scopatz

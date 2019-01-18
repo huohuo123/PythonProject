@@ -1,0 +1,23 @@
+{
+  "build": "py37ha12b0ac_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcurl >=7.63.0,<8.0a0",
+    "openssl >=1.1.1a,<1.1.2a",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pycurl-7.43.0.2-py37ha12b0ac_0.tar.bz2",
+  "license": "LGPL, MIT",
+  "license_family": "LGPL",
+  "md5": "5752f9f31b09c86ced7bf0507ee084aa",
+  "name": "pycurl",
+  "size": 189395,
+  "subdir": "osx-64",
+  "timestamp": 1545162861939,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pycurl-7.43.0.2-py37ha12b0ac_0.tar.bz2",
+  "version": "7.43.0.2"
+}

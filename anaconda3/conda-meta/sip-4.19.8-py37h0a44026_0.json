@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "py37h0a44026_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "bin/sip",
+    "include/python3.7m/sip.h",
+    "lib/python3.7/site-packages/__pycache__/sipconfig.cpython-37.pyc",
+    "lib/python3.7/site-packages/__pycache__/sipdistutils.cpython-37.pyc",
+    "lib/python3.7/site-packages/sip.pyi",
+    "lib/python3.7/site-packages/sip.so",
+    "lib/python3.7/site-packages/sipconfig.py",
+    "lib/python3.7/site-packages/sipdistutils.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "GPL-3.0",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/sip-4.19.8-py37h0a44026_0",
+    "type": "hard-link"
+  },
+  "md5": "208a900d36e6a5526f609f8bff1a7de1",
+  "name": "sip",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530778466376,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sip-4.19.8-py37h0a44026_0.tar.bz2",
+  "version": "4.19.8"
+}

@@ -1,0 +1,5 @@
+{
+  "openssl": "1.0.2",
+  "libffi": "3.2",
+  "c_compiler": "clang"
+}

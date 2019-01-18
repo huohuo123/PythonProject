@@ -1,0 +1,17 @@
+lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/PKG-INFO
+lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/SOURCES.txt
+lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/dependency_links.txt
+lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/installed-files.txt
+lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/top_level.txt
+lib/python3.7/site-packages/colorama/__init__.py
+lib/python3.7/site-packages/colorama/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/colorama/__pycache__/ansi.cpython-37.pyc
+lib/python3.7/site-packages/colorama/__pycache__/ansitowin32.cpython-37.pyc
+lib/python3.7/site-packages/colorama/__pycache__/initialise.cpython-37.pyc
+lib/python3.7/site-packages/colorama/__pycache__/win32.cpython-37.pyc
+lib/python3.7/site-packages/colorama/__pycache__/winterm.cpython-37.pyc
+lib/python3.7/site-packages/colorama/ansi.py
+lib/python3.7/site-packages/colorama/ansitowin32.py
+lib/python3.7/site-packages/colorama/initialise.py
+lib/python3.7/site-packages/colorama/win32.py
+lib/python3.7/site-packages/colorama/winterm.py

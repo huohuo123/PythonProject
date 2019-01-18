@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess-0.6.0-py3.7.egg-info",
+      "path_type": "hardlink",
+      "sha256": "269fecd2a017a5d268840d92dc14ac8f28ac08c9f6088c0c021a44696d4e3909",
+      "size_in_bytes": 264
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "43b09ddf55530a415683828f1ea67be7290e43b923e64ba8fadce4a8ecfcb2ea",
+      "size_in_bytes": 138
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "bcd0acf093d2e8624137f10357dd78725a8cba914a6ea32b4afc177731e5b9ac",
+      "size_in_bytes": 316
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess/__pycache__/_fork_pty.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "521dba51e2512753f9c6d82e16744e7ccc0beb8f15d9bad7f7509d8d43df3cef",
+      "size_in_bytes": 1955
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess/__pycache__/ptyprocess.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0dbf067f47ce34ea351ffea2596874033c697eb3ec2bf119f9bf6fa3b3432539",
+      "size_in_bytes": 22797
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess/__pycache__/util.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "fa5755111eb00cd463a2e8237a81587406d79d2452457ece453cd0e49755f349",
+      "size_in_bytes": 1956
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess/_fork_pty.py",
+      "path_type": "hardlink",
+      "sha256": "555bcccbc7386698c332220c4a0f13d414358374817b10e97b2fdcc62d27e5ac",
+      "size_in_bytes": 2362
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess/ptyprocess.py",
+      "path_type": "hardlink",
+      "sha256": "ac3ff556e5b4d87c7007884f226e9c6a1e571b1ee91e3f10698cf93a1097c1fe",
+      "size_in_bytes": 31355
+    },
+    {
+      "_path": "lib/python3.7/site-packages/ptyprocess/util.py",
+      "path_type": "hardlink",
+      "sha256": "ad001d0d165fa0e88e9fabf2916b61d3023a145280a7b689b4149db7e28159d5",
+      "size_in_bytes": 2785
+    }
+  ],
+  "paths_version": 1
+}

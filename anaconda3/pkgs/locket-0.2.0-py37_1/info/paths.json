@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/locket-0.2.0-py3.7.egg-info",
+      "path_type": "hardlink",
+      "sha256": "b34ecb7d8a844cf4c743c8bca7fd9a36a037083744459ae35435b620743a0b25",
+      "size_in_bytes": 2717
+    },
+    {
+      "_path": "lib/python3.7/site-packages/locket/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "11a9cb824dd8beb48b1b7e4338bdc219184863e5cbefa7be4b9039d1a45293f0",
+      "size_in_bytes": 4384
+    },
+    {
+      "_path": "lib/python3.7/site-packages/locket/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f4291b68488675b5588aa38d947bfbedb7a74f9841d1962301069f37997fde71",
+      "size_in_bytes": 5002
+    }
+  ],
+  "paths_version": 1
+}

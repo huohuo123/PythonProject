@@ -1,0 +1,53 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/7b3bba8a-e3ab-41b5-4e97-a47017533713/volume/rsync-recipes/importlib_metadata-0.6-python_3.7-on-osx, last modified Tue Oct 16 09:29:37 2018
+# ------------------------------------------------
+
+package:
+    name: importlib_metadata
+    version: '0.6'
+source:
+    sha256: 36b02c84f9001adf65209fefdf951be8e9014a95eab9938c0779ad5670359b1c
+    url: https://pypi.io/packages/source/i/importlib_metadata/importlib_metadata-0.6.tar.gz
+build:
+    number: '0'
+    script: '/opt/concourse/worker/volumes/live/7b3bba8a-e3ab-41b5-4e97-a47017533713/volume/importlib_metadata_1539703152263/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+        -m pip install . --no-deps --ignore-installed -vvv '
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - importlib_metadata
+about:
+    dev_url: https://gitlab.com/python-devs/importlib_metadata
+    doc_url: https://importlib-metadata.readthedocs.io
+    home: http://importlib-metadata.readthedocs.io
+    license: APACHE-2.0
+    license_family: APACHE
+    license_file: LICENSE
+    summary: A library to access the metadata for a Python package
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

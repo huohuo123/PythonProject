@@ -1,0 +1,101 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "6e1a1bdc54834c1e0740cbce5d5f6f2cae1c846fd2a7f482b11649594fafbd5d",
+      "size_in_bytes": 1069
+    },
+    {
+      "_path": "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "cb4af69066d95004e12636d5e41a3462a76f47b45d3f2ed1e9e3c173c5eb9fdd",
+      "size_in_bytes": 5368
+    },
+    {
+      "_path": "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "7e8ae71e4d99ca2817db7d27a0cf1368cb4cb4f6adde178e9bd0f10a523c4959",
+      "size_in_bytes": 1140
+    },
+    {
+      "_path": "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "0a2850bc29ec1994011801cb11431fd08740e1f45db92fcd0544cc8024edbcf3",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "696c9eff440d64fa7f42d3c5e1996e2c7aa7c952d3f423c9b1f886870aa45aea",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "a09131c1f47bc94dc702c990fc47cbe8aa0b2b7ceadc9f47b044fdafee7ab1f3",
+      "size_in_bytes": 791
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3af24f0b1abbd445d84e045967b3c5f2c5b13cf92ece5e996441264dc69f6c3e",
+      "size_in_bytes": 752
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/__pycache__/core.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "960bb9ce56f44df15b26ea99f5eea43597d2e69e9295073a95a7298512fd9faf",
+      "size_in_bytes": 10272
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/__pycache__/decorator.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "00767e5aed4e59b5a050485f325bc5630ba8e0fcda154c748bec0993cc43adb4",
+      "size_in_bytes": 4655
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/__pycache__/extension.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b175a961b185a957cf4158d9ead964e95011590d6ed9c2d54e0f97eebe501def",
+      "size_in_bytes": 7004
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/__pycache__/version.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "a653a8f5e371afb51f384cce9e69e08ef6e978c212dadcb0989f9b745d15655a",
+      "size_in_bytes": 157
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/core.py",
+      "path_type": "hardlink",
+      "sha256": "22caf60f8b3a3949dd58fdd6f7f8f5c82297861b091c75f91c8fa47352c587a3",
+      "size_in_bytes": 13800
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/decorator.py",
+      "path_type": "hardlink",
+      "sha256": "8a2c23522d2555e0a6e0e2491d8e42beece3da710d6d49ecdc8abacea297bacb",
+      "size_in_bytes": 4937
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/extension.py",
+      "path_type": "hardlink",
+      "sha256": "16c1ce90c48c8f966fd2efc8d1f81574b874403529984bedffc5f0d2a5412bef",
+      "size_in_bytes": 7427
+    },
+    {
+      "_path": "lib/python3.7/site-packages/flask_cors/version.py",
+      "path_type": "hardlink",
+      "sha256": "9eb04df9895e12987902c768d7c14164d9bbe0594e458aba8c6af01c19655885",
+      "size_in_bytes": 22
+    }
+  ],
+  "paths_version": 1
+}

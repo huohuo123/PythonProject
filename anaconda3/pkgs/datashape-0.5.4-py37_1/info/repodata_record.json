@@ -1,0 +1,24 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "multipledispatch >=0.4.7",
+    "numpy >=1.7",
+    "python >=3.7,<3.8.0a0",
+    "python-dateutil"
+  ],
+  "features": "",
+  "fn": "datashape-0.5.4-py37_1.tar.bz2",
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "md5": "efcbd1b5cb186ed87389b272e1e1aff9",
+  "name": "datashape",
+  "size": 102107,
+  "subdir": "osx-64",
+  "timestamp": 1530736205264,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/datashape-0.5.4-py37_1.tar.bz2",
+  "version": "0.5.4"
+}

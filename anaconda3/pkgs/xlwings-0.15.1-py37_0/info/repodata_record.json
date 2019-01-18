@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "appscript >=1.0.1",
+    "psutil >=2.0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "xlwings-0.15.1-py37_0.tar.bz2",
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "md5": "fdc59f203ac7100ed736110742a49f5c",
+  "name": "xlwings",
+  "size": 448538,
+  "subdir": "osx-64",
+  "timestamp": 1545079999390,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/xlwings-0.15.1-py37_0.tar.bz2",
+  "version": "0.15.1"
+}

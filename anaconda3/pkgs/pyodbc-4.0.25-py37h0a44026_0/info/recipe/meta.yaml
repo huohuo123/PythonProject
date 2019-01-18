@@ -1,0 +1,81 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/5808d533-9353-4e49-4d27-3b95c7b2e535/volume/rsync-recipes/pyodbc-4.0.25-python_3.7-on-osx, last modified Mon Dec 17 11:57:11 2018
+# ------------------------------------------------
+
+package:
+    name: pyodbc
+    version: 4.0.25
+source:
+    fn: pyodbc-4.0.25.tar.gz
+    patches:
+        - setup.patch
+    sha256: 0ea8c8ed37c9abf8eb411e5148409a4cb05e0da2c03a694a07b17011d0ca7cad
+    url: https://pypi.io/packages/source/p/pyodbc/pyodbc-4.0.25.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/5808d533-9353-4e49-4d27-3b95c7b2e535/volume/pyodbc_1545077494439/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37h0a44026_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libiconv 1.15 hdd342a3_7
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.26.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - unixodbc 2.3.7 h1de35cc_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libcxx >=4.0.1
+        - python >=3.7,<3.8.0a0
+        - unixodbc >=2.3.7,<2.4.0a0
+test:
+    imports:
+        - pyodbc
+about:
+    description: 'pyodbc is a Python DB API 2 module for ODBC. This project provides
+        an
+
+        up-to-date, convenient interface to ODBC using native data types like
+
+        datetime and decimal.
+
+        '
+    dev_url: https://github.com/mkleehammer/pyodbc
+    doc_source_url: https://github.com/mkleehammer/pyodbc/blob/master/docs/index.md
+    doc_url: http://mkleehammer.github.io/pyodbc/
+    home: https://github.com/mkleehammer/pyodbc
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: DB API Module for ODBC
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

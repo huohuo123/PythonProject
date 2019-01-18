@@ -1,0 +1,4 @@
+/opt/anaconda1anaconda2anaconda3 text bin/jlpm
+/opt/anaconda1anaconda2anaconda3 text bin/jupyter-lab
+/opt/anaconda1anaconda2anaconda3 text bin/jupyter-labextension
+/opt/anaconda1anaconda2anaconda3 text bin/jupyter-labhub

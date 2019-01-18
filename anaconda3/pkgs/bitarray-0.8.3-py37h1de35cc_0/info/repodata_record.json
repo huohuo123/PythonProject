@@ -1,0 +1,20 @@
+{
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "bitarray-0.8.3-py37h1de35cc_0.tar.bz2",
+  "license": "PSF",
+  "md5": "58c43a5453aa17bba016928eb52f6288",
+  "name": "bitarray",
+  "size": 55225,
+  "subdir": "osx-64",
+  "timestamp": 1532526132688,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bitarray-0.8.3-py37h1de35cc_0.tar.bz2",
+  "version": "0.8.3"
+}

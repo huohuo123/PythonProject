@@ -1,0 +1,50 @@
+{% set version = "1.19.2.1" %}
+
+package:
+  name: pandoc
+  version: {{ version }}  # [not linux32]
+  version: 1.15.0.6       # [linux32]
+
+source:
+  url: https://copr-be.cloud.fedoraproject.org/results/petersen/pandoc-el5/epel-5-i386/00125413-pandoc/pandoc-1.15.0.6-1.i386.rpm  # [linux32]
+  sha256: 4ed1d4a181366cf07f8a575cd7424f3f032daabd439c2e07c1da867ecf47d79e                                                         # [linux32]
+  fn: pandoc-{{ version }}-amd64.deb                                                                     # [linux64]
+  url: https://github.com/jgm/pandoc/releases/download/{{ version }}/pandoc-{{ version }}-1-amd64.deb    # [linux64]
+  sha256: db828cbab2a6d0d33f3754c4061a844ae2d1f0a01cbb12c512ef109117595dd2                               # [linux64]
+  fn: pandoc-{{ version }}.pkg                                                                           # [osx]
+  url: https://github.com/jgm/pandoc/releases/download/{{ version }}/pandoc-{{ version }}-osx.pkg        # [osx]
+  sha256: 677ff56424de19d0f7f368aa9d9ece1b3fe03d7bd3e6bd0ad8f347debfcfafe5                               # [osx]
+  fn: pandoc-{{ version }}-windows.msi                                                                   # [win]
+  url: https://github.com/jgm/pandoc/releases/download/{{ version }}/pandoc-{{ version }}-windows.msi    # [win]
+  sha256: c4e30000805cf398f3d33fdabaf1f40472c82f8a44c7d0aad77504da01c3d819                               # [win]
+
+build:
+   number: 1
+
+requirements:
+  run:
+    - gmp     # [linux]
+    - zlib    # [linux]
+    - libffi  # [linux32]
+
+test:
+  commands:
+    - pandoc --help
+    - pandoc --version
+
+about:
+  home: http://johnmacfarlane.net/pandoc/
+  license: GPL-2.0
+  summary: 'Universal markup converter (repackaged binaries).'
+  description: |
+    Pandoc is a Haskell library for converting from one markup format to
+    another, and a command-line tool that uses this library.
+  doc_url: http://pandoc.org/MANUAL.html
+  dev_url: https://github.com/jgm/pandoc
+  doc_source_url: https://github.com/jgm/pandoc/tree/master/doc
+
+extra:
+  recipe-maintainers:
+    - janschulz
+    - mingwandroid
+    - ocefpaf

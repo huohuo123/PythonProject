@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/path.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "1543080f27be7f3cc53889da2ac51536c677a5c57b57089b4639539e0ec58f05",
+      "size_in_bytes": 59197
+    },
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/test_path.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3dbb4a9d8a7cf45133330b5a33ee2273896a3dcb2e138d3bd06a83beddf8e51e",
+      "size_in_bytes": 38309
+    },
+    {
+      "_path": "lib/python3.7/site-packages/path.py",
+      "path_type": "hardlink",
+      "sha256": "dc9328574f5f182c4323e02be3ae11694a9b61cc55af329bccacead5a0eb5bdd",
+      "size_in_bytes": 56793
+    },
+    {
+      "_path": "lib/python3.7/site-packages/path.py-11.5.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/path.py-11.5.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "a55e2ffe9b44998e621d51d8c094bed09acc4b5236ee73d7df395a33ba3c18fd",
+      "size_in_bytes": 1050
+    },
+    {
+      "_path": "lib/python3.7/site-packages/path.py-11.5.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "61938bad17dc6dbf8eb7dd76c5c522af12daceb13f6e07f69655e6580e28ae00",
+      "size_in_bytes": 6049
+    },
+    {
+      "_path": "lib/python3.7/site-packages/path.py-11.5.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "9a3543c0b5d69f423b6ab63ce3c78b44988fb93f431afb0c8efafd518b14955a",
+      "size_in_bytes": 698
+    },
+    {
+      "_path": "lib/python3.7/site-packages/path.py-11.5.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f13f1fc5e7ebfebf80efda9b389f5dfc0684824a421a610f1dcfa0a42ab90518",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.7/site-packages/path.py-11.5.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "12402f2f7ad48ba6328be87cdcaf31966445143af1151f4c66ff87083fca84b0",
+      "size_in_bytes": 15
+    },
+    {
+      "_path": "lib/python3.7/site-packages/test_path.py",
+      "path_type": "hardlink",
+      "sha256": "f023435cb9bc942302fad8ef38a033a10846f7bb3ac2f8526775c7eae41fa6b5",
+      "size_in_bytes": 40532
+    }
+  ],
+  "paths_version": 1
+}

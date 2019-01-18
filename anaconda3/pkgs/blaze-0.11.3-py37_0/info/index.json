@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "cytoolz",
+    "dask",
+    "datashape >=0.5.3",
+    "flask >=0.10.1",
+    "flask-cors",
+    "h5py",
+    "numba",
+    "odo >=0.5.0",
+    "psutil",
+    "pytables >=3.0.0",
+    "python >=3.7,<3.8.0a0",
+    "pyyaml",
+    "requests",
+    "sqlalchemy >=0.8.0"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "blaze",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530771848630,
+  "version": "0.11.3"
+}

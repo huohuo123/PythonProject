@@ -1,0 +1,149 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "d16a85ed2386198711a1bef5574a271f44d40fb419a44170ec845da942fcdfbd",
+      "size_in_bytes": 608
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "a4f409ec277f8d5e63ab13f9c9305aef1ce2035728c94e3e2ac85ef500d25099",
+      "size_in_bytes": 577
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "4aa2165a4f7fb22d2518da04292232a8a0efa380840fbc116f393e407a7c455f",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "aeee32aaf6831a66c50d778489fe2f2413c9bdef3a5a081e712b99d3b6dd6088",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "a6df4e3f87b30f55dd1f6805d616781e8c4dd02cad79879bc409b4ef1c99892e",
+      "size_in_bytes": 186
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "66b7f37b3117eea1b52742cb521f4f390862fe96c37753fd4382414ad1f5b4a0",
+      "size_in_bytes": 390
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/buffer.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "44cf381ace495f00f920ef865e7ca6c5ce66893fa7f98214be69beabaeb8b22e",
+      "size_in_bytes": 4304
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/common.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f5776e017282ccd8cd837e5a7b6a71f0eeaaf6697f65f87682966b970bcd706e",
+      "size_in_bytes": 1726
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/file.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5a6589dbbe442afb30caf82229050032e8e0530b467ed37b93a0981c4d1483a3",
+      "size_in_bytes": 3335
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/func.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4efe754ecc511876a8e5867dfcaf778730638a098f9a896245d008d95b92c1dd",
+      "size_in_bytes": 3448
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/lmdb.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3740262723bf4c54f6bf5be9d89192761eeb69dcd586d68bdbfc78994d486d72",
+      "size_in_bytes": 4026
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/lru.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3243eec6971106c70c8aae234ac747d071c156710ed38aad45092453deac637d",
+      "size_in_bytes": 4069
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/sieve.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0f8ca9d3e5e18b23ddad3ea338b0c4c9a4b58e46ad1d5db8964dec9c4e584661",
+      "size_in_bytes": 4119
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/__pycache__/zip.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "1cc8ccf7f704a1270f15df72d2aa19a1800841b753b6cca3674256058d9b2993",
+      "size_in_bytes": 3538
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/buffer.py",
+      "path_type": "hardlink",
+      "sha256": "1fe0d1cd5641e21ac77d6be092c6b30f562d12596f193cd154b1a3e14546b73a",
+      "size_in_bytes": 3749
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/common.py",
+      "path_type": "hardlink",
+      "sha256": "a5e500d9d69193a3929f33d084d94adf0fd8c913dd1962857624f7e3180905c5",
+      "size_in_bytes": 1426
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/file.py",
+      "path_type": "hardlink",
+      "sha256": "9f721f9caad7ca0503f0d23b9d2c85516d5c055c08b27bba4085490afb1e35c5",
+      "size_in_bytes": 2629
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/func.py",
+      "path_type": "hardlink",
+      "sha256": "feafa6c026e5940f7768d2c916239759a7a564f95d782571990712e3f8b3ee92",
+      "size_in_bytes": 1951
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/lmdb.py",
+      "path_type": "hardlink",
+      "sha256": "c2d76776dd41cfe8960c19b394984153d6bcc552f72a3ce82f1970f41b11821b",
+      "size_in_bytes": 2922
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/lru.py",
+      "path_type": "hardlink",
+      "sha256": "8c66e597f916221a3f0729304a859011387c076959177e4868a3a07a70eda1d2",
+      "size_in_bytes": 3047
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/sieve.py",
+      "path_type": "hardlink",
+      "sha256": "9eac9ea92bf6733c4701e7b7c6388bce87520fc3f26caf77e02d08fe8e4976db",
+      "size_in_bytes": 3201
+    },
+    {
+      "_path": "lib/python3.7/site-packages/zict/zip.py",
+      "path_type": "hardlink",
+      "sha256": "c9eb73e44c2938619fbe11c236b51da64869ce1d202cfda45f667f21df31ffa8",
+      "size_in_bytes": 2067
+    }
+  ],
+  "paths_version": 1
+}

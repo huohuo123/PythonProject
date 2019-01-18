@@ -1,0 +1,51 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/d11ebc08-53b2-46da-4843-4e3eb7e202a1/volume/rsync-recipes/llvmlite-0.26.0-python_3.7-on-osx, last modified Wed Nov 28 06:51:22 2018
+# ------------------------------------------------
+
+package:
+    name: llvmlite
+    version: 0.26.0
+source:
+    git_rev: v0.26.0
+    git_url: https://github.com/numba/llvmlite
+build:
+    number: '0'
+    script_env:
+        - PY_VCRUNTIME_REDIST
+    string: py37h8c7ce04_0
+requirements:
+    build:
+        - make 4.2.1 h3efe00b_1
+    host:
+        - ca-certificates 2018.03.07 0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - llvmdev 6.0.0 h137f3e6_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libcxx >=4.0.1
+        - python >=3.7,<3.8.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - python -m llvmlite.tests
+    imports:
+        - llvmlite
+        - llvmlite.binding
+about:
+    home: https://github.com/numba/llvmlite
+    license: New BSD License
+    summary: A lightweight LLVM python binding for writing JIT compilers
+extra:
+    copy_test_source_files: true
+    final: true

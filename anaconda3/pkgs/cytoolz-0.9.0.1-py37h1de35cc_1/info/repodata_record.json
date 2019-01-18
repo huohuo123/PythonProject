@@ -1,0 +1,21 @@
+{
+  "build": "py37h1de35cc_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "toolz >=0.8.0"
+  ],
+  "features": "",
+  "fn": "cytoolz-0.9.0.1-py37h1de35cc_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "7d7043e75206bd3682d6d8e5be589f09",
+  "name": "cytoolz",
+  "size": 352735,
+  "subdir": "osx-64",
+  "timestamp": 1530733746470,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/cytoolz-0.9.0.1-py37h1de35cc_1.tar.bz2",
+  "version": "0.9.0.1"
+}

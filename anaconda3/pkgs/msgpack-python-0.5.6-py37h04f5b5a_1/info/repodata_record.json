@@ -1,0 +1,22 @@
+{
+  "build": "py37h04f5b5a_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "msgpack-python-0.5.6-py37h04f5b5a_1.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "md5": "2c580f67beabc5664cf8631210789685",
+  "name": "msgpack-python",
+  "size": 89782,
+  "subdir": "osx-64",
+  "timestamp": 1533326034369,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/msgpack-python-0.5.6-py37h04f5b5a_1.tar.bz2",
+  "version": "0.5.6"
+}

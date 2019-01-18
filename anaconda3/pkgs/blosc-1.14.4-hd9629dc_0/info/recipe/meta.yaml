@@ -1,0 +1,71 @@
+# This file created by conda-build 3.12.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/0e2683bc-216c-463a-5a0f-c56583e82369/volume/rsync-recipes/blosc-1.14.4-on-osx, last modified Sun Aug 19 05:46:50 2018
+# ------------------------------------------------
+
+package:
+    name: blosc
+    version: 1.14.4
+source:
+    sha256: 42a85de871d142cdc89b607a90cceeb0eab60d995f6fae8d44aae397ab414002
+    url: https://github.com/Blosc/c-blosc/archive/v1.14.4.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - blosc >=1.14.4,<2.0a0
+    string: hd9629dc_0
+requirements:
+    build:
+        - bzip2 1.0.6 h1de35cc_5
+        - ca-certificates 2018.03.07 0
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 hc9b4283_0
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - cmake 3.12.0 haff7e42_0
+        - compiler-rt 4.0.1 h5487866_0
+        - expat 2.2.5 hb8e80ba_0
+        - ld64 274.2 h7c2db76_0
+        - libcurl 7.61.0 hf30b1f0_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libssh2 1.8.0 h322a93b_4
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - rhash 1.3.6 hdbc3d79_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    host:
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - snappy 1.1.7 he62c110_3
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - libcxx >=4.0.1
+        - snappy >=1.1.7,<2.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - test -e $PREFIX/include/blosc.h
+        - test -e $PREFIX/include/blosc-export.h
+        - test -e $PREFIX/lib/libblosc.dylib
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+        - conda inspect objects -p $PREFIX $PKG_NAME
+about:
+    home: https://github.com/Blosc/c-blosc
+    license: BSD 3-Clause
+    license_file: LICENSES/BLOSC.txt
+    summary: A blocking, shuffling and loss-less compression library that can be faster
+        than `memcpy()`
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - FrancescElies
+        - danielfrg
+        - jakirkham
+        - msarahan

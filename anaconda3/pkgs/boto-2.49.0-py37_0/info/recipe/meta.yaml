@@ -1,0 +1,55 @@
+# This file created by conda-build 3.12.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/58dd78d3-98b2-4773-69a1-df0f9922f50d/volume/rsync-recipes/boto-2.49.0-python_3.7-on-osx, last modified Wed Jul 25 08:11:57 2018
+# ------------------------------------------------
+
+package:
+    name: boto
+    version: 2.49.0
+source:
+    fn: boto-2.49.0.tar.gz
+    sha256: ea0d3b40a2d852767be77ca343b58a9e3a4b00d9db440efb8da74b4e58025e5a
+    url: https://pypi.org/packages/source/b/boto/boto-2.49.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - s3put -h
+    imports:
+        - boto
+about:
+    description: 'Boto aims to support the full breadth and depth of Amazon Web Services.
+
+        NOTE: Boto3, the next version of Boto, is stable and recommended for
+
+        general use.
+
+        '
+    dev_url: https://github.com/boto/boto/
+    doc_source_url: https://github.com/boto/boto/blob/develop/docs/source/index.rst
+    doc_url: http://docs.pythonboto.org/en/latest/
+    home: https://github.com/boto/boto/
+    license: MIT
+    summary: Amazon Web Services Library
+extra:
+    copy_test_source_files: true
+    final: true

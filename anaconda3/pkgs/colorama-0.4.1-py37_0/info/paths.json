@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "c05176675dea2b3d8df4eb37eda38a2aeb360af7ab83eeb2e8c0cae24950e5b6",
+      "size_in_bytes": 15943
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "50f23c5a68a2c16c55d7de93530fc2a3d41b7ce5095356b506d122bf4b56ef6b",
+      "size_in_bytes": 492
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "b5190f9e2ea9cbe44907fd0bec4d89f45bb199b2419b0dce36500b9475f33765",
+      "size_in_bytes": 482
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama-0.4.1-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "fcac7af829e2d814f53c40133e1ad2471a3477b91281f05b1dfe68ec8175001c",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "949758e823b3f6e33fa57c2e93da0baf47e9f07f2ad91ad4a8dd7a18a69bbeae",
+      "size_in_bytes": 239
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "9b6aa406607de1ed845014b18c2acbdfa415f22af5bd8c12a82154f8f64c6287",
+      "size_in_bytes": 386
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/__pycache__/ansi.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "465478d9065e37184165bab288cd97fc3ea2b493bbbf9dadb4899622adcde005",
+      "size_in_bytes": 3284
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/__pycache__/ansitowin32.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "917afc0640cb66b930e15ef73cb887a52c7f3ed23050c4402b8b08005e48c6e6",
+      "size_in_bytes": 7540
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/__pycache__/initialise.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "be2c503eb1b84a08a2fc01b440e9df77cf37b137e7a8103532d5c31f00f83138",
+      "size_in_bytes": 1605
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/__pycache__/win32.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "95353f793e92658bbe186301e48437ee22b59fb913cb2a8ee8a62c1c3a1bea54",
+      "size_in_bytes": 3799
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/__pycache__/winterm.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ed29b7f8e5ba7ea0542d1483d5fa9ca7e3459fedb85143aef624fdfeb2bfe619",
+      "size_in_bytes": 4547
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/ansi.py",
+      "path_type": "hardlink",
+      "sha256": "162d2e9fe40ba919bebfba3f9ca88eab20bc3daa4124aec32d5feaf4b2ad4ced",
+      "size_in_bytes": 2524
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/ansitowin32.py",
+      "path_type": "hardlink",
+      "sha256": "bbc41aa9da92ff16127cd90f33579124b1f3e893163e875a25a3f49b18070837",
+      "size_in_bytes": 10462
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/initialise.py",
+      "path_type": "hardlink",
+      "sha256": "3e9ae8bc3371313aefa0d1c570bd8d663a47d97cc373c04bc4bc6212b7d49789",
+      "size_in_bytes": 1915
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/win32.py",
+      "path_type": "hardlink",
+      "sha256": "6c9f0897d8f0681379049f1b98de85a18675418b8c2afda3f1f1ab5e1ed3263c",
+      "size_in_bytes": 5404
+    },
+    {
+      "_path": "lib/python3.7/site-packages/colorama/winterm.py",
+      "path_type": "hardlink",
+      "sha256": "db2ff66fb66cbf7e1f780b0febb98b39573e060ab9d667581a8e7bd55a6b96b3",
+      "size_in_bytes": 6438
+    }
+  ],
+  "paths_version": 1
+}

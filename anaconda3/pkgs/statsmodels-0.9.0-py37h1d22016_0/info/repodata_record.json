@@ -1,0 +1,25 @@
+{
+  "build": "py37h1d22016_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.11.3,<2.0a0",
+    "pandas >=0.14",
+    "patsy >=0.4.0",
+    "python >=3.7,<3.8.0a0",
+    "scipy >=0.14"
+  ],
+  "features": "",
+  "fn": "statsmodels-0.9.0-py37h1d22016_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "d342a4cc9d9cb38891e5faafb121d0ee",
+  "name": "statsmodels",
+  "size": 8650306,
+  "subdir": "osx-64",
+  "timestamp": 1530917702412,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/statsmodels-0.9.0-py37h1d22016_0.tar.bz2",
+  "version": "0.9.0"
+}

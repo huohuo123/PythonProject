@@ -1,0 +1,21 @@
+{
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "psutil-5.4.8-py37h1de35cc_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "53ff464a308927b63350d81214e44402",
+  "name": "psutil",
+  "size": 327728,
+  "subdir": "osx-64",
+  "timestamp": 1541001435372,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/psutil-5.4.8-py37h1de35cc_0.tar.bz2",
+  "version": "5.4.8"
+}

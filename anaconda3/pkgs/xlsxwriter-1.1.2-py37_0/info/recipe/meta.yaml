@@ -1,0 +1,62 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/8896b95e-dd4a-475a-4166-0985217287fa/volume/rsync-recipes/xlsxwriter-1.1.2-python_3.7-on-osx, last modified Mon Oct 22 13:59:50 2018
+# ------------------------------------------------
+
+package:
+    name: xlsxwriter
+    version: 1.1.2
+source:
+    fn: XlsxWriter-1.1.2.tar.gz
+    sha256: ae22658a0fc5b9e875fa97c213d1ffd617d86dc49bf08be99ebdac814db7bf36
+    url: https://pypi.io/packages/source/X/XlsxWriter/XlsxWriter-1.1.2.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - xlsxwriter
+about:
+    description: 'XlsxWriter is a Python module that can be used to write text, numbers,
+        formulas
+
+        and hyperlinks to multiple worksheets in an Excel 2007+ XLSX file.
+
+        '
+    dev_url: https://github.com/jmcnamara/XlsxWriter
+    doc_source_url: https://github.com/jmcnamara/XlsxWriter/blob/master/docs/XlsxWriter.pdf
+    doc_url: https://xlsxwriter.readthedocs.org/
+    home: https://xlsxwriter.readthedocs.io/
+    license: BSD 2-Clause
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: A Python module for creating Excel XLSX files
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mcs07
+        - nehaljwani

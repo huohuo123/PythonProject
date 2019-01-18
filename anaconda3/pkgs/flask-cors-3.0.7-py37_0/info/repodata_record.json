@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "flask >=0.9",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "features": "",
+  "fn": "flask-cors-3.0.7-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "bef263f19868490209d0036c7ed901b5",
+  "name": "flask-cors",
+  "size": 21437,
+  "subdir": "osx-64",
+  "timestamp": 1542079498023,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/flask-cors-3.0.7-py37_0.tar.bz2",
+  "version": "3.0.7"
+}

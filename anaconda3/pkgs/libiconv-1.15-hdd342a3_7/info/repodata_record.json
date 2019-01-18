@@ -1,0 +1,18 @@
+{
+  "build": "hdd342a3_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "libiconv-1.15-hdd342a3_7.tar.bz2",
+  "license": "GPL and LGPL",
+  "md5": "024290c8272958ca67b9648842bafb6c",
+  "name": "libiconv",
+  "size": 1364956,
+  "subdir": "osx-64",
+  "timestamp": 1510603373212,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libiconv-1.15-hdd342a3_7.tar.bz2",
+  "version": "1.15"
+}

@@ -1,0 +1,27 @@
+From 118fc8520ade4e3f6c2d21330521dc28a45447ea Mon Sep 17 00:00:00 2001
+From: Ray Donnelly <mingw.android@gmail.com>
+Date: Sun, 29 Apr 2018 01:25:53 +0100
+Subject: [PATCH] Add compatibility for AST changes in Python 3.7
+
+---
+ datashape/lexer.py | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/datashape/lexer.py b/datashape/lexer.py
+index b3e1935..1e20c6e 100644
+--- a/datashape/lexer.py
++++ b/datashape/lexer.py
+@@ -17,7 +17,9 @@ __all__ = ['lex', 'Token']
+ def _str_val(s):
+     # Use the Python parser via the ast module to parse the string,
+     # since the string_escape and unicode_escape codecs do the wrong thing
+-    return ast.parse('u' + s).body[0].value.s
++    # mode='single' is necessary since Python 3.7, see:
++    # https://bugs.python.org/issue32911#msg315581
++    return ast.parse('u' + s, mode='single').body[0].value.s
+ 
+ # A list of the token names, corresponding regex, and value extraction function
+ _tokens = [
+-- 
+2.15.1 (Apple Git-101)
+

@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "bin/pycodestyle",
+    "lib/python3.7/site-packages/__pycache__/pycodestyle.cpython-37.pyc",
+    "lib/python3.7/site-packages/pycodestyle-2.4.0-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/pycodestyle-2.4.0-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/pycodestyle-2.4.0-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/pycodestyle-2.4.0-py3.7.egg-info/entry_points.txt",
+    "lib/python3.7/site-packages/pycodestyle-2.4.0-py3.7.egg-info/namespace_packages.txt",
+    "lib/python3.7/site-packages/pycodestyle-2.4.0-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/pycodestyle-2.4.0-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/pycodestyle.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pycodestyle-2.4.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "a8bb842ca9ebdac327b932e57e88c359",
+  "name": "pycodestyle",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530795156725,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pycodestyle-2.4.0-py37_0.tar.bz2",
+  "version": "2.4.0"
+}

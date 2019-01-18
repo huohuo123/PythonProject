@@ -1,0 +1,10 @@
+bin/pep8
+lib/python3.7/site-packages/__pycache__/pep8.cpython-37.pyc
+lib/python3.7/site-packages/pep8-1.7.1-py3.7.egg-info/PKG-INFO
+lib/python3.7/site-packages/pep8-1.7.1-py3.7.egg-info/SOURCES.txt
+lib/python3.7/site-packages/pep8-1.7.1-py3.7.egg-info/dependency_links.txt
+lib/python3.7/site-packages/pep8-1.7.1-py3.7.egg-info/entry_points.txt
+lib/python3.7/site-packages/pep8-1.7.1-py3.7.egg-info/namespace_packages.txt
+lib/python3.7/site-packages/pep8-1.7.1-py3.7.egg-info/not-zip-safe
+lib/python3.7/site-packages/pep8-1.7.1-py3.7.egg-info/top_level.txt
+lib/python3.7/site-packages/pep8.py

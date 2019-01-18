@@ -1,0 +1,20 @@
+{
+  "build": "h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "features": "",
+  "fn": "expat-2.2.6-h0a44026_0.tar.bz2",
+  "license": "MIT",
+  "md5": "d27f3224144d6a0dc28ec1ca9c9a8562",
+  "name": "expat",
+  "size": 132509,
+  "subdir": "osx-64",
+  "timestamp": 1535396357260,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/expat-2.2.6-h0a44026_0.tar.bz2",
+  "version": "2.2.6"
+}

@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/pyodbc-4.0.25-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "1121574865d25d30a2f5033a0954ce60d1453a2c9a86a33ab3f025f547605269",
+      "size_in_bytes": 1066
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pyodbc-4.0.25-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "ab90be9eee153a8d66b15a09f2ab52cc97be5ac08fd101f06d8182f653ae9ffc",
+      "size_in_bytes": 1213
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pyodbc-4.0.25-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pyodbc-4.0.25-py3.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "72c90634b310dd44b2885baa2204cd85463a10540be87e86e31cd467cf69a88a",
+      "size_in_bytes": 88
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pyodbc-4.0.25-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "df48ef61c0ae97aff0036e8e4f9734ebc1801f3a902e977d59f4349924ac0d35",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pyodbc.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/5808d533-9353-4e49-4d27-3b95c7b2e535/volume/pyodbc_1545077494439/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+      "sha256": "b7b3c22a4b0b287062bb52088fa9f38b3a7beb351706e74f2976d2d71fa53668",
+      "size_in_bytes": 149708
+    }
+  ],
+  "paths_version": 1
+}

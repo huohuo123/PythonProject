@@ -1,0 +1,10 @@
+bin/curve_keygen
+include/zmq.h
+include/zmq_utils.h
+lib/libzmq.5.dylib
+lib/libzmq.a
+lib/libzmq.dylib
+lib/libzmq.la
+lib/pkgconfig/libzmq.pc
+share/cmake/ZeroMQ/ZeroMQConfig.cmake
+share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake

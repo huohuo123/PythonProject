@@ -1,0 +1,82 @@
+# This file created by conda-build 3.17.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/7dd913a9-5457-49c4-78ea-0454ddab7a06/volume/rsync-recipes/qtconsole-4.4.3-python_3.7-on-osx, last modified Tue Dec 11 11:26:21 2018
+# ------------------------------------------------
+
+package:
+    name: qtconsole
+    version: 4.4.3
+source:
+    sha256: bc1ba15f50c29ed50f1268ad823bb6543be263c18dd093b80495e9df63b003ac
+    url: https://pypi.io/packages/source/q/qtconsole/qtconsole-4.4.3.tar.gz
+build:
+    entry_points:
+        - jupyter-qtconsole = qtconsole.qtconsoleapp:main
+    noarch: false
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/7dd913a9-5457-49c4-78ea-0454ddab7a06/volume/qtconsole_1544549929693/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - ipykernel >=4.1
+        - jupyter_client >=4.1
+        - jupyter_core
+        - pygments
+        - pyqt
+        - python >=3.7,<3.8.0a0
+        - traitlets
+test:
+    imports:
+        - qtconsole
+        - qtconsole.tests
+about:
+    description: 'A rich Qt-based console for working with Jupyter kernels, supporting
+        rich
+
+        media output, session export, and more. The Qt console is a very
+
+        lightweight application that largely feels like a terminal, but provides
+
+        a number of enhancements only possible in a GUI, such as inline figures,
+
+        proper multiline editing with syntax highlighting, graphical calltips, and
+
+        more.
+
+        '
+    dev_url: https://github.com/jupyter/qtconsole
+    doc_source_url: https://github.com/jupyter/qtconsole/tree/master/docs
+    doc_url: https://qtconsole.readthedocs.org/en/stable/
+    home: http://jupyter.org
+    license: BSD 3-Clause
+    license_file: LICENSE
+    summary: Jupyter Qt console
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Carreau
+        - ccordoba12
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - takluyver

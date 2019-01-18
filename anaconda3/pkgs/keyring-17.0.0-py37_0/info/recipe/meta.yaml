@@ -1,0 +1,82 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/dc40953f-f9a8-4d28-73cc-54857ab89c03/volume/rsync-recipes/keyring-17.0.0-python_3.7-on-osx, last modified Mon Dec 17 12:28:56 2018
+# ------------------------------------------------
+
+package:
+    name: keyring
+    version: 17.0.0
+source:
+    patches:
+        - use-pywin32.patch
+    sha256: d3744d22e398c19405d819d3c2d3bb82dc05a96513f577411c8847bb207dc289
+    url: https://pypi.io/packages/source/k/keyring/keyring-17.0.0.tar.gz
+build:
+    entry_points:
+        - keyring = keyring.cli:main
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/dc40953f-f9a8-4d28-73cc-54857ab89c03/volume/keyring_1545091785149/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.3 py37_0
+        - setuptools_scm 3.1.0 py37h28b3542_0
+        - sqlite 3.26.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - entrypoints
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - keyring --help
+    imports:
+        - keyring
+        - keyring.backends
+        - keyring.tests
+        - keyring.tests.backends
+        - keyring.util
+    requires:
+        - pytest >=2.8
+        - pytest-runner
+        - setuptools_scm >=1.15.0
+    source_files:
+        - keyring/tests/*
+about:
+    description: 'the python keyring lib provides a easy way to access the system
+        keyring
+
+        service from python.  it can be used in any application that needs safe
+
+        password storage.
+
+        '
+    doc_source_url: https://github.com/jaraco/keyring/blob/master/readme.rst
+    doc_url: https://pypi.org/project/keyring/
+    home: https://github.com/jaraco/keyring
+    license: Python Software Foundation or MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Store and access your passwords safely
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - ericdill
+        - licode
+        - tacaswell

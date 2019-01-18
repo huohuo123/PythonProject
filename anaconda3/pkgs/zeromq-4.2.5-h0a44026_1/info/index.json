@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h0a44026_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1",
+    "libsodium >=1.0.16,<1.0.17.0a0"
+  ],
+  "license": "LGPL 3",
+  "name": "zeromq",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1534341963756,
+  "version": "4.2.5"
+}

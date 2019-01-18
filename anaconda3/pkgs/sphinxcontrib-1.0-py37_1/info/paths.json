@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/sphinxcontrib/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "c36f344d7df392f3324bd07862ca187e70e2dd9a1f64f6d2c939d4b71b137250",
+      "size_in_bytes": 275
+    },
+    {
+      "_path": "lib/python3.7/site-packages/sphinxcontrib/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "eaf2d68c9c1b05e258f45d8c41c1cdd03cdabc22bb7312b03d11760f6352693d",
+      "size_in_bytes": 140
+    }
+  ],
+  "paths_version": 1
+}

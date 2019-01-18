@@ -1,0 +1,38 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "conda-verify  >=3.1.0"
+  ],
+  "depends": [
+    "beautifulsoup4",
+    "chardet",
+    "conda >=4.3",
+    "filelock",
+    "glob2 >=0.6",
+    "jinja2",
+    "libarchive",
+    "pkginfo",
+    "psutil",
+    "py-lief",
+    "python >=3.7,<3.8.0a0",
+    "python-libarchive-c",
+    "pytz",
+    "pyyaml",
+    "six",
+    "tqdm"
+  ],
+  "features": "",
+  "fn": "conda-build-3.17.6-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "e8c44f2abe824396b21e119b091ce125",
+  "name": "conda-build",
+  "size": 515547,
+  "subdir": "osx-64",
+  "timestamp": 1545270281374,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/conda-build-3.17.6-py37_0.tar.bz2",
+  "version": "3.17.6"
+}

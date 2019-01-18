@@ -1,0 +1,15 @@
+lib/python3.7/site-packages/msgpack-0.5.6.dist-info/INSTALLER
+lib/python3.7/site-packages/msgpack-0.5.6.dist-info/METADATA
+lib/python3.7/site-packages/msgpack-0.5.6.dist-info/RECORD
+lib/python3.7/site-packages/msgpack-0.5.6.dist-info/WHEEL
+lib/python3.7/site-packages/msgpack-0.5.6.dist-info/top_level.txt
+lib/python3.7/site-packages/msgpack/__init__.py
+lib/python3.7/site-packages/msgpack/__pycache__/__init__.cpython-37.pyc
+lib/python3.7/site-packages/msgpack/__pycache__/_version.cpython-37.pyc
+lib/python3.7/site-packages/msgpack/__pycache__/exceptions.cpython-37.pyc
+lib/python3.7/site-packages/msgpack/__pycache__/fallback.cpython-37.pyc
+lib/python3.7/site-packages/msgpack/_packer.cpython-37m-darwin.so
+lib/python3.7/site-packages/msgpack/_unpacker.cpython-37m-darwin.so
+lib/python3.7/site-packages/msgpack/_version.py
+lib/python3.7/site-packages/msgpack/exceptions.py
+lib/python3.7/site-packages/msgpack/fallback.py

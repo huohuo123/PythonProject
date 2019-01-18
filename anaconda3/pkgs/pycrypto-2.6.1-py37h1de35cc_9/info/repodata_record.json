@@ -1,0 +1,20 @@
+{
+  "build": "py37h1de35cc_9",
+  "build_number": 9,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pycrypto-2.6.1-py37h1de35cc_9.tar.bz2",
+  "license": "Public Domain",
+  "md5": "a729737932c59cc366e2b95e808f2bda",
+  "name": "pycrypto",
+  "size": 451657,
+  "subdir": "osx-64",
+  "timestamp": 1530898338461,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pycrypto-2.6.1-py37h1de35cc_9.tar.bz2",
+  "version": "2.6.1"
+}

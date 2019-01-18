@@ -1,0 +1,29 @@
+{
+  "build": "py37h13cba08_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blosc >=1.14.3,<2.0a0",
+    "bzip2 >=1.0.6,<2.0a0",
+    "hdf5 >=1.10.2,<1.10.3.0a0",
+    "libcxx >=4.0.1",
+    "lzo >=2.10,<3.0a0",
+    "numexpr",
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "six",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "pytables-3.4.4-py37h13cba08_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "ca08dad70213380ac56f4bbbe59ef20a",
+  "name": "pytables",
+  "size": 1439046,
+  "subdir": "osx-64",
+  "timestamp": 1530733051339,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pytables-3.4.4-py37h13cba08_0.tar.bz2",
+  "version": "3.4.4"
+}

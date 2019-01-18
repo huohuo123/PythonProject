@@ -1,0 +1,87 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/7b805648-b9a3-47be-6337-92bd1992362b/volume/rsync-recipes/scipy-1.1.0-python_3.7-blas_impl_mkl-on-osx, last modified Fri Dec 14 09:02:35 2018
+# ------------------------------------------------
+
+package:
+    name: scipy
+    version: 1.1.0
+source:
+    patches:
+        - 0008-xfail-last-pcol-test.patch
+    sha256: 0291a2254d9a020af9b49ca648e8b41e1366be9a8a40849be9102626b2022422
+    url: https://github.com/scipy/scipy/archive/v1.1.0.tar.gz
+build:
+    number: '2'
+    string: py37h1410ff5_2
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - gfortran_osx-64 4.8.5 h22b1bf0_5
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libgfortran 3.0.1 h93005f0_2
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - cython 0.29 py37h0a44026_0
+        - intel-openmp 2019.1 144
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2019.1 144
+        - mkl-devel 2019.1 144
+        - mkl-include 2019.1 144
+        - ncurses 6.1 h0a44026_1
+        - numpy-base 1.11.3 py37h6575580_12
+        - numpy-devel 1.11.3 py37h4ba5984_12
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - blas 1.0 mkl
+        - libcxx >=4.0.1
+        - libgfortran >=3.0.1
+        - mkl >=2019.1,<2020.0a0
+        - numpy >=1.11.3,<2.0a0
+        - python >=3.7,<3.8.0a0
+test:
+    requires:
+        - mpmath
+        - pytest <4
+about:
+    description: 'SciPy is a Python-based ecosystem of open-source software for mathematics,
+
+        science, and engineering.
+
+        '
+    dev_url: https://github.com/scipy/scipy
+    doc_url: http://www.scipy.org/docs.html
+    home: http://www.scipy.org/
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Scientific Library for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - ocefpaf
+        - rgommers

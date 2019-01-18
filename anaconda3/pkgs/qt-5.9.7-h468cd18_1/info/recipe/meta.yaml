@@ -1,0 +1,121 @@
+# This file created by conda-build 3.17.3+8.g6c093615
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/qt-feedstock/recipe, last modified Thu Dec 13 18:14:11 2018
+# ------------------------------------------------
+
+package:
+    name: qt
+    version: 5.9.7
+source:
+    -   md5: 70e617aeb1f9bbf84a12b8cf09b01ece
+        patches:
+            - 0000-qtbase-QSslSocket-OpenSSL-1.1-backend.patch
+            - 0001-qtgamepad-maybe-define-BTN_TRIGGER_HAPPY1-to-4.patch
+            - 0001-qtscript-mark-cti_vm_throw-as-REFERENCED_FROM_ASM.patch
+            - 0001-qtwebengine-allow-any-xcblah-in-PATH.patch
+            - 0002-qtwebengine-find_sdk-respect-CONDA_BUILD_SYSROOT.patch
+            - 0004-qtwebengine-use-CONDA_PREFIX_include-for-system_libjpeg.patch
+            - 0005-qtwebengine-jpeg-codec-cannot-convert-bool-to-boolean.patch
+            - 0006-qtwebengine-run-gn-verbosely.patch
+            - 0007-qtwebengine-boringssl-Work-around-language-and-compiler-bug-in-memcpy-etc.patch
+            - 0008-qtwebengine-Allow-build-to-proceed-on-macOS-10-9.patch
+            - 0010-osx-xctest-check.patch
+            - 0011-osx-allow-any-xcrun-in-PATH.patch
+            - 0014-Fix-command-line-tools-build.patch
+            - 0015-qtbase-use-better-clang-optimize-size.patch
+            - 0016-qtbase-use-better-gcc-optimize-size.patch
+            - 0017-qtbase-never-enable-new-dtags.patch
+            - 0018-qtbase-Add-DISABLE_WINRT_DEPRECATION-for-WinSDK-10.0.16299.0.patch
+        url: http://download.qt.io/official_releases/qt/5.9/5.9.7/single/qt-everywhere-opensource-src-5.9.7.tar.xz
+build:
+    detect_binary_files_with_prefix: true
+    missing_dso_whitelist:
+        - /System/Library/Frameworks/CoreLocation.framework/**
+        - /usr/lib/libbsm.0.dylib
+        - /usr/lib/libcups.2.dylib
+        - /usr/lib/libresolv.9.dylib
+        - /usr/lib/libsandbox.1.dylib
+    number: '1'
+    run_exports:
+        - qt >=5.9.7,<5.10.0a0
+    string: h468cd18_1
+requirements:
+    build:
+        - ca-certificates 2018.03.07 0
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.1 h0a44026_1
+        - ninja 1.8.2 py27h04f5b5a_1
+        - openssl 1.1.1a h1de35cc_0
+        - perl 5.26.2 h4e221da_0
+        - python 2.7.15 h8f8e585_4
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - zlib 1.2.11 h1de35cc_3
+    host:
+        - icu 58.2 h4b95b61_1
+        - jpeg 9b he5867d9_2
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libpng 1.6.35 ha441bb4_0
+        - ncurses 6.1 h0a44026_1
+        - sqlite 3.25.3 ha441bb4_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - icu >=58.2,<59.0a0
+        - jpeg >=9b,<10a
+        - libcxx >=4.0.1
+        - libpng >=1.6.35,<1.7.0a0
+        - sqlite >=3.25.3,<4.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - test -f $PREFIX/lib/libQt5WebEngine.dylib
+        - test -f $PREFIX/plugins/sqldrivers/libqsqlite${SHLIB_EXT}
+    files:
+        - test/hello.pro
+        - test/main-qtwebengine.cpp
+        - test/main.cpp
+        - test/main.qml
+        - test/qml.qrc
+        - test/qrc_qml.cpp
+        - test/qtwebengine.pro
+        - xcodebuild
+        - xcrun
+    requires:
+        - clangxx_osx-64
+about:
+    description: 'Qt helps you create connected devices, UIs & applications that run
+
+        anywhere on any device, on any operating system at any time.
+
+        '
+    dev_url: https://github.com/qtproject
+    doc_url: http://doc.qt.io/
+    home: http://qt-project.org
+    license: LGPL-3.0
+    summary: Qt is a cross-platform application and UI framework.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - gillins
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - stuarteberg

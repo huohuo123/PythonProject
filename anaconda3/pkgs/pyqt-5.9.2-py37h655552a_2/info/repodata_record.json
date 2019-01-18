@@ -1,0 +1,26 @@
+{
+  "build": "py37h655552a_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "dbus >=1.13.2,<2.0a0",
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0",
+    "qt 5.9.*",
+    "qt >=5.9.6,<5.10.0a0",
+    "sip >=4.19.4,<=4.19.8"
+  ],
+  "features": "",
+  "fn": "pyqt-5.9.2-py37h655552a_2.tar.bz2",
+  "license": "Commercial, GPL-2.0, GPL-3.0",
+  "license_family": "GPL",
+  "md5": "d078e73e5de30bbbe8bc13bcdf4bf6e9",
+  "name": "pyqt",
+  "size": 4640976,
+  "subdir": "osx-64",
+  "timestamp": 1537385342672,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pyqt-5.9.2-py37h655552a_2.tar.bz2",
+  "version": "5.9.2"
+}

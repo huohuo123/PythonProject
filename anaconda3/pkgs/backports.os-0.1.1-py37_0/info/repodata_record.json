@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "backports",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "backports.os-0.1.1-py37_0.tar.bz2",
+  "license": "Python Software Foundation",
+  "license_family": "PSF",
+  "md5": "0799936861aa6e295fb11e456bbf36bd",
+  "name": "backports.os",
+  "size": 15431,
+  "subdir": "osx-64",
+  "timestamp": 1539703473411,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/backports.os-0.1.1-py37_0.tar.bz2",
+  "version": "0.1.1"
+}

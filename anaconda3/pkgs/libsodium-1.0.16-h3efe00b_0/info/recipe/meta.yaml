@@ -1,0 +1,57 @@
+# This file created by conda-build 3.7.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/75b8070d-41d9-4f19-7bd1-9134d9e130b6/volume/rsync-recipes/libsodium-1.0.16-on-nwani-osx-64, last modified Tue Mar 27 12:26:27 2018
+# ------------------------------------------------
+
+package:
+    name: libsodium
+    version: 1.0.16
+source:
+    fn: libsodium-1.0.16.tar.gz
+    sha256: eeadc7e1e1bcef09680fb4837d448fbdf57224978f865ac1c16745868fbd0533
+    url: https://github.com/jedisct1/libsodium/releases/download/1.0.16/libsodium-1.0.16.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - libsodium >=1.0.16,<1.0.17.0a0
+    string: h3efe00b_0
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_10
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+test:
+    commands:
+        - test -f ${PREFIX}/include/sodium.h
+        - test -f ${PREFIX}/lib/libsodium.a
+        - test -f ${PREFIX}/lib/libsodium.dylib
+about:
+    description: 'Sodium is a new, easy-to-use software library for encryption, decryption,
+
+        signatures, password hashing and more. It is a portable, cross-compilable,
+
+        installable, packageable fork of NaCl, with a compatible API, and an
+
+        extended API to improve usability even further. Its goal is to provide all
+
+        of the core operations needed to build higher-level cryptographic tools.
+
+        '
+    dev_url: https://github.com/jedisct1/libsodium
+    doc_url: https://download.libsodium.org/doc
+    home: http://libsodium.org
+    license: ISC
+    license_file: LICENSE
+    summary: A modern and easy-to-use crypto library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - minrk

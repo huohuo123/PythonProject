@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py37hacdab7b_0",
+  "build_number": 0,
+  "depends": [
+    "blas 1.0 mkl",
+    "libgfortran >=3.0.1",
+    "mkl >=2019.1,<2020.0a0",
+    "mkl_fft >=1.0.6,<2.0a0",
+    "mkl_random >=1.0.2,<2.0a0",
+    "numpy-base 1.15.4 py37h6575580_0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "numpy",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1544718731768,
+  "version": "1.15.4"
+}

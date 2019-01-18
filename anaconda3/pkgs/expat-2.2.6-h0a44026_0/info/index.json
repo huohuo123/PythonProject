@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h0a44026_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "license": "MIT",
+  "name": "expat",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1535396357260,
+  "version": "2.2.6"
+}

@@ -1,0 +1,86 @@
+# This file created by conda-build 3.14.4
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/870489fb-386a-47ce-677d-268827ba2ec3/volume/rsync-recipes/lxml-4.2.5-python_3.7-on-osx, last modified Tue Sep 11 15:23:13 2018
+# ------------------------------------------------
+
+package:
+    name: lxml
+    version: 4.2.5
+source:
+    sha256: 36720698c29e7a9626a0dc802ef8885f8f0239bfd1689628ecd459a061f2807f
+    url: https://pypi.io/packages/source/l/lxml/lxml-4.2.5.tar.gz
+build:
+    number: '0'
+    script:
+        - python -m pip install --no-deps --ignore-installed . --global-option="--with-xslt-config=$PREFIX/bin/xslt-config"
+    string: py37hef8c89e_0
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - cython 0.28.5 py37h0a44026_0
+        - icu 58.2 h4b95b61_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libiconv 1.15 hdd342a3_7
+        - libxml2 2.9.8 hab757c2_1
+        - libxslt 1.1.32 hb819dd2_0
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - libxml2 >=2.9.8,<2.10.0a0
+        - libxslt >=1.1.32,<2.0a0
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX lxml
+        - conda inspect objects -p $PREFIX lxml
+    imports:
+        - lxml
+        - lxml.etree
+        - lxml.objectify
+about:
+    description: 'The lxml XML toolkit is a Pythonic binding for the C libraries libxml2
+        and
+
+        libxslt. It is unique in that it combines the speed and XML feature
+
+        completeness of these libraries with the simplicity of a native Python API,
+
+        mostly compatible but superior to the well-known ElementTree API.
+
+        '
+    dev_url: https://github.com/lxml/lxml
+    doc_source_url: https://github.com/lxml/lxml/tree/master/doc
+    doc_url: http://lxml.de/index.html#documentation
+    home: http://lxml.de/
+    license: BSD 3-Clause, GPL-2.0, ZPL-2.0, and ElementTree
+    license_file: LICENSES.txt
+    summary: Pythonic binding for the C libraries libxml2 and libxslt.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jjhelmus
+        - ocefpaf

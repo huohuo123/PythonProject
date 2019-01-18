@@ -1,0 +1,71 @@
+{% set name = "datashape" %}
+{% set version = "0.5.4" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/blaze/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: c266c5803dde48b9fa8d8ee51b5b5979ef77443060e32db2d225b72648c638a5
+  # Probably not needed AST changes were dropped before release.
+  # patches:
+  #   - 0001-Add-compatibility-for-AST-changes-in-Python-3.7.patch
+
+build:
+  number: 1
+  script: python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - numpy >=1.7
+    - multipledispatch >=0.4.7
+    - python-dateutil
+
+test:
+  imports:
+    - datashape
+    - datashape.tests
+    - datashape.util
+
+  requires:
+    - pytest
+    - mock
+    # Use numpy 1.11 due to numpy 1.14 failures:
+    # https://github.com/blaze/datashape/issues/232
+    # =================================== FAILURES ===================================
+    # ________________________________ test_validate _________________________________
+    #
+    #     def test_validate():
+    #         assert validate(int, 1)
+    # >       assert validate('int', 1)
+    # E       AssertionError: assert False
+    # E        +  where False = validate('int', 1)
+    - numpy 1.11
+
+  commands:
+    - py.test -vx --doctest-modules --pyargs datashape
+
+about:
+  home: http://datashape.pydata.org
+  license: BSD 2-Clause
+  license_file: LICENSE
+  summary: 'A data description language.'
+  license_family: BSD
+  description: |
+    Datashape is a data layout language for array programming.
+    It is designed to describe in-situ structured data without requiring
+    transformation into a canonical form.
+  doc_url: http://datashape.readthedocs.org/en/latest
+  doc_source_url: https://github.com/blaze/datashape/blob/master/docs/source/index.rst
+  dev_url: https://github.com/blaze/datashape
+
+extra:
+  recipe-maintainers:
+    - nehaljwani

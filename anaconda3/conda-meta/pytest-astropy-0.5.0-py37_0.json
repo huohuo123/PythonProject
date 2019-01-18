@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "pytest >=3.1",
+    "pytest-arraydiff >=0.1",
+    "pytest-doctestplus >=0.2.0",
+    "pytest-openfiles >=0.3.1",
+    "pytest-remotedata >=0.3.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/pytest_astropy-0.5.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pytest_astropy-0.5.0.dist-info/LICENSE.rst",
+    "lib/python3.7/site-packages/pytest_astropy-0.5.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pytest_astropy-0.5.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pytest_astropy-0.5.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pytest_astropy-0.5.0.dist-info/top_level.txt"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pytest-astropy-0.5.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "2f9c883480f1085a11ecca4ad9d555af",
+  "name": "pytest-astropy",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1545147262613,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pytest-astropy-0.5.0-py37_0.tar.bz2",
+  "version": "0.5.0"
+}

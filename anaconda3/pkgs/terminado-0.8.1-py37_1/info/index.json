@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "depends": [
+    "ptyprocess",
+    "python >=3.7,<3.8.0a0",
+    "tornado >=4"
+  ],
+  "license": "BSD 2-clause",
+  "name": "terminado",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530724717705,
+  "version": "0.8.1"
+}

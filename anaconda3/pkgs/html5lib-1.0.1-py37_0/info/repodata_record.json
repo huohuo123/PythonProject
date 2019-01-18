@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six >=1.9",
+    "webencodings"
+  ],
+  "features": "",
+  "fn": "html5lib-1.0.1-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "db78fb03cb3d5549b974aff7f558072f",
+  "name": "html5lib",
+  "size": 185635,
+  "subdir": "osx-64",
+  "timestamp": 1530724084458,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/html5lib-1.0.1-py37_0.tar.bz2",
+  "version": "1.0.1"
+}

@@ -1,0 +1,12 @@
+{
+  "CONDA_BUILD_SYSROOT": "/opt/MacOSX10.9.sdk",
+  "c_compiler": "clang",
+  "libpng": "1.6",
+  "qtwebkit": "true",
+  "cxx_compiler": "clangxx",
+  "icu": "58",
+  "sqlite": "3",
+  "jpeg": "9",
+  "openssl": "1.1.1",
+  "zlib": "1.2"
+}

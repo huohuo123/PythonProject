@@ -1,0 +1,1171 @@
+{
+  "paths": [
+    {
+      "_path": "bin/anaconda",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "2aa1029396da574aa82004a5fabd157b5ad1120a4cd3c09194f0d94e5a420d91",
+      "size_in_bytes": 256
+    },
+    {
+      "_path": "bin/binstar",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "9773ac9b9478cf3e3db9a5cb0761ebc7924e4c1a2d8ce939db24abed1d253f5e",
+      "size_in_bytes": 433
+    },
+    {
+      "_path": "bin/conda-server",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "de2a6d5d47de81e2094b846917e61a628d1278270e69ec4b0bff07be73463a51",
+      "size_in_bytes": 443
+    },
+    {
+      "_path": "lib/python3.7/site-packages/anaconda_client-1.7.2-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "1726c7045a250972a13ca39b3891c74b617e8046c92ec163816a322e6e8775fc",
+      "size_in_bytes": 476
+    },
+    {
+      "_path": "lib/python3.7/site-packages/anaconda_client-1.7.2-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "400822a16a9e2b864742af76f871c9e31e67d335ec139fd1f42569c874629c79",
+      "size_in_bytes": 3735
+    },
+    {
+      "_path": "lib/python3.7/site-packages/anaconda_client-1.7.2-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/anaconda_client-1.7.2-py3.7.egg-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "707b88d130dc602b9ffd149673caf428ade967c82be863a8083a0044a2e928c3",
+      "size_in_bytes": 151
+    },
+    {
+      "_path": "lib/python3.7/site-packages/anaconda_client-1.7.2-py3.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/anaconda_client-1.7.2-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "255a2045c941d29d5107f1bd8ecc122065ed831f5bb72493178d496b8740f0b7",
+      "size_in_bytes": 102
+    },
+    {
+      "_path": "lib/python3.7/site-packages/anaconda_client-1.7.2-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "3a5bf95a2d795f3a378a3dfbe143fe14ec1ff0fba083909aab468938fdf99564",
+      "size_in_bytes": 15
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "46d8cdb64d84afc74cbe63b981078d9b41745c408552bd13d2b67b5afa5d82a8",
+      "size_in_bytes": 21040
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "822988dac36decd7e5e525f3254d1d3b74e062d0aa730bb94c07270e334f62fb",
+      "size_in_bytes": 17618
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/__pycache__/_version.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7ccb0b7e58d3c9c828fe3845f7dab27cc6bb559e770cae91c0ecad6a34d0dec3",
+      "size_in_bytes": 471
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/__pycache__/errors.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "05947910461fc49ce26bce1b35ffd5d40a7daf1d23ddcd18e536f3a9fd0eb230",
+      "size_in_bytes": 2568
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/__pycache__/pprintb.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "998627278c87bfebc48a31175ff2f48732fd81ae50f3113a179ade0882244aef",
+      "size_in_bytes": 902
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/__pycache__/requests_ext.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "6e423300004098591d7cf74d6ac286d475c9d4c8dab60b59b2e01ab56d5d2546",
+      "size_in_bytes": 5455
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/_version.py",
+      "path_type": "hardlink",
+      "sha256": "df46dc96aed42ef450dabc128da953c3a5bf9d1989b5ffdc16bb5b68a305bc04",
+      "size_in_bytes": 471
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "98b2866adaf6a25945c5a0ec324571297d63e3aa260657142079b02c61ee3f9d",
+      "size_in_bytes": 182
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/authorizations.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5d593ee4af4325013f2116e40ce0b29ce36bdb6a70c2988a0eb73c302de377aa",
+      "size_in_bytes": 6583
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/channel.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c317660d362fc7e42f2b599b0cc781b1d0cea41ec2cb078f9f7b823c63f37689",
+      "size_in_bytes": 2868
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/config.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e9e6d649dd7b1b0a86a83a498d23023eee9adabeef6ef13e06eacd65d5b8c7b7",
+      "size_in_bytes": 5375
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/copy.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "a0246d0a92da05ae96f452fbc3acee38ca9793abdcebeb9036fc8a72d041eb79",
+      "size_in_bytes": 2009
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/download.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "de7832f473b7207940a9e0b1dea245d9317924a3241921cfb22d28c2faf0ce3f",
+      "size_in_bytes": 2420
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/groups.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4e011b92ca60d3f156623d1f8faf542e6eb812a8e9c39add48fe2de22a3906f4",
+      "size_in_bytes": 2261
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/login.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7c8b7c50cb660b8fdd5e9362ab8c8f804ec734fe3cae5ace0a4d1eca6d88b70e",
+      "size_in_bytes": 3962
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/logout.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "70104a4756c0e72b9122aa77809678cc54a731c4a87b10904faa004553481be6",
+      "size_in_bytes": 1108
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/move.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5e8f092bd0547999ce4349de54d1408431480e3d3c071eb2d5ca964a808fb010",
+      "size_in_bytes": 1883
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/notebook.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ed50210f95f04af5ec20bfa976f217f72867d9d490781a5880ef42de3b33fded",
+      "size_in_bytes": 4140
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/package.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "6f71e2f40ee690f2182f08ef1ddf01b3397741700c899d1569723fe9c1357b6c",
+      "size_in_bytes": 2370
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/remove.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8dc2304a1681cea154830e907fea37a6bf33bbeb5971c6b4abf5854b34860b02",
+      "size_in_bytes": 2238
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/search.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4f624182348f53a6e0e69f6dd458431efc73b3f61a63d56855453598ced2b4fa",
+      "size_in_bytes": 1486
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/show.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3fa9dd78ca766bbed48cdedfc72470c663bb952beb7fd69b310f60d9283221fd",
+      "size_in_bytes": 3200
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/upload.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "13e34ef2309c59121d9916fabcd101d18463113fe33c6893910a18a2b144d5a7",
+      "size_in_bytes": 11837
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/__pycache__/whoami.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "404f6efa75caf797eb6f31568010ba09dbb54029cc7622a5625215ccd4608276",
+      "size_in_bytes": 1095
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/authorizations.py",
+      "path_type": "hardlink",
+      "sha256": "89b6c831340fb9fd667062e709d2f1e22fdf50c8019c268c32890c21d36a622e",
+      "size_in_bytes": 8772
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/channel.py",
+      "path_type": "hardlink",
+      "sha256": "1abbf989ea35e461f30a9fdaf9a9239c511502557e63e5c5cbac817ac48a280b",
+      "size_in_bytes": 3490
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/config.py",
+      "path_type": "hardlink",
+      "sha256": "8939e3734f829b7e888213393c8d5a6049b556a7345173cf9a96815c56de8890",
+      "size_in_bytes": 6043
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/copy.py",
+      "path_type": "hardlink",
+      "sha256": "3ea5e9266b354a248a2318265ece767bd75e94572bcffa28f98a0e4ba10b8f32",
+      "size_in_bytes": 2100
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/download.py",
+      "path_type": "hardlink",
+      "sha256": "83c95bbe8fe7ec6d17d076fab3baa3b6c1a4977a4a3d88a9d18c08622b96ab65",
+      "size_in_bytes": 2598
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/groups.py",
+      "path_type": "hardlink",
+      "sha256": "8b16fc1cc1a056e349e2b777716b4303f5a029bd5ce20a5e7937704e92fae938",
+      "size_in_bytes": 2822
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/login.py",
+      "path_type": "hardlink",
+      "sha256": "6f2f50c46bd0428e92efdca4a15b4acf5e5d3ec5b08af6a6fc26eeeeb6841272",
+      "size_in_bytes": 4971
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/logout.py",
+      "path_type": "hardlink",
+      "sha256": "28cdffafe2f34b7334132b94d2d68f06f7b3a9a4282a36b3f0ea9df7dea993f5",
+      "size_in_bytes": 1046
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/move.py",
+      "path_type": "hardlink",
+      "sha256": "5dad06eab89f3617dd3a87a6f793dba8eefe711833c4c20bf1a4c3a7f805abf8",
+      "size_in_bytes": 2773
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/notebook.py",
+      "path_type": "hardlink",
+      "sha256": "60ea543486cad6d45cead99ca5812aa2f43e0b9897bd59c651811530e10c3879",
+      "size_in_bytes": 4823
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/package.py",
+      "path_type": "hardlink",
+      "sha256": "8e567d66afec72bb7698a7f0925ec24b72ff6da683a800a78695326b84fdff87",
+      "size_in_bytes": 2725
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/remove.py",
+      "path_type": "hardlink",
+      "sha256": "6dae1abbca14dbc2f1a1a25ebe792bd0a8080b90122d630e16404eccf27360ee",
+      "size_in_bytes": 2547
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/search.py",
+      "path_type": "hardlink",
+      "sha256": "71b87ea23c3ccfd4df5d43069e145a0dcfb84ac2004d9a5b398b7a1742d6d460",
+      "size_in_bytes": 1325
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/show.py",
+      "path_type": "hardlink",
+      "sha256": "b859ccf28e69527d1d14b692a7fa2b3f340544f4cd4acf8c031506647437dd41",
+      "size_in_bytes": 3908
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/upload.py",
+      "path_type": "hardlink",
+      "sha256": "421a462e0cdc5e8b72b7829d1fb1a3fbfbd0547f5dabb775036d68905573742d",
+      "size_in_bytes": 16820
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/commands/whoami.py",
+      "path_type": "hardlink",
+      "sha256": "f78e87f14c34cd99237014b940e66aa20dbbc0927ea4ee3fec62a74fda349473",
+      "size_in_bytes": 812
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/errors.py",
+      "path_type": "hardlink",
+      "sha256": "5dde07c48cbfeaac088ad54df99bff820353f1ab9f50baf7b29d3bec0001f0ad",
+      "size_in_bytes": 1242
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b6c01e31bd16f805be2a36b844e1524b14fe6efce95e73286c9cd09b4e360432",
+      "size_in_bytes": 189
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__pycache__/conda.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0f7ba6fccc48477c7937c2345854282746d780244c5af29a4c998f7caf49132a",
+      "size_in_bytes": 4065
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__pycache__/conda_installer.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8b1d3297df90d318ed737e1cb5a1d92d70a100310377641ff53327156d429c4c",
+      "size_in_bytes": 1392
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__pycache__/env.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "79cd97e5223d57fb82e70dba2b7c7b2bbbfcd69d5c0b49823658f254ae1c5876",
+      "size_in_bytes": 1608
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__pycache__/ipynb.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8c068d5c377c7afb863c4b1566740b4eea8f16e75a69eb73850952f09007baa9",
+      "size_in_bytes": 1145
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__pycache__/pypi.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "98daf1bf10a7fa9f0281e1167d57eb341463ce64856244f45eb3053b4c1064f0",
+      "size_in_bytes": 14903
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__pycache__/r.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "74c4bc1999bdf010f0c3a4d840bd0b634b183d6448dc6f9294e1e7bee21a9b7f",
+      "size_in_bytes": 1757
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/__pycache__/uitls.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "09525f4808c20060e1dd853f41c1560df9e1c21d0b75107b3bd8c60b2f6fcb7e",
+      "size_in_bytes": 2259
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/conda.py",
+      "path_type": "hardlink",
+      "sha256": "4b71b6d9613af8e8396d1f0d58c9df849d0ca708f436e11f5fa32e8d50734017",
+      "size_in_bytes": 6197
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/conda_installer.py",
+      "path_type": "hardlink",
+      "sha256": "2ebc93600b4923b7b2b720096f9224ee972724b8e987da0a14fb51e5fc4afdaa",
+      "size_in_bytes": 1776
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/env.py",
+      "path_type": "hardlink",
+      "sha256": "396b2a99ac16bd035e6074df91cb5365aff88623f53c1923321b8f2f1cd092be",
+      "size_in_bytes": 1175
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/ipynb.py",
+      "path_type": "hardlink",
+      "sha256": "5a986fc2c1688fafcf1b2e3dc32e43b207e4a904fba46070ac1d290cebe990ae",
+      "size_in_bytes": 1154
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/pypi.py",
+      "path_type": "hardlink",
+      "sha256": "8ca157839577e49ba2efbca59ef3731a516536cac870f6af66b97ed2985f512a",
+      "size_in_bytes": 21509
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/r.py",
+      "path_type": "hardlink",
+      "sha256": "60be13d097a7112950055a6022b30ae9b89281ef426ba1a67e89d61184ac3d85",
+      "size_in_bytes": 1798
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "a58488d56cb883a4137287b71483e3dfd75d157d59ccf60b1cf992045e5a5d75",
+      "size_in_bytes": 195
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/__pycache__/test_conda.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "bfb385e75db75b1f77a67c577f9a8d41451be8de036f4e5a647620ce99348352",
+      "size_in_bytes": 3455
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/__pycache__/test_env.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "fa049cfbf4e72ebad82500a658569ee66b2ca033eb713425d35e11d9d31ce8c3",
+      "size_in_bytes": 1638
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/__pycache__/test_ipynb.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4d9aa4f5a28ba888312dc80333900751581bf19f85a9860785d1eb9e3748ca67",
+      "size_in_bytes": 3248
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/__pycache__/test_pypi.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "398c8c4ab43b9bc21673732bc8a38122b064d37db9948042fd61553af8aeb6d0",
+      "size_in_bytes": 5852
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/__pycache__/test_r.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "33267edc72bbcefe735b1a8198e0a866e7ffb0ea5e1a69e8e236bd5b7ab2578c",
+      "size_in_bytes": 1602
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/test_conda.py",
+      "path_type": "hardlink",
+      "sha256": "972bd299d19165de5ee8d34eb994367a16e689903041e8c28dd0d5be7a2d29cf",
+      "size_in_bytes": 5195
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/test_env.py",
+      "path_type": "hardlink",
+      "sha256": "d9e3ed10a1032b9c7eaf86a5cc92b145f6515ca41b627027af4f404e58f0d8f7",
+      "size_in_bytes": 1080
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/test_ipynb.py",
+      "path_type": "hardlink",
+      "sha256": "8fb90857c3e0b6fb8b583914814ba4e76ef935f49b79fd56f92f795402fbf6c0",
+      "size_in_bytes": 2828
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/test_pypi.py",
+      "path_type": "hardlink",
+      "sha256": "dc52f2fe26a3c070209961a3c31b4a2608d0db67693587dd5ac3537a58b1522f",
+      "size_in_bytes": 10827
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/tests/test_r.py",
+      "path_type": "hardlink",
+      "sha256": "933d6f34038ad97f1a40828dc162a53f05d04649a622ae6dd01e529bb7bb7665",
+      "size_in_bytes": 1471
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/inspect_package/uitls.py",
+      "path_type": "hardlink",
+      "sha256": "15f11f0875067a3533689f83d948653d749249deea1ebce8cacecd7d14c47d29",
+      "size_in_bytes": 1420
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/mixins/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/mixins/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "142e97bf8b031a326b9936757c396db033dc113c54f8c64a1ae8bf9f0847f074",
+      "size_in_bytes": 180
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/mixins/__pycache__/channels.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3d2e272c1d03c21a9fff9eea91124310a345851b79facac8df1af962dc802c96",
+      "size_in_bytes": 4497
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/mixins/__pycache__/organizations.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "86ad6eb0942d7b1d8664e74cdaba9a2b5c9588cebb930d698d181f6aacd80c59",
+      "size_in_bytes": 3299
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/mixins/__pycache__/package.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d6950e0d46f2a1451fb131180ef8a203b7a25267e33a04013e807d658e7aedaa",
+      "size_in_bytes": 924
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/mixins/channels.py",
+      "path_type": "hardlink",
+      "sha256": "8355b0f9e5cd0ffc139f64fb6e29cbbf0d388495e03856c8017a756c53b128b8",
+      "size_in_bytes": 4014
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/mixins/organizations.py",
+      "path_type": "hardlink",
+      "sha256": "199278d3aaa817a041bc89b73cdd866b77c587b33c15c78ffda82ce59f7bfc4b",
+      "size_in_bytes": 2703
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/mixins/package.py",
+      "path_type": "hardlink",
+      "sha256": "4ee633e7f8da4954fafcafd95d2a28ddd3af51c6871b9048b94a06dfffe6d88e",
+      "size_in_bytes": 645
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/pprintb.py",
+      "path_type": "hardlink",
+      "sha256": "6e4a71fb80f89a454d9bb5a482de1ebaf13320b99b8555aefd8fec579ef2be13",
+      "size_in_bytes": 428
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/requests_ext.py",
+      "path_type": "hardlink",
+      "sha256": "2fd6feb4e60cb1c7223c061050bdf931c12d9406cf7aaf29556ab8da273e92d3",
+      "size_in_bytes": 5073
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/scripts/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/scripts/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "54cca5721e9d2241fc1bea0774f30c9098810bfe991872df3aefcea7e807d6aa",
+      "size_in_bytes": 181
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/scripts/__pycache__/cli.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2354cc3c9646dae9d37fd08322575b46646f5802b4a7a6daba7ed99934c6d28f",
+      "size_in_bytes": 5346
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/scripts/cli.py",
+      "path_type": "hardlink",
+      "sha256": "e8c0908cf01dfaabcaa79bb04f5a486e05286903b7ecad996f522e924b06d2d9",
+      "size_in_bytes": 5923
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e2c4d33b23d5a7c2e75363b5f8ef1992110b116e890453e0eb80c6e87fca41fe",
+      "size_in_bytes": 179
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/coverage_report.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4b12153ef2d9351c47d770c7071947391653e46da4deaf9f4762cb2c38d14e11",
+      "size_in_bytes": 3725
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/fixture.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "eb352d0e0cb68c8b57c6eff8638c3f9dde08dfa0212d3da0b50a5d33799c6f6f",
+      "size_in_bytes": 1812
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/runner.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b7266604792e3f1e523c22181a3bc46c96256fea12fea696717df3440e86ccfc",
+      "size_in_bytes": 5215
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/runtests.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "59e484d6ae136f59a9eb2c808997f846e32bf6ab7a058000040c2c6110f4a03e",
+      "size_in_bytes": 1491
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_authorizations.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "61c8d9d4be62aa1c65795201464c98b9a890cad489b77b563c924ac504e6e713",
+      "size_in_bytes": 2053
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_config.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "05e80e1458633bea1b9786caca531dade3be80654baa0d989989bf3c86ebc3b6",
+      "size_in_bytes": 1486
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_copy.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7dffd11a567794e14b38c502b2062dad55c16bdb1e27f5d8f88e676427e4ebf4",
+      "size_in_bytes": 1196
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_groups.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "93b45dbe03667351e02121b572ec06dbf64c99bece6d0b5a8a36937ff13cdc53",
+      "size_in_bytes": 3794
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_license.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "85a11da7bf96b7cc8dc6277821a13d40fbc223e09602b77ada5337b34af9256d",
+      "size_in_bytes": 818
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_login.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "af0de696fbb354ab2e8012af9999e116dd401fcf381ec68dfc8722ae64f12250",
+      "size_in_bytes": 3824
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_packages.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "928528686f829783aeb543c224ec6c4f928587a1b529e974996a1a8fd8827225",
+      "size_in_bytes": 1554
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_register.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b78d3f24d46d447163d85af61958f1860c63e76d528069960270494c3fd55d08",
+      "size_in_bytes": 1935
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_requests_ext.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "98c0e5778a1c289f45578881878bce019731de0474f488464b7640a2c8158581",
+      "size_in_bytes": 770
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_subdir.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "38a5fa5d01e0ee9be359c5d62cbba8eb9e1b04ef9f38ffc3860d12c86fccbd2d",
+      "size_in_bytes": 1427
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_upload.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "69a726a49bd7a05f93d2c887e4e19d1e7219a786c179a586172180944c0a9e61",
+      "size_in_bytes": 9755
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/test_whoami.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "329718d57705d5aba3773ef10c4851e2cd196d021328ef2a1b0441a9e41d7279",
+      "size_in_bytes": 2145
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/__pycache__/urlmock.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ef689521b6acb21dc8a4b107169143087919ea6461f21f793639051936afb5d0",
+      "size_in_bytes": 4519
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/coverage_report.py",
+      "path_type": "hardlink",
+      "sha256": "36367d06c3b1a4bf1b4198b8c054e91d45c395f876166f3c2028856712c21a00",
+      "size_in_bytes": 4112
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/fixture.py",
+      "path_type": "hardlink",
+      "sha256": "90aa640ee7d541fc2cdd02c2b198198a4ed311e6e1479ead3500ddf671a5f729",
+      "size_in_bytes": 1497
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/runner.py",
+      "path_type": "hardlink",
+      "sha256": "9795ec5012143c6069775b8998505e26bad018c3d7683a6fd38cd2ee210b356c",
+      "size_in_bytes": 5269
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/runtests.py",
+      "path_type": "hardlink",
+      "sha256": "c2a5188d5390f011367c3babfb69291933cdc3a212f25391890f3a8d31edf479",
+      "size_in_bytes": 1358
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_authorizations.py",
+      "path_type": "hardlink",
+      "sha256": "7701e8bc5afd88525683d2f9c85e6d0edd9e59a357f1679c53ce7d29621320d9",
+      "size_in_bytes": 1712
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_config.py",
+      "path_type": "hardlink",
+      "sha256": "0ce058f8fbc6140c91816a016ad67a2105369771dc0817704a2f2f3addc4d068",
+      "size_in_bytes": 1247
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_copy.py",
+      "path_type": "hardlink",
+      "sha256": "d781a9ae97f3056209f55ca40d1d51ad1fca8abda9913a7cf997737ba1fc143f",
+      "size_in_bytes": 887
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_groups.py",
+      "path_type": "hardlink",
+      "sha256": "d2ad8506cf67cc4112410e33d3e87c5d703b4afa5fd50753d4e2080e6e02877b",
+      "size_in_bytes": 3245
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_license.py",
+      "path_type": "hardlink",
+      "sha256": "ce84818fe203e9d915f0d029bee539276115c1cf5820ea2236979b6c19ed8bf5",
+      "size_in_bytes": 406
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_login.py",
+      "path_type": "hardlink",
+      "sha256": "8bb65c0d69bd67160e9947de4afdd1401dcd6d78c9ac5d9828b2a6e9cb0d021c",
+      "size_in_bytes": 3916
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_packages.py",
+      "path_type": "hardlink",
+      "sha256": "f897738c94a22d53e460300d469ddc13711937334ec10192a373ad2035ac975b",
+      "size_in_bytes": 1081
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_register.py",
+      "path_type": "hardlink",
+      "sha256": "62ae212d95642478da73e83246ccc2d8535487670ccfc9665588eacff198dc29",
+      "size_in_bytes": 1666
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_requests_ext.py",
+      "path_type": "hardlink",
+      "sha256": "f62d7f006b1c5f2b01558a8034c7ba8288526e8e0f9231944f4fdde655286996",
+      "size_in_bytes": 399
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_subdir.py",
+      "path_type": "hardlink",
+      "sha256": "985c50295e8066ed8cf963956c5e36e019ddd3db3966d8b167a7052a49f4896f",
+      "size_in_bytes": 1099
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_upload.py",
+      "path_type": "hardlink",
+      "sha256": "305f8dd44274ca82ecb90b9a7b7b9a705ae8975d81c369af499d436d53e31cae",
+      "size_in_bytes": 12225
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/test_whoami.py",
+      "path_type": "hardlink",
+      "sha256": "7ebc1f480ddca5529cc897b5bf5771c8a234c32ac7fed9775523d92eabd83e76",
+      "size_in_bytes": 1792
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/tests/urlmock.py",
+      "path_type": "hardlink",
+      "sha256": "23dc121cd27be830b034e93b224092101cec3ab3c05c008e5d2ec416b7e0f4f2",
+      "size_in_bytes": 3855
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "c20923f46aad5151c8de37803c89e52cb83a7c1c5b36985a22097bb2b6eec6e6",
+      "size_in_bytes": 4370
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "1dae8893363ef4a5f595bc6fba6e2b3b2ef9f6f1d0187578e16a3bd55582c8f3",
+      "size_in_bytes": 4823
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/appdirs.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "30630acb3900a90f0127b615dcb3cdaf26a659520ebb3fc667101c00f46a6a9d",
+      "size_in_bytes": 12790
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/conda.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "eb6f6a28ff10d849b664935f7cd393f8342dc879a4bd3691773ca7c5d7232dbb",
+      "size_in_bytes": 1596
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/config.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e8c5d5901f93993df9ab70ffd9042e76412c9f539263b9623b71056b09a4f074",
+      "size_in_bytes": 7741
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/detect.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f15b90ce60f49b5c930d0db233765d36c6db40fbe112257ca1356600a30369cf",
+      "size_in_bytes": 4595
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/handlers.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3e0a674c0ad7966515587184f35335a9f61f2aba2c009727ae0426bc490c3687",
+      "size_in_bytes": 2487
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/http_codes.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e115018ad87b616fe7d8c540bbf34776d12b4bb8966f369fe7409e785e903a98",
+      "size_in_bytes": 3015
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/pprint.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "afbcae5ea9e263b8d5a3918373b8648fa3a39c08cc49385d0af15f049071b92a",
+      "size_in_bytes": 3546
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/spec.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c851cffc91a0b0075111946ea918d493c3f58fe81987a4ef8fd01450393b12c1",
+      "size_in_bytes": 4534
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/__pycache__/yaml.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "8a2816c311d02166c5b9e32a6d53c7e7643f8d0115c5db4a0d6b8110d824b7d8",
+      "size_in_bytes": 792
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/appdirs.py",
+      "path_type": "hardlink",
+      "sha256": "c01dd4516f0557e3a8b3d3c89d730d58358258a63333b89278d423e56c6a268f",
+      "size_in_bytes": 14373
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/conda.py",
+      "path_type": "hardlink",
+      "sha256": "6bc6a5741b77274240ffbfd31503f7d6732ad2c4f5c36c8d996ce59f287ddbd5",
+      "size_in_bytes": 1875
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/config.py",
+      "path_type": "hardlink",
+      "sha256": "ef042f5f086af4d49ed9a8a6bcad4a5a040cf7281347547e9c911a288d9042cd",
+      "size_in_bytes": 7981
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/detect.py",
+      "path_type": "hardlink",
+      "sha256": "3bc36d420b0ffdbc42448442351de7423a54e3cfd19b18e96ed46b6e08c02248",
+      "size_in_bytes": 4409
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/handlers.py",
+      "path_type": "hardlink",
+      "sha256": "9263e4663474e35a967f9cecf91e0f11badabb56091e5c5256c2f93ed95d0a3d",
+      "size_in_bytes": 1979
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/http_codes.py",
+      "path_type": "hardlink",
+      "sha256": "a0cbfe13517155dba6c8b77461321c25c8b885a2b76c3d43a6b1b040b9bc31fd",
+      "size_in_bytes": 3315
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "4d6c4d358e372a7b570e417f8da954fea4238106cbbf54a5a4d8621ce5e2ce86",
+      "size_in_bytes": 1285
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "7266190b43ebd4e553f85427055f511a9a8cd7d6a1023051c1daf242ce383b9f",
+      "size_in_bytes": 1448
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/__pycache__/data_uri.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "9c35e48116729c66b58b9a404e6f34a06232070e9f997ad17e0ab3a78c72ebe0",
+      "size_in_bytes": 2378
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/__pycache__/downloader.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e49a6e2dd2b1e9142b7ef6e1ea27bd3bc8d6e245ba7554e3d81c65f821005554",
+      "size_in_bytes": 3753
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/__pycache__/inflection.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "33943d95e53fe422e08c03afc8517bd573245955cdb9cabe60b447a829fc2309",
+      "size_in_bytes": 1307
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/__pycache__/uploader.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "51237a392d283c222045469e9d81f888bfad6c582d86b9ee79776c0215761ada",
+      "size_in_bytes": 3545
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/data_uri.py",
+      "path_type": "hardlink",
+      "sha256": "5d4d0706949bcf45c8efbf6f3af6a153196a617aa91d1680c6a73319b92a632d",
+      "size_in_bytes": 1667
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/downloader.py",
+      "path_type": "hardlink",
+      "sha256": "961032574bc6e3fadcd99405bfcb7426340d7e7264cb5cf77fdb0cbf5cba3ecc",
+      "size_in_bytes": 3657
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/inflection.py",
+      "path_type": "hardlink",
+      "sha256": "53a4d8d012b599fab8e4538d061a9110a6f52d41e67ceee957b467f105cb1f8d",
+      "size_in_bytes": 1430
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c1f2613e783f0e47317f7b322058eb55b63086d442ba8d08b45b0c1b5830086b",
+      "size_in_bytes": 194
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/__pycache__/test_base.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f74ce6779698ac8dad6ac4f2cdc5637b8bc35798d59c3b5528f5c9d27848e239",
+      "size_in_bytes": 2485
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/__pycache__/test_data_uri.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f1ad94d5e898a74fafc1d10ae2796ff48c642120f3d296113d443352e1160e53",
+      "size_in_bytes": 1588
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/__pycache__/test_downloader.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0ae074a044866723be1dd23c1b0b8c75d963f01497a47c3294213b02925454db",
+      "size_in_bytes": 1873
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/__pycache__/test_inflectors.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d80d08a0501e688b8356dd5afa57916884deabde16a113f7d72595582927cb2d",
+      "size_in_bytes": 725
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/__pycache__/test_uploader.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c0bfb106841f1309057561f673234a0a31c05bc5cc39c294cd0792bd3a741368",
+      "size_in_bytes": 1991
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/test_base.py",
+      "path_type": "hardlink",
+      "sha256": "b47f74f6db23b4523e5688b41f852f03408fde592cf41235a6e422f4a153acff",
+      "size_in_bytes": 1456
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/test_data_uri.py",
+      "path_type": "hardlink",
+      "sha256": "35485f778e871346d31a115adbb7f3fe3c37ac693934040ef7082c5012c703d3",
+      "size_in_bytes": 943
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/test_downloader.py",
+      "path_type": "hardlink",
+      "sha256": "785292777f80ae11740fbb86c551674462775dfc170d363f758338fe7a8e1239",
+      "size_in_bytes": 1689
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/test_inflectors.py",
+      "path_type": "hardlink",
+      "sha256": "eb47990d52a0e3c5c41cce88ce7f09eb853a26281fa98c7ce159855f1c3d3973",
+      "size_in_bytes": 287
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/tests/test_uploader.py",
+      "path_type": "hardlink",
+      "sha256": "1da4a46987e07b7326aa20ed623c6ec3c7fac7a061f2294eaade7672ba5434a4",
+      "size_in_bytes": 1591
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/notebook/uploader.py",
+      "path_type": "hardlink",
+      "sha256": "430d020cfd5be300fc17c779ae114d2220d14b5753bd6bec9a5160fdcf45625f",
+      "size_in_bytes": 3862
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/pprint.py",
+      "path_type": "hardlink",
+      "sha256": "75024ca3f766f8416f8d9d2764335fb0fdc060d2e0354b80b588638875893f95",
+      "size_in_bytes": 3406
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "661720e1da76b19617664b4d7d0bb837ac43f0fbcb4c0ebbde6fef4948f2612e",
+      "size_in_bytes": 2429
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "6f2fbc42b845c365740bc082843a9312652d965cf674afae2888e250bff4c334",
+      "size_in_bytes": 2483
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/__pycache__/filters.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0fe7909aa74a5bd3e0e8d9d18eb7344c84da98c6e99fdc595d57888c867ed42f",
+      "size_in_bytes": 4831
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/__pycache__/inspectors.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d26367c1a5592388a0f227a0ea1d4a1575e02a880a67d796a2a8523146d6d544",
+      "size_in_bytes": 3003
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/__pycache__/models.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "48fe9e8f8e37f3323e9eaf0e39a11428faed19ba6b9767cfe92b826ef589c124",
+      "size_in_bytes": 4677
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/__pycache__/uploader.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "08e49401832c68a64274e8c20b435a5c5af36762936121c66d4a0e6039d3861f",
+      "size_in_bytes": 3385
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/filters.py",
+      "path_type": "hardlink",
+      "sha256": "2a50f4e08021bb31c7dd6ee8163c9e6867e0d9b68f899f41616539d1065cd241",
+      "size_in_bytes": 3365
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/inspectors.py",
+      "path_type": "hardlink",
+      "sha256": "2204998bda9d338f0662ed2986b4a86e3a77173092924005677ebb7f4f77bcfb",
+      "size_in_bytes": 2072
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/models.py",
+      "path_type": "hardlink",
+      "sha256": "161c284027df0d4570f2beeec8c90c00ebcf2eec1f3657f389986baf89485d1e",
+      "size_in_bytes": 4038
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/projects/uploader.py",
+      "path_type": "hardlink",
+      "sha256": "a416676ca487ff0e63adb4f93d5033272aaefd319a6698c461e15091a08c9a34",
+      "size_in_bytes": 3074
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/spec.py",
+      "path_type": "hardlink",
+      "sha256": "f5f32403dbef1fb674b3edd0b0379f16cad020e78cdc86a5783b5c8e8235bab1",
+      "size_in_bytes": 4423
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "9091fba8825e09e5cead4657a4ea2d48a8cf4c15a3563d722ef546b931c1605a",
+      "size_in_bytes": 184
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/__pycache__/test_conda.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2a8de82d7e8cfbc59986e010b45e4a1c3af402a9da0aca39b9d90491278cdb9d",
+      "size_in_bytes": 1273
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/__pycache__/test_config.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d49041245308a168a4cee8717344ee1410880028b6280431414cb636f13c94dc",
+      "size_in_bytes": 3350
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/__pycache__/test_detect.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "ff82750e4ddf01ccf96e5dae3fe06e62e7c6c5b2807930d76bb4baa7c4b29812",
+      "size_in_bytes": 912
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/__pycache__/utils.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "deb1f34df8103dd4a73400623946dd34bca86a64f00ef29220bc19be70c2958e",
+      "size_in_bytes": 627
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/test_conda.py",
+      "path_type": "hardlink",
+      "sha256": "537465d1cc2fae14be22f8e8bbbc08954de75b8c283bfe9552bde27f8c829afa",
+      "size_in_bytes": 860
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/test_config.py",
+      "path_type": "hardlink",
+      "sha256": "d9aad9311eca67f6e2a6783e81be07f4e59c11fc853e856a20acb37883fcdfc6",
+      "size_in_bytes": 3572
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/test_detect.py",
+      "path_type": "hardlink",
+      "sha256": "2c969e90f0573de4c55b0df964ada9f1bd706b4ab44e624a54e94712c2a94746",
+      "size_in_bytes": 397
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/test/utils.py",
+      "path_type": "hardlink",
+      "sha256": "474f4b066c99d9437a1abfd955f70784fa14f06b0ba4d48574eab1fc69232ee0",
+      "size_in_bytes": 389
+    },
+    {
+      "_path": "lib/python3.7/site-packages/binstar_client/utils/yaml.py",
+      "path_type": "hardlink",
+      "sha256": "a55701f82b481b40e192be6964cd277b09188bbfe244e1e689ec94fd38ebf635",
+      "size_in_bytes": 498
+    },
+    {
+      "_path": "lib/python3.7/site-packages/setuptools.pth",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "c79fe6f09b19f2246af1397d7acf5b8cc9446033a6934bc3c95a5726f7d54915",
+      "size_in_bytes": 61
+    }
+  ],
+  "paths_version": 1
+}

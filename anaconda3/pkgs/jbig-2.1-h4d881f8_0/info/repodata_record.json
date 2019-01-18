@@ -1,0 +1,19 @@
+{
+  "build": "h4d881f8_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "jbig-2.1-h4d881f8_0.tar.bz2",
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "md5": "46d73d4693f37ce7455d1c01677165fa",
+  "name": "jbig",
+  "size": 42772,
+  "subdir": "osx-64",
+  "timestamp": 1505334624576,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jbig-2.1-h4d881f8_0.tar.bz2",
+  "version": "2.1"
+}

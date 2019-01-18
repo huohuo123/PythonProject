@@ -1,0 +1,81 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/f8cb0f76-25be-4701-70cc-d76d3d8794f3/volume/rsync-recipes/mistune-0.8.4-python_3.7-on-osx, last modified Mon Oct 15 13:49:48 2018
+# ------------------------------------------------
+
+package:
+    name: mistune
+    version: 0.8.4
+source:
+    sha256: 59a3429db53c50b5c6bcc8a07f8848cb00d7dc8bdb431a4ab41920d201d4756e
+    url: https://pypi.io/packages/source/m/mistune/mistune-0.8.4.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37h1de35cc_0
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - cython 0.28.5 py37h0a44026_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - nosetests
+    imports:
+        - mistune
+    requires:
+        - nose
+        - python >=3.7,<3.8.0a0
+    source_files:
+        - tests
+about:
+    description: 'Inspired by https://github.com/chjj/marked, Mistune is the fastest
+        markdown
+
+        parser in pure Python with renderer features. More features include table,
+
+        footnotes, autolink, fenced code etc.
+
+        '
+    dev_url: https://github.com/lepture/mistune
+    doc_source_url: https://github.com/lepture/mistune/blob/master/README.rst
+    doc_url: https://mistune.readthedocs.io/
+    home: https://github.com/lepture/mistune
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: The fastest markdown parser in pure Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - bollwyvl
+        - ocefpaf
+        - pelson

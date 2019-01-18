@@ -1,0 +1,72 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/6ca29f2e-e58d-4b4e-45c2-01a03ec49ef6/volume/rsync-recipes/gevent-1.3.7-python_3.7-on-osx, last modified Tue Oct 23 10:13:56 2018
+# ------------------------------------------------
+
+package:
+    name: gevent
+    version: 1.3.7
+source:
+    fn: gevent-1.3.7.tar.gz
+    patches:
+        - 0001-Allow-include-flags-to-be-present-in-CFLAGS.patch
+    sha256: 3f06f4802824c577272960df003a304ce95b3e82eea01dad2637cc8609c80e2c
+    url: https://pypi.io/packages/source/g/gevent/gevent-1.3.7.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py37h1de35cc_1
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - cffi 1.11.5 py37h6174b99_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pycparser 2.19 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - cffi >=1.11.5
+        - greenlet >=0.4.14
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - gevent
+        - gevent.libev
+about:
+    description: 'Gevent uses greenlet to provide a high-level synchronous API on
+        top of the libev event loop.
+
+        '
+    dev_url: https://github.com/gevent/gevent
+    doc_url: http://www.gevent.org/contents.html
+    home: http://www.gevent.org/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Coroutine-based network library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani

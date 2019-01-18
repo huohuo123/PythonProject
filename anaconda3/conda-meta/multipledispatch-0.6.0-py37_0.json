@@ -1,0 +1,44 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/installed-files.txt",
+    "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/multipledispatch-0.6.0-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/multipledispatch/__init__.py",
+    "lib/python3.7/site-packages/multipledispatch/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/multipledispatch/__pycache__/conflict.cpython-37.pyc",
+    "lib/python3.7/site-packages/multipledispatch/__pycache__/core.cpython-37.pyc",
+    "lib/python3.7/site-packages/multipledispatch/__pycache__/dispatcher.cpython-37.pyc",
+    "lib/python3.7/site-packages/multipledispatch/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/multipledispatch/__pycache__/variadic.cpython-37.pyc",
+    "lib/python3.7/site-packages/multipledispatch/conflict.py",
+    "lib/python3.7/site-packages/multipledispatch/core.py",
+    "lib/python3.7/site-packages/multipledispatch/dispatcher.py",
+    "lib/python3.7/site-packages/multipledispatch/utils.py",
+    "lib/python3.7/site-packages/multipledispatch/variadic.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/multipledispatch-0.6.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "05464b2cfcdc4fc6ea8face77015a47a",
+  "name": "multipledispatch",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1534268983656,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/multipledispatch-0.6.0-py37_0.tar.bz2",
+  "version": "0.6.0"
+}

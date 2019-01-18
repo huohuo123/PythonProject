@@ -1,0 +1,61 @@
+# This file created by conda-build 3.16.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/1c931b52-5af9-46a9-484d-61a6138167b9/volume/rsync-recipes/testpath-0.4.2-python_3.7-on-osx, last modified Sat Oct  6 17:12:56 2018
+# ------------------------------------------------
+
+package:
+    name: testpath
+    version: 0.4.2
+source:
+    sha256: b694b3d9288dbd81685c5d2e7140b81365d46c29f5db4bc659de5aa6b98780f8
+    url: https://pypi.io/packages/source/t/testpath/testpath-0.4.2.tar.gz
+build:
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/1c931b52-5af9-46a9-484d-61a6138167b9/volume/testpath_1538864337093/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+        -m pip install . --no-deps --no-build-isolation --ignore-installed -vvv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.0 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - testpath
+about:
+    description: 'Testpath contains functions to check things on the filesystem,
+
+        and tools for mocking system commands and recording calls to those.
+
+        '
+    dev_url: https://github.com/jupyter/testpath
+    doc_url: https://testpath.readthedocs.io
+    home: https://testpath.readthedocs.io
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Testpath is a collection of utilities for Python code working with files
+        and commands.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - minrk
+        - ocefpaf
+        - takluyver

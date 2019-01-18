@@ -1,0 +1,80 @@
+# This file created by conda-build 3.8.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/86e021bf-b69d-469e-4d63-4e00c7df4cb2/volume/rsync-recipes/lz4-c-1.8.1.2-on-osx, last modified Mon Apr 23 16:03:03 2018
+# ------------------------------------------------
+
+package:
+    name: lz4-c
+    version: 1.8.1.2
+source:
+    fn: lz4-1.8.1.2.tar.gz
+    patches:
+        - 0001-Do-not-build-tests-binaries-on-VS-project.patch
+        - 0002-CMake-include-xxhash.c-in-LZ4_CLI_SOURCES-it-is-buil.patch
+        - 0003-CMake-Add-LZ4_DLL_EXPORT-1-LZ4_DLL_IMPORT-1-to-compi.patch
+        - 0004-CMake-VC9-disable-various-warnings-that-trip-up-Wind.patch
+        - 0005-CMake-Add-datagen-executable.patch
+        - 0006-CMake-Set-SHARED-STATIC-IMPORT_LIBRARY_PREFIXes-for-.patch
+        - 0007-Makefile-LDFLAGS-must-appear-after-inputs-when-linking.patch
+        - 0008-CMake-link-the-CLI-programs-statically-to-the-lib-co.patch
+    sha256: 12f3a9e776a923275b2dc78ae138b4967ad6280863b77ff733028ce89b8123f9
+    url: https://github.com/lz4/lz4/archive/v1.8.1.2.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - lz4-c >=1.8.1.2,<1.9.0a0
+    string: h1de35cc_0
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_10
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - make 4.2.1 h3efe00b_1
+        - patch 2.7.6 h3efe00b_0
+test:
+    commands:
+        - lz4 -h
+        - lz4c -h
+        - lz4cat -h
+        - unlz4 -h
+        - test -f ${PREFIX}/include/lz4.h
+        - test -f ${PREFIX}/include/lz4hc.h
+        - test -f ${PREFIX}/include/lz4frame.h
+        - test -f ${PREFIX}/lib/liblz4.a
+        - test -f ${PREFIX}/lib/liblz4.dylib
+        - test -f ${PREFIX}/lib/pkgconfig/liblz4.pc
+        - pkg-config --cflags --libs liblz4
+    requires:
+        - pkg-config
+about:
+    description: 'LZ4 is lossless compression algorithm, providing compression speed
+        at 400
+
+        MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder,
+
+        with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression
+
+        derivative, called LZ4_HC, is available, trading customizable CPU time for
+
+        compression ratio. LZ4 library is provided as open source software using a
+
+        BSD license.
+
+        '
+    home: https://www.lz4.org
+    license: BSD 2-clause
+    license_file: lib/LICENSE
+    summary: Extremely Fast Compression algorithm
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - rmax
+        - wesm

@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six >=1.0.0,<2.0.0"
+  ],
+  "features": "",
+  "fn": "more-itertools-4.3.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "ae719c718596f36a13169973b3c7d7e6",
+  "name": "more-itertools",
+  "size": 84369,
+  "subdir": "osx-64",
+  "timestamp": 1533709739943,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/more-itertools-4.3.0-py37_0.tar.bz2",
+  "version": "4.3.0"
+}

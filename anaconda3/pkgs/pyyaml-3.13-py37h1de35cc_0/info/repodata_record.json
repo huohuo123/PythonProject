@@ -1,0 +1,22 @@
+{
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "yaml >=0.1.7,<0.2.0a0"
+  ],
+  "features": "",
+  "fn": "pyyaml-3.13-py37h1de35cc_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "ddc275288ce17c1fb1146520c4fb16e8",
+  "name": "pyyaml",
+  "size": 164161,
+  "subdir": "osx-64",
+  "timestamp": 1532443077388,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pyyaml-3.13-py37h1de35cc_0.tar.bz2",
+  "version": "3.13"
+}

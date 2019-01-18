@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "snowballstemmer-1.2.1-py37_0.tar.bz2",
+  "license": "BSD-2-Clause",
+  "md5": "e6b9da4b7366ece906dff6357646dc65",
+  "name": "snowballstemmer",
+  "size": 84024,
+  "subdir": "osx-64",
+  "timestamp": 1530696661223,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/snowballstemmer-1.2.1-py37_0.tar.bz2",
+  "version": "1.2.1"
+}

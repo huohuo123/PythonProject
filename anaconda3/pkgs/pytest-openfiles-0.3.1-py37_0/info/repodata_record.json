@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "psutil",
+    "pytest >=2.8.0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pytest-openfiles-0.3.1-py37_0.tar.bz2",
+  "license": "BSD",
+  "md5": "bfb06837b11303a4176cbfa0f2482805",
+  "name": "pytest-openfiles",
+  "size": 11141,
+  "subdir": "osx-64",
+  "timestamp": 1543610729092,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pytest-openfiles-0.3.1-py37_0.tar.bz2",
+  "version": "0.3.1"
+}

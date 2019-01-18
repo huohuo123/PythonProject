@@ -1,0 +1,83 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "03712f43fede530155b72e3d4497bedcf6ac1c4d81b9f6e4d95e0876fec912da",
+      "size_in_bytes": 1496
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "48a460098c7cb86b40b5e7fc5ae9acaec0a6cccc4e3da15f6849cc807cdd3a52",
+      "size_in_bytes": 9858
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "f8979367fdc13c95c05c278df21eaa5ca4e33a842e8761e928a5cb8eaa131dbc",
+      "size_in_bytes": 1102
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1fe13934cc363946d383e69437b71918af88964e09471bbbe3969f18ddabb8ad",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "52fc2aa1cd7f23f4feb326f07d5d2cf0dd7d196f3f0ba7687cd6b2b524bb27c3",
+      "size_in_bytes": 59
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "a067cf0a6ad86dadbb4bf6fdcee5408d10a9d3582069ad68040bc7be262606be",
+      "size_in_bytes": 19
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f4d9671c6301fbc26800294054198b484dfda28fa542555e121739f6f1aced67",
+      "size_in_bytes": 150
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5e6731bf267f8a63beaf9749f4c31157903bf35410b28fc9ab26773b492b4275",
+      "size_in_bytes": 236
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/output_checker.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "0f11468e0e18353e2093952cb5ccb33a71907720bacba6841dc3549b1f164f32",
+      "size_in_bytes": 4656
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/plugin.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "07257bd8485d2acf8700493b74b5c59d9afbba10839747cd875ef0f899cd9621",
+      "size_in_bytes": 11172
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus/output_checker.py",
+      "path_type": "hardlink",
+      "sha256": "9ccd3b748b5002cc7babde60ed1fa758aa1b01d7292a15aa9d1993545240590f",
+      "size_in_bytes": 7228
+    },
+    {
+      "_path": "lib/python3.7/site-packages/pytest_doctestplus/plugin.py",
+      "path_type": "hardlink",
+      "sha256": "88b82d29601fad9e7c112b4fdef8d8a0593d48604b17033904be118827ef1c37",
+      "size_in_bytes": 16358
+    }
+  ],
+  "paths_version": 1
+}

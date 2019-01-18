@@ -1,0 +1,66 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/70f1ee36-0df8-436e-4421-2248f2057ada/volume/rsync-recipes/jupyter-1.0.0-python_3.7-on-osx, last modified Thu Sep 20 09:28:22 2018
+# ------------------------------------------------
+
+package:
+    name: jupyter
+    version: 1.0.0
+source:
+    fn: jupyter-1.0.0.tar.gz
+    sha256: d9dc4b3318f310e34c82951ea5d6683f67bed7def4b259fafbfe4f1beb1d8e5f
+    url: https://pypi.python.org/packages/source/j/jupyter/jupyter-1.0.0.tar.gz
+build:
+    number: '7'
+    string: py37_7
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - ipykernel
+        - ipywidgets
+        - jupyter_console
+        - nbconvert
+        - notebook
+        - python >=3.7,<3.8.0a0
+        - qtconsole
+test:
+    commands:
+        - jupyter --help
+about:
+    description: 'Jupyter Notebook is a web application, a browser-based tool for
+        interactive authoring of documents
+
+        which combine explanatory text, mathematics, computations and their rich media
+        output.
+
+        '
+    dev_url: https://github.com/jupyter/jupyter
+    doc_source_url: https://github.com/jupyter/notebook/blob/master/docs/source/index.rst
+    doc_url: http://jupyter.readthedocs.org/
+    home: http://jupyter.org
+    license: BSD 3-Clause
+    license_file: LICENSE
+    summary: Jupyter metapackage. Install all the Jupyter components in one go.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - minrk
+        - ocefpaf

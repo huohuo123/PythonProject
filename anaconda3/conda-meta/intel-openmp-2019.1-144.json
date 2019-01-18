@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "144",
+  "build_number": 144,
+  "depends": [],
+  "files": [
+    "lib/libiomp5.dylib",
+    "lib/libiomp5_db.dylib",
+    "lib/libiompstubs5.dylib"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/intel-openmp-2019.1-144",
+    "type": "hard-link"
+  },
+  "md5": "580ee35fd18dd1b9d5476bb8c44a7a6a",
+  "name": "intel-openmp",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1542661411410,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/intel-openmp-2019.1-144.tar.bz2",
+  "version": "2019.1"
+}

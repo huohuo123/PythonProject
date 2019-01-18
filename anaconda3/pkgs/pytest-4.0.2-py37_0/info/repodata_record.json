@@ -1,0 +1,27 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "atomicwrites >=1.0",
+    "attrs >=17.4.0",
+    "more-itertools >=4.0",
+    "pluggy >=0.7",
+    "py >=1.5.0",
+    "python >=3.7,<3.8.0a0",
+    "setuptools >=40.0",
+    "six >=1.10.0"
+  ],
+  "features": "",
+  "fn": "pytest-4.0.2-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "a2d1d6589e355bb2f5fea924fddf0412",
+  "name": "pytest",
+  "size": 348393,
+  "subdir": "osx-64",
+  "timestamp": 1545073371075,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pytest-4.0.2-py37_0.tar.bz2",
+  "version": "4.0.2"
+}

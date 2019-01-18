@@ -1,0 +1,6 @@
+{
+  "VERBOSE_CM": "VERBOSE=1",
+  "CONDA_BUILD_SYSROOT": "/opt/MacOSX10.9.sdk",
+  "c_compiler": "clang",
+  "cxx_compiler": "clangxx"
+}

@@ -1,0 +1,39 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "numpy >=1.10",
+    "pytest >=2.8",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/LICENSE.rst",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/pytest_doctestplus-0.2.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pytest_doctestplus/__init__.py",
+    "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/output_checker.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_doctestplus/__pycache__/plugin.cpython-37.pyc",
+    "lib/python3.7/site-packages/pytest_doctestplus/output_checker.py",
+    "lib/python3.7/site-packages/pytest_doctestplus/plugin.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/pytest-doctestplus-0.2.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "bf8a9248496bf36d1545d0d7615bc3c6",
+  "name": "pytest-doctestplus",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1542391428372,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pytest-doctestplus-0.2.0-py37_0.tar.bz2",
+  "version": "0.2.0"
+}

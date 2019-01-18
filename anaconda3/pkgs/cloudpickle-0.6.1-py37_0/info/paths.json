@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle-0.6.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle-0.6.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "3029ea34173e9fdc233ad315dc6b100bd1ea71f529b1c1af97664a272fdc55f5",
+      "size_in_bytes": 1754
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle-0.6.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "fed9fdadf2b82d848ce5a51a7090ddb5728dc8a772967cfb89af1f520c3514c6",
+      "size_in_bytes": 3830
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle-0.6.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "12c559d1d6bc1a67e96a2434bd1959755087fbfe85b76ac0b065a604068da763",
+      "size_in_bytes": 774
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle-0.6.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f13f1fc5e7ebfebf80efda9b389f5dfc0684824a421a610f1dcfa0a42ab90518",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle-0.6.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "cccbf080a89ad137a534a24fe8f6875a5c569849bad0aae250ef1b6f92d16655",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ddb892ad2676ce47a84dd69c505c679539fc7b2daae37acf3c781fb3e54b9aee",
+      "size_in_bytes": 101
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d460f23ecb012f1a214b9f70c7a36a255af883bb6dea23e413b061149d66266b",
+      "size_in_bytes": 254
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle/__pycache__/cloudpickle.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f3b9e1444b430e7f1abbabf09f99540a3723895aebe8bb90932921e0c5867347",
+      "size_in_bytes": 28821
+    },
+    {
+      "_path": "lib/python3.7/site-packages/cloudpickle/cloudpickle.py",
+      "path_type": "hardlink",
+      "sha256": "9bd5fec17d66eec309560e5738f23939bc427b9179d6b0a9bae92a18d221ce75",
+      "size_in_bytes": 40068
+    }
+  ],
+  "paths_version": 1
+}

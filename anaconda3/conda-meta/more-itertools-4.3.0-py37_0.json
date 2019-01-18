@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six >=1.0.0,<2.0.0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/more_itertools-4.3.0-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/more_itertools-4.3.0-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/more_itertools-4.3.0-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/more_itertools-4.3.0-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/more_itertools-4.3.0-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/more_itertools/__init__.py",
+    "lib/python3.7/site-packages/more_itertools/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/more_itertools/__pycache__/more.cpython-37.pyc",
+    "lib/python3.7/site-packages/more_itertools/__pycache__/recipes.cpython-37.pyc",
+    "lib/python3.7/site-packages/more_itertools/more.py",
+    "lib/python3.7/site-packages/more_itertools/recipes.py",
+    "lib/python3.7/site-packages/more_itertools/tests/__init__.py",
+    "lib/python3.7/site-packages/more_itertools/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/more_itertools/tests/__pycache__/test_more.cpython-37.pyc",
+    "lib/python3.7/site-packages/more_itertools/tests/__pycache__/test_recipes.cpython-37.pyc",
+    "lib/python3.7/site-packages/more_itertools/tests/test_more.py",
+    "lib/python3.7/site-packages/more_itertools/tests/test_recipes.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/more-itertools-4.3.0-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "ae719c718596f36a13169973b3c7d7e6",
+  "name": "more-itertools",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1533709739943,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/more-itertools-4.3.0-py37_0.tar.bz2",
+  "version": "4.3.0"
+}

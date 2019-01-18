@@ -1,0 +1,58 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/snowballstemmer-feedstock/recipe, last modified Mon Sep 11 14:11:09 2017
+# ------------------------------------------------
+
+package:
+    name: snowballstemmer
+    version: 1.2.1
+source:
+    fn: snowballstemmer-1.2.1.tar.gz
+    sha256: 919f26a68b2c17a7634da993d91339e288964f93c274f1343e3bbbe2096e1128
+    url: https://pypi.io/packages/source/s/snowballstemmer/snowballstemmer-1.2.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - snowballstemmer
+about:
+    description: 'Snowball is a small string processing language designed for creating
+
+        stemming algorithms for use in Information Retrieval. The Snowball
+
+        compiler translates a Snowball script into another language - currently
+
+        ISO C, Java and Python are supported.
+
+        '
+    dev_url: https://github.com/shibukawa/snowball_py
+    doc_source_url: https://github.com/shibukawa/snowball_py/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/snowballstemmer
+    home: https://github.com/shibukawa/snowball_py
+    license: BSD-2-Clause
+    license_file: LICENSE.rst
+    summary: Snowball stemming library collection for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - chohner

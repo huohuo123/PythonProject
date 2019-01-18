@@ -1,0 +1,71 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/pyflakes-feedstock/recipe, last modified Thu Jun 14 11:47:26 2018
+# ------------------------------------------------
+
+package:
+    name: pyflakes
+    version: 2.0.0
+source:
+    fn: pyflakes-2.0.0.tar.gz
+    sha256: 9a7662ec724d0120012f6e29d6248ae3727d821bba522a0e6b356eff19126a49
+    url: https://pypi.io/packages/source/p/pyflakes/pyflakes-2.0.0.tar.gz
+build:
+    entry_points:
+        - pyflakes = pyflakes.api:main
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - pyflakes --help
+    imports:
+        - pyflakes
+        - pyflakes.scripts
+        - pyflakes.test
+about:
+    description: 'Pyflakes analyzes programs and detects various errors. It works
+        by parsing
+
+        the source file, not importing it, so it is safe to use on modules with side
+
+        effects. It is also much faster.
+
+        '
+    dev_url: https://github.com/PyCQA/pyflakes
+    doc_source_url: https://github.com/PyCQA/pyflakes/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/pyflakes
+    home: https://github.com/PyCQA/pyflakes
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Pyflakes analyzes programs and detects various errors.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - jakirkham
+        - ocefpaf
+        - sigmavirus24

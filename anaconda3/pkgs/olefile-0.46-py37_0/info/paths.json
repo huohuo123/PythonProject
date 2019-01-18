@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/olefile-0.46-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "607b9a2d7dd50e644a27f58c2bdd4a3a412f72a3cc4d59e8485fafa9ef0a44c2",
+      "size_in_bytes": 11094
+    },
+    {
+      "_path": "lib/python3.7/site-packages/olefile-0.46-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "af9795f3018cfa75311649b424f5201c5b295825bf753de162cf78e499312472",
+      "size_in_bytes": 584
+    },
+    {
+      "_path": "lib/python3.7/site-packages/olefile-0.46-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/olefile-0.46-py3.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "2a155fe62f7563804374ec736297710a3a03509280bcab6b0c7d5aba9912215e",
+      "size_in_bytes": 194
+    },
+    {
+      "_path": "lib/python3.7/site-packages/olefile-0.46-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "bad496e3f9cfa7eaf2b510fb56f312fbc812a7d05498a6110cd7757b1f50da4b",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "lib/python3.7/site-packages/olefile/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "5e81aec95ac09c993ad53fcfd93b3a6f67f1d1ff0bfee49214cabcfe51f0c17a",
+      "size_in_bytes": 995
+    },
+    {
+      "_path": "lib/python3.7/site-packages/olefile/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "907d2ddc5a464317815f05b83cf1bd438890b5026dbd51eb91cd93706d2bda3e",
+      "size_in_bytes": 1104
+    },
+    {
+      "_path": "lib/python3.7/site-packages/olefile/__pycache__/olefile.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "f0550d73961bf00bc4baec459b20e868874c62e93acea3fb2687884ef8449a38",
+      "size_in_bytes": 55761
+    },
+    {
+      "_path": "lib/python3.7/site-packages/olefile/olefile.py",
+      "path_type": "hardlink",
+      "sha256": "e8e1a9ee52dca783b7e8e6fff9d344e18926fafefd4ce48e41f03b2d4725c47e",
+      "size_in_bytes": 105311
+    }
+  ],
+  "paths_version": 1
+}

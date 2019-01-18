@@ -1,0 +1,28 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "dask >=0.11.1",
+    "datashape >=0.5.0",
+    "multipledispatch >=0.4.7",
+    "networkx >=1.0",
+    "numpy >=1.7",
+    "pandas >=0.15.0",
+    "python >=3.7,<3.8.0a0",
+    "toolz >=0.7.3"
+  ],
+  "features": "",
+  "fn": "odo-0.5.1-py37_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "f5b85741a3dc157c92631cac256539e4",
+  "name": "odo",
+  "size": 198069,
+  "subdir": "osx-64",
+  "timestamp": 1530747326229,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/odo-0.5.1-py37_0.tar.bz2",
+  "version": "0.5.1"
+}

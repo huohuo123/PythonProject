@@ -1,0 +1,75 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/d1fe2e44-e7a8-462e-77be-53f1fe4673db/volume/rsync-recipes/pytest-arraydiff-0.3-python_3.7-on-osx, last modified Mon Dec 17 12:35:10 2018
+# ------------------------------------------------
+
+package:
+    name: pytest-arraydiff
+    version: '0.3'
+source:
+    fn: pytest-arraydiff-0.3.tar.gz
+    sha256: de2d62f53ecc107ed754d70d562adfa7573677a263216a7f19aa332f20dc6c15
+    url: https://pypi.io/packages/source/p/pytest-arraydiff/pytest-arraydiff-0.3.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37h39e3cac_0
+requirements:
+    host:
+        - atomicwrites 1.2.1 py37_0
+        - attrs 18.2.0 py37h28b3542_0
+        - blas 1.0 mkl
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - intel-openmp 2019.1 144
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2019.1 144
+        - more-itertools 4.3.0 py37_0
+        - ncurses 6.1 h0a44026_1
+        - numpy 1.11.3 py37hacdab7b_12
+        - numpy-base 1.11.3 py37h6575580_12
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - pluggy 0.8.0 py37_0
+        - py 1.7.0 py37_0
+        - pytest 4.0.2 py37_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.3 py37_0
+        - six 1.12.0 py37_0
+        - sqlite 3.26.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - numpy
+        - pytest
+        - python >=3.7,<3.8.0a0
+        - six
+test:
+    imports:
+        - pytest_arraydiff
+about:
+    description: 'This is a py.test plugin to facilitate the generation and comparison
+        of
+
+        data arrays produced during tests.
+
+        '
+    dev_url: https://github.com/astrofrog/pytest-arraydiff
+    doc_url: https://github.com/astrofrog/pytest-arraydiff
+    home: https://github.com/astrofrog/pytest-arraydiff
+    license: BSD
+    summary: pytest plugin to help with comparing array output from tests
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - astrofrog-conda-forge
+        - drdavella
+        - mwcraig

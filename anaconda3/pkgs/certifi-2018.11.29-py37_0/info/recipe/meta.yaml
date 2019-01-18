@@ -1,0 +1,62 @@
+# This file created by conda-build 3.17.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/e9e910ac-71f2-49fc-661a-5864907c5b03/volume/rsync-recipes/certifi-2018.11.29-python_3.7-on-osx, last modified Mon Dec  3 12:08:14 2018
+# ------------------------------------------------
+
+package:
+    name: certifi
+    version: 2018.11.29
+source:
+    sha256: 47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7
+    url: https://pypi.io/packages/source/c/certifi/certifi-2018.11.29.tar.gz
+build:
+    number: '0'
+    preserve_egg_dir: true
+    script: python setup.py install
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - certifi
+about:
+    description: 'Certifi is a curated collection of Root Certificates for validating
+        the
+
+        trustworthiness of SSL certificates while verifying the identity of TLS
+
+        hosts.
+
+        '
+    dev_url: https://github.com/certifi/python-certifi
+    doc_source_url: https://github.com/certifi/certifi.io/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/certifi
+    home: http://certifi.io/
+    license: ISC
+    license_file: LICENSE
+    summary: Python package for providing Mozilla's CA Bundle.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - mingwandroid
+        - ocefpaf
+        - pelson
+        - sigmavirus24

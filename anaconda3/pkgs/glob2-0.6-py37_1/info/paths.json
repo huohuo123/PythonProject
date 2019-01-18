@@ -1,0 +1,77 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/glob2-0.6-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "dc2bc4d29267f520eec1a095600edf37cd46afd1fb75fb80d14128979ba7ffed",
+      "size_in_bytes": 643
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2-0.6-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "79357fe6b1aae997d306256accbbcb727740b07e0a9654d4405ec4d0ab612363",
+      "size_in_bytes": 246
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2-0.6-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2-0.6-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "2e654d4fc8d96fce1ca514e95a7f420683ee9e1ab89dac085a5c178c98b6b3af",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "aa6a0087fc5a36b9834111df0b15bf2995b89346529ac7ef22f815ab7dc26abf",
+      "size_in_bytes": 82
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2cfeb36d21e872a5ec2e4343a9abd268415e2f29a7d15143e14f9e69eadeecdf",
+      "size_in_bytes": 239
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2/__pycache__/compat.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "80a2e9bc8f4bf1c29924dbfcfd29b4201267f74c14c640ebe456b6f46d521061",
+      "size_in_bytes": 4703
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2/__pycache__/fnmatch.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "27349bdc9fc1e073d849325049ad5da6362e2c9a11ca0d833f32d40bacf72e30",
+      "size_in_bytes": 4408
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2/__pycache__/impl.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "5bb65991c899ef8b67cb4f7a58d57604a5b3c99fa8f00a12c2f683a6a4e01f99",
+      "size_in_bytes": 6099
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2/compat.py",
+      "path_type": "hardlink",
+      "sha256": "8d12d6d803013383804d251d7c4dc3eada6f7fc39ec708b0d9cd2be3f9e953a7",
+      "size_in_bytes": 6859
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2/fnmatch.py",
+      "path_type": "hardlink",
+      "sha256": "eb0bfe48ef929bd306f70f7920ce70af766df94fef1451c136d8e12333b5447d",
+      "size_in_bytes": 4463
+    },
+    {
+      "_path": "lib/python3.7/site-packages/glob2/impl.py",
+      "path_type": "hardlink",
+      "sha256": "e296982e3ddf55d278c11fbe891516d1f5330d76259134935d1577b8911873d4",
+      "size_in_bytes": 8304
+    }
+  ],
+  "paths_version": 1
+}

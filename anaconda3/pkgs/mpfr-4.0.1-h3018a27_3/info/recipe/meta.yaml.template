@@ -1,0 +1,58 @@
+{% set version = "4.0.1" %}
+{% set commit = "08d088c95e7dd93f75801c41716601141468f9b8" %}
+
+package:
+  name: mpfr
+  version: {{ version }}
+
+source:
+  fn: mpfr-{{ version }}.tar.bz2                                                    # [unix]
+  url: http://ftp.gnu.org/gnu/mpfr/mpfr-{{ version }}.tar.gz                        # [unix]
+  sha256: e650f8723bfc6eca4f222c021db3d5d4cebe2e21c82498329bb9e6815b99c88c          # [unix]
+  fn: {{ commit }}.zip                                                              # [win]
+  url: https://github.com/BrianGladman/mpfr/archive/{{ commit }}.zip                # [win]
+  sha256: 050eb5f8c40e634d2681b5d84764b75bb103c35a7491e999d6a5b3a94b34f325          # [win]
+
+build:
+  number: 3
+  skip: True   # [win and vc<14]
+  run_exports:
+    # excellent:
+    #  https://abi-laboratory.pro/tracker/timeline/mpfr/
+    - {{ pin_subpackage('mpfr', max_pin='x') }}
+
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - m4              # [unix]
+    - autoconf        # [unix]
+    - automake        # [unix]
+    - libtool         # [unix]
+    - make            # [unix]
+  host:
+    - gmp             # [unix]
+    - mpir            # [win]
+
+test:
+  requires:
+    - {{ compiler('c') }}
+  commands:
+    - if not exist %LIBRARY_INC%\\mpfr.h exit 1                # [win]
+    - if not exist %LIBRARY_LIB%\\mpfr.lib exit 1              # [win]
+    - if not exist %LIBRARY_BIN%\\mpfr.dll exit 1              # [win]
+    - if not exist %LIBRARY_LIB%\\mpfr_static.lib exit 1       # [win]
+    - test -f ${PREFIX}/lib/libmpfr.a                          # [unix]
+    - test -f ${PREFIX}/lib/libmpfr.dylib                      # [osx]
+    - test -f ${PREFIX}/lib/libmpfr.so                         # [linux]
+
+about:
+  home: http://www.mpfr.org/
+  license: LGPL 3
+  license_file: {{ SRC_DIR }}/COPYING.LESSER
+  summary: The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.
+
+extra:
+  recipe-maintainers:
+    - isuruf
+    - jakirkham

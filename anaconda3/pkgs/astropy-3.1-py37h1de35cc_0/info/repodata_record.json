@@ -1,0 +1,22 @@
+{
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.14.6,<2.0a0",
+    "pytest-astropy",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "astropy-3.1-py37h1de35cc_0.tar.bz2",
+  "license": "BSD",
+  "md5": "bcef24c36c357036ebf143be22dc3cbf",
+  "name": "astropy",
+  "size": 7282973,
+  "subdir": "osx-64",
+  "timestamp": 1544162195746,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/astropy-3.1-py37h1de35cc_0.tar.bz2",
+  "version": "3.1"
+}

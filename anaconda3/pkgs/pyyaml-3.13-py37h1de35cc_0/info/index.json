@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37h1de35cc_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "yaml >=0.1.7,<0.2.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pyyaml",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1532443077388,
+  "version": "3.13"
+}

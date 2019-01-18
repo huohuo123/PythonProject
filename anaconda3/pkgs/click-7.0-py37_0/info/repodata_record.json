@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "click-7.0-py37_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "bdf313a5ed0f42a2025ad54c9ee21185",
+  "name": "click",
+  "size": 120927,
+  "subdir": "osx-64",
+  "timestamp": 1538599223360,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/click-7.0-py37_0.tar.bz2",
+  "version": "7.0"
+}

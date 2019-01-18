@@ -1,0 +1,49 @@
+{
+  "paths": [
+    {
+      "_path": "include/python3.7m/greenlet/greenlet.h",
+      "path_type": "hardlink",
+      "sha256": "4a5712daeb46a83263d4a9cc0caef8e728ad70928d5086c051a140f2b37ee2c6",
+      "size_in_bytes": 3972
+    },
+    {
+      "_path": "lib/python3.7/site-packages/greenlet-0.4.15.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/greenlet-0.4.15.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "4007966b62b5f20421083b75143c5a26db39629259ec1f1ecf7c018a87949834",
+      "size_in_bytes": 3304
+    },
+    {
+      "_path": "lib/python3.7/site-packages/greenlet-0.4.15.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "da64e264e5500dcb43803c56d9c363b1fd5b72e328cda3e660a06b0f94b56e16",
+      "size_in_bytes": 594
+    },
+    {
+      "_path": "lib/python3.7/site-packages/greenlet-0.4.15.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "fe4efe8e57289988b6296415f23e1d9d03f68619493efe916506bf03bbd20867",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.7/site-packages/greenlet-0.4.15.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "6129d1b024683bad491a53f9ee8f2228beab74b5835ae8b2283f1e929594b037",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.7/site-packages/greenlet.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/28fff70b-3a2c-4a76-4273-0f6978774cab/volume/greenlet_1536767901648/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "4c316cea30db8f7ee9b40a0e1dfb53479f224f6a73e7dbb922f3d3bfc5e8cf87",
+      "size_in_bytes": 26888
+    }
+  ],
+  "paths_version": 1
+}

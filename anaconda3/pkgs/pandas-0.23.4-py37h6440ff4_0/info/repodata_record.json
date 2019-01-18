@@ -1,0 +1,24 @@
+{
+  "build": "py37h6440ff4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "python-dateutil >=2.5.*",
+    "pytz"
+  ],
+  "features": "",
+  "fn": "pandas-0.23.4-py37h6440ff4_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "md5": "495c11c94b42704630aaaf4c17e68fb0",
+  "name": "pandas",
+  "size": 9675132,
+  "subdir": "osx-64",
+  "timestamp": 1533666232077,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pandas-0.23.4-py37h6440ff4_0.tar.bz2",
+  "version": "0.23.4"
+}

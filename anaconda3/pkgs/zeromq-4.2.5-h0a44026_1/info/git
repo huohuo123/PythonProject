@@ -1,0 +1,30 @@
+==> git log -n1 <==
+commit f3a8a5b42244d78d98ba26ae1640653b90fb90b4
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Apr 11 09:52:23 2018 -0400
+
+    SLES11: Hackily avoid pthread_set_name_np on linux
+==> git describe --tags --dirty <==
+v4.2.5-2-gf3a8a5b
+==> git status <==
+HEAD detached from v4.2.5
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	conda_build.sh
+	external/unity/libunity.a
+	tests/test_app_meta
+	tests/test_security_zap
+	tests/test_socket_null
+	tests/test_xpub_verbose
+	unittests/unittest_mtrie
+	unittests/unittest_mtrie.log
+	unittests/unittest_mtrie.trs
+	unittests/unittest_poller
+	unittests/unittest_poller.log
+	unittests/unittest_poller.trs
+	unittests/unittest_ypipe
+	unittests/unittest_ypipe.log
+	unittests/unittest_ypipe.trs
+
+nothing added to commit but untracked files present (use "git add" to track)

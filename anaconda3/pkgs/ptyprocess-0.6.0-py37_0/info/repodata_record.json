@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "ptyprocess-0.6.0-py37_0.tar.bz2",
+  "license": "ISC",
+  "md5": "eaf349de500a66aba0ef3b208cb8fabd",
+  "name": "ptyprocess",
+  "size": 23344,
+  "subdir": "osx-64",
+  "timestamp": 1530696221125,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ptyprocess-0.6.0-py37_0.tar.bz2",
+  "version": "0.6.0"
+}

@@ -1,0 +1,63 @@
+# This file created by conda-build 3.9.1+193.gd10dbde.dirty
+# meta.yaml template originally from:
+# /Users/rdonnelly/conda/aggregate/contextlib2-feedstock/recipe, last modified Mon Sep 11 14:05:46 2017
+# ------------------------------------------------
+
+package:
+    name: contextlib2
+    version: 0.5.5
+source:
+    fn: contextlib2-0.5.5.tar.gz
+    sha256: 509f9419ee91cdd00ba34443217d5ca51f5a364a404e1dce9e8979cea969ca48
+    url: https://pypi.io/packages/source/c/contextlib2/contextlib2-0.5.5.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - contextlib2
+about:
+    description: 'Contextlib2 provides backports of features in the latest version
+        of the
+
+        standard library''s contextlib module to earlier Python versions. It also
+
+        serves as a real world proving ground for potential future enhancements
+
+        to that module.
+
+        '
+    dev_url: https://github.com/jazzband/contextlib2
+    doc_source_url: https://github.com/jazzband/contextlib2/blob/master/docs/index.rst
+    doc_url: http://contextlib2.readthedocs.org
+    home: http://contextlib2.readthedocs.org
+    license: PSF
+    license_family: PSF
+    license_file: LICENSE.txt
+    summary: Backports and enhancements for the contextlib module
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - jakirkham

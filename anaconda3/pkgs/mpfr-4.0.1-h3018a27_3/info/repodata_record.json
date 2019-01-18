@@ -1,0 +1,20 @@
+{
+  "build": "h3018a27_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.1.2"
+  ],
+  "features": "",
+  "fn": "mpfr-4.0.1-h3018a27_3.tar.bz2",
+  "license": "LGPL 3",
+  "md5": "85d0b6b6c4112b7044fad544f2e02258",
+  "name": "mpfr",
+  "size": 538856,
+  "subdir": "osx-64",
+  "timestamp": 1527610609298,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mpfr-4.0.1-h3018a27_3.tar.bz2",
+  "version": "4.0.1"
+}

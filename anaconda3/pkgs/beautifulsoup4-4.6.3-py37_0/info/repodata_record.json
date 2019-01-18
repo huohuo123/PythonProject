@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "beautifulsoup4-4.6.3-py37_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "eb1eaa898250733d40520def4f78a056",
+  "name": "beautifulsoup4",
+  "size": 141915,
+  "subdir": "osx-64",
+  "timestamp": 1534176746295,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/beautifulsoup4-4.6.3-py37_0.tar.bz2",
+  "version": "4.6.3"
+}

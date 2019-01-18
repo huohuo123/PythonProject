@@ -1,0 +1,83 @@
+{% set version = "5.7.4" %}
+
+package:
+  name: notebook
+  version: {{ version }}
+
+source:
+  fn: notebook-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/n/notebook/notebook-{{ version }}.tar.gz
+  sha256: d908673a4010787625c8952e91a22adf737db031f2aa0793ad92f6558918a74a
+
+build:
+  number: 0
+  entry_points:
+    - jupyter-notebook = notebook.notebookapp:main
+    - jupyter-nbextension = notebook.nbextensions:main
+    - jupyter-serverextension = notebook.serverextensions:main
+    - jupyter-bundlerextension = notebook.bundler.bundlerextensions:main
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - ipykernel
+    - ipython_genutils
+    - jinja2
+    - jupyter_core >=4.4.0
+    - jupyter_client >=5.2.0
+    - nbconvert
+    - nbformat
+    - python
+    - pyzmq >=17
+    - send2trash
+    - terminado >=0.8.1
+    - tornado >=4
+    - traitlets >=4.2.1
+    - prometheus_client
+    - ipaddress  # [py2k]
+
+app:
+  entry: jupyter-notebook  # [not osx]
+  entry: open ${PREFIX}/bin/jupyter_mac.command  # [osx]
+  icon: jupyter.png
+  summary: Jupyter Notebook
+  type: web
+  cli_opts:
+    - name: port
+      args: --port %s
+      default: 8080
+      summary: Server port ...
+
+test:
+  commands:
+    - jupyter notebook -h
+    - jupyter nbextension -h
+    - jupyter serverextension -h
+    - jupyter bundlerextension -h
+  imports:
+    - notebook
+
+about:
+  home: http://jupyter.org
+  license: BSD 3-clause
+  license_family: BSD
+  license_file: COPYING.md
+  summary: A web-based notebook environment for interactive computing
+  description: |
+    Jupyter Notebook is a web application, a browser-based tool for interactive
+    authoring of documents which combine explanatory text, mathematics, computations
+    and their rich media output.
+  doc_url: https://jupyter-notebook.readthedocs.org/en/latest/
+  doc_source_url: https://github.com/jupyter/notebook/blob/master/docs/source/index.rst
+  dev_url: https://github.com/jupyter/notebook
+
+extra:
+  recipe-maintainers:
+    - SylvainCorlay
+    - jakirkham
+    - minrk
+    - pelson
+    - gnestor
+    - takluyver

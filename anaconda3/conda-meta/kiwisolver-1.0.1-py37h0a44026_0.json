@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py37h0a44026_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/kiwisolver-1.0.1-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/kiwisolver-1.0.1-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/kiwisolver-1.0.1-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/kiwisolver-1.0.1-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/kiwisolver-1.0.1-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/kiwisolver.cpython-37m-darwin.so"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/kiwisolver-1.0.1-py37h0a44026_0",
+    "type": "hard-link"
+  },
+  "md5": "47468d59c789ab8db7ae0a51642fc926",
+  "name": "kiwisolver",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530778271967,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/kiwisolver-1.0.1-py37h0a44026_0.tar.bz2",
+  "version": "1.0.1"
+}

@@ -1,0 +1,22 @@
+{
+  "build": "py37h1d22016_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "bottleneck-1.2.1-py37h1d22016_1.tar.bz2",
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "md5": "9697f3415f0ea69a36be9c9a7240d1ea",
+  "name": "bottleneck",
+  "size": 115305,
+  "subdir": "osx-64",
+  "timestamp": 1530772492151,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bottleneck-1.2.1-py37h1d22016_1.tar.bz2",
+  "version": "1.2.1"
+}

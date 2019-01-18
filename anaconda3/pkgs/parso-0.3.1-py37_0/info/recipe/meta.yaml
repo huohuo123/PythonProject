@@ -1,0 +1,62 @@
+# This file created by conda-build 3.11.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/bb03b052-7857-4bbc-7901-0e9a6650b8ec/volume/rsync-recipes/parso-0.3.1-python_3.7-on-osx, last modified Mon Jul 23 11:46:33 2018
+# ------------------------------------------------
+
+package:
+    name: parso
+    version: 0.3.1
+source:
+    fn: parso-0.3.1.tar.gz
+    sha256: 35704a43a3c113cce4de228ddb39aab374b8004f4f2407d070b6a2ca784ce8a2
+    url: https://pypi.io/packages/source/p/parso/parso-0.3.1.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.4.16 py37_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2o h26aff7b_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 hc1231fa_4
+        - setuptools 39.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.7 h35a86e2_3
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - parso
+        - parso.pgen2
+        - parso.python
+about:
+    description: 'Parso is a Python parser that supports error recovery and round-trip
+        parsing for different Python versions (in multiple Python versions).
+
+        Parso is also able to list multiple syntax errors in your python file.
+
+        '
+    dev_url: https://github.com/davidhalter/parso
+    doc_url: https://parso.readthedocs.io/en/latest/
+    home: https://github.com/davidhalter/parso
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.txt
+    summary: A Python Parser
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - iron0012
+        - synapticarbors

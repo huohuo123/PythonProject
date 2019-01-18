@@ -1,0 +1,27 @@
+{
+  "build": "py37h6440ff4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "tbb >=2018.0.5"
+  ],
+  "depends": [
+    "libcxx >=4.0.1",
+    "llvmlite >=0.26.0,<0.27.0a0",
+    "numpy >=1.11.3,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "tbb >=2019.1"
+  ],
+  "features": "",
+  "fn": "numba-0.41.0-py37h6440ff4_0.tar.bz2",
+  "license": "BSD 2-clause",
+  "license_family": "BSD",
+  "md5": "6f31e2aeae61e221cacd68190aecf3f9",
+  "name": "numba",
+  "size": 2651755,
+  "subdir": "osx-64",
+  "timestamp": 1543476908253,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numba-0.41.0-py37h6440ff4_0.tar.bz2",
+  "version": "0.41.0"
+}

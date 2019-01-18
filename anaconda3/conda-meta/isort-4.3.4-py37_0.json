@@ -1,0 +1,49 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "setuptools"
+  ],
+  "files": [
+    "bin/isort",
+    "lib/python3.7/site-packages/isort-4.3.4-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/isort-4.3.4-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/isort-4.3.4-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/isort-4.3.4-py3.7.egg-info/entry_points.txt",
+    "lib/python3.7/site-packages/isort-4.3.4-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/isort-4.3.4-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/isort/__init__.py",
+    "lib/python3.7/site-packages/isort/__main__.py",
+    "lib/python3.7/site-packages/isort/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/__pycache__/__main__.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/__pycache__/hooks.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/__pycache__/isort.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/__pycache__/main.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/__pycache__/natural.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/__pycache__/pie_slice.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/__pycache__/pylama_isort.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/__pycache__/settings.cpython-37.pyc",
+    "lib/python3.7/site-packages/isort/hooks.py",
+    "lib/python3.7/site-packages/isort/isort.py",
+    "lib/python3.7/site-packages/isort/main.py",
+    "lib/python3.7/site-packages/isort/natural.py",
+    "lib/python3.7/site-packages/isort/pie_slice.py",
+    "lib/python3.7/site-packages/isort/pylama_isort.py",
+    "lib/python3.7/site-packages/isort/settings.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/isort-4.3.4-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "f72377f0ed79e956084da9afc57f3165",
+  "name": "isort",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530881264145,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/isort-4.3.4-py37_0.tar.bz2",
+  "version": "4.3.4"
+}

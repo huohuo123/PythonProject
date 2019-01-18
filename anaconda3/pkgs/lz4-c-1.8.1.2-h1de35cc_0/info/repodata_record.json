@@ -1,0 +1,18 @@
+{
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "lz4-c-1.8.1.2-h1de35cc_0.tar.bz2",
+  "license": "BSD 2-clause",
+  "md5": "4de92db9f54a4b55311fc1133e56a2a2",
+  "name": "lz4-c",
+  "size": 121809,
+  "subdir": "osx-64",
+  "timestamp": 1524591462371,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/lz4-c-1.8.1.2-h1de35cc_0.tar.bz2",
+  "version": "1.8.1.2"
+}

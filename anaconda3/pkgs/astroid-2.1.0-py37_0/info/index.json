@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "lazy-object-proxy",
+    "python >=3.7,<3.8.0a0",
+    "six",
+    "wrapt"
+  ],
+  "license": "LGPL 2.1",
+  "license_family": "LGPL",
+  "name": "astroid",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1543517526953,
+  "version": "2.1.0"
+}

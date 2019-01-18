@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "1",
+  "build_number": 1,
+  "depends": [],
+  "license": "BSD 3-Clause",
+  "name": "conda-env",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1531066575882,
+  "version": "2.6.0"
+}

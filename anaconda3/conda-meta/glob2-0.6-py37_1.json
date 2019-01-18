@@ -1,0 +1,36 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/glob2-0.6-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/glob2-0.6-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/glob2-0.6-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/glob2-0.6-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/glob2/__init__.py",
+    "lib/python3.7/site-packages/glob2/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/glob2/__pycache__/compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/glob2/__pycache__/fnmatch.cpython-37.pyc",
+    "lib/python3.7/site-packages/glob2/__pycache__/impl.cpython-37.pyc",
+    "lib/python3.7/site-packages/glob2/compat.py",
+    "lib/python3.7/site-packages/glob2/fnmatch.py",
+    "lib/python3.7/site-packages/glob2/impl.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/glob2-0.6-py37_1",
+    "type": "hard-link"
+  },
+  "md5": "e844d69ac8180ba84d85d7949c3cd8eb",
+  "name": "glob2",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1538519118031,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/glob2-0.6-py37_1.tar.bz2",
+  "version": "0.6"
+}

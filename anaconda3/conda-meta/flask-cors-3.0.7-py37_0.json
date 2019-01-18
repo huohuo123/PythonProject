@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "flask >=0.9",
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/LICENSE",
+    "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/METADATA",
+    "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/RECORD",
+    "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/WHEEL",
+    "lib/python3.7/site-packages/Flask_Cors-3.0.7.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/flask_cors/__init__.py",
+    "lib/python3.7/site-packages/flask_cors/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/flask_cors/__pycache__/core.cpython-37.pyc",
+    "lib/python3.7/site-packages/flask_cors/__pycache__/decorator.cpython-37.pyc",
+    "lib/python3.7/site-packages/flask_cors/__pycache__/extension.cpython-37.pyc",
+    "lib/python3.7/site-packages/flask_cors/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/flask_cors/core.py",
+    "lib/python3.7/site-packages/flask_cors/decorator.py",
+    "lib/python3.7/site-packages/flask_cors/extension.py",
+    "lib/python3.7/site-packages/flask_cors/version.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/flask-cors-3.0.7-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "bef263f19868490209d0036c7ed901b5",
+  "name": "flask-cors",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1542079498023,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/flask-cors-3.0.7-py37_0.tar.bz2",
+  "version": "3.0.7"
+}

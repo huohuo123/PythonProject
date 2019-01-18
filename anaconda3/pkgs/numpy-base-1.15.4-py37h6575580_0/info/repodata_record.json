@@ -1,0 +1,22 @@
+{
+  "build": "py37h6575580_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libgfortran >=3.0.1",
+    "mkl >=2019.1,<2020.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "numpy-base-1.15.4-py37h6575580_0.tar.bz2",
+  "md5": "c278520f9db458d47ecf39e25a2497d9",
+  "name": "numpy-base",
+  "size": 4269798,
+  "subdir": "osx-64",
+  "timestamp": 1544718531307,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numpy-base-1.15.4-py37h6575580_0.tar.bz2",
+  "version": "1.15.4"
+}

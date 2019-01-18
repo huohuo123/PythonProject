@@ -1,0 +1,32 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "bleach",
+    "defusedxml",
+    "entrypoints >=0.2.2",
+    "jinja2",
+    "jupyter_core",
+    "mistune >=0.8.1",
+    "nbformat >=4.4",
+    "pandoc >=1.12.1,<2.0.0",
+    "pandocfilters >=1.4.1",
+    "pygments",
+    "python >=3.7,<3.8.0a0",
+    "testpath",
+    "traitlets >=4.2"
+  ],
+  "features": "",
+  "fn": "nbconvert-5.4.0-py37_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "md5": "9bf8516472822ce7827e010fbb77f916",
+  "name": "nbconvert",
+  "size": 425661,
+  "subdir": "osx-64",
+  "timestamp": 1536785730255,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/nbconvert-5.4.0-py37_1.tar.bz2",
+  "version": "5.4.0"
+}

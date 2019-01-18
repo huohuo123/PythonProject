@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/__pycache__/decorator.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "eec152039547c3619914fbee2bcdfb1e21d861334117d9ef71c345d0b8c890f4",
+      "size_in_bytes": 12200
+    },
+    {
+      "_path": "lib/python3.7/site-packages/decorator-4.3.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.7/site-packages/decorator-4.3.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "23dbddf3b53ff74efd0153e597884d35947f27f7fb8499bc2287214ba237e42d",
+      "size_in_bytes": 2722
+    },
+    {
+      "_path": "lib/python3.7/site-packages/decorator-4.3.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "fd9063b5c9715db556d1958e033ae2be0dda374e0cbcee219ef46f6c7c445f7b",
+      "size_in_bytes": 602
+    },
+    {
+      "_path": "lib/python3.7/site-packages/decorator-4.3.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "81dbae3f206f149412434cddcb117b934cf29c35db21bbe0e59047a17ba6e6e9",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.7/site-packages/decorator-4.3.0.dist-info/pbr.json",
+      "path_type": "hardlink",
+      "sha256": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
+      "size_in_bytes": 47
+    },
+    {
+      "_path": "lib/python3.7/site-packages/decorator-4.3.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "lib/python3.7/site-packages/decorator.py",
+      "path_type": "hardlink",
+      "sha256": "74219fadf81a4c993d58f80b97defd3fe144f39be92615a6a363c5ed459212f8",
+      "size_in_bytes": 16298
+    }
+  ],
+  "paths_version": 1
+}

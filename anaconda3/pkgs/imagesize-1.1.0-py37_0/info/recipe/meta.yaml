@@ -1,0 +1,57 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/ebfda500-9f36-4f60-5fdf-3f8368f36205/volume/rsync-recipes/imagesize-1.1.0-python_3.7-on-osx, last modified Tue Sep  4 10:03:11 2018
+# ------------------------------------------------
+
+package:
+    name: imagesize
+    version: 1.1.0
+source:
+    sha256: f3832918bc3c66617f92e35f5d70729187676313caa60c187eb0f28b8fe5e3b5
+    url: https://pypi.io/packages/source/i/imagesize/imagesize-1.1.0.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.8.24 py37_1
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.0.2p h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.0 hc167b69_0
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.2.0 py37_0
+        - sqlite 3.24.0 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.31.1 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - imagesize
+about:
+    description: 'This module analyzes jpeg/jpeg2000/png/gif image header and
+
+        return image size.
+
+        '
+    dev_url: https://github.com/shibukawa/imagesize_py
+    doc_source_url: https://github.com/shibukawa/imagesize_py/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/imagesize
+    home: https://github.com/shibukawa/imagesize_py
+    license: MIT
+    summary: Getting image size from png/jpeg/jpeg2000/gif file
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - chohner

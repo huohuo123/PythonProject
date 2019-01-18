@@ -1,0 +1,20 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "sphinxcontrib-1.0-py37_1.tar.bz2",
+  "license": "BSD",
+  "md5": "bc5a262aeac3ed5cfe98895320ce91cf",
+  "name": "sphinxcontrib",
+  "size": 3567,
+  "subdir": "osx-64",
+  "timestamp": 1530696389991,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sphinxcontrib-1.0-py37_1.tar.bz2",
+  "version": "1.0"
+}

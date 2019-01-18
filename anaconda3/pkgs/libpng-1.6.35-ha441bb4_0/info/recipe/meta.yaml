@@ -1,0 +1,65 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/ea9b16cd-6607-4e69-5883-58d570b2d3fe/volume/rsync-recipes/libpng-1.6.35-on-osx, last modified Tue Oct 16 17:00:26 2018
+# ------------------------------------------------
+
+package:
+    name: libpng
+    version: 1.6.35
+source:
+    fn: libpng-1.6.35.tar.gz
+    sha256: 23912ec8c9584917ed9b09c5023465d71709dce089be503c7867fec68a93bcd7
+    url: http://download.sourceforge.net/libpng/libpng-1.6.35.tar.xz
+build:
+    number: '0'
+    run_exports:
+        - libpng >=1.6.35,<1.7.0a0
+    string: ha441bb4_0
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - automake 1.16.1 pl526_0
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libtool 2.4.6 h1de35cc_5
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+        - perl 5.26.2 h4e221da_0
+    host:
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libpng.a
+        - test -f ${PREFIX}/lib/libpng.dylib
+        - libpng-config --version
+        - conda inspect linkages -p $PREFIX libpng
+        - conda inspect objects -p $PREFIX libpng
+about:
+    description: 'libpng is the official PNG reference library. It supports almost
+        all PNG
+
+        features, is extensible, and has been extensively tested for over 20 years.
+
+        '
+    dev_url: https://sourceforge.net/p/libpng/code/ci/libpng16/tree/
+    doc_url: http://www.libpng.org/pub/png/libpng.html
+    home: http://www.libpng.org/pub/png/libpng.html
+    license: zlib/libpng
+    license_file: LICENSE
+    license_url: http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
+    summary: PNG reference library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf

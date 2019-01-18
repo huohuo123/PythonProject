@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "h3efe00b_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "ISC",
+  "name": "libsodium",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1522217379641,
+  "version": "1.0.16"
+}

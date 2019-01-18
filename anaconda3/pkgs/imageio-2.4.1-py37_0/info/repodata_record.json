@@ -1,0 +1,22 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "pillow",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "imageio-2.4.1-py37_0.tar.bz2",
+  "license": "BSD 2-Clause",
+  "md5": "98cea441e8d39cadb6cac24f0f7ccb7b",
+  "name": "imageio",
+  "size": 3435663,
+  "subdir": "osx-64",
+  "timestamp": 1536699303117,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/imageio-2.4.1-py37_0.tar.bz2",
+  "version": "2.4.1"
+}

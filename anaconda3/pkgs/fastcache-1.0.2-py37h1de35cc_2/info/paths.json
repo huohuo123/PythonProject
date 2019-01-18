@@ -1,0 +1,109 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/fastcache-1.0.2-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "53f061d84530b61dcdff98e646fd4894484629625d97c78b88ad5856e76a3770",
+      "size_in_bytes": 4241
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache-1.0.2-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "18e40c6c05cddd7736320687321fc318a71e1bed92248b6ab4c3e336ef11f48e",
+      "size_in_bytes": 338
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache-1.0.2-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache-1.0.2-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f800d3bed6b7d8496d449687ba1a837e5e84dbe79dfcbe863a140bfbff6f2e72",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3e495c1964432f9f3b66b060143539c4e4a10be63f32a1a10ed3f85d82a257d1",
+      "size_in_bytes": 2670
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "c51338d2c902ccc69fc29c27f88ceb2983342a7f5c1c070c8cee1493828a35cf",
+      "size_in_bytes": 3043
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/__pycache__/benchmark.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "292458000c49cdc35e5af5abddcc577402260cb53091a6b4f2a5b0dd620dc334",
+      "size_in_bytes": 3605
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/_lrucache.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/fastcache_1530851824947/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "e29729459445693820e09d6dec278701bdaed54661cdba2e9c656957c7efb7ff",
+      "size_in_bytes": 30268
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/benchmark.py",
+      "path_type": "hardlink",
+      "sha256": "2db11963c81b5738c45135b8fc8ef64dde716cda6e84ec551a3e5658102fe858",
+      "size_in_bytes": 3746
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/tests/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "cc81a1bd9d3b6d02af63c52d1bc65903af03ba3f3c72d48bc0c68610b3eec23f",
+      "size_in_bytes": 142
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/tests/__pycache__/test_clrucache.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2941e241e47b15948eb68ca466375ec6629718e7d1e3420baa21582b54052d77",
+      "size_in_bytes": 5963
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/tests/__pycache__/test_functools.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "39c2da2bb0511fd1f7b27f94a1cf25427324b1e2da5b3c7e92b9213ab791f59e",
+      "size_in_bytes": 7606
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/tests/__pycache__/test_thread.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "33b775e6088db5facf147d3a86e43d37f04f7df47b81d825db7d9076d3017f5b",
+      "size_in_bytes": 4562
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/tests/test_clrucache.py",
+      "path_type": "hardlink",
+      "sha256": "cdda50abe06a1e89798cba59a14e31afbcd4520ce4c9961d8a04dee4fc741d7a",
+      "size_in_bytes": 4436
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/tests/test_functools.py",
+      "path_type": "hardlink",
+      "sha256": "7b3994f470e945258eb40a0019926a4ef4a9959a5f99793307f4db472ecca61c",
+      "size_in_bytes": 8022
+    },
+    {
+      "_path": "lib/python3.7/site-packages/fastcache/tests/test_thread.py",
+      "path_type": "hardlink",
+      "sha256": "9627dc9e626c9513818ee41da160e2ecfad814947d5f4af9b6aad6594716fd0c",
+      "size_in_bytes": 3465
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "py-1.7.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "cafd5479b71188fa39d02a98cb6eb32b",
+  "name": "py",
+  "size": 141393,
+  "subdir": "osx-64",
+  "timestamp": 1539632227490,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/py-1.7.0-py37_0.tar.bz2",
+  "version": "1.7.0"
+}

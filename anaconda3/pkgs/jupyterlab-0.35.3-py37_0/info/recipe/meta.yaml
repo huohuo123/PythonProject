@@ -1,0 +1,99 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/44a09710-7eac-4d1c-5463-6c635c6cb898/volume/rsync-recipes/jupyterlab-0.35.3-python_3.7-on-osx, last modified Tue Oct 30 21:45:23 2018
+# ------------------------------------------------
+
+package:
+    name: jupyterlab
+    version: 0.35.3
+source:
+    fn: jupyterlab-0.35.3.tar.gz
+    sha256: 0bc698eb90b293cc03fcc628e71266079269117af4a65a5a9265f0324272412b
+    url: https://pypi.io/packages/source/j/jupyterlab/jupyterlab-0.35.3.tar.gz
+build:
+    entry_points:
+        - jupyter-lab = jupyterlab.labapp:main
+        - jupyter-labextension = jupyterlab.labextensions:main
+        - jupyter-labhub = jupyterlab.labhubapp:main
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed --install-option="--skip-npm"
+        --verbose .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - nodejs 8.12.0 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.4.3 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.2 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - jupyterlab_server >=0.2.0,<0.3.0
+        - notebook >=4.3.1
+        - python >=3.7,<3.8.0a0
+test:
+    commands:
+        - jupyter lab --version
+        - jlpm --version
+        - jlpm versions
+        - jupyter labextension list
+        - jupyter lab path
+        - jupyter lab build
+        - jupyter lab clean
+    imports:
+        - jupyterlab
+    requires:
+        - nodejs
+app:
+    entry: jupyter lab
+    icon: icon.png
+    summary: JupyterLab PRE-ALPHA
+    type: desk
+about:
+    description: 'JupyterLab is the next-generation user interface for Project Jupyter.
+        It offers all the familiar building blocks of the classic Jupyter Notebook
+        (notebook, terminal, text editor, file browser, rich outputs, etc.) in a flexible
+        and powerful user inteface. Eventually, JupyterLab will replace the classic
+        Jupyter Notebook.
+
+        JupyterLab can be extended using extensions that are npm packages and use
+        our public APIs. You can search for the GitHub topic or npm keyword `jupyterlab-extension`
+        to find extensions. To learn more about extensions, see our user documentation.
+
+        JupyterLab is suitable for general usage. For JupyterLab extension developers,
+        the extension APIs will continue to evolve.
+
+        '
+    dev_url: https://github.com/jupyterlab/jupyterlab
+    doc_source_url: https://github.com/jupyterlab/jupyterlab/tree/master/docs
+    doc_url: https://jupyterlab.readthedocs.io
+    home: https://github.com/jupyterlab/jupyterlab
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: 'An extensible environment for interactive and reproducible computing,
+        based on the Jupyter Notebook and Architecture.
+
+        '
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - afshin
+        - blink1073
+        - ellisonbg
+        - ian-r-rose
+        - jasongrout
+        - jochym

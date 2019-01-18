@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "boto-2.49.0-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "7e98e2e6810245395f943e9523c20d73",
+  "name": "boto",
+  "size": 1604726,
+  "subdir": "osx-64",
+  "timestamp": 1532524789569,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/boto-2.49.0-py37_0.tar.bz2",
+  "version": "2.49.0"
+}

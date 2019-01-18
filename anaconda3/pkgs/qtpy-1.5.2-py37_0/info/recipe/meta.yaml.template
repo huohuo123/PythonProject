@@ -1,0 +1,53 @@
+{% set version = "1.5.2" %}
+
+package:
+  name: qtpy
+  version: {{version}}
+
+source:
+  fn: qtpy-{{version}}.tar.gz
+  url: https://pypi.io/packages/source/q/qtpy/QtPy-{{version}}.tar.gz
+  sha256: 4c690f90586c82c1210bb6fdf5e9ee4d1228809421dc6a349c5afacc27caabcd
+
+build:
+  noarch: python
+  number: 0
+  skip: True  # [ppc64le]
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+
+  host:
+    - pip
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  requires:
+    - pyqt
+  imports:
+  script:
+    - QT_API=pyqt5 qtpy
+    - QT_API=pyqt5 qtpy.QtGui
+
+about:
+  home: https://github.com/spyder-ide/qtpy
+  license: MIT
+  license_file: LICENSE.txt
+  summary: Abtraction layer for PyQt5/PyQt4/PySide
+  description: |
+    QtPy is a small abstraction layer that lets you write applications using a
+    single api call to either PyQt or PySide.
+  doc_url: https://pypi.python.org/pypi/QtPy
+  dev_url: https://github.com/spyder-ide/qtpy
+  doc_source_url: https://github.com/spyder-ide/qtpy/blob/master/README.md
+
+extra:
+  recipe-maintainers:
+    - ccordoba12
+    - goanpeca
+    - astrofrog-conda-forge
+    - Nodd

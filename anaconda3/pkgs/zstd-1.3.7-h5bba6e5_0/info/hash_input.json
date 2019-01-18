@@ -1,0 +1,6 @@
+{
+  "xz": "5",
+  "c_compiler": "clang",
+  "zlib": "1.2",
+  "CONDA_BUILD_SYSROOT": "/opt/MacOSX10.9.sdk"
+}

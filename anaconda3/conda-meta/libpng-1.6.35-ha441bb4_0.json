@@ -1,0 +1,43 @@
+{
+  "arch": "x86_64",
+  "build": "ha441bb4_0",
+  "build_number": 0,
+  "depends": [
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "files": [
+    "bin/libpng-config",
+    "bin/libpng16-config",
+    "bin/png-fix-itxt",
+    "bin/pngfix",
+    "include/libpng16/png.h",
+    "include/libpng16/pngconf.h",
+    "include/libpng16/pnglibconf.h",
+    "include/png.h",
+    "include/pngconf.h",
+    "include/pnglibconf.h",
+    "lib/libpng.a",
+    "lib/libpng.dylib",
+    "lib/libpng16.16.dylib",
+    "lib/libpng16.a",
+    "lib/libpng16.dylib",
+    "lib/pkgconfig/libpng.pc",
+    "lib/pkgconfig/libpng16.pc",
+    "share/man/man3/libpng.3",
+    "share/man/man3/libpngpf.3",
+    "share/man/man5/png.5"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "zlib/libpng",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/libpng-1.6.35-ha441bb4_0",
+    "type": "hard-link"
+  },
+  "md5": "7c4f80fbfacb4436293ff5d6501a1765",
+  "name": "libpng",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1539728259808,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libpng-1.6.35-ha441bb4_0.tar.bz2",
+  "version": "1.6.35"
+}

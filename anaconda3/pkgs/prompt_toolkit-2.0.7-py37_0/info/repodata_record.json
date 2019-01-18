@@ -1,0 +1,23 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "pygments",
+    "python >=3.7,<3.8.0a0",
+    "six >=1.9.0",
+    "wcwidth"
+  ],
+  "features": "",
+  "fn": "prompt_toolkit-2.0.7-py37_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "md5": "5a3f57d00a36da796a22ae53df70e307",
+  "name": "prompt_toolkit",
+  "size": 490022,
+  "subdir": "osx-64",
+  "timestamp": 1541000601906,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/prompt_toolkit-2.0.7-py37_0.tar.bz2",
+  "version": "2.0.7"
+}

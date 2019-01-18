@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "ply-3.11-py37_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "b46569b04f2c385f2b0a624177c95e88",
+  "name": "ply",
+  "size": 81463,
+  "subdir": "osx-64",
+  "timestamp": 1530849025559,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ply-3.11-py37_0.tar.bz2",
+  "version": "3.11"
+}

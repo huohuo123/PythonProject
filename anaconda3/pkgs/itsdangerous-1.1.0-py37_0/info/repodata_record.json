@@ -1,0 +1,21 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "itsdangerous-1.1.0-py37_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "47af7fe917005070c9e3560ee8650ef4",
+  "name": "itsdangerous",
+  "size": 26985,
+  "subdir": "osx-64",
+  "timestamp": 1541025539955,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/itsdangerous-1.1.0-py37_0.tar.bz2",
+  "version": "1.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pickleshare-0.7.5-py37_0.tar.bz2",
+  "license": "MIT",
+  "md5": "7f3599bcf1cd105009525058e0145f05",
+  "name": "pickleshare",
+  "size": 12733,
+  "subdir": "osx-64",
+  "timestamp": 1538597907284,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pickleshare-0.7.5-py37_0.tar.bz2",
+  "version": "0.7.5"
+}

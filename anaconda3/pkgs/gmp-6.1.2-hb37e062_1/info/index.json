@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "hb37e062_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "license": "GPL 2 and LGPL 3",
+  "name": "gmp",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1510610990419,
+  "version": "6.1.2"
+}

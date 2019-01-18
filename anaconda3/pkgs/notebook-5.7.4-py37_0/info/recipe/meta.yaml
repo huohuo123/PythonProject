@@ -1,0 +1,99 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/032331ff-ec0d-4ad4-4247-ae81bf8edb0f/volume/rsync-recipes/notebook-5.7.4-python_3.7-on-osx, last modified Mon Dec 17 08:27:32 2018
+# ------------------------------------------------
+
+package:
+    name: notebook
+    version: 5.7.4
+source:
+    fn: notebook-5.7.4.tar.gz
+    sha256: d908673a4010787625c8952e91a22adf737db031f2aa0793ad92f6558918a74a
+    url: https://pypi.io/packages/source/n/notebook/notebook-5.7.4.tar.gz
+build:
+    entry_points:
+        - jupyter-bundlerextension = notebook.bundler.bundlerextensions:main
+        - jupyter-nbextension = notebook.nbextensions:main
+        - jupyter-notebook = notebook.notebookapp:main
+        - jupyter-serverextension = notebook.serverextensions:main
+    number: '0'
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.11.29 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_1
+        - openssl 1.1.1a h1de35cc_0
+        - pip 18.1 py37_0
+        - python 3.7.1 haf84260_7
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.3 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - ipykernel
+        - ipython_genutils
+        - jinja2
+        - jupyter_client >=5.2.0
+        - jupyter_core >=4.4.0
+        - nbconvert
+        - nbformat
+        - prometheus_client
+        - python >=3.7,<3.8.0a0
+        - pyzmq >=17
+        - send2trash
+        - terminado >=0.8.1
+        - tornado >=4
+        - traitlets >=4.2.1
+test:
+    commands:
+        - jupyter notebook -h
+        - jupyter nbextension -h
+        - jupyter serverextension -h
+        - jupyter bundlerextension -h
+    imports:
+        - notebook
+app:
+    cli_opts:
+        -   args: --port %s
+            default: '8080'
+            name: port
+            summary: Server port ...
+    entry: open ${PREFIX}/bin/jupyter_mac.command
+    icon: jupyter.png
+    summary: Jupyter Notebook
+    type: web
+about:
+    description: 'Jupyter Notebook is a web application, a browser-based tool for
+        interactive
+
+        authoring of documents which combine explanatory text, mathematics, computations
+
+        and their rich media output.
+
+        '
+    dev_url: https://github.com/jupyter/notebook
+    doc_source_url: https://github.com/jupyter/notebook/blob/master/docs/source/index.rst
+    doc_url: https://jupyter-notebook.readthedocs.org/en/latest/
+    home: http://jupyter.org
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: A web-based notebook environment for interactive computing
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - gnestor
+        - jakirkham
+        - minrk
+        - pelson
+        - takluyver

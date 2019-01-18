@@ -1,0 +1,46 @@
+{% set version = "3.0.2" %}
+
+package:
+  name: bleach
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/b/bleach/bleach-{{ version }}.tar.gz
+  sha256: 48d39675b80a75f6d1c3bdbffec791cf0bbbab665cf01e20da701c77de278718
+
+build:
+  number: 0
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - setuptools
+    - six
+    - webencodings
+
+test:
+  imports:
+    - bleach
+
+about:
+  home: https://github.com/mozilla/bleach
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Easy, whitelist-based HTML-sanitizing tool
+  description: |
+    Bleach is an allowed-list-based HTML sanitizing library that escapes or
+    strips markup and attributes.
+  dev_url: https://github.com/mozilla/bleach
+  doc_url: https://bleach.readthedocs.io/
+  doc_source_url: https://github.com/mozilla/bleach/blob/master/docs/index.rst
+
+extra:
+  recipe-maintainers:
+    - minrk
+    - ocefpaf

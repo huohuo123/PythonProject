@@ -1,0 +1,10 @@
+/opt/anaconda1anaconda2anaconda3 text bin/conda-build
+/opt/anaconda1anaconda2anaconda3 text bin/conda-convert
+/opt/anaconda1anaconda2anaconda3 text bin/conda-debug
+/opt/anaconda1anaconda2anaconda3 text bin/conda-develop
+/opt/anaconda1anaconda2anaconda3 text bin/conda-index
+/opt/anaconda1anaconda2anaconda3 text bin/conda-inspect
+/opt/anaconda1anaconda2anaconda3 text bin/conda-metapackage
+/opt/anaconda1anaconda2anaconda3 text bin/conda-render
+/opt/anaconda1anaconda2anaconda3 text bin/conda-skeleton
+/opt/anaconda1anaconda2anaconda3 text lib/python3.7/site-packages/conda_build/convert.py

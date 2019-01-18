@@ -1,0 +1,65 @@
+From c0c2c5dd552fdd0a2c5e0771399999b158cbcc5c Mon Sep 17 00:00:00 2001
+From: Mark Harfouche <mark.harfouche@gmail.com>
+Date: Mon, 8 Oct 2018 23:24:30 -0400
+Subject: [PATCH] TST: don't use the pytest.fixtures decorator anymore in class
+ fixtures as explained by a pytest warning
+
+RemovedInPytest4Warning: Fixture "setUp" called directly. Fixtures are
+not meant to be called directly, are created automatically when test
+functions request them as parameters. See
+https://docs.pytest.org/en/latest/fixture.html for more information.
+---
+ skimage/filters/tests/test_lpi_filter.py | 1 -
+ skimage/io/tests/test_collection.py      | 1 -
+ skimage/io/tests/test_multi_image.py     | 1 -
+ skimage/morphology/tests/test_grey.py    | 1 -
+ 4 files changed, 4 deletions(-)
+
+diff --git a/skimage/filters/tests/test_lpi_filter.py b/skimage/filters/tests/test_lpi_filter.py
+index 34a87ac0bd..90043b34dc 100644
+--- a/skimage/filters/tests/test_lpi_filter.py
++++ b/skimage/filters/tests/test_lpi_filter.py
+@@ -23,7 +23,6 @@ class TestLPIFilter2D(unittest.TestCase):
+     def filt_func(self, r, c):
+         return np.exp(-np.hypot(r, c) / 1)
+ 
+-    @testing.fixture(autouse=True)
+     def setUp(self):
+         self.f = LPIFilter2D(self.filt_func)
+ 
+diff --git a/skimage/io/tests/test_collection.py b/skimage/io/tests/test_collection.py
+index 7cdcfc1ad6..a053a09add 100644
+--- a/skimage/io/tests/test_collection.py
++++ b/skimage/io/tests/test_collection.py
+@@ -32,7 +32,6 @@ class TestImageCollection(TestCase):
+     pattern_matched = [os.path.join(data_dir, pic)
+                        for pic in ['camera.png', 'moon.png']]
+ 
+-    @testing.fixture(autouse=True)
+     def setUp(self):
+         reset_plugins()
+         # Generic image collection with images of different shapes.
+diff --git a/skimage/io/tests/test_multi_image.py b/skimage/io/tests/test_multi_image.py
+index 0a6aeef5c0..c166852895 100644
+--- a/skimage/io/tests/test_multi_image.py
++++ b/skimage/io/tests/test_multi_image.py
+@@ -10,7 +10,6 @@
+ 
+ 
+ class TestMultiImage(TestCase):
+-    @testing.fixture(autouse=True)
+     def setUp(self):
+         # This multipage TIF file was created with imagemagick:
+         # convert im1.tif im2.tif -adjoin multipage.tif
+diff --git a/skimage/morphology/tests/test_grey.py b/skimage/morphology/tests/test_grey.py
+index 07f900aeca..e1632ff1a2 100644
+--- a/skimage/morphology/tests/test_grey.py
++++ b/skimage/morphology/tests/test_grey.py
+@@ -50,7 +50,6 @@ def test_gray_morphology(self):
+ 
+ 
+ class TestEccentricStructuringElements(TestCase):
+-    @testing.fixture(autouse=True)
+     def setUp(self):
+         self.black_pixel = 255 * np.ones((4, 4), dtype=np.uint8)
+         self.black_pixel[1, 1] = 0

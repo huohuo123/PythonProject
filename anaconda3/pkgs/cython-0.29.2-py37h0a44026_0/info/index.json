@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37h0a44026_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.7,<3.8.0a0",
+    "setuptools"
+  ],
+  "license": "Apache-2.0",
+  "name": "cython",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1545074708645,
+  "version": "0.29.2"
+}

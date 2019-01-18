@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "py37hd4eaf27_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=4.0.1",
+    "liblief 0.9.0 h2a1bed3_0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/_pylief.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/lief/__init__.py",
+    "lib/python3.7/site-packages/lief/__pycache__/__init__.cpython-37.pyc"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/py-lief-0.9.0-py37hd4eaf27_0",
+    "type": "hard-link"
+  },
+  "md5": "adaf48eea96d2d9e505ed3ddf4143778",
+  "name": "py-lief",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1531769242327,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/py-lief-0.9.0-py37hd4eaf27_0.tar.bz2",
+  "version": "0.9.0"
+}

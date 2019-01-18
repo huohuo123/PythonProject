@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "heapdict",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "files": [
+    "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/zict-0.1.3-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/zict/__init__.py",
+    "lib/python3.7/site-packages/zict/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/__pycache__/buffer.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/__pycache__/common.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/__pycache__/file.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/__pycache__/func.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/__pycache__/lmdb.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/__pycache__/lru.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/__pycache__/sieve.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/__pycache__/zip.cpython-37.pyc",
+    "lib/python3.7/site-packages/zict/buffer.py",
+    "lib/python3.7/site-packages/zict/common.py",
+    "lib/python3.7/site-packages/zict/file.py",
+    "lib/python3.7/site-packages/zict/func.py",
+    "lib/python3.7/site-packages/zict/lmdb.py",
+    "lib/python3.7/site-packages/zict/lru.py",
+    "lib/python3.7/site-packages/zict/sieve.py",
+    "lib/python3.7/site-packages/zict/zip.py"
+  ],
+  "installed_by": "Anaconda3-2018.12-MacOSX-x86_64.pkg",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/huoyajing/anaconda3/pkgs/zict-0.1.3-py37_0",
+    "type": "hard-link"
+  },
+  "md5": "b7b567ec794bf8b7ada510be5217b4a8",
+  "name": "zict",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1530733523621,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zict-0.1.3-py37_0.tar.bz2",
+  "version": "0.1.3"
+}

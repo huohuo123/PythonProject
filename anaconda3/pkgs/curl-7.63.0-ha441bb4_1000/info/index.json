@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "ha441bb4_1000",
+  "build_number": 1000,
+  "depends": [
+    "krb5 >=1.16.1,<1.17.0a0",
+    "libcurl 7.63.0 h051b688_1000",
+    "libssh2 >=1.8.0,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+  "license_family": "MIT",
+  "name": "curl",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1545106902155,
+  "version": "7.63.0"
+}

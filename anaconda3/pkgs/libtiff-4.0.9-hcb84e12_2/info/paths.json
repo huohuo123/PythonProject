@@ -1,0 +1,247 @@
+{
+  "paths": [
+    {
+      "_path": "bin/fax2ps",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "d68283d17c5677d07351574179e62e36179b038998e50771aba400226f4a9ae1",
+      "size_in_bytes": 19384
+    },
+    {
+      "_path": "bin/fax2tiff",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "b95f482c657f562080ac5721a46e55f345d4219a3c917fc5574ccca060760071",
+      "size_in_bytes": 19360
+    },
+    {
+      "_path": "bin/pal2rgb",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "79370c5aa5876a356302d33f08792fb0c9c28a520499ad81fbb23f8cb1c63afa",
+      "size_in_bytes": 18224
+    },
+    {
+      "_path": "bin/ppm2tiff",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "73f37b62196a2098fd5838e6c33257720f5a5672ec688f3ba870699a041149c6",
+      "size_in_bytes": 18324
+    },
+    {
+      "_path": "bin/raw2tiff",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "3324e1d4349e75ec6a91209cf6075475d80fd5e344482593fb83ebfce2c05739",
+      "size_in_bytes": 22512
+    },
+    {
+      "_path": "bin/tiff2bw",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "f4d166bc98f80951dd3a95cd7b44ddc1c6c9183af17132113ed416d6c361b9da",
+      "size_in_bytes": 18400
+    },
+    {
+      "_path": "bin/tiff2pdf",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "9f4675a9a5b35872ae817de6b221df9fee2422c439358d5583eda0095c6afbc7",
+      "size_in_bytes": 86060
+    },
+    {
+      "_path": "bin/tiff2ps",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "940a6e81dedd4c415e33bf49c5155ef9e2418567e0e4c449e0491e7a7db488f6",
+      "size_in_bytes": 51172
+    },
+    {
+      "_path": "bin/tiff2rgba",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "508dbe2b93d3c81470a0db13b6ad62e37b63e1ab5acc83d071478c583c71c111",
+      "size_in_bytes": 18728
+    },
+    {
+      "_path": "bin/tiffcmp",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "8f61bed2b799d07fb605db73bd993daf9c6e548eb9862ac1e787bac53a34bc56",
+      "size_in_bytes": 26488
+    },
+    {
+      "_path": "bin/tiffcp",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "41b4e41350dba2327af1b86825fa740607f4f69f5a5bbebec17587ccd01a3fb7",
+      "size_in_bytes": 42064
+    },
+    {
+      "_path": "bin/tiffcrop",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "391653323c18996ccd022459591f55767d70408ff601a75d4b3dd5e69d9f5e56",
+      "size_in_bytes": 104496
+    },
+    {
+      "_path": "bin/tiffdither",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "9b80ec07811b3a9b43dbbb521d19b6c304aa27eb99992413ead1993a37a79de7",
+      "size_in_bytes": 18320
+    },
+    {
+      "_path": "bin/tiffdump",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "20f4ff5c6d6525ddad677e6340b062ccab4dffecbb2dcff1b911a90af9a90ab9",
+      "size_in_bytes": 23520
+    },
+    {
+      "_path": "bin/tiffinfo",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "045588a92ce8bc60840b7912ee091f2e0fd4130b6e28b2d9df9d20129bd221ba",
+      "size_in_bytes": 19780
+    },
+    {
+      "_path": "bin/tiffmedian",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "56dc7d6f0670b12f91f302cab771b9af156a90e2a3c2c29a877c0e4c8db0a054",
+      "size_in_bytes": 23028
+    },
+    {
+      "_path": "bin/tiffset",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "e36058114ea87f29e57b8c4320a7c5c0c2ed6cfdd4b87fc4fd8aecebefb87f0c",
+      "size_in_bytes": 14068
+    },
+    {
+      "_path": "bin/tiffsplit",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "4d3148d5bbfa6338a2de027bed75d7b2af87fda60118620f5711f2fa3e583cfa",
+      "size_in_bytes": 14352
+    },
+    {
+      "_path": "include/tiff.h",
+      "path_type": "hardlink",
+      "sha256": "817fc7dacfc7499ca60575fbd6d9d52f661fa11e21bf9a16165673c0b1bf4e1a",
+      "size_in_bytes": 35983
+    },
+    {
+      "_path": "include/tiffconf.h",
+      "path_type": "hardlink",
+      "sha256": "cfcb8320b3a222fc3964c9ea5e9e014fcce9e17f73fb871baaab0e56e2023e33",
+      "size_in_bytes": 3432
+    },
+    {
+      "_path": "include/tiffio.h",
+      "path_type": "hardlink",
+      "sha256": "6d98b037201bbfb8a56a1947d08be85dfb1e4850eac2fc72ef850be0000dab7b",
+      "size_in_bytes": 23227
+    },
+    {
+      "_path": "include/tiffio.hxx",
+      "path_type": "hardlink",
+      "sha256": "1ac75ac6bd97627d92dbdd9d9b812b92598cfb1af75cac20257cd4ae08cb982e",
+      "size_in_bytes": 1702
+    },
+    {
+      "_path": "include/tiffvers.h",
+      "path_type": "hardlink",
+      "sha256": "21195898e58f38860e4f0ca228047f29b2ea9056370c5268b1ec74f80c8353ec",
+      "size_in_bytes": 410
+    },
+    {
+      "_path": "lib/libtiff.5.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "b45ec4d9cfa3a196d422f5b84ad7227baf740c30250166c1553ae37b435f474f",
+      "size_in_bytes": 486896
+    },
+    {
+      "_path": "lib/libtiff.a",
+      "path_type": "hardlink",
+      "sha256": "0a45457cb8ca63e4cee13940d5bdc1d498899be4e43e827f407eb7ad395a0da1",
+      "size_in_bytes": 618472
+    },
+    {
+      "_path": "lib/libtiff.dylib",
+      "file_mode": "binary",
+      "path_type": "softlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "b45ec4d9cfa3a196d422f5b84ad7227baf740c30250166c1553ae37b435f474f",
+      "size_in_bytes": 486896
+    },
+    {
+      "_path": "lib/libtiff.la",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "51621f0fe64f9dec5bb797f35a937e8ccef9c6fe2b8ac4e5e18a2dd68146a9f3",
+      "size_in_bytes": 1096
+    },
+    {
+      "_path": "lib/libtiffxx.5.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "8325acfeacd74a14ac43192a1febff2adbd14ccaeee35d27af295e9ce701ddac",
+      "size_in_bytes": 20604
+    },
+    {
+      "_path": "lib/libtiffxx.a",
+      "path_type": "hardlink",
+      "sha256": "afdcd35709bb485049fa6a4661d31e2399b398b2caa201d2512d5e17afcc3df8",
+      "size_in_bytes": 12104
+    },
+    {
+      "_path": "lib/libtiffxx.dylib",
+      "file_mode": "binary",
+      "path_type": "softlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/9671ec49-5dc6-4620-4dcc-e02a88b609cd/volume/libtiff_1535045845327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "8325acfeacd74a14ac43192a1febff2adbd14ccaeee35d27af295e9ce701ddac",
+      "size_in_bytes": 20604
+    },
+    {
+      "_path": "lib/libtiffxx.la",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "b98e3cfb867598b8aa31bbf164c5a0e43769d88875833f90e136355dedbd5590",
+      "size_in_bytes": 1156
+    },
+    {
+      "_path": "lib/pkgconfig/libtiff-4.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "811c52a54da4996495a8216bdc3cad4e4a4ec5ff794f7fcd94e004a48fcf537e",
+      "size_in_bytes": 281
+    }
+  ],
+  "paths_version": 1
+}

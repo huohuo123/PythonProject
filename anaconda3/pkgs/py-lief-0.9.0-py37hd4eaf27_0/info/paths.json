@@ -1,0 +1,55 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/_pylief.cpython-37m-darwin.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/0b359004-974c-4af4-7413-7f9ffc0d944a/volume/lief-suite_1531767954657/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "ff1b76e11560230a2ecef3f268e3243657151181f0ac3d8899969fee03765b2e",
+      "size_in_bytes": 14432372
+    },
+    {
+      "_path": "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "5dc764b7336c53f4d47ab4f4ee07e69e8c61d9307bdb35c53230b4653166fe74",
+      "size_in_bytes": 1023
+    },
+    {
+      "_path": "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "bcc750bb5fba706896660da9ff808b1b5a7a80e6944be6c0f1127f4c52f1adcc",
+      "size_in_bytes": 193
+    },
+    {
+      "_path": "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/lief-0.9.0-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7652bcaf7d121666e1a7f7b214a19dda3cf9d4f16ada223fcd6213d4eba1bd5c",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "lib/python3.7/site-packages/lief/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "8db02476b692a13d2c6a550bf493d083db0fc31b69343e98749e68faf8a24100",
+      "size_in_bytes": 715
+    },
+    {
+      "_path": "lib/python3.7/site-packages/lief/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "092f43ffbb0cbaff63437d2964ea00de393792e4ba0c0faa5068ca7350629b83",
+      "size_in_bytes": 584
+    }
+  ],
+  "paths_version": 1
+}

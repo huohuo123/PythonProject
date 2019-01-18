@@ -1,0 +1,132 @@
+# This file created by conda-build 3.16.3
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/a5ba6a0c-630a-402e-702f-76727b1d670c/volume/rsync-recipes/numba-0.41.0-python_3.7-on-osx, last modified Wed Nov 28 08:45:29 2018
+# ------------------------------------------------
+
+package:
+    name: numba
+    version: 0.41.0
+source:
+    git_rev: 0.41.0
+    git_url: https://github.com/numba/numba
+build:
+    entry_points:
+        - numba = numba.numba_entry:main
+        - pycc = numba.pycc:main
+    missing_dso_whitelist:
+        - lib/libiomp5.dylib
+    number: '0'
+    script_env:
+        - PY_VCRUNTIME_REDIST
+    string: py37h6440ff4_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - clangxx 4.0.1 1
+        - clangxx_osx-64 4.0.1 h22b1bf0_11
+        - compiler-rt 4.0.1 hcfea43d_1
+        - intel-openmp 2019.1 144
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - llvm-openmp 4.0.1 hcfea43d_1
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - intel-openmp 2019.1 144
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - libgfortran 3.0.1 h93005f0_2
+        - llvmlite 0.26.0 py37h8c7ce04_0
+        - mkl 2018.0.3 1
+        - ncurses 6.1 h0a44026_1
+        - numpy 1.11.3 py37h6a91979_10
+        - numpy-base 1.11.3 py37h8a80b8c_10
+        - openssl 1.1.1a h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tbb 2019.1 h04f5b5a_0
+        - tbb-devel 2019.1 h04f5b5a_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libcxx >=4.0.1
+        - llvmlite >=0.26.0,<0.27.0a0
+        - numpy >=1.11.3,<2.0a0
+        - python >=3.7,<3.8.0a0
+        - tbb >=2019.1
+    run_constrained:
+        - tbb >=2018.0.5
+test:
+    files:
+        - mandel.py
+    imports:
+        - numba
+        - numba.annotations
+        - numba.cuda
+        - numba.cuda.cudadrv
+        - numba.cuda.kernels
+        - numba.cuda.simulator
+        - numba.cuda.simulator.cudadrv
+        - numba.cuda.tests
+        - numba.cuda.tests.cudadrv
+        - numba.cuda.tests.cudadrv.data
+        - numba.cuda.tests.cudapy
+        - numba.cuda.tests.cudasim
+        - numba.cuda.tests.nocuda
+        - numba.datamodel
+        - numba.jitclass
+        - numba.npyufunc
+        - numba.pycc
+        - numba.rewrites
+        - numba.runtime
+        - numba.scripts
+        - numba.servicelib
+        - numba.targets
+        - numba.testing
+        - numba.tests
+        - numba.tests.npyufunc
+        - numba.typeconv
+        - numba.types
+        - numba.typing
+        - numba.unsafe
+    requires:
+        - cffi
+        - clang_osx-64
+        - clangxx_osx-64
+        - intel-openmp
+        - ipython
+        - jinja2
+        - scipy
+        - setuptools
+        - tbb >=2018.0.5
+about:
+    description: 'Numba is an Open Source NumPy-aware optimizing compiler for Python
+
+        sponsored by Anaconda, Inc. It uses the remarkable LLVM compiler
+
+        infrastructure to compile Python syntax to machine code."
+
+        '
+    dev_url: https://github.com/numba/numba
+    doc_url: http://numba.pydata.org/
+    home: http://numba.github.com
+    license: BSD 2-clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: NumPy aware dynamic Python compiler using LLVM
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - souravsingh

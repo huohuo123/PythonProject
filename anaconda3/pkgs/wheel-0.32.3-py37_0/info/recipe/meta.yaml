@@ -1,0 +1,55 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/563dfc10-1d50-4a9e-4574-c35da31f3edd/volume/rsync-recipes/wheel-0.32.3-python_3.7-on-osx, last modified Mon Nov 19 08:40:44 2018
+# ------------------------------------------------
+
+package:
+    name: wheel
+    version: 0.32.3
+source:
+    sha256: 029703bf514e16c8271c3821806a1c171220cc5bdd325cbf4e7da1e056a01db6
+    url: https://pypi.io/packages/source/w/wheel/wheel-0.32.3.tar.gz
+build:
+    entry_points:
+        - wheel = wheel.cli:main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.6.2 py37_0
+        - sqlite 3.25.3 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+        - setuptools
+test:
+    commands:
+        - wheel --help
+    imports:
+        - wheel
+about:
+    home: https://github.com/pypa/wheel
+    license: MIT
+    license_file: LICENSE.txt
+    summary: A built-package format for Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - ocefpaf
+        - pelson

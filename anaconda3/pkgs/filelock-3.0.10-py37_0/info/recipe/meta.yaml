@@ -1,0 +1,69 @@
+# This file created by conda-build 3.16.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/a67f5146-8f4d-4903-7518-57b220fc8f47/volume/rsync-recipes/filelock-3.0.10-python_3.7-on-osx, last modified Thu Nov  1 14:55:14 2018
+# ------------------------------------------------
+
+package:
+    name: filelock
+    version: 3.0.10
+source:
+    fn: filelock-3.0.10.tar.gz
+    sha256: d610c1bb404daf85976d7a82eb2ada120f04671007266b708606565dd03b5be6
+    url: https://pypi.io/packages/source/f/filelock/filelock-3.0.10.tar.gz
+build:
+    noarch: false
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2018.03.07 0
+        - certifi 2018.10.15 py37_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20170329 hb402a30_2
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.1 h0a44026_0
+        - openssl 1.1.1 h1de35cc_0
+        - pip 10.0.1 py37_0
+        - python 3.7.1 haf84260_3
+        - readline 7.0 h1de35cc_5
+        - setuptools 40.5.0 py37_0
+        - sqlite 3.25.2 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.32.2 py37_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - filelock
+about:
+    description: 'A filelock provides a synchronisation mechanism between different
+
+        instances of your application, similar to a thread lock. It can be
+
+        used to signalize that files, directories or other resources are
+
+        currently used or manipulated (Think of a sync.lock file). Only the
+
+        existence of the lockfile is watched for this purpose. The file itself
+
+        can not be written and is always empty.
+
+        '
+    dev_url: https://github.com/benediktschmitt/py-filelock
+    doc_source_url: https://github.com/benediktschmitt/py-filelock/tree/master/docs
+    doc_url: https://filelock.readthedocs.io/en/latest/
+    home: https://github.com/benediktschmitt/py-filelock
+    license: Public Domain
+    license_family: Public-Domain
+    license_file: LICENSE.rst
+    summary: A platform independent file lock.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mariusvniekerk

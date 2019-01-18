@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/mkl/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "4864cec6fe9ac8dc0e79ca89b8a0347cb877b60b97038f5429ddd7e732778c1f",
+      "size_in_bytes": 358
+    },
+    {
+      "_path": "lib/python3.7/site-packages/mkl/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "67683b1db03bf4611c89e7cdc4cde5f87a87892e16f8e2073c3e372d1c93cd81",
+      "size_in_bytes": 530
+    },
+    {
+      "_path": "lib/python3.7/site-packages/mkl/__pycache__/test.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "e46feaa203744c5d75b75a722cb5d8f162ac58dd5f7b9d211731019c65bae0d2",
+      "size_in_bytes": 1983
+    },
+    {
+      "_path": "lib/python3.7/site-packages/mkl/service.cpython-37m-darwin.so",
+      "path_type": "hardlink",
+      "sha256": "bfc26f28523d03bd5d73eddf41e3e07a431fac5ff61ec4c48f5a41a9d47fd9b2",
+      "size_in_bytes": 14260
+    },
+    {
+      "_path": "lib/python3.7/site-packages/mkl/test.py",
+      "path_type": "hardlink",
+      "sha256": "84c2aa343e30feaf4b85e151e36489c74334c8e64165825eb154e0fba421ee71",
+      "size_in_bytes": 1342
+    }
+  ],
+  "paths_version": 1
+}
