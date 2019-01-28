@@ -20,6 +20,15 @@ def use_imple_urllib2():
         txt_list.append(line)
     print(txt_list)
 
+# 模仿请求对象
+def use_request_urllib2():
+    # 可以利用Request来构造一个和浏览器请求相似的一个请求环境
+    request=urllib.request.Request(URL_IP)
+    response = urllib.request.urlopen(request)
+    print("***********",response.readlines)
+
+
+
 
 def use_params_urllib2():
     # 在python3中 urlencode在urllib.parse下
@@ -44,7 +53,8 @@ def use_params_urllib2():
 
 
 if __name__ == '__main__':
-    print(">>> use_imple_urllib2:")
-    use_imple_urllib2()
-    print(">>> use_params_urllib2:")
-    use_params_urllib2()
+    # print(">>> use_imple_urllib2:")
+    # use_imple_urllib2()
+    # print(">>> use_params_urllib2:")
+    # use_params_urllib2()
+    use_request_urllib2()
