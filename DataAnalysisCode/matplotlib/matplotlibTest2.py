@@ -11,11 +11,11 @@ def main():
     fig = plt.figure()
     # 表示散点图画在此区域内
     ax = fig.add_subplot(3, 3, 1)
-    n = 128
+    n = 102
     # 随机数
     X = np.random.normal(0, 1, n)
     Y = np.random.normal(0, 1, n)
-    # 上色，Y除以X
+    # 上色，Y除以X(颜色展示）
     T = np.arctan2(Y, X)
     # 指定显示范围
     # plt.axes([0.025, 0.025, 0.95, 0.95])

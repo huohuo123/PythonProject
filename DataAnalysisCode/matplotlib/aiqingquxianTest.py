@@ -3,6 +3,7 @@ from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
 # 2019年02月14日17:13:59 情人节，送与老公的大红心
 # 中文配置 从系统找去想要显示的中文字体路径所在
+# r表示正则表达的一个形式
 font = FontProperties(fname=r"/System/Library/Fonts/STHeiti Medium.ttc", size=18)
 plt.title('情人节快乐', fontproperties=font)
 # linspace构建等差数列
