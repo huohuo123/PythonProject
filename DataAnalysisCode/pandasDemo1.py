@@ -5,7 +5,6 @@ from pylab import *
 import xlrd
 import openpyxl
 
-
 def main():
     # series是pd的一种基本数据结构
     # DataFrame定义表格结构
