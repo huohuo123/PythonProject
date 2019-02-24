@@ -43,7 +43,5 @@ def main():
     # beta分布，1-10范围，100个
     print(np.random.beta(1, 10, 100))
 
-
-
     if __name__ == '__main__':
         main()
