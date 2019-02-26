@@ -28,7 +28,7 @@ def parsePage(ilt, html):
 
 def printGoodsList(ilt):
     tplt = "{:4}\t{:8}\t{:16}"
-    print(tplt.format("序号", "价格", "商品名称"))
+    # print(tplt.format("序号", "价格", "商品名称"))
     count = 0
     for g in ilt:
         count = count + 1

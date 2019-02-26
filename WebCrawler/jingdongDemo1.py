@@ -14,5 +14,5 @@ def jingdongInfo(url):
 
 
 if __name__ == '__main__':
-    url = "https://item.d.com/28961607097.html"
+    url = "https://item.jd.com/4158812.html"
     jingdongInfo(url)
