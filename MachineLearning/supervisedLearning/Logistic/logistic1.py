@@ -122,13 +122,59 @@ def stocGradAscent1(dataMatrix, classLabels, numIter=150):
             del (list(dataIndex)[randIndex])
     return weights
 
+# ********************************************
+'''
+实例：从疝气病症预测病马的死亡率
+Logistic回归分类函数
+'''
+
+# 以回归系数和特征向量作为输入来计算对应的Sigmoid值。若Sigmoid值大于0.5函数返回1，否则返回0
+def classifyVector(inX, weights):
+    prob = sigmoid(sum(inX*weights))
+    if prob > 0.5: return 1.0
+    else: return 0.0
+
+# 用来打开测试集和训练集，并对数据进行格式化处理的函数
+def colicTest():
+    frTrain = open('horseColicTraining.txt'); frTest = open('horseColicTest.txt')
+    trainingSet = []; trainingLabels = []
+    for line in frTrain.readlines():
+        currLine = line.strip().split('\t')
+        lineArr =[]
+        for i in range(21):
+            lineArr.append(float(currLine[i]))
+        trainingSet.append(lineArr)
+        trainingLabels.append(float(currLine[21]))
+    trainWeights = stocGradAscent1(array(trainingSet), trainingLabels, 1000)
+    errorCount = 0; numTestVec = 0.0
+    for line in frTest.readlines():
+        numTestVec += 1.0
+        currLine = line.strip().split('\t')
+        lineArr =[]
+        for i in range(21):
+            lineArr.append(float(currLine[i]))
+        if int(classifyVector(array(lineArr), trainWeights))!= int(currLine[21]):
+            errorCount += 1
+    errorRate = (float(errorCount)/numTestVec)
+    print ("the error rate of this test is: %f" % errorRate)
+    return errorRate
+
+def multiTest():
+    numTests = 10; errorSum=0.0
+    for k in range(numTests):
+        errorSum += colicTest()
+    print ("after %d iterations the average error rate is: %f" % (numTests, errorSum/float(numTests)))
+
 
 if __name__ == '__main__':
-    dataArr, labelMat = loadDataSet()
-    print(gradAscent(dataArr, labelMat))
-    weights = gradAscent(dataArr, labelMat)
-    plotBestFit(weights.getA())
-    weights = stocGradAscent0(array(dataArr), labelMat)
-    plotBestFit(weights)
-    weights = stocGradAscent1(array(dataArr), labelMat)
-    plotBestFit(weights)
+    # dataArr, labelMat = loadDataSet()
+    # print(gradAscent(dataArr, labelMat))
+    # weights = gradAscent(dataArr, labelMat)
+    # plotBestFit(weights.getA())
+    # weights = stocGradAscent0(array(dataArr), labelMat)
+    # plotBestFit(weights)
+    # weights = stocGradAscent1(array(dataArr), labelMat)
+    # plotBestFit(weights)
+
+    # 从疝气病症预测病马的死亡率
+    multiTest()
